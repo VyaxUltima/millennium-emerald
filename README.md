@@ -1,5 +1,3 @@
-# pokeemerald Expansion
-
 ## What is Unchained Emerald?
 
 Unchained Emerald is a romhack of Pokémon Emerald, primarily centered around the Twitch content creator DistantCoder.
