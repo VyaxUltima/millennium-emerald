@@ -1,23 +1,19 @@
 # pokeemerald Expansion
 
-## What is the pokeemerald Expansion?
+## What is Unchained Emerald?
 
-an immense source of mental anguish
+Unchained Emerald is a romhack of Pokémon Emerald, primarily centered around the Twitch content creator DistantCoder.
 
-## What features are included?
+## What features are included in this hack?
 
-your mom
-
-### [Documentation on features can be found here](https://github.com/rh-hideout/pokeemerald-expansion/wiki)
+This hack runs on the GBA engine with the addition of Generation 4 features and mechanics.
 
 ## Who maintains the project?
 
-sponge boy me bob
+This project is maintained by myself and several other individuals.
 
-## Can I contribute even if I'm not a member of ROM Hacking Hideout?
+## Can I contribute?
 
-fuck no
+Join the Discord server: https://discord.gg/Y5zpGfYQU9
 
-## What is ROM Hacking Hideout?
-
-very cool
+It's a place to shoot the shit and discuss amateur hacking.
