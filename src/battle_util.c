@@ -8807,9 +8807,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         break;
     case ABILITY_RIVALRY:
         if (AreBattlersOfOppositeGender(battlerAtk, battlerDef))
-            MulModifier(&modifier, UQ_4_12(1.25));
-        else
-            MulModifier(&modifier, UQ_4_12(0.75));
+            MulModifier(&modifier, UQ_4_12(1.1));
         break;
     case ABILITY_ANALYTIC:
         if (GetBattlerTurnOrderNum(battlerAtk) == gBattlersCount - 1 && move != MOVE_FUTURE_SIGHT && move != MOVE_DOOM_DESIRE)
@@ -9275,7 +9273,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         break;
     case ABILITY_HUSTLE:
         if (IS_MOVE_PHYSICAL(move))
-            MulModifier(&modifier, UQ_4_12(1.5));
+            MulModifier(&modifier, UQ_4_12(1.2));
         break;
     case ABILITY_STAKEOUT:
         if (gDisableStructs[battlerDef].isFirstTurn == 2) // just switched in

@@ -1898,6 +1898,7 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
     switch (atkAbility)
     {
     case ABILITY_COMPOUND_EYES:
+    case ABILITY_ILLUMINATE:
         calc = (calc * 130) / 100; // 1.3 compound eyes boost
         break;
     case ABILITY_VICTORY_STAR:
@@ -1905,7 +1906,7 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
         break;
     case ABILITY_HUSTLE:
         if (IS_MOVE_PHYSICAL(move))
-            calc = (calc * 80) / 100; // 1.2 hustle loss
+            calc = (calc * 90) / 100; // 1.1 hustle loss in UCE
         break;
     }
 
