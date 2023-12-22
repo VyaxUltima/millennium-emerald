@@ -184,9 +184,9 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_PORYGON2]              = {{EVO_TRADE_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z},
                                        {EVO_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z}},
 #endif
-    [SPECIES_TYROGUE]               = {{EVO_LEVEL_ATK_LT_DEF, 20, SPECIES_HITMONCHAN},
-                                       {EVO_LEVEL_ATK_GT_DEF, 20, SPECIES_HITMONLEE},
-                                       {EVO_LEVEL_ATK_EQ_DEF, 20, SPECIES_HITMONTOP}},
+    [SPECIES_TYROGUE]               = {{EVO_ITEM, ITEM_MOON_STONE, SPECIES_HITMONCHAN},
+                                       {EVO_ITEM, ITEM_SUN_STONE, SPECIES_HITMONLEE},
+                                       {EVO_ITEM, ITEM_DAWN_STONE, SPECIES_HITMONTOP}},
     [SPECIES_SMOOCHUM]              = {{EVO_LEVEL, 23, SPECIES_JYNX}},
     [SPECIES_ELEKID]                = {{EVO_LEVEL, 23, SPECIES_ELECTABUZZ}},
     [SPECIES_MAGBY]                 = {{EVO_LEVEL, 23, SPECIES_MAGMAR}},
@@ -222,7 +222,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 #endif
     [SPECIES_BARBOACH]              = {{EVO_LEVEL, 30, SPECIES_WHISCASH}},
     [SPECIES_CORPHISH]              = {{EVO_LEVEL, 30, SPECIES_CRAWDAUNT}},
-    [SPECIES_FEEBAS]                = {{EVO_BEAUTY, 170, SPECIES_MILOTIC},
+    [SPECIES_FEEBAS]                = {{EVO_LEVEL, 25, SPECIES_MILOTIC},
                                        {EVO_TRADE_ITEM, ITEM_PRISM_SCALE, SPECIES_MILOTIC},
                                        {EVO_ITEM, ITEM_PRISM_SCALE, SPECIES_MILOTIC}},
     [SPECIES_CARVANHA]              = {{EVO_LEVEL, 30, SPECIES_SHARPEDO}},
