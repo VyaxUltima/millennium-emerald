@@ -6782,7 +6782,7 @@ TailSlapLeft:
 	createsprite gTailSlapTemplate, ANIM_ATTACKER, 2, 0x8, 0x0, 0x1, 0x0
 	goto TailSlapContinue
 
-Move_HURRICANE:
+Move_RAZOR_WIND:
 	loadspritegfx ANIM_TAG_GUST
 	monbg ANIM_DEF_PARTNER
 	splitbgprio ANIM_TARGET
@@ -21555,7 +21555,7 @@ SpiderWebThread:
 	delay 1
 	return
 
-Move_RAZOR_WIND:
+Move_HURRICANE:
 	choosetwoturnanim RazorWindSetUp, RazorWindUnleash
 RazorWindEnd:
 	waitforvisualfinish
