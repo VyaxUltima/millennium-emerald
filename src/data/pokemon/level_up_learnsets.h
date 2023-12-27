@@ -61,7 +61,7 @@ static const struct LevelUpMove sVenusaurLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
+    LEVEL_UP_MOVE( 1, MOVE_RAZOR_WIND),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 7, MOVE_EMBER),
     LEVEL_UP_MOVE(10, MOVE_SMOKESCREEN),
@@ -2722,7 +2722,7 @@ static const struct LevelUpMove sDragoniteLevelUpLearnset[] = {
     LEVEL_UP_MOVE(39, MOVE_DRAGON_RUSH),
     LEVEL_UP_MOVE(47, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(53, MOVE_DRAGON_DANCE),
-    LEVEL_UP_MOVE(55, MOVE_WING_ATTACK),
+    LEVEL_UP_MOVE(56, MOVE_RAZOR_WIND),
     LEVEL_UP_MOVE(60, MOVE_OUTRAGE),
     LEVEL_UP_MOVE(64, MOVE_EXTREME_SPEED),
     LEVEL_UP_END
@@ -6106,6 +6106,7 @@ static const struct LevelUpMove sTrapinchLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sVibravaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DRAGON_BREATH),
     LEVEL_UP_MOVE( 1, MOVE_SONIC_BOOM),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_FEINT_ATTACK),
@@ -6973,7 +6974,7 @@ static const struct LevelUpMove sMetagrossLevelUpLearnset[] = {
     LEVEL_UP_MOVE(40, MOVE_IRON_HEAD),
     LEVEL_UP_MOVE(44, MOVE_AGILITY),
     LEVEL_UP_MOVE(45, MOVE_HAMMER_ARM),
-    LEVEL_UP_MOVE(53, MOVE_METEOR_MASH),
+    LEVEL_UP_MOVE(51, MOVE_METEOR_MASH),
     LEVEL_UP_MOVE(56, MOVE_ZEN_HEADBUTT),
     LEVEL_UP_MOVE(60, MOVE_COUNTER),
     LEVEL_UP_MOVE(65, MOVE_HYPER_BEAM),
@@ -8129,6 +8130,7 @@ static const struct LevelUpMove sGabiteLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sGarchompLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_CRUNCH),
     LEVEL_UP_MOVE( 1, MOVE_FIRE_FANG),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
@@ -8144,7 +8146,9 @@ static const struct LevelUpMove sGarchompLevelUpLearnset[] = {
     LEVEL_UP_MOVE(38, MOVE_IRON_HEAD),
     LEVEL_UP_MOVE(40, MOVE_MAGNITUDE),
     LEVEL_UP_MOVE(48, MOVE_CRUNCH),
-    LEVEL_UP_MOVE(57, MOVE_OUTRAGE),
+    LEVEL_UP_MOVE(53, MOVE_DRAGON_RUSH),
+    LEVEL_UP_MOVE(57, MOVE_EARTHQUAKE),
+    LEVEL_UP_MOVE(61, MOVE_OUTRAGE),
     LEVEL_UP_END
 };
 

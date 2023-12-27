@@ -6783,32 +6783,36 @@ TailSlapLeft:
 	goto TailSlapContinue
 
 Move_RAZOR_WIND:
-	loadspritegfx ANIM_TAG_GUST
-	monbg ANIM_DEF_PARTNER
-	splitbgprio ANIM_TARGET
+	loadspritegfx ANIM_TAG_AIR_WAVE_2
+	loadspritegfx ANIM_TAG_IMPACT
+	monbg ANIM_TARGET
 	setalpha 12, 8
-	fadetobg BG_HURRICANE
-	waitbgfadeout
-	createvisualtask AnimTask_StartSlidingBg, 0x5, 0x1000, 0x0, 0x1, 0xffff
-	waitbgfadein
-	playsewithpan SE_M_GUST, SOUND_PAN_TARGET
-	createvisualtask AnimTask_ShakeMon, 0x2, ANIM_TARGET, 0x0, 0x3, 0x40, 0x1
-	call HurricaneGust
-	delay 0xA
-	call HurricaneGust
-	delay 0xA
-	call HurricaneGust
-	delay 0xA
-	call HurricaneGust
-	delay 0xA
-	call HurricaneGust
-	delay 0xA
-	call HurricaneGust
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	createsprite gAirWaveCrescentSpriteTemplate, ANIM_ATTACKER, 2, 14, 8, 0, 0, 22, 2, 1
+	delay 2
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	createsprite gAirWaveCrescentSpriteTemplate, ANIM_ATTACKER, 2, 14, -8, 16, 14, 22, 1, 1
+	delay 2
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	createsprite gAirWaveCrescentSpriteTemplate, ANIM_ATTACKER, 2, 14, 12, -16, -14, 22, 0, 1
+	delay 2
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	createsprite gAirWaveCrescentSpriteTemplate, ANIM_ATTACKER, 2, 14, 8, 0, 0, 22, 2, 1
+	delay 2
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	createsprite gAirWaveCrescentSpriteTemplate, ANIM_ATTACKER, 2, 14, -8, 16, 14, 22, 1, 1
+	delay 2
+	playsewithpan SE_M_RAZOR_WIND2, SOUND_PAN_ATTACKER
+	createsprite gAirWaveCrescentSpriteTemplate, ANIM_ATTACKER, 2, 14, 12, -16, -14, 22, 0, 1
+	delay 17
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	delay 4
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_TARGET, 2, 0, 10, 1
+	createvisualtask AnimTask_ShakeMon2, 2, ANIM_DEF_PARTNER, 2, 0, 10, 1
 	waitforvisualfinish
-	stopsound
-	clearmonbg ANIM_DEF_PARTNER
+	clearmonbg ANIM_TARGET
 	blendoff
-	call UnsetPsychicBg
 	end
 HurricaneGust:
 	createsprite gEllipticalGustSpriteTemplate, ANIM_ATTACKER, 2, 0, -16
