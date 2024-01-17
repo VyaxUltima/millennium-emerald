@@ -843,6 +843,20 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
         return B_TRANSITION_CHAMPION;
 
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_DOME_ACE)
+        return B_TRANSITION_SIDNEY; //Duckie
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_PALACE_MAVEN)
+        return B_TRANSITION_PHOEBE; //Bakura
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ARENA_TYCOON)
+        return B_TRANSITION_GLACIA; //Mutt
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_FACTORY_HEAD)
+        return B_TRANSITION_DRAKE;  //Refisio
+
+    //is this safe to remove? probably
+    //am I going to remove it? lmao no
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ELITE_FOUR)
     {
         if (gTrainerBattleOpponent_A == TRAINER_SIDNEY)

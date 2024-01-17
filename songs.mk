@@ -552,6 +552,60 @@ $(MID_SUBDIR)/mus_rg_vs_wild.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_victory_gym_leader.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G171 -V090
 
+$(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_vs_mutthunter.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_new_hideout.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090
+
+$(MID_SUBDIR)/mus_vs_ruggles.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+	
+$(MID_SUBDIR)/mus_black_market.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+
+$(MID_SUBDIR)/mus_mbt_gym.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V090
+
+$(MID_SUBDIR)/mus_new_gym_leader.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V085
+
+$(MID_SUBDIR)/mus_vs_trishulattv.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090
+
+$(MID_SUBDIR)/mus_new_lavaridge.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V090
+
+$(MID_SUBDIR)/mus_vs_duckie.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V080
+
+$(MID_SUBDIR)/mus_vs_deckdevil.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V090
+
+$(MID_SUBDIR)/mus_imminent_death.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V090
+
+$(MID_SUBDIR)/mus_new_dive.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V090
+
+$(MID_SUBDIR)/mus_new_sky_pillar.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V090
+
+$(MID_SUBDIR)/mus_vs_miror_b.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_new_victory_road.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_new_trainer_vict.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090
+
+$(MID_SUBDIR)/mus_new_poke_center.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+
 $(MID_SUBDIR)/mus_rg_victory_trainer.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G169 -V089
 

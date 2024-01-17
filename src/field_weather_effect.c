@@ -2581,7 +2581,7 @@ void ResumePausedWeather(void)
 
 static const u8 sWeatherCycleRoute119[WEATHER_CYCLE_LENGTH] =
 {
-    WEATHER_SUNNY,
+    WEATHER_RAIN,
     WEATHER_RAIN,
     WEATHER_RAIN_THUNDERSTORM,
     WEATHER_RAIN,

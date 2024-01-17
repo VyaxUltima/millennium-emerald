@@ -216,7 +216,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_SURSKIT]               = {{EVO_LEVEL, 22, SPECIES_MASQUERAIN}},
     [SPECIES_WAILMER]               = {{EVO_LEVEL, 40, SPECIES_WAILORD}},
     [SPECIES_SKITTY]                = {{EVO_ITEM, ITEM_MOON_STONE, SPECIES_DELCATTY}},
-    [SPECIES_BALTOY]                = {{EVO_LEVEL, 36, SPECIES_CLAYDOL}},
+    [SPECIES_BALTOY]                = {{EVO_LEVEL, 33, SPECIES_CLAYDOL}},
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_NOSEPASS]              = {{EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_PROBOPASS}},
 #endif
@@ -242,7 +242,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_AZURILL]               = {{EVO_FRIENDSHIP, 0, SPECIES_MARILL}},
     [SPECIES_SPOINK]                = {{EVO_LEVEL, 32, SPECIES_GRUMPIG}},
     [SPECIES_MEDITITE]              = {{EVO_LEVEL, 30, SPECIES_MEDICHAM}},
-    [SPECIES_SWABLU]                = {{EVO_LEVEL, 35, SPECIES_ALTARIA}},
+    [SPECIES_SWABLU]                = {{EVO_LEVEL, 34, SPECIES_ALTARIA}},
     [SPECIES_WYNAUT]                = {{EVO_LEVEL, 15, SPECIES_WOBBUFFET}},
     [SPECIES_DUSKULL]               = {{EVO_LEVEL, 33, SPECIES_DUSCLOPS}},
 #if P_GEN_4_POKEMON == TRUE

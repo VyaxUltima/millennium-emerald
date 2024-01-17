@@ -543,6 +543,24 @@
 #define PH_NURSE_BLEND              607
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
+#define MUS_VS_VYAX                 610
+#define MUS_NEW_TRAINER_VICT        611
+#define MUS_VS_RUGGLES              612
+#define MUS_NEW_POKE_CENTER         613
+#define MUS_NEW_HIDEOUT             614
+#define MUS_MBT_GYM                 615
+#define MUS_VS_MIROR_B              616
+#define MUS_VS_MUTTHUNTER           617
+#define MUS_VS_DECKDEVIL            618
+#define MUS_NEW_SKY_PILLAR          619
+#define MUS_NEW_VICTORY_ROAD        620
+#define MUS_VS_TRISHULATTV          621
+#define MUS_IMMINENT_DEATH          622
+#define MUS_NEW_DIVE                623
+#define MUS_BLACK_MARKET            624
+#define MUS_VS_DUCKIE               625
+#define MUS_NEW_LAVARIDGE           626
+#define MUS_NEW_GYM_LEADER          627
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

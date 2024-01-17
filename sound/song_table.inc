@@ -611,6 +611,24 @@ gSongTable::
 	song ph_nurse_blend, 2, 2
 	song ph_nurse_held, 2, 2
 	song ph_nurse_solo, 2, 2
+	song mus_vs_vyax, 0, 0
+	song mus_new_trainer_vict, 0, 0
+	song mus_vs_ruggles, 0, 0
+	song mus_new_poke_center, 0, 0
+	song mus_new_hideout, 0, 0
+	song mus_mbt_gym, 0, 0
+	song mus_vs_miror_b, 0, 0
+	song mus_vs_mutthunter, 0, 0
+	song mus_vs_deckdevil, 0, 0
+	song mus_new_sky_pillar, 0, 0
+	song mus_new_victory_road, 0, 0
+	song mus_vs_trishulattv, 0, 0
+	song mus_imminent_death, 0, 0
+	song mus_new_dive, 0, 0
+	song mus_black_market, 0, 0
+	song mus_vs_duckie, 0, 0
+	song mus_new_lavaridge, 0, 0
+	song mus_new_gym_leader, 0, 0
 
 	.align 2
 dummy_song_header:
