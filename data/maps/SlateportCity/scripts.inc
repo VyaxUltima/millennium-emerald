@@ -1347,7 +1347,7 @@ SlateportCity_Text_MaybeThisTrainer:
 	.string "Maybe, just maybe, this TRAINER…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
-	.string "Trif: UNBREAKABLE PHONE NUMBER\n"
+	.string "UNBREAKABLE PHONE NUMBER\n"
 	.string "THROUGH SIX HANDTRAPS$"
 
 SlateportCity_Text_RegisteredScott:
@@ -1358,12 +1358,5 @@ SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
 	.string "Trif: LET'S GOOOOOOOOO$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
-	.string "SCOTT: Oh, hey!\n"
-	.string "If it isn't {PLAYER}{KUN}!\p"
-	.string "{PLAYER}{KUN}, let me guess--you're going\n"
-	.string "to take the BATTLE TENT challenge?\p"
-	.string "Yeah! That's a good idea!\n"
-	.string "That's a really great idea!\p"
-	.string "After all, a tough TRAINER is\n"
-	.string "the perfect fit for the BATTLE TENT!\p"
-	.string "Give it your best effort!$"
+	.string "Trif: THIS TENT FUCKING SUCKS\n"
+	.string "NOT A SINGLE PEND CARD IN THERE$"

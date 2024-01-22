@@ -2641,73 +2641,25 @@ MatchCall_Text_Wally7::
 	.string "Thank you…$"
 
 MatchCall_Text_Scott1::
-	.string "SCOTT: Howdy, {PLAYER}{KUN}!\p"
-	.string "You know how POKéMON can be found\n"
-	.string "everywhere?\p"
-	.string "Like in the mountains, in the sea,\n"
-	.string "in tall grass anywhere?\p"
-	.string "Just like POKéMON, you can find\n"
-	.string "TRAINERS everywhere, too.\p"
-	.string "As a result, I have to hurry\n"
-	.string "everywhere, too. Busy, busy!$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Scott2::
-	.string "SCOTT: I'm on ROUTE 119 right now.\n"
-	.string "It's teeming with TRAINERS!\p"
-	.string "It's also overgrown with tall grass\n"
-	.string "everywhere, it seems.\p"
-	.string "Walking around in shorts here\n"
-	.string "makes me all ticklish!$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Scott3::
-	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
-	.string "Have you had the chance to climb\n"
-	.string "MT. PYRE?\p"
-	.string "The place is a memorial to POKéMON\n"
-	.string "that have passed away.\p"
-	.string "It's somewhere every TRAINER\n"
-	.string "should climb to the top of once.$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Scott4::
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\p"
-	.string "I've been hearing about these odd\n"
-	.string "gangs being a nuisance.\p"
-	.string "TEAM MAGMA and TEAM AQUA,\n"
-	.string "I think they were.\p"
-	.string "I would think there'd be some\n"
-	.string "skilled TRAINERS among them.\p"
-	.string "…But if they're thugs…$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Scott5::
-	.string "SCOTT: Oh, hi, {PLAYER}{KUN}.\p"
-	.string "Might there be tough TRAINERS\n"
-	.string "at the bottom of the sea?\p"
-	.string "I can't go check for myself.\n"
-	.string "I can't swim, for one.\l"
-	.string "And I don't raise POKéMON…$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Scott6::
-	.string "SCOTT: Hi, hi, {PLAYER}{KUN}!\p"
-	.string "You know that you can challenge\n"
-	.string "the POKéMON LEAGUE when you've\l"
-	.string "collected all the GYM BADGES?\p"
-	.string "With your talent, becoming the\n"
-	.string "CHAMPION isn't a pipe dream.\p"
-	.string "But did you know?\n"
-	.string "There's somewhere even better.\p"
-	.string "But, that's all I'm willing to say\n"
-	.string "for the time being.\p"
-	.string "It's something you can look\n"
-	.string "forward to.\p"
-	.string "When you've won your way through\n"
-	.string "the POKéMON LEAGUE into the HALL\l"
-	.string "OF FAME!$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Scott7::
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "SCOTT appears to be out of\n"
-	.string "the POKéNAV's service area…$"
+	.string "Trif: PENDULUM!!!$"
 
 MatchCall_Text_Norman1::
 	.string "DAD: In RUSTBORO, there's a man\n"

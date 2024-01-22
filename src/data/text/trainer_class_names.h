@@ -60,9 +60,9 @@ const u8 gTrainerClassNames[][16] = {
     [TRAINER_CLASS_SALON_MAIDEN] = _("Wanderer"), //used for Miror B
     [TRAINER_CLASS_DOME_ACE] = _("Explosive Frost"), //used for Duckie
     [TRAINER_CLASS_PALACE_MAVEN] = _("Deck Devil"), //used for Bakura
-    [TRAINER_CLASS_ARENA_TYCOON] = _("Arena Tycoon"), //used for Mutt
-    [TRAINER_CLASS_FACTORY_HEAD] = _("Factory Head"), //used for Refisio
-    [TRAINER_CLASS_PIKE_QUEEN] = _("Pike Queen"), //used for Ruggles
+    [TRAINER_CLASS_ARENA_TYCOON] = _("Phantasm Spiral"), //used for Mutt
+    [TRAINER_CLASS_FACTORY_HEAD] = _("Cartographer"), //used for Refisio
+    [TRAINER_CLASS_PIKE_QUEEN] = _("Jigachad"), //used for Ruggles
     [TRAINER_CLASS_PYRAMID_KING] = _("Dragon Master"), //used for TrishulaTTV
     [TRAINER_CLASS_RS_PROTAG] = _("{PKMN} Trainer"),
 };
