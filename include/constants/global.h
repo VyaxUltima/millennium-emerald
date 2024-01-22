@@ -49,23 +49,23 @@
 
 // capacities of various saveblock objects
 #define DAYCARE_MON_COUNT 2
-#define POKEBLOCKS_COUNT 40
+#define POKEBLOCKS_COUNT 10 
 #define OBJECT_EVENTS_COUNT 16
 #define MAIL_COUNT (10 + PARTY_SIZE)
-#define SECRET_BASES_COUNT 20
+#define SECRET_BASES_COUNT 10
 #define POKE_NEWS_COUNT 16
-#define PC_ITEMS_COUNT 50
-#define BAG_ITEMS_COUNT 30
+#define PC_ITEMS_COUNT 30
+#define BAG_ITEMS_COUNT 60 //if you run out of bag space, L
 #define BAG_KEYITEMS_COUNT 30
-#define BAG_POKEBALLS_COUNT 16
-#define BAG_TMHM_COUNT 64
-#define BAG_BERRIES_COUNT 46
+#define BAG_POKEBALLS_COUNT 27 //I ball like a Laker
+#define BAG_TMHM_COUNT 100
+#define BAG_BERRIES_COUNT 68 //not using all 68 but who gives a fucking shit
 #define OBJECT_EVENT_TEMPLATES_COUNT 64
 #define DECOR_MAX_SECRET_BASE 16
 #define DECOR_MAX_PLAYERS_HOUSE 12
 #define APPRENTICE_COUNT 4
 #define APPRENTICE_MAX_QUESTIONS 9
-#define MAX_REMATCH_ENTRIES 100 // only REMATCH_TABLE_ENTRIES (78) are used
+#define MAX_REMATCH_ENTRIES 78
 #define NUM_CONTEST_WINNERS 13
 #define UNION_ROOM_KB_ROW_COUNT 10
 #define GIFT_RIBBONS_COUNT 11

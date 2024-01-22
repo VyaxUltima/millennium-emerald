@@ -25,12 +25,12 @@
 #define ITEM_LOVE_BALL 19
 #define ITEM_FAST_BALL 20
 #define ITEM_HEAVY_BALL 21
-#define ITEM_DREAM_BALL 22
-#define ITEM_SAFARI_BALL 23
-#define ITEM_SPORT_BALL 24
-#define ITEM_PARK_BALL 25
-#define ITEM_BEAST_BALL 26
-#define ITEM_CHERISH_BALL 27
+#define ITEM_DREAM_BALL 22 //not available to the player
+#define ITEM_SAFARI_BALL 23 //not available to the player
+#define ITEM_SPORT_BALL 24 //not available to the player
+#define ITEM_PARK_BALL 25 //not available to the player
+#define ITEM_BEAST_BALL 26 //not available to the player
+#define ITEM_CHERISH_BALL 27 //not available to the player
 
 // Note: If moving ball IDs around, updating FIRST_BALL/LAST_BALL is not sufficient
 //       Several places expect the ball IDs to be first and contiguous (e.g. MON_DATA_POKEBALL)
@@ -622,26 +622,26 @@
 #define ITEM_MAGO_BERRY 526
 #define ITEM_AGUAV_BERRY 527
 #define ITEM_IAPAPA_BERRY 528
-#define ITEM_RAZZ_BERRY 529
-#define ITEM_BLUK_BERRY 530
-#define ITEM_NANAB_BERRY 531
-#define ITEM_WEPEAR_BERRY 532
-#define ITEM_PINAP_BERRY 533
+#define ITEM_RAZZ_BERRY 529 //not available to the player
+#define ITEM_BLUK_BERRY 530 //not available to the player
+#define ITEM_NANAB_BERRY 531 //not available to the player
+#define ITEM_WEPEAR_BERRY 532 //not available to the player
+#define ITEM_PINAP_BERRY 533 //not available to the player
 #define ITEM_POMEG_BERRY 534
 #define ITEM_KELPSY_BERRY 535
 #define ITEM_QUALOT_BERRY 536
 #define ITEM_HONDEW_BERRY 537
 #define ITEM_GREPA_BERRY 538
 #define ITEM_TAMATO_BERRY 539
-#define ITEM_CORNN_BERRY 540
-#define ITEM_MAGOST_BERRY 541
-#define ITEM_RABUTA_BERRY 542
-#define ITEM_NOMEL_BERRY 543
-#define ITEM_SPELON_BERRY 544
-#define ITEM_PAMTRE_BERRY 545
-#define ITEM_WATMEL_BERRY 546
-#define ITEM_DURIN_BERRY 547
-#define ITEM_BELUE_BERRY 548
+#define ITEM_CORNN_BERRY 540 //not available to the player
+#define ITEM_MAGOST_BERRY 541 //not available to the player
+#define ITEM_RABUTA_BERRY 542 //not available to the player
+#define ITEM_NOMEL_BERRY 543 //not available to the player
+#define ITEM_SPELON_BERRY 544 //not available to the player
+#define ITEM_PAMTRE_BERRY 545 //not available to the player
+#define ITEM_WATMEL_BERRY 546 //not available to the player
+#define ITEM_DURIN_BERRY 547 //not available to the player
+#define ITEM_BELUE_BERRY 548 //not available to the player
 #define ITEM_CHILAN_BERRY 549
 #define ITEM_OCCA_BERRY 550
 #define ITEM_PASSHO_BERRY 551
@@ -659,7 +659,7 @@
 #define ITEM_HABAN_BERRY 563
 #define ITEM_COLBUR_BERRY 564
 #define ITEM_BABIRI_BERRY 565
-#define ITEM_ROSELI_BERRY 566
+#define ITEM_ROSELI_BERRY 566 //not available to the player
 #define ITEM_LIECHI_BERRY 567
 #define ITEM_GANLON_BERRY 568
 #define ITEM_SALAC_BERRY 569
@@ -667,14 +667,14 @@
 #define ITEM_APICOT_BERRY 571
 #define ITEM_LANSAT_BERRY 572
 #define ITEM_STARF_BERRY 573
-#define ITEM_ENIGMA_BERRY 574
-#define ITEM_MICLE_BERRY 575
+#define ITEM_ENIGMA_BERRY 574 //not available to the player
+#define ITEM_MICLE_BERRY 575 //not available to the player
 #define ITEM_CUSTAP_BERRY 576
-#define ITEM_JABOCA_BERRY 577
-#define ITEM_ROWAP_BERRY 578
-#define ITEM_KEE_BERRY 579
-#define ITEM_MARANGA_BERRY 580
-#define ITEM_ENIGMA_BERRY_E_READER 581
+#define ITEM_JABOCA_BERRY 577 //not available to the player
+#define ITEM_ROWAP_BERRY 578 //not available to the player
+#define ITEM_KEE_BERRY 579 //not available to the player
+#define ITEM_MARANGA_BERRY 580 //not available to the player
+#define ITEM_ENIGMA_BERRY_E_READER 581 //not available to the player
 
 #define FIRST_BERRY_INDEX ITEM_CHERI_BERRY
 #define LAST_BERRY_INDEX  ITEM_ENIGMA_BERRY_E_READER

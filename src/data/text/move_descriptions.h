@@ -269,7 +269,7 @@ static const u8 sAuroraBeamDescription[] = _(
     "beam that may lower Attack.");
 
 static const u8 sHyperBeamDescription[] = _(
-    "Powerful, but leaves the\n"
+    "Powerful but leaves the\n"
     "user immobile the next turn.");
 
 static const u8 sPeckDescription[] = _(
@@ -569,8 +569,8 @@ static const u8 sGlareDescription[] = _(
     "the foe into paralysis.");
 
 static const u8 sDreamEaterDescription[] = _(
-    "Takes one half the damage\n"
-    "inflicted on a sleeping foe.");
+    "Takes half the damage\n"
+    "dealt on a sleeping foe.");
 
 static const u8 sPoisonGasDescription[] = _(
     "Envelops the foe in a toxic\n"
@@ -993,7 +993,7 @@ static const u8 sMirrorCoatDescription[] = _(
     "attack at double the power.");
 
 static const u8 sPsychUpDescription[] = _(
-    "Copies the foe's effect(s)\n"
+    "Copies the foe's effects\n"
     "and gives to the user.");
 
 static const u8 sExtremeSpeedDescription[] = _(
@@ -1142,7 +1142,7 @@ static const u8 sRevengeDescription[] = _(
 
 static const u8 sBrickBreakDescription[] = _(
     "Destroys barriers such as\n"
-    "REFLECT and causes damage.");
+    "Reflect and causes damage.");
 
 static const u8 sYawnDescription[] = _(
     "Lulls the foe into yawning,\n"
@@ -1294,7 +1294,7 @@ static const u8 sRockTombDescription[] = _(
 
 static const u8 sSilverWindDescription[] = _(
     "A powdery attack that may\n"
-    "raise abilities.");
+    "raise all stats.");
 
 static const u8 sMetalSoundDescription[] = _(
     "Emits a horrible screech\n"
@@ -1461,7 +1461,7 @@ static const u8 sHammerArmDescription[] = _(
     "that also lowers Speed.");
 
 static const u8 sGyroBallDescription[] = _(
-    "A high-speed spin that does\n"
+    "A high-speed spin dealing\n"
     "more damage to faster foes.");
 
 static const u8 sHealingWishDescription[] = _(
@@ -1481,7 +1481,7 @@ static const u8 sFeintDescription[] = _(
     "using moves like Protect.");
 
 static const u8 sPluckDescription[] = _(
-    "Eats the foe's held Berry\n"
+    "Eats the foe's held Berry,\n"
     "gaining its effect.");
 
 static const u8 sTailwindDescription[] = _(
@@ -1498,7 +1498,7 @@ static const u8 sMetalBurstDescription[] = _(
 
 static const u8 sUTurnDescription[] = _(
     "Does damage then switches\n"
-    "out the user.");
+    "the user out.");
 
 static const u8 sCloseCombatDescription[] = _(
     "A strong attack but lowers\n"
@@ -1637,8 +1637,8 @@ static const u8 sAirSlashDescription[] = _(
     "air. May cause flinching.");
 
 static const u8 sXScissorDescription[] = _(
-    "Slashes the foe with crossed\n"
-    "scythes, claws, etc.");
+    "Slashes the foe in a cross\n"
+    "shape. High critical-hit ratio.");
 
 static const u8 sBugBuzzDescription[] = _(
     "A damaging sound wave that\n"
