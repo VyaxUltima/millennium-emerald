@@ -1251,9 +1251,8 @@ SlateportCity_Text_OceanicMuseumSign:
 	.string "OCEANIC MUSEUM$"
 
 SlateportCity_Text_CitySign:
-	.string "SLATEPORT CITY\p"
-	.string "“The port where people and POKéMON\n"
-	.string "cross paths.”$"
+	.string "Slateport City\n"
+	.string "“Holy shit those bells sound good”$"
 
 SlateportCity_Text_MarketSign:
 	.string "SLATEPORT MARKET\n"

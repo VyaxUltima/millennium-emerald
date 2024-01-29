@@ -456,18 +456,15 @@ Route116_Text_TunnelersRestHouse:
 	.string "TUNNELER'S REST HOUSE$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "TRAINER TIPS\p"
-	.string "If you want to stop a POKéMON from\n"
-	.string "evolving, press the B Button while it\l"
-	.string "is trying to evolve.\l"
-	.string "The startled POKéMON will stop.\p"
-	.string "This is called an evolution cancel.$"
+	.string "Dev Team Quotes\p"
+	.string "Duckie: So you are saying,\n"
+	.string "try Deerclops theme again?\p"
+	.string "Vyax: The bombing of Nagasaki c. 1945\n"
+	.string "in piano waveform isn't fucking happening$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
-	.string "Items you obtain are automatically\n"
-	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "Dev Team Quotes\p"
+	.string "Vyax: Asmongold bedside wall\p"
+	.string "Coder: SHUTUPSHUTUPSHUTUPSHUTUPSHUTUP\n"
+	.string "SHUTUPSHUTUPSHUTUPSHUTUPSHUTUPSHUTUP$"
 

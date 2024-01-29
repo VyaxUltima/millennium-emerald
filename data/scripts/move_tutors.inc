@@ -7,7 +7,7 @@ SlateportCity_PokemonFanClub_EventScript_SwaggerTutor::
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_SwaggerDeclined
 	msgbox MoveTutor_Text_SwaggerWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, MOVE_SWAGGER
+	setvar VAR_0x8005, MOVE_AIR_CUTTER
 	call MoveTutor_EventScript_OpenPartyMenu
 	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_SwaggerDeclined
 	setflag FLAG_MOVE_TUTOR_TAUGHT_SWAGGER
@@ -137,7 +137,7 @@ FortreeCity_House2_EventScript_SleepTalkTutor::
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_SleepTalkDeclined
 	msgbox MoveTutor_Text_SleepTalkWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, MOVE_SLEEP_TALK
+	setvar VAR_0x8005, MOVE_PAIN_SPLIT
 	call MoveTutor_EventScript_OpenPartyMenu
 	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_SleepTalkDeclined
 	setflag FLAG_MOVE_TUTOR_TAUGHT_SLEEP_TALK
@@ -163,7 +163,7 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_SubstituteTutor::
 	call MoveTutor_EventScript_CanOnlyBeLearnedOnce
 	goto_if_eq VAR_RESULT, NO, MoveTutor_EventScript_SubstituteDeclined
 	msgbox MoveTutor_Text_SubstituteWhichMon, MSGBOX_DEFAULT
-	setvar VAR_0x8005, MOVE_SUBSTITUTE
+	setvar VAR_0x8005, MOVE_GRAVITY
 	call MoveTutor_EventScript_OpenPartyMenu
 	goto_if_eq VAR_RESULT, 0, MoveTutor_EventScript_SubstituteDeclined
 	setflag FLAG_MOVE_TUTOR_TAUGHT_SUBSTITUTE

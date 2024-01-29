@@ -154,11 +154,13 @@ Route113_Text_RouteSignFallarbor:
 	.string "{LEFT_ARROW} FALLARBOR TOWN$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
-	.string "TRAINER TIPS\p"
-	.string "You may register one of the KEY ITEMS\n"
-	.string "in your BAG as SELECT.\p"
-	.string "Simply press SELECT to use\n"
-	.string "the registered item conveniently.$"
+	.string "Dev Team Quotes\p"
+	.string "(Context: discussing Farfa's team)\p"
+	.string "Vyax: We could also be dicks\n"
+	.string "and put HP Grass on Vulpix\p"
+	.string "Bakura: God no\n"
+	.string "I'm not getting yelled at for\l"
+	.string "“too hard” because of Farfa$"
 
 Route113_Text_GlassWorkshopSign:
 	.string "GLASS WORKSHOP\n"

@@ -457,20 +457,19 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "to hold.$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "TRAINER TIPS\p"
-	.string "Any POKéMON that appears even once\n"
-	.string "in a battle is awarded EXP Points.\p"
-	.string "To raise a weak POKéMON, put it at the\n"
-	.string "left of the team list.\p"
-	.string "As soon as a battle starts, switch it\n"
-	.string "out. It will earn EXP Points without\l"
-	.string "being exposed to any harm.$"
+	.string "Dev Team Quotes x\p"
+	.string "Duckie: My inanimate sounds-\n"
+	.string "Inanimate sounds? Wtf\p"
+	.string "Mutt: Inanimate objects\n"
+	.string "don't make sounds\p"
+	.string "Duckie: So if I toss this egg\n"
+	.string "at the wall, I won't make a sound?$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-	.string "TRAINER TIPS\p"
-	.string "In addition to Hit Points (HP), POKéMON\n"
-	.string "have Power Points (PP) that are used to\l"
-	.string "make moves during battle.\p"
-	.string "If a POKéMON runs out of PP, it must be\n"
-	.string "taken to a POKéMON CENTER.$"
+	.string "Dev Team Quotes x\p"
+	.string "Mutt: When are you home, Vyax\p"
+	.string "Vyax: class ends in 1 hour and\n"
+	.string "my drive is about 35 minutes\p"
+	.string "so 2.5 hours because people\n"
+	.string "don't know how to fucking drive$"
 

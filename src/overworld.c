@@ -1113,9 +1113,9 @@ u16 GetLocationMusic(struct WarpData *warp)
     else if (ShouldLegendaryMusicPlayAtLocation(warp) == TRUE)
         return MUS_ABNORMAL_WEATHER;
     else if (IsInflitratedSpaceCenter(warp) == TRUE)
-        return MUS_NEW_SKY_PILLAR;
+        return MUS_NEW_HIDEOUT;
     else if (IsInfiltratedWeatherInstitute(warp) == TRUE)
-        return MUS_NEW_SKY_PILLAR;
+        return MUS_NEW_HIDEOUT;
     else
         return Overworld_GetMapHeaderByGroupAndId(warp->mapGroup, warp->mapNum)->music;
 }
@@ -1175,7 +1175,7 @@ void Overworld_PlaySpecialMapMusic(void)
         if (gSaveBlock1Ptr->savedMusic)
             music = gSaveBlock1Ptr->savedMusic;
         else if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
-            music = MUS_UNDERWATER;
+            music = MUS_NEW_DIVE;
         else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
             music = MUS_SURF;
     }
@@ -1202,7 +1202,7 @@ static void TransitionMapMusic(void)
         u16 currentMusic = GetCurrentMapMusic();
         if (newMusic != MUS_ABNORMAL_WEATHER && newMusic != MUS_NONE)
         {
-            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF)
+            if (currentMusic == MUS_NEW_DIVE || currentMusic == MUS_SURF)
                 return;
             if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
                 newMusic = MUS_SURF;

@@ -667,9 +667,8 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "have gone away for good.$"
 
 LilycoveCity_Text_CitySign:
-	.string "LILYCOVE CITY\p"
-	.string "“Where the land ends and the\n"
-	.string "sea begins.”$"
+	.string "Lilycove City\n"
+	.string "“We removed those fucking ledges”$"
 
 LilycoveCity_Text_ContestHallSign:
 	.string "POKéMON CONTEST HALL\n"

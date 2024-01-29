@@ -624,13 +624,13 @@ MauvilleCity_Text_PokemonCanJumpYouOnBike:
 	.string "wild POKéMON could jump you.$"
 
 MauvilleCity_Text_CitySign:
-	.string "MAUVILLE CITY\n"
-	.string "“The bright and shiny city of fun!”$"
+	.string "Mauville City\n"
+	.string "“i've lost the mandate of reddit :(”$"
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY POKéMON GYM\n"
-	.string "LEADER: WATTSON\l"
-	.string "“The cheerfully electrifying man!”$"
+	.string "Mauville City Pokémon Gym\n"
+	.string "Leader: MBT\l"
+	.string "“some white guy off the street”$"
 
 MauvilleCity_Text_BikeShopSign:
 	.string "“Ride in gravel and shake up your\n"

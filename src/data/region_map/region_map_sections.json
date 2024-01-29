@@ -1585,7 +1585,7 @@
     },
     {
       "map_section": "MAPSEC_AQUA_HIDEOUT",
-      "name": "AQUA HIDEOUT",
+      "name": "Aqua Hideout",
       "x": 19,
       "y": 3,
       "width": 1,
@@ -1593,7 +1593,7 @@
     },
     {
       "map_section": "MAPSEC_MAGMA_HIDEOUT",
-      "name": "MAGMA HIDEOUT",
+      "name": "Magma Hideout",
       "x": 6,
       "y": 3,
       "width": 1,
@@ -1601,7 +1601,7 @@
     },
     {
       "map_section": "MAPSEC_MIRAGE_TOWER",
-      "name": "MIRAGE TOWER",
+      "name": "Mirage Tower",
       "x": 8,
       "y": 2,
       "width": 1,
@@ -1641,7 +1641,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_MARINE_CAVE",
-      "name": "UNDERWATER",
+      "name": "Underwater",
       "x": 0,
       "y": 0,
       "width": 1,
@@ -1657,7 +1657,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_105",
-      "name": "UNDERWATER",
+      "name": "Underwater",
       "x": 0,
       "y": 10,
       "width": 1,
@@ -1665,7 +1665,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_125",
-      "name": "UNDERWATER",
+      "name": "Underwater",
       "x": 24,
       "y": 3,
       "width": 2,
@@ -1673,7 +1673,7 @@
     },
     {
       "map_section": "MAPSEC_UNDERWATER_129",
-      "name": "UNDERWATER",
+      "name": "Underwater",
       "x": 24,
       "y": 10,
       "width": 2,
@@ -1705,7 +1705,7 @@
     },
     {
       "map_section": "MAPSEC_TRAINER_HILL",
-      "name": "TRAINER HILL",
+      "name": "Trainer Hill",
       "x": 8,
       "y": 4,
       "width": 1,

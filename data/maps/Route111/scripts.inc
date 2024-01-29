@@ -668,12 +668,12 @@ Route111_Text_OldLadysRestStopSign:
 	.string "“Come in and rest your tired bones.”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-	.string "TRAINER TIPS\p"
-	.string "One of the indicators of a POKéMON's\n"
-	.string "powerfulness is SP. ATK. It stands for\l"
-	.string "“SPECIAL ATTACK.”\p"
-	.string "Likewise, SP. DEF stands for “SPECIAL\n"
-	.string "DEFENSE.”$"
+	.string "Dev Team Quotes\p"
+	.string "Vyax: Do you remember verbatim\n"
+	.string "your rant towards dire about the layout\p"
+	.string "Ref: i had the equivalent of\n"
+	.string "a .06 BAC\p"
+	.string "so no$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
 	.string "There should be a tower made of sand\n"

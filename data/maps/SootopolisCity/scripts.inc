@@ -1405,15 +1405,13 @@ SootopolisCity_Movement_DestroyTask::
 	step_end
 
 SootopolisCity_Text_GymSign:
-	.string "SOOTOPOLIS CITY POKéMON GYM\n"
-	.string "LEADER: JUAN\p"
-	.string "“The GYM LEADER with the beauty\n"
-	.string "of pure water!”$"
+	.string "Sootopolis City Pokémon Gym\n"
+	.string "Leader: Editor Dan\l"
+	.string "“probably has a burst eardrum”$"
 
 SootopolisCity_Text_CitySign:
-	.string "SOOTOPOLIS CITY\p"
-	.string "“The mystical city where history\n"
-	.string "slumbers.”$"
+	.string "Sootopolis City\n"
+	.string "“It was a background check you bozo”$"
 
 SootopolisCity_Text_DoorIsClosed:
 	.string "The door is closed.$"

@@ -266,23 +266,21 @@ Route101_Text_HelpMe:
 Route101_Text_PleaseHelp:
 	.string "Hello! You over there!\n"
 	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "In my bag!\n"
+	.string "There's a Poké Ball!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+	.string "maybe go help the poor bastard$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "Prof. Birch: Whew…\p"
+	.string "Nothing could have prepared me\n"
+	.string "for a scare like that one.\p"
+	.string "You saved me. Thanks a lot!\p"
+	.string "Oh?\n"
+	.string "You're {PLAYER}{KUN}!\p"
+	.string "I need a moment to relax.\n"
+	.string "Let's head back to my lab.$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If POKéMON get tired, take them to\n"

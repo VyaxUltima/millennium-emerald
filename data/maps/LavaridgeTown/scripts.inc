@@ -394,14 +394,13 @@ LavaridgeTown_Text_HotSpringsClaims:
 	.string "money…$"
 
 LavaridgeTown_Text_TownSign:
-	.string "LAVARIDGE TOWN\p"
-	.string "“POKéMON CENTER HOT SPRINGS\n"
-	.string "An excellent place for relaxing!”$"
+	.string "Lavaridge Town\n"
+	.string "“Doesn't even contain Albaz”$"
 
 LavaridgeTown_Text_GymSign:
-	.string "LAVARIDGE TOWN POKéMON GYM\n"
-	.string "LEADER: FLANNERY\l"
-	.string "“One with a fiery passion that burns!”$"
+	.string "Lavaridge Town Pokémon Gym\n"
+	.string "Leader: Skarlon\l"
+	.string "“built branded in tcg again”$"
 
 LavaridgeTown_Text_HerbShopSign:
 	.string "POKéMON HERB SHOP\n"

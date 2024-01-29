@@ -586,10 +586,8 @@ Route119_Text_WeatherInstitute:
 	.string "WEATHER INSTITUTE$"
 
 Route119_Text_TrainerTipsDecoration:
-	.string "TRAINER TIPS\p"
-	.string "Up to sixteen decorations and\n"
-	.string "furniture items can be placed in\l"
-	.string "a SECRET BASE.\p"
-	.string "Pick your favorite items and create\n"
-	.string "your very own SECRET BASE exactly the\l"
-	.string "way you want.$"
+	.string "Dev Team Quotes x\p"
+	.string "Ref: make rustboro more earthen for the\n"
+	.string "fucking volcano that exists underneath\p"
+	.string "Vyax: fuck logic, we have two gyms\n"
+	.string "with full ass fucking beaches in them$"

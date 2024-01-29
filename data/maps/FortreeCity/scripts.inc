@@ -144,13 +144,11 @@ FortreeCity_Text_UsedDevonScopePokemonFled:
 	.string "The startled POKéMON fled!$"
 
 FortreeCity_Text_CitySign:
-	.string "FORTREE CITY\n"
-	.string "“The treetop city that frolics with\l"
-	.string "nature.”$"
+	.string "Fortree City\n"
+	.string "“793MB free of 952GB”$"
 
 FortreeCity_Text_GymSign:
-	.string "FORTREE CITY POKéMON GYM\n"
-	.string "LEADER: WINONA\p"
-	.string "“The bird user taking flight into\n"
-	.string "the world.”$"
+	.string "Fortree City Pokémon Gym\n"
+	.string "Leader: dire\l"
+	.string "“got banned on twitch once”$"
 

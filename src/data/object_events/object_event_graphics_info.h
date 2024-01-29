@@ -2316,14 +2316,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberF = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney = { //used for Duckie
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_2,
+    .paletteSlot = PALSLOT_NPC_3,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,
@@ -2335,7 +2335,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = { //used for Bakura
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2354,14 +2354,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = { //used for Mutt
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_2,
+    .paletteSlot = PALSLOT_NPC_3,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,
@@ -2373,7 +2373,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake = { //used for Refisio
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2392,7 +2392,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne = { //used for Farfa
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2411,7 +2411,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = { //used for LvK
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2430,7 +2430,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = { //used for MBT
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2449,7 +2449,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery = { //used for Skarlon
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2468,7 +2468,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman = { //used for Nyhmnim
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2487,7 +2487,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona = { //used for dire
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2506,7 +2506,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza = { //used for Logan
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2525,7 +2525,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate = { //used for Bryan
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2544,7 +2544,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace = { //used for Vyax
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4197,7 +4197,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan = { //used for Dan
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4444,7 +4444,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirthIslandStone =
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anabel = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anabel = { //used for Qwark
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -4520,14 +4520,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spenser = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Noland = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Noland = { //used for Miror B
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
+    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_2,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_3,
+    .paletteSlot = PALSLOT_NPC_2,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,
@@ -4558,7 +4558,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lucy = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brandon = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brandon = { //used for Ruggles
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,

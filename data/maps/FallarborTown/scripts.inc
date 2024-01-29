@@ -86,8 +86,8 @@ FallarborTown_Text_BattleTentSign:
 	.string "“May the Greatest Teams Gather!”$"
 
 FallarborTown_Text_TownSign:
-	.string "FALLARBOR TOWN\n"
-	.string "“A farm community with small gardens.”$"
+	.string "Fallarbor Town\n"
+	.string "“just leave the heart scale here”$"
 
 FallarborTown_Text_MoveTutorSign:
 	.string "MOVE TUTOR'S HOUSE\n"

@@ -6,7 +6,6 @@ Route103_MapScripts::
 	.byte 0
 
 Route103_OnTransition:
-	call Common_EventScript_SetupRivalGfxId
 	call ProfBirch_EventScript_UpdateLocation
 	end
 
@@ -27,6 +26,7 @@ Route103_EventScript_Rival::
 	end
 
 Route103_EventScript_RivalMay::
+	lockall
 	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
 	playbgm MUS_ENCOUNTER_MAY, TRUE
@@ -44,6 +44,7 @@ Route103_EventScript_RivalMay::
 	end
 
 Route103_EventScript_RivalBrendan::
+	lockall
 	msgbox Route103_Text_BrendanRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
 	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
@@ -56,8 +57,8 @@ Route103_EventScript_RivalBrendan::
 	msgbox Route103_Text_BrendanLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route103_EventScript_StartBrendanBattleTreecko
-	case 1, Route103_EventScript_StartBrendanBattleTorchic
-	case 2, Route103_EventScript_StartBrendanBattleMudkip
+	case 1, Route103_EventScript_StartBrendanBattleTreecko
+	case 2, Route103_EventScript_StartBrendanBattleTreecko
 	end
 
 Route103_EventScript_StartMayBattleTreecko::
@@ -316,29 +317,25 @@ Route103_Text_MayTimeToHeadBack:
 	.string "the LAB.$"
 
 Route103_Text_BrendanRoute103Pokemon:
-	.string "BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…$"
+	.string "Huh, thought they'd\n"
+	.string "have gotten here by now…$"
 
 Route103_Text_BrendanLetsBattle:
-	.string "Hey, it's {PLAYER}!\p"
-	.string "…Oh, yeah, Dad gave you a POKéMON.\p"
-	.string "Since we're here, how about a little\n"
-	.string "battle?\p"
-	.string "I'll teach you what being a TRAINER's\n"
-	.string "about!$"
+	.string "Ruggles: Oh, hey, {PLAYER}!\n"
+	.string "Glad you were able to make it.\p"
+	.string "Since we're here, how about a battle?\n"
+	.string "Let's see how good you are!$"
 
 Route103_Text_BrendanDefeated:
-	.string "Huh, {PLAYER}, you're not too shabby.$"
+	.string "{PLAYER}, you're pretty good.$"
 
 Route103_Text_BrendanTimeToHeadBack:
-	.string "BRENDAN: I think I get it.\n"
-	.string "I think I know why my dad has his eye\l"
-	.string "out for you now.\p"
-	.string "Look, your POKéMON already likes you,\n"
-	.string "even though you just got it.\p"
-	.string "{PLAYER}, I get the feeling that you\n"
-	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.$"
+	.string "Ruggles: That was fun!\n"
+	.string "Can't thank you enough for that.\p"
+	.string "You took home a win, and I have\n"
+	.string "someone to train against.\p"
+	.string "We should probably head back\n"
+	.string "to Birch's lab now.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "My POKéMON is staggeringly tired…\n"

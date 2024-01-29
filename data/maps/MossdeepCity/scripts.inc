@@ -395,16 +395,16 @@ MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "That's what I do.$"
 
 MossdeepCity_Text_ItsAWhiteRock:
-	.string "It's a white rock.$"
+	.string "{DOWN_ARROW}WHITE{DOWN_ARROW}$"
 
 MossdeepCity_Text_GymSign:
-	.string "MOSSDEEP CITY POKéMON GYM\n"
-	.string "LEADERS: LIZA & TATE\p"
-	.string "“The mystic combination!”$"
+	.string "Mossdeep City Pokémon Gym\n"
+	.string "Leader: LukeVonKarma\l"
+	.string "“celtic guardian”$"
 
 MossdeepCity_Text_CitySign:
-	.string "MOSSDEEP CITY\n"
-	.string "“Our slogan: Cherish POKéMON!”$"
+	.string "Mossdeep City\n"
+	.string "“Pajama sam darkness headass monster”$"
 
 MossdeepCity_Text_SpaceCenterSign:
 	.string "MOSSDEEP SPACE CENTER\n"

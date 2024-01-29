@@ -3126,9 +3126,9 @@ static const u8 sTM20Desc[] = _(
     "mystical power.");
 
 static const u8 sTM21Desc[] = _(
-    "The less the user\n"
-    "likes you, the more\n"
-    "powerful this move.");
+    "A barrage of\n"
+    "hard seeds is\n"
+    "fired at the foe.");
 
 static const u8 sTM22Desc[] = _(
     "Absorbs sunlight in\n"
@@ -3246,9 +3246,9 @@ static const u8 sTM44Desc[] = _(
     "health and status.");
 
 static const u8 sTM45Desc[] = _(
-    "Makes it tough to\n"
-    "attack a foe of the\n"
-    "opposite gender.");
+    "Slams the foe\n"
+    "with a hard head.\n"
+    "May cause flinching.");
 
 static const u8 sTM46Desc[] = _(
     "While attacking,\n"
@@ -3266,9 +3266,9 @@ static const u8 sTM48Desc[] = _(
     "turn this is used.");
 
 static const u8 sTM49Desc[] = _(
-    "Steals the effects\n"
-    "of the move the foe\n"
-    "is trying to use.");
+    "Stomach acid\n"
+    "suppresses\n"
+    "the foe's ability.");
 
 static const u8 sTM50Desc[] = _(
     "Enables full-power\n"
@@ -3347,7 +3347,7 @@ static const u8 sTM64Desc[] = _(
 
 static const u8 sTM65Desc[] = _(
     "Strikes with a\n"
-    "shadow claw. High\n"
+    "shadowy claw. High\n"
     "critical-hit ratio.");
 
 static const u8 sTM66Desc[] = _(
@@ -3411,9 +3411,9 @@ static const u8 sTM77Desc[] = _(
     "to the user.");
 
 static const u8 sTM78Desc[] = _(
-    "Makes the opposite\n"
-    "gender sharply\n"
-    "reduce its Sp. Atk.");
+    "A loud attack\n"
+    "that uses sound\n"
+    "waves to injure.");
 
 static const u8 sTM79Desc[] = _(
     "Attacks with a\n"
@@ -3446,9 +3446,9 @@ static const u8 sTM84Desc[] = _(
     "poison the foe.");
 
 static const u8 sTM85Desc[] = _(
-    "Takes half the\n"
-    "damage dealt on\n"
-    "a sleeping foe.");
+    "Hits with a\n"
+    "lustrous headbutt.\n"
+    "May cause flinching.");
 
 static const u8 sTM86Desc[] = _(
     "A snare attack that\n"

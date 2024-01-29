@@ -728,13 +728,13 @@ PetalburgCity_Text_FullPartyExplanation:
 	.string "BOX over a PC connection.$"
 
 PetalburgCity_Text_GymSign:
-	.string "PETALBURG CITY POKéMON GYM\n"
-	.string "LEADER: NORMAN\l"
-	.string "“A man in pursuit of power!”$"
+	.string "Petalburg City Pokémon Gym\n"
+	.string "Leader: Nyhmnim\l"
+	.string "“half lp and half iq”$"
 
 PetalburgCity_Text_CitySign:
-	.string "PETALBURG CITY\n"
-	.string "“Where people mingle with nature.”$"
+	.string "Petalburg City\n"
+	.string "“Try smoking crack between rounds!”$"
 
 PetalburgCity_Text_WallyHouseSign:
 	.string "WALLY'S HOUSE$"

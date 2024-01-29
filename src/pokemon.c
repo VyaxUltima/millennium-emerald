@@ -7578,8 +7578,12 @@ u16 GetBattleBGM(void)
             return MUS_VS_TRAINER;
         }
     }
-    else
-        return MUS_VS_WILD;
+    else {
+        if (Random() % 2) {
+            return MUS_VS_WILD; 
+        }
+        return MUS_VS_WILD_ALT; //Johto wild music
+    }
 }
 
 void PlayBattleBGM(void)

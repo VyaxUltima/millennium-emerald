@@ -557,8 +557,8 @@ Route109_Text_SeashoreHouseSign:
 	.string "The place for hot TRAINERS!”$"
 
 Route109_Text_TrainerTipsSign:
-	.string "TRAINER TIPS\p"
-	.string "POKéMON at the same level may not\n"
-	.string "always have identical stats.\p"
-	.string "POKéMON raised by TRAINERS are said\n"
-	.string "to grow stronger than wild POKéMON.$"
+	.string "Dev Team Quotes x\p"
+	.string "Bakura (to Duckie): I'm going\n"
+	.string "to fucking bludgeon you\p"
+	.string "I need to fix all these\n"
+	.string "fucking MISSPELLS$"

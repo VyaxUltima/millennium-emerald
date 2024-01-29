@@ -905,8 +905,8 @@ static const u8 sSacredFireDescription[] = _(
     "may inflict a burn.");
 
 static const u8 sMagnitudeDescription[] = _(
-    "A ground-shaking attack\n"
-    "of random intensity.");
+    "Tremors harm everything\n"
+    "around the user.");
 
 static const u8 sDynamicPunchDescription[] = _(
     "Powerful and sure to cause\n"
@@ -1693,7 +1693,7 @@ static const u8 sIceShardDescription[] = _(
     "always strike first.");
 
 static const u8 sShadowClawDescription[] = _(
-    "Strikes with a shadow claw.\n"
+    "Strikes with a shadowy claw.\n"
     "High critical-hit ratio.");
 
 static const u8 sThunderFangDescription[] = _(
@@ -1721,7 +1721,7 @@ static const u8 sPsychoCutDescription[] = _(
     "High critical-hit ratio.");
 
 static const u8 sZenHeadbuttDescription[] = _(
-    "Hits with a strong head-\n"
+    "Hits with a lustrous head-\n"
     "butt. May cause flinching.");
 
 static const u8 sMirrorShotDescription[] = _(
