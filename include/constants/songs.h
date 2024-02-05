@@ -562,6 +562,7 @@
 #define MUS_NEW_LAVARIDGE           626
 #define MUS_NEW_GYM_LEADER          627
 #define MUS_VS_WILD_ALT             628
+#define MUS_VS_REFISIO              629
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -553,7 +553,10 @@ $(MID_SUBDIR)/mus_rg_victory_gym_leader.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G171 -V090
 
 $(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V085
+
+$(MID_SUBDIR)/mus_vs_refisio.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V095
 
 $(MID_SUBDIR)/mus_vs_wild_alt.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G194 -V080

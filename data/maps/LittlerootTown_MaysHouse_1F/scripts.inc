@@ -326,43 +326,39 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "… … … … … … … … …\p"
 	.string "Oh, you're {PLAYER}{KUN}, our new next-door\n"
 	.string "neighbor! Hi!\p"
-	.string "We have a {STR_VAR_1} about the same\n"
-	.string "age as you.\p"
-	.string "Our {STR_VAR_1} was excited about making\n"
-	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "We have a family friend staying\n"
+	.string "with us at the moment.\p"
+	.string "They were excited about making\n"
+	.string "our new neighbor.\p"
+	.string "They're upstairs, I think.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
-	.string "Like child, like father.\p"
-	.string "My husband is as wild about POKéMON\n"
-	.string "as our child.\p"
-	.string "If he's not at his LAB, he's likely\n"
+	.string "My husband is as wild about Pokémon\n"
+	.string "as he's ever been.\p"
+	.string "If he's not at his Lab, he's likely\n"
 	.string "scrabbling about in grassy places.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
-	.string "That {RIVAL}!\p"
-	.string "I guess our child is too busy with\n"
-	.string "POKéMON to notice that you came\l"
+	.string "That Ruggles!\p"
+	.string "I guess he is too busy with\n"
+	.string "painting to notice that you came\l"
 	.string "to visit, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
-	.string "Oh, {RIVAL} went out to ROUTE 103\n"
+	.string "Oh, Ruggles went out to Route 103\n"
 	.string "just a little while ago.\p"
-	.string "Like father, like child.\n"
-	.string "{RIVAL} can't stay quietly at home.$"
+	.string "He's been more than ready to\n"
+	.string "help my husband.$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "I think it's wonderful for people to\n"
-	.string "travel with POKéMON.\p"
-	.string "But you should go home every so often\n"
-	.string "to let your mother know you're okay.\p"
-	.string "She might not say it, but I'm sure she\n"
-	.string "worries about you, {PLAYER}{KUN}.$"
+	.string "travel with Pokémon.$"
 
 RivalsHouse_1F_Text_MayWhoAreYou:
 	.string "Hey! If I'm not mistaken,\n"
 	.string "you're {PLAYER}, aren't you?\l"
-	.string "Good to meet you.\p"
+	.string "Good to meet you.\n"
+	.string "My name is Ruggles.\p"
 	.string "Birch mentioned there was someone\n"
 	.string "moving here today.\p"
 	.string "I've got some friends here in Hoenn,\n"
@@ -395,5 +391,4 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 
 RivalsHouse_1F_Text_DoYouHavePokemon:
 	.string "Hi, neighbor!\p"
-	.string "Do you already have your\n"
-	.string "own POKéMON?$"
+	.string "Do you watch MrBeast?$"

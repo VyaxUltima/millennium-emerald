@@ -7569,7 +7569,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_ARENA_TYCOON: //Mutt
             return MUS_VS_MUTTHUNTER;
         case TRAINER_CLASS_FACTORY_HEAD: //Refisio
-            return MUS_VS_VYAX;
+            return MUS_VS_REFISIO;
         case TRAINER_CLASS_PIKE_QUEEN:   //Ruggles
             return MUS_VS_RUGGLES;
         case TRAINER_CLASS_PYRAMID_KING: //TrishulaTTV

@@ -143,30 +143,21 @@ SkyPillar_Outside_Text_DoorIsClosed:
 	.string "The door is closed.$"
 
 SkyPillar_Outside_Text_OpenedDoorToSkyPillar:
-	.string "WALLACE: Oh, my, I'm terribly sorry!\p"
-	.string "In my haste, I didn't notice that\n"
-	.string "I'd left you behind!\p"
-	.string "I've opened the locked door of\n"
-	.string "the SKY PILLAR.\p"
-	.string "{PLAYER}{KUN}, let's be on our way!$"
+	.string "Trif: BRO HURRY UP\n"
+	.string "TIME'S GONNA GET CALLED\p"
+	.string "RAYQUAZA IS SEARCHABLE HERE$"
 
 SkyPillar_Outside_Text_EarthquakeNotMomentToWaste:
-	.string "WALLACE: It's an earthquake!\p"
-	.string "There's not a moment to waste!\n"
-	.string "We've got to hurry!$"
+	.string "Trif: WAS THAT A JUDGE CALL$"
 
 SkyPillar_Outside_Text_SituationGettingWorse:
-	.string "WALLACE: Hmm…\n"
-	.string "The situation is getting worse…$"
+	.string "Trif: OH SHIT TIME WAS CALLED$"
 
 SkyPillar_Outside_Text_GotToGoBackForSootopolis:
-	.string "WALLACE: This isn't good…\p"
-	.string "The weather distortion is spreading\n"
-	.string "even here…\p"
-	.string "{PLAYER}{KUN}.\p"
-	.string "RAYQUAZA should be farther up\n"
-	.string "from here.\p"
-	.string "I'm worried about SOOTOPOLIS.\n"
-	.string "I've got to go back.\p"
-	.string "Everything is in your hands now.\n"
-	.string "Don't fail us!$"
+	.string "Trif: BRO I GOTTA REPORT MY ROUND\p"
+	.string "YOU'RE STILL IN MAIN PHASE\n"
+	.string "YOU CAN STILL WIN\p"
+	.string "SCALE LEFT SCALE RIGHT AND\n"
+	.string "PEND SUMMON RAYQUAZA\p"
+	.string "ON SUMMON BURNS THEM FOR 500\p"
+	.string "PENDULUM!!!!!$"

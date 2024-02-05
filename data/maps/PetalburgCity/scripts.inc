@@ -737,7 +737,7 @@ PetalburgCity_Text_CitySign:
 	.string "“Try smoking crack between rounds!”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "WALLY'S HOUSE$"
+	.string "House$"
 
 PetalburgCity_Text_AreYouATrainer:
 	.string "PENDULUM!!!$"

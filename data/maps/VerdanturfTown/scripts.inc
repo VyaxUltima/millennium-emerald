@@ -108,20 +108,24 @@ VerdanturfTown_Text_EasyToGetToRustboroNow:
 	.string "new DEVON products in RUSTBORO now.$"
 
 VerdanturfTown_Text_TownSign:
-	.string "VERDANTURF TOWN\p"
-	.string "“The windswept highlands with the\n"
-	.string "sweet fragrance of grass.”$"
+	.string "Verdanturf Town\n"
+	.string "“I'm begging you to touch grass”$"
 
 VerdanturfTown_Text_WandasHouse:
-	.string "WANDA'S HOUSE$"
+	.string "Trish's House$"
 
 VerdanturfTown_Text_BattleTentSign:
 	.string "BATTLE TENT VERDANTURF SITE\n"
 	.string "“Feast Your Eyes on Battles!”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
-	.string "“The tunnel project has been\n"
-	.string "canceled.”$"
+	.string "Dev Team Quotes\p"
+	.string "(Context: this is from\n"
+	.string "Feb 1 2024)\p"
+	.string "Vyax: so coder announced subathon\n"
+	.string "has he told mods when it is yet\p"
+	.string "Bakura: No, but I can\n"
+	.string "ask him in a sec\p"
+	.string "Vyax: god bless\n"
+	.string "most put-together content creator$"
 

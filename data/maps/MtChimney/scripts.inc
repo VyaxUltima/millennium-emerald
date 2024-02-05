@@ -742,8 +742,10 @@ MtChimney_Text_MachineMakesNoResponse:
 	.string "It makes no response whatsoever.$"
 
 MtChimney_Text_RouteSign:
-	.string "{DOWN_ARROW} JAGGED PATH\n"
-	.string "LAVARIDGE TOWN AHEAD$"
+	.string "Dev Team Quotes\p"
+	.string "Vyax: Ref what is your\n"
+	.string "preferred type of Balls\p"
+	.string "Ref: I love men$"
 
 MtChimney_Text_ShelbyIntro:
 	.string "I've been to the hot springs and\n"

@@ -10084,7 +10084,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_BIBAREL] =
     {
-        .baseHP        = 79,
+        .baseHP        = 89,
         .baseAttack    = 85,
         .baseDefense   = 60,
         .baseSpeed     = 71,

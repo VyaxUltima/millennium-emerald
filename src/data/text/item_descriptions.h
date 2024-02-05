@@ -3819,13 +3819,13 @@ static const u8 sKeyToRoom6Desc[] = _(
     "Abandoned Ship.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "A meteorite found\n"
-    "at Meteor Falls.");
+    "An Xyz often found\n"
+    "in FTK decks.");
 
 static const u8 sMagmaEmblemDesc[] = _(
     "A medal-like item in\n"
     "the same shape as\n"
-    "Team Magma's mark.");
+    "Bishbaalkin's mark.");
 
 static const u8 sContestPassDesc[] = _(
     "The pass required\n"
