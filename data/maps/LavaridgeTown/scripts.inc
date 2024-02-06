@@ -92,7 +92,7 @@ LavaridgeTown_EventScript_RivalExit::
 	end
 
 LavaridgeTown_EventScript_PlayMayMusic::
-	playbgm MUS_ENCOUNTER_MAY, TRUE
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
 	return
 
 LavaridgeTown_EventScript_PlayBrendanMusic::

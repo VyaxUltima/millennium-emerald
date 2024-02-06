@@ -29,7 +29,7 @@ Route103_EventScript_RivalMay::
 	lockall
 	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
-	playbgm MUS_ENCOUNTER_MAY, TRUE
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
 	applymovement LOCALID_RIVAL, Common_Movement_FacePlayer
 	waitmovement 0
 	applymovement LOCALID_RIVAL, Common_Movement_ExclamationMark

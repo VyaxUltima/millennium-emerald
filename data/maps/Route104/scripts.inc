@@ -81,7 +81,7 @@ Route104_EventScript_PlayRivalMusic::
 	return
 
 Route104_EventScript_PlayMayMusic::
-	playbgm MUS_ENCOUNTER_MAY, TRUE
+	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
 	return
 
 Route104_EventScript_PlayBrendanMusic::
@@ -1058,7 +1058,7 @@ Route104_Text_RouteSignRustboro:
 	.string "{UP_ARROW} Rustboro City$"
 
 Route104_Text_PrettyPetalFlowShop:
-	.string "PRETTY PETAL FLOWER SHOP$"
+	.string "Pretty Petal Flower Shop$"
 
 Route104_Text_TrainerTipsDoubleBattles:
 	.string "Dev Team Quotes x\p"
