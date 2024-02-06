@@ -1000,9 +1000,8 @@ Route104_EventScript_Darian::
 
 Route104_Text_BrineyLivesInSeasideCottage:
 	.string "That seaside cottage is where\n"
-	.string "MR. BRINEY lives.\p"
-	.string "He was once a mighty sailor who never\n"
-	.string "feared the sea, however stormy.$"
+	.string "Mr. Briney lives.\p"
+	.string "He developed the first Umi deck.$"
 
 Route104_Text_WhatsItLikeAtBottomOfSea:
 	.string "The sea, huh?\p"
@@ -1017,55 +1016,46 @@ Route104_Text_ThrowBallAtWeakenedPokemon:
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
 	.string "You're a thief if you try to steal\n"
-	.string "someone else's POKéMON.\p"
-	.string "You should throw POKé BALLS only at\n"
-	.string "wild POKéMON.$"
+	.string "someone else's Pokémon.\p"
+	.string "This isn't Orre, fool.$"
 
 Route104_Text_ImNotATrainer:
-	.string "Oh, no, I'm not a TRAINER.\p"
-	.string "But that's right, if TRAINERS lock eyes,\n"
-	.string "it's a challenge to battle.\p"
-	.string "If you don't want to battle, stay out\n"
-	.string "of their sight.$"
+	.string "I'm not a Trainer.\p"
+	.string "There's about 500 of those already.$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
 	.string "I like filling my mouth with seeds,\n"
 	.string "then spitting them out fast!\p"
-	.string "You can have this, so you try it out!\p"
-	.string "Use it on a POKéMON, and it will learn\n"
-	.string "a move for firing seeds rapidly.$"
+	.string "(This is unedited, for the record.)$"
 
 Route104_Text_TMsAreOneTimeUse:
-	.string "A word of advice!\p"
-	.string "A TM, TECHNICAL MACHINE, is good only\n"
-	.string "for one-time use.\p"
-	.string "Once you use it, it's gone.\n"
-	.string "Think twice before using it!$"
+	.string "A word of advice!\n"
+	.string "TMs are infinitely usable!$"
 
 Route104_Text_DontNeedThisTakeIt:
-	.string "This FLOWER SHOP started selling\n"
+	.string "This Flower Shop started selling\n"
 	.string "saplings recently.\p"
 	.string "It made me so happy, I went overboard\n"
 	.string "shopping.\p"
-	.string "I don't need this WHITE HERB anymore.\n"
+	.string "I don't need this WHITE anymore.\n"
 	.string "Would you take it, please?$"
 
 Route104_Text_FlowerShopSellingSaplings:
-	.string "This FLOWER SHOP started selling\n"
+	.string "This Flower Shop started selling\n"
 	.string "saplings recently.\p"
 	.string "It made me so happy, I went overboard\n"
 	.string "shopping. Where should I put them?$"
 
 Route104_Text_MrBrineysCottage:
-	.string "MR. BRINEY'S COTTAGE$"
+	.string "Mr. Briney's Cottage$"
 
 Route104_Text_RouteSignPetalburg:
-	.string "ROUTE 1O4\n"
-	.string "{RIGHT_ARROW} PETALBURG CITY$"
+	.string "Route 1O4\n"
+	.string "{RIGHT_ARROW} Petalburg City$"
 
 Route104_Text_RouteSignRustboro:
-	.string "ROUTE 1O4\n"
-	.string "{UP_ARROW} RUSTBORO CITY$"
+	.string "Route 1O4\n"
+	.string "{UP_ARROW} Rustboro City$"
 
 Route104_Text_PrettyPetalFlowShop:
 	.string "PRETTY PETAL FLOWER SHOP$"

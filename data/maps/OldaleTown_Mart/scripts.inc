@@ -35,6 +35,7 @@ OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_ANTIDOTE
 	.2byte ITEM_PARALYZE_HEAL
 	.2byte ITEM_AWAKENING
+	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_NONE
 	release
 	end
@@ -58,15 +59,14 @@ OldaleTown_Mart_EventScript_Boy::
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
 	.string "The clerk says they're all sold out.\n"
-	.string "I can't buy any POKé BALLS.$"
+	.string "I can never be ballin'.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
-	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!$"
+	.string "I'M FUCKIN BALLIN'!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
-	.string "If a POKéMON gets hurt and loses its HP\n"
+	.string "If a Pokémon gets hurt and loses its HP\n"
 	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your POKéMON from fainting,\n"
-	.string "restore its HP with a POTION.$"
+	.string "To prevent your Pokémon from fainting,\n"
+	.string "resolve your skill issues.$"
 

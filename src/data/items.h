@@ -1309,7 +1309,7 @@ const struct Item gItems[] =
     {
         .name = _("Rare Candy"),
         .itemId = ITEM_RARE_CANDY,
-        .price = 10000,
+        .price = 10,
         .description = sRareCandyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -2899,7 +2899,7 @@ const struct Item gItems[] =
     {
         .name = _("Dragon Scale"),
         .itemId = ITEM_DRAGON_SCALE,
-        .price = 2000,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_DRAGON_SCALE,
         .holdEffectParam = 10,
         .description = sDragonScaleDesc,
@@ -2913,7 +2913,7 @@ const struct Item gItems[] =
     {
         .name = _("Upgrade"),
         .itemId = ITEM_UPGRADE,
-        .price = 2000,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_UPGRADE,
         .description = sUpgradeDesc,
         .pocket = POCKET_ITEMS,
@@ -2926,7 +2926,7 @@ const struct Item gItems[] =
     {
         .name = _("Protector"),
         .itemId = ITEM_PROTECTOR,
-        .price = 2000,
+        .price = 1000,
         .description = sProtectorDesc,
         .pocket = POCKET_ITEMS,
         .type = EVO_HELD_ITEM_TYPE,
@@ -2938,7 +2938,7 @@ const struct Item gItems[] =
     {
         .name = _("Electirizer"),
         .itemId = ITEM_ELECTIRIZER,
-        .price = 2000,
+        .price = 1000,
         .description = sElectirizerDesc,
         .pocket = POCKET_ITEMS,
         .type = EVO_HELD_ITEM_TYPE,
@@ -2950,7 +2950,7 @@ const struct Item gItems[] =
     {
         .name = _("Magmarizer"),
         .itemId = ITEM_MAGMARIZER,
-        .price = 2000,
+        .price = 1000,
         .description = sMagmarizerDesc,
         .pocket = POCKET_ITEMS,
         .type = EVO_HELD_ITEM_TYPE,
@@ -2962,7 +2962,7 @@ const struct Item gItems[] =
     {
         .name = _("Dubious Disc"),
         .itemId = ITEM_DUBIOUS_DISC,
-        .price = 2000,
+        .price = 1000,
         .description = sDubiousDiscDesc,
         .pocket = POCKET_ITEMS,
         .type = EVO_HELD_ITEM_TYPE,
@@ -2974,7 +2974,7 @@ const struct Item gItems[] =
     {
         .name = _("Reaper Cloth"),
         .itemId = ITEM_REAPER_CLOTH,
-        .price = 2000,
+        .price = 1000,
         .description = sReaperClothDesc,
         .pocket = POCKET_ITEMS,
         .type = EVO_HELD_ITEM_TYPE,
@@ -2986,7 +2986,7 @@ const struct Item gItems[] =
     {
         .name = _("Prism Scale"),
         .itemId = ITEM_PRISM_SCALE,
-        .price = 2000,
+        .price = 1000,
         .description = sPrismScaleDesc,
         .pocket = POCKET_ITEMS,
         .type = EVO_HELD_ITEM_TYPE,
@@ -5900,7 +5900,7 @@ const struct Item gItems[] =
     {
         .name = _("Damp Rock"),
         .itemId = ITEM_DAMP_ROCK,
-        .price = 4000,
+        .price = 3000,
         .holdEffect = HOLD_EFFECT_DAMP_ROCK,
         .description = sDampRockDesc,
         .pocket = POCKET_ITEMS,
@@ -5913,7 +5913,7 @@ const struct Item gItems[] =
     {
         .name = _("Heat Rock"),
         .itemId = ITEM_HEAT_ROCK,
-        .price = 4000,
+        .price = 3000,
         .holdEffect = HOLD_EFFECT_HEAT_ROCK,
         .description = sHeatRockDesc,
         .pocket = POCKET_ITEMS,
@@ -5926,7 +5926,7 @@ const struct Item gItems[] =
     {
         .name = _("Smooth Rock"),
         .itemId = ITEM_SMOOTH_ROCK,
-        .price = 4000,
+        .price = 3000,
         .holdEffect = HOLD_EFFECT_SMOOTH_ROCK,
         .description = sSmoothRockDesc,
         .pocket = POCKET_ITEMS,
@@ -5939,7 +5939,7 @@ const struct Item gItems[] =
     {
         .name = _("Icy Rock"),
         .itemId = ITEM_ICY_ROCK,
-        .price = 4000,
+        .price = 3000,
         .holdEffect = HOLD_EFFECT_ICY_ROCK,
         .description = sIcyRockDesc,
         .pocket = POCKET_ITEMS,
@@ -6272,7 +6272,7 @@ const struct Item gItems[] =
     {
         .name = _("Wide Lens"),
         .itemId = ITEM_WIDE_LENS,
-        .price = 4000,
+        .price = 2500,
         .holdEffect = HOLD_EFFECT_WIDE_LENS,
         .holdEffectParam = 10,
         .description = sWideLensDesc,
@@ -6286,7 +6286,7 @@ const struct Item gItems[] =
     {
         .name = _("Muscle Band"),
         .itemId = ITEM_MUSCLE_BAND,
-        .price = 4000,
+        .price = 2500,
         .holdEffect = HOLD_EFFECT_MUSCLE_BAND,
         .holdEffectParam = 10,
         .description = sMuscleBandDesc,
@@ -6300,7 +6300,7 @@ const struct Item gItems[] =
     {
         .name = _("Wise Glasses"),
         .itemId = ITEM_WISE_GLASSES,
-        .price = 4000,
+        .price = 2500,
         .holdEffect = HOLD_EFFECT_WISE_GLASSES,
         .holdEffectParam = 10,
         .description = sWiseGlassesDesc,
@@ -6328,7 +6328,7 @@ const struct Item gItems[] =
     {
         .name = _("Light Clay"),
         .itemId = ITEM_LIGHT_CLAY,
-        .price = 4000,
+        .price = 2500,
         .holdEffect = HOLD_EFFECT_LIGHT_CLAY,
         .description = sLightClayDesc,
         .pocket = POCKET_ITEMS,
@@ -6447,7 +6447,7 @@ const struct Item gItems[] =
     {
         .name = _("Black Sludge"),
         .itemId = ITEM_BLACK_SLUDGE,
-        .price = 4000,
+        .price = 2500,
         .holdEffect = HOLD_EFFECT_BLACK_SLUDGE,
         .description = sBlackSludgeDesc,
         .pocket = POCKET_ITEMS,
@@ -6513,7 +6513,7 @@ const struct Item gItems[] =
     {
         .name = _("Razor Claw"),
         .itemId = ITEM_RAZOR_CLAW,
-        .price = 5000,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_SCOPE_LENS,
         .description = sRazorClawDesc,
         .pocket = POCKET_ITEMS,
@@ -6526,7 +6526,7 @@ const struct Item gItems[] =
     {
         .name = _("Razor Fang"),
         .itemId = ITEM_RAZOR_FANG,
-        .price = 5000,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_FLINCH,
         .holdEffectParam = 10,
         .description = sRazorFangDesc,
@@ -8384,7 +8384,7 @@ const struct Item gItems[] =
     {
         .name = _("TM55"),
         .itemId = ITEM_TM55,
-        .price = 3000,
+        .price = 4000,
         .description = sTM55Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8468,7 +8468,7 @@ const struct Item gItems[] =
     {
         .name = _("TM62"),
         .itemId = ITEM_TM62,
-        .price = 3000,
+        .price = 4000,
         .description = sTM62Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8480,7 +8480,7 @@ const struct Item gItems[] =
     {
         .name = _("TM63"),
         .itemId = ITEM_TM63,
-        .price = 3000,
+        .price = 2500,
         .description = sTM63Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8516,7 +8516,7 @@ const struct Item gItems[] =
     {
         .name = _("TM66"),
         .itemId = ITEM_TM66,
-        .price = 3000,
+        .price = 3500,
         .description = sTM66Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8588,7 +8588,7 @@ const struct Item gItems[] =
     {
         .name = _("TM72"),
         .itemId = ITEM_TM72,
-        .price = 3000,
+        .price = 3500,
         .description = sTM72Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8612,7 +8612,7 @@ const struct Item gItems[] =
     {
         .name = _("TM74"),
         .itemId = ITEM_TM74,
-        .price = 3000,
+        .price = 4000,
         .description = sTM74Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8648,7 +8648,7 @@ const struct Item gItems[] =
     {
         .name = _("TM77"),
         .itemId = ITEM_TM77,
-        .price = 3000,
+        .price = 2000,
         .description = sTM77Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8756,7 +8756,7 @@ const struct Item gItems[] =
     {
         .name = _("TM86"),
         .itemId = ITEM_TM86,
-        .price = 3000,
+        .price = 4000,
         .description = sTM86Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -8828,7 +8828,7 @@ const struct Item gItems[] =
     {
         .name = _("TM92"),
         .itemId = ITEM_TM92,
-        .price = 3000,
+        .price = 4000,
         .description = sTM92Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10324,7 +10324,7 @@ const struct Item gItems[] =
     {
         .name = _("Linking Cord"),
         .itemId = ITEM_LINKING_CORD,
-        .price = 8000,
+        .price = 1000,
         .description = sLinkingCordDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,

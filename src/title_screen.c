@@ -4,6 +4,7 @@
 #include "sprite.h"
 #include "gba/m4a_internal.h"
 #include "clear_save_data_menu.h"
+#include "constants/species.h"
 #include "decompress.h"
 #include "event_data.h"
 #include "intro.h"
@@ -728,6 +729,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
 {
     if ((JOY_NEW(A_BUTTON)) || (JOY_NEW(START_BUTTON)))
     {
+        PlayCryInternal(SPECIES_RAYQUAZA, 0, 105, 10, 0);
         FadeOutBGM(4);
         BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_WHITEALPHA);
         SetMainCallback2(CB2_GoToMainMenu);

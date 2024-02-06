@@ -1208,42 +1208,43 @@ static const u8 sGalaricaWreathDesc[] = _(
 
 static const u8 sDragonScaleDesc[] = _(
     "A strange scale\n"
-    "held by Dragon-\n"
-    "type Pokémon.");
+    "that can cause a\n"
+    "Seadra to evolve.");
 
 static const u8 sUpgradeDesc[] = _(
     "A peculiar box made\n"
-    "by Silph Co.");
+    "by Silph Co. that\n"
+    "evolves Porygon.");
 
 static const u8 sProtectorDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's stiff\n"
+    "Loved by Rhydon.\n"
+    "It's stiff\n"
     "and heavy.");
 
 static const u8 sElectirizerDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's full\n"
+    "It's loved by\n"
+    "Electabuzz. Full\n"
     "of electric energy.");
 
 static const u8 sMagmarizerDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. It's full\n"
+    "Loved by Magmar.\n"
+    "It's full\n"
     "of magma energy.");
 
 static const u8 sDubiousDiscDesc[] = _(
-    "A transparent device\n"
-    "overflowing with\n"
-    "dubious data.");
+    "A strange disc\n"
+    "that often\n"
+    "corrupts Porygon2.");
 
 static const u8 sReaperClothDesc[] = _(
-    "Loved by a certain\n"
-    "Pokémon. Imbued with\n"
+    "Loved by Dusclops.\n"
+    "Emits an intense\n"
     "spiritual energy.");
 
 static const u8 sPrismScaleDesc[] = _(
     "A mysterious scale\n"
-    "that evolves certain\n"
-    "Pokémon. It shines.");
+    "that evolves Feebas.\n"
+    "It shines vividly.");
 
 static const u8 sWhippedDreamDesc[] = _(
     "A soft and sweet\n"
@@ -1306,9 +1307,9 @@ static const u8 sBlackAuguriteDesc[] = _(
     "evolve.");;
 
 static const u8 sLinkingCordDesc[] = _(
-    "A mysterious string\n"
-    "that makes some\n"
-    "Pokémon evolve.");
+    "A string that\n"
+    "simulates trading\n"
+    "to evolve Pokémon.");
 
 static const u8 sPeatBlockDesc[] = _(
     "A block of material\n"
@@ -2568,14 +2569,14 @@ static const u8 sBigRootDesc[] = _(
     "HP-stealing moves.");
 
 static const u8 sRazorClawDesc[] = _(
-    "A hooked claw that\n"
-    "ups the holder's\n"
-    "critical-hit ratio.");
+    "Holder has upped\n"
+    "critical-hit ratio.\n"
+    "Loved by Sneasel.");
 
 static const u8 sRazorFangDesc[] = _(
-    "A hold item that\n"
-    "may cause flinching\n"
-    "when the foe is hit.");
+    "Holder may cause\n"
+    "the foe to flinch.\n"
+    "Loved by Gligar.");
 
 static const u8 sEvioliteDesc[] = _(
     "Raises the Def and\n"

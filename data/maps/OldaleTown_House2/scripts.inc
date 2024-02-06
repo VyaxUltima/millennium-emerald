@@ -10,11 +10,12 @@ OldaleTown_House2_EventScript_Man::
 	end
 
 OldaleTown_House2_Text_PokemonLevelUp:
-	.string "When POKéMON battle, they eventually\n"
-	.string "level up and become stronger.$"
+	.string "Recently, we've discovered new\n"
+	.string "TMs here in Hoenn.\p"
+	.string "Far as I recall, there's 92 total.$"
 
 OldaleTown_House2_Text_YoullGoFurtherWithStrongPokemon:
-	.string "If the POKéMON with you become\n"
-	.string "stronger, you'll be able to go farther\l"
-	.string "away from here.$"
+	.string "Some of Hoenn's native TMs have\n"
+	.string "been re-programmed.\p"
+	.string "Is there a list of the new ones?$"
 

@@ -338,15 +338,15 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "to Birch's lab now.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
-	.string "My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…$"
+	.string "My Pokémon is staggeringly tired…\n"
+	.string "I should have brought a Potion…$"
 
 Route103_Text_ShortcutToOldale:
 	.string "If you cross the sea from here,\n"
-	.string "it'll be a shortcut to OLDALE TOWN.\p"
+	.string "it'll be a shortcut to Oldale Town.\p"
 	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:
-	.string "ROUTE 103\n"
-	.string "{DOWN_ARROW} OLDALE TOWN$"
+	.string "Route 103\n"
+	.string "{DOWN_ARROW} Oldale Town$"
 

@@ -240,6 +240,10 @@ PetalburgCity_EventScript_WallyHouseSign::
 	msgbox PetalburgCity_Text_WallyHouseSign, MSGBOX_SIGN
 	end
 
+PetalburgCity_EventScript_BlackMarketSign::
+	msgbox PetalburgCity_Text_BMSign, MSGBOX_SIGN
+	end
+
 PetalburgCity_EventScript_ShowGymToPlayer0::
 	lockall
 	setvar VAR_0x8008, 0
@@ -695,24 +699,22 @@ PetalburgCity_EventScript_GymBoy::
 	end
 
 PetalburgCity_Text_WhereIsWally:
-	.string "Where has our WALLY gone?\p"
-	.string "We have to leave for VERDANTURF TOWN\n"
-	.string "very soon…$"
+	.string "Our new Gym Leader?\p"
+	.string "He's quite popular in the\n"
+	.string "space of a trading card game.$"
 
 PetalburgCity_Text_AreYouRookieTrainer:
 	.string "Hiya! Are you maybe…\n"
-	.string "A rookie TRAINER?\p"
-	.string "Do you know what POKéMON TRAINERS\n"
+	.string "A rookie Trainer?\p"
+	.string "Do you know what Pokémon Trainers\n"
 	.string "do when they reach a new town?\p"
-	.string "They first check what kind of GYM\n"
-	.string "is in the town.$"
+	.string "They doxx the Gym.$"
 
 PetalburgCity_Text_ThisIsPetalburgGym:
-	.string "See? This is PETALBURG CITY's GYM.$"
+	.string "See? This is Petalburg's Gym.$"
 
 PetalburgCity_Text_ThisIsGymSign:
-	.string "This is the GYM's sign. Look for it\n"
-	.string "whenever you're looking for a GYM.$"
+	.string "Now get his insurance number.$"
 
 PetalburgCity_Text_WaterReflection:
 	.string "My face is reflected in the water.\p"
@@ -722,10 +724,11 @@ PetalburgCity_Text_WaterReflection:
 	.string "What do you see reflected in your face?$"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you have six POKéMON.\n"
-	.string "If you catch another one…\p"
-	.string "It is automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "Let's say you do a Subathon.\p"
+	.string "Now, let's also say that you\n"
+	.string "have a moderation team.\p"
+	.string "Now, let's also say those moderators\n"
+	.string "want to play Among Us on your stream.$"
 
 PetalburgCity_Text_GymSign:
 	.string "Petalburg City Pokémon Gym\n"
@@ -737,7 +740,10 @@ PetalburgCity_Text_CitySign:
 	.string "“Try smoking crack between rounds!”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "House$"
+	.string "Surf Guy's House$"
+
+PetalburgCity_Text_BMSign:
+	.string "Petalburg Black Market$"
 
 PetalburgCity_Text_AreYouATrainer:
 	.string "PENDULUM!!!$"

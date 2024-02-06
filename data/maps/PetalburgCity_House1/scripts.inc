@@ -11,13 +11,13 @@ PetalburgCity_House1_EventScript_Woman::
 
 PetalburgCity_House1_Text_TravelingIsWonderful:
 	.string "Traveling is wonderful!\p"
-	.string "When I was young, I roamed the seas\n"
-	.string "and the mountains!$"
+	.string "When I was young, I roamed the sus\n"
+	.string "and the mogus!$"
 
 PetalburgCity_House1_Text_GoOnAdventure:
 	.string "Sigh…\p"
 	.string "I wish I could go on an adventure\n"
-	.string "with some POKéMON…\p"
+	.string "with some Pokémon…\p"
 	.string "Crawl through some damp grass…\n"
 	.string "Climb rocky, rugged mountains…\p"
 	.string "Cross the raging seas…\n"

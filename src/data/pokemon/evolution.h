@@ -54,7 +54,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_PONYTA]                = {{EVO_LEVEL, 28, SPECIES_RAPIDASH}},
     [SPECIES_SLOWPOKE]              = {{EVO_LEVEL, 31, SPECIES_SLOWBRO},
                                        {EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_SLOWKING},
-                                       {EVO_ITEM, ITEM_KINGS_ROCK, SPECIES_SLOWKING}},
+                                       {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_SLOWKING}},
     [SPECIES_MAGNEMITE]             = {{EVO_LEVEL, 30, SPECIES_MAGNETON}},
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_MAGNETON]              = {{EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_MAGNEZONE},
@@ -67,7 +67,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_GASTLY]                = {{EVO_LEVEL, 25, SPECIES_HAUNTER}},
     [SPECIES_HAUNTER]               = {{EVO_ITEM, ITEM_LINKING_CORD, SPECIES_GENGAR}},
     [SPECIES_ONIX]                  = {{EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_STEELIX},
-                                       {EVO_ITEM, ITEM_METAL_COAT, SPECIES_STEELIX}},
+                                       {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_STEELIX}},
     [SPECIES_DROWZEE]               = {{EVO_LEVEL, 26, SPECIES_HYPNO}},
     [SPECIES_KRABBY]                = {{EVO_LEVEL, 28, SPECIES_KINGLER}},
     [SPECIES_VOLTORB]               = {{EVO_LEVEL, 30, SPECIES_ELECTRODE}},
@@ -97,7 +97,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_STARYU]                = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_STARMIE}},
     [SPECIES_SCYTHER]               = {{EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_SCIZOR},
                                        {EVO_ITEM, ITEM_BLACK_AUGURITE, SPECIES_KLEAVOR},
-                                       {EVO_ITEM, ITEM_METAL_COAT, SPECIES_SCIZOR}},
+                                       {EVO_ITEM, ITEM_LINKING_CORD, SPECIES_SCIZOR}},
 #if P_GEN_4_POKEMON == TRUE
     [SPECIES_ELECTABUZZ]            = {{EVO_TRADE_ITEM, ITEM_ELECTIRIZER, SPECIES_ELECTIVIRE},
                                        {EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_ELECTIVIRE}},
