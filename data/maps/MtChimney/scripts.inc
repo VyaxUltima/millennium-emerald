@@ -534,25 +534,25 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
+	.string "The power contained in the Machu Mech…\p"
 	.string "By amplifying its power with this\n"
-	.string "machine, MT. CHIMNEY's volcanic\l"
+	.string "machine, Mt. Chimney's volcanic\l"
 	.string "activity will instantly intensify…\p"
 	.string "Its energy will grow deep inside\n"
 	.string "the crater and…\l"
 	.string "Fufufu…$"
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
+	.string "Maxie: Hm?\n"
 	.string "Who are you?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "I'd heard ARCHIE bemoaning a child\n"
-	.string "who's been meddling in TEAM AQUA's\l"
-	.string "affairs.\p"
+	.string "I'd heard Archie bemoaning someone\n"
+	.string "who's been meddling in\l"
+	.string "Twitch chat's affairs.\p"
 	.string "It must be you he meant.\p"
 	.string "Humph! So you're thinking of\n"
-	.string "interfering with us, TEAM MAGMA?\p"
+	.string "interfering with my YouTube channel?\p"
 	.string "Now you listen.\n"
 	.string "Long ago, living things used the\l"
 	.string "land to live and grow.\p"
@@ -662,8 +662,8 @@ MtChimney_Text_ArchieGoStopTeamMagma:
 	.string "I should've guessed you'd show up!\p"
 	.string "See for yourself what the fanatics\n"
 	.string "of TEAM MAGMA are up to!\p"
-	.string "They're trying to inject the stolen\n"
-	.string "METEORITE's power into the volcano!\p"
+	.string "They're trying to awaken Bishbaalkin\n"
+	.string "by burning everyone with Machu Mech!\p"
 	.string "Doing something like that will cause\n"
 	.string "the volcano's eruption!$"
 

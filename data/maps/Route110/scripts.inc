@@ -14,8 +14,6 @@ Route110_OnResume:
 	end
 
 Route110_OnTransition:
-	call Common_EventScript_SetupRivalGfxId
-	call Common_EventScript_SetupRivalOnBikeGfxId
 	call_if_eq VAR_CYCLING_CHALLENGE_STATE, 1, Route110_EventScript_SaveCyclingMusic
 	end
 
@@ -405,9 +403,9 @@ Route110_EventScript_PlayBrendanMusic::
 Route110_EventScript_MayBattle::
 	msgbox Route110_Text_MayLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
-	case 0, Route110_EventScript_MayBattleTreecko
-	case 1, Route110_EventScript_MayBattleTorchic
-	case 2, Route110_EventScript_MayBattleMudkip
+	case 0, Route110_EventScript_BrendanBattleTreecko
+	case 1, Route110_EventScript_BrendanBattleTreecko
+	case 2, Route110_EventScript_BrendanBattleTreecko
 	end
 
 Route110_EventScript_MayBattleTreecko::
@@ -436,8 +434,8 @@ Route110_EventScript_BrendanBattle::
 	msgbox Route110_Text_BrendanLetsBattle, MSGBOX_DEFAULT
 	switch VAR_STARTER_MON
 	case 0, Route110_EventScript_BrendanBattleTreecko
-	case 1, Route110_EventScript_BrendanBattleTorchic
-	case 2, Route110_EventScript_BrendanBattleMudkip
+	case 1, Route110_EventScript_BrendanBattleTreecko
+	case 2, Route110_EventScript_BrendanBattleTreecko
 	end
 
 Route110_EventScript_BrendanBattleTreecko::
@@ -545,34 +543,34 @@ Route110_Movement_RivalApproachPlayer3:
 	step_end
 
 Route110_Movement_RivalExit1:
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 Route110_Movement_RivalExit2:
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_down
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_down
 	step_end
 
 Route110_Movement_RivalExit3:
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
 	step_end
 
 Route110_EventScript_BirchScene1::
@@ -760,56 +758,48 @@ Route110_Text_AquaActionsBringSmiles:
 	.string "smiles to people's faces!$"
 
 Route110_Text_MayLetsBattle:
-	.string "MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
-	.string "While I was searching for other\n"
-	.string "POKéMON, my POKéMON grew stronger.\p"
-	.string "So…\n"
-	.string "How about a little battle?$"
+	.string "Ruggles: Hey, {PLAYER}!\n"
+	.string "I figured you might show up here.\p"
+	.string "How's your training been going?\n"
+	.string "I hope you can keep up!$"
 
 Route110_Text_MayDefeated:
-	.string "Yikes!\n"
-	.string "You're better than I expected!$"
+	.string "Huh.\n"
+	.string "You're getting pretty good.$"
 
 Route110_Text_MayTakeThis:
-	.string "MAY: {PLAYER}{KUN}, you've been busy\n"
-	.string "training, too, haven't you?\p"
-	.string "I think you deserve a reward!\n"
-	.string "This is from me!$"
+	.string "Ruggles: {PLAYER}, you've trained\n"
+	.string "hard since our last battle, huh?\p"
+	.string "That's good!\n"
+	.string "Oh, right. Here, take this.$"
 
 Route110_Text_MayExplainItemfinder:
-	.string "MAY: That's an ITEMFINDER.\p"
-	.string "Try it out. If there is an item that's\n"
-	.string "not visible, it emits a sound.\p"
-	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
-	.string "I know it's a little silly coming from\n"
-	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.$"
+	.string "Ruggles: That'll let you find\n"
+	.string "items that aren't so easy to see.\p"
+	.string "I've been finding it useful myself.\p"
+	.string "Anyway, I'm off!$"
 
 Route110_Text_BrendanLetsBattle:
-	.string "BRENDAN: Hey, {PLAYER}.\n"
-	.string "So this is where you were.\l"
-	.string "How's it going?\p"
-	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.$"
+	.string "Ruggles: Hey, {PLAYER}!\n"
+	.string "I figured you might show up here.\p"
+	.string "How's your training been going?\n"
+	.string "I hope you can keep up!$"
 
 Route110_Text_BrendanDefeated:
-	.string "Hmm…\n"
-	.string "You're pretty good.$"
+	.string "Huh.\n"
+	.string "You're getting pretty good.$"
 
 Route110_Text_BrendanTakeThis:
-	.string "BRENDAN: {PLAYER}, you've trained\n"
-	.string "without me noticing…\p"
-	.string "Good enough!\n"
-	.string "Here, take this.$"
+	.string "Ruggles: {PLAYER}, you've trained\n"
+	.string "hard since our last battle, huh?\p"
+	.string "That's good!\n"
+	.string "Oh, right. Here, take this.$"
 
 Route110_Text_BrendanExplainItemfinder:
-	.string "BRENDAN: That's an ITEMFINDER.\p"
-	.string "Use it to root around for items that\n"
-	.string "aren't visible.\p"
-	.string "If it senses something, it emits\n"
-	.string "a sound.\p"
-	.string "Anyway, I'm off to look for new\n"
-	.string "POKéMON.$"
+	.string "Ruggles: That'll let you find\n"
+	.string "items that aren't so easy to see.\p"
+	.string "I've been finding it useful myself.\p"
+	.string "Anyway, I'm off!$"
 
 Route110_Text_RideBikeAtFullSpeed:
 	.string "Wouldn't it be great to ride a BIKE\n"
@@ -921,11 +911,9 @@ Route110_Text_CyclingRoadSign:
 	.string "SEASIDE CYCLING ROAD$"
 
 Route110_Text_AquaWasHere:
-	.string "“TEAM AQUA was here!”\p"
-	.string "Someone painted that onto this sign,\n"
-	.string "but then someone else painted over it.\p"
-	.string "“TEAM MAGMA rules!” is what it\n"
-	.string "says now.$"
+	.string "Dev Team Quotes\p"
+	.string "Mutt: watching leo ask questions is like\n"
+	.string "a uniquely bad tucker carlson interview$"
 
 Route110_Text_Route103Sign:
 	.string "ROUTE 110\n"
@@ -950,8 +938,12 @@ Route110_Text_TrainerTipsRegisterItems:
 	.string "not allowed to fucking chat$"
 
 Route110_Text_TrickHouseSign:
-	.string "“Three steps {RIGHT_ARROW} and two steps {UP_ARROW}\n"
-	.string "to reach the wondrous TRICK HOUSE.”$"
+	.string "Dev Team Quotes\p"
+	.string "(Context: The colors on Coder's\n"
+	.string "old avatar used for this game)\p"
+	.string "Ref: I HATE THE COLOR SCHEME\p"
+	.string "Bakura: Well, sorry amigo.\n"
+	.string "I can fix sprites, can't fix shit taste.$"
 
 Route110_Text_BestRecord:
 	.string "THE BEST RECORD TO DATE…\p"

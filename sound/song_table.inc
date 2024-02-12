@@ -631,6 +631,8 @@ gSongTable::
 	song mus_new_gym_leader, 0, 0
 	song mus_vs_wild_alt, 0, 0
 	song mus_vs_refisio, 0, 0
+	song mus_nyhmnim_gym, 0, 0
+	song mus_vs_ctsc, 0, 0
 
 	.align 2
 dummy_song_header:

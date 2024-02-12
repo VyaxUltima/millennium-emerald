@@ -115,12 +115,9 @@ PetalburgCity_Gym_EventScript_Norman::
 	case 7, PetalburgCity_Gym_EventScript_NormanPostBattle
 	case 8, PetalburgCity_Gym_EventScript_NormanRematch
 	msgbox PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon, MSGBOX_DEFAULT
-	closemessage
-	switch VAR_FACING
-	case DIR_SOUTH, PetalburgCity_Gym_EventScript_BeginWallyTutorialSouth
-	case DIR_NORTH, PetalburgCity_Gym_EventScript_BeginWallyTutorialNorth
-	case DIR_WEST, PetalburgCity_Gym_EventScript_BeginWallyTutorialWest
-	case DIR_EAST, PetalburgCity_Gym_EventScript_BeginWallyTutorialEast
+	setvar VAR_PETALBURG_GYM_STATE, 2
+	setvar VAR_PETALBURG_CITY_STATE, 3
+	release
 	end
 
 PetalburgCity_Gym_EventScript_BeginWallyTutorialSouth::
@@ -1142,17 +1139,17 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-	.string "DAD: Hm?\p"
-	.string "Well, if it isn't {PLAYER}!\n"
-	.string "So you're all finished moving in?\p"
-	.string "I'm surprised that you managed to\n"
-	.string "get here by yourself.\p"
-	.string "Oh, I see.\n"
-	.string "You're with your POKéMON.\p"
-	.string "Hm… Then I guess you're going to\n"
-	.string "become a TRAINER like me, {PLAYER}.\p"
-	.string "That's great news!\n"
-	.string "I'll be looking forward to it!$"
+	.string "Nyhmnim: Hey, how's it going?\p"
+	.string "Your name is… {PLAYER}, right?\n"
+	.string "Nice to meet you!\p"
+	.string "I heard there was someone new\n"
+	.string "moving to Littleroot.\p"
+	.string "Well, hey, I'd love to battle you,\n"
+	.string "but you've got no Badges yet.\p"
+	.string "That wouldn't really be fair,\n"
+	.string "so I'll wait until you collect a few.\p"
+	.string "Hm… Alright!\n"
+	.string "I'll battle you after you've got 4.$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "Um… I…\n"
@@ -1232,41 +1229,36 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "stronger.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "DAD: Hm? Aren't you going to the\n"
-	.string "POKéMON GYM in RUSTBORO CITY?\p"
-	.string "There's no challenge for me to\n"
-	.string "battle a greenhorn TRAINER.\p"
-	.string "{PLAYER}, I want you to challenge me\n"
-	.string "when you become a lot stronger.\p"
-	.string "I'll battle you, {PLAYER}, when you\n"
-	.string "can show me four GYM BADGES, okay?$"
+	.string "Nyhmnim: You're looking to\n"
+	.string "get your first Badge?\p"
+	.string "Rustboro is probably your best bet.\n"
+	.string "I think you can handle the new\p"
+	.string "Gym Leader they put in there.$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-	.string "DAD: I see… So, you've beaten\n"
-	.string "the GYM LEADER in RUSTBORO CITY.\p"
-	.string "But there are many more TRAINERS\n"
-	.string "who are stronger than you, {PLAYER}.\p"
-	.string "Across the sea in DEWFORD TOWN is a\n"
-	.string "GYM LEADER named BRAWLY.\p"
-	.string "You should go challenge him.$"
+	.string "Nyhmnim: So you beat Farfa, huh?\n"
+	.string "Not bad at all.\p"
+	.string "But y'know, that's not too much\n"
+	.string "of a challenge, is it?\p"
+	.string "If you head over to Dewford, you\n"
+	.string "can take on another Gym.\p"
+	.string "They're good friends of mine.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-	.string "DAD: Hm… {PLAYER}, you have gotten\n"
-	.string "stronger.\p"
-	.string "I can tell by the number of BADGES\n"
-	.string "that you've earned.$"
+	.string "Nyhmnim: Alright, not too bad!\n"
+	.string "You're getting better at this.\p"
+	.string "I'm cooking up something for our\n"
+	.string "upcoming battle, I'll have you know.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "DAD: Hm…\n"
-	.string "So, you did get four GYM BADGES.\p"
-	.string "Fine, as I promised, we will have\n"
-	.string "a POKéMON battle.\p"
-	.string "{PLAYER}…\p"
-	.string "I'm so happy that I can have\n"
-	.string "a real battle with my own child.\p"
-	.string "But, a battle is a battle!\p"
-	.string "I will do everything in my power as\n"
-	.string "a GYM LEADER to win.\p"
+	.string "Nyhmnim: Hey, {PLAYER}!\p"
+	.string "Four Badges already?\n"
+	.string "Looking pretty clean, I gotta say.\p"
+	.string "Well, hey, I promised, right?\p"
+	.string "Four of those bad boys and we'll\p"
+	.string "have ourselves a damn good battle!\p"
+	.string "In my honest opinion?\n"
+	.string "This team's broken as hell.\p"
 	.string "{PLAYER}, you'd better give it your\n"
 	.string "best shot, too!$"
 

@@ -555,6 +555,12 @@ $(MID_SUBDIR)/mus_rg_victory_gym_leader.s: %.s: %.mid
 $(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V085
 
+$(MID_SUBDIR)/mus_nyhmnim_gym.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_vs_ctsc.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V085
+
 $(MID_SUBDIR)/mus_vs_refisio.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V095
 
@@ -565,7 +571,7 @@ $(MID_SUBDIR)/mus_vs_mutthunter.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
 
 $(MID_SUBDIR)/mus_new_hideout.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V085
 
 $(MID_SUBDIR)/mus_vs_ruggles.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V085

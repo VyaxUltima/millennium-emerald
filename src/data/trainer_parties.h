@@ -7010,18 +7010,6 @@ static const struct TrainerMonCustomized sParty_BrendanRoute103Treecko[] = {
 
 static const struct TrainerMonCustomized sParty_BrendanRoute110Treecko[] = {
     {
-        .species = SPECIES_MACHOP,
-        .ball = ITEM_TIMER_BALL,
-        .ability = ABILITY_GUTS,
-        .friendship = 255,
-        .gender = TRAINER_MON_MALE,
-        .iv = TRAINER_PARTY_IVS(20,20,20,20,20,20),
-        .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 0, 0),
-        .lvl = 22,
-        .moves = {MOVE_KARATE_CHOP, MOVE_FOCUS_ENERGY, MOVE_REVENGE, MOVE_LEER},
-        .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT)
-    },
-    {
         .species = SPECIES_ARON,
         .ball = ITEM_TIMER_BALL,
         .ability = ABILITY_STURDY,
@@ -7032,6 +7020,18 @@ static const struct TrainerMonCustomized sParty_BrendanRoute110Treecko[] = {
         .lvl = 22,
         .moves = {MOVE_METAL_CLAW, MOVE_HEADBUTT, MOVE_MUD_SLAP, MOVE_ROCK_BLAST},
         .nature = TRAINER_PARTY_NATURE(NATURE_CAREFUL)
+    },
+    {
+        .species = SPECIES_MACHOP,
+        .ball = ITEM_TIMER_BALL,
+        .ability = ABILITY_GUTS,
+        .friendship = 255,
+        .gender = TRAINER_MON_MALE,
+        .iv = TRAINER_PARTY_IVS(20,20,20,20,20,20),
+        .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 0, 0),
+        .lvl = 23,
+        .moves = {MOVE_KARATE_CHOP, MOVE_FOCUS_ENERGY, MOVE_REVENGE, MOVE_NEEDLE_ARM},
+        .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT)
     },
     {
         .species = SPECIES_SWINUB,
@@ -7059,7 +7059,7 @@ static const struct TrainerMonCustomized sParty_BrendanRoute119Treecko[] = {
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(244, 0, 0, 0, 0, 0),
         .lvl = 33,
-        .moves = {MOVE_REVENGE, MOVE_BULLET_PUNCH, MOVE_SHADOW_PUNCH, MOVE_FOCUS_ENERGY},
+        .moves = {MOVE_REVENGE, MOVE_BULLET_PUNCH, MOVE_SHADOW_PUNCH, MOVE_NEEDLE_ARM},
         .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT)
     },
     {
@@ -7072,7 +7072,7 @@ static const struct TrainerMonCustomized sParty_BrendanRoute119Treecko[] = {
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 0, 0, 200, 0, 0),
         .lvl = 33,
-        .moves = {MOVE_WATER_PULSE, MOVE_BITE, MOVE_ICE_FANG, MOVE_NONE},
+        .moves = {MOVE_SURF, MOVE_BITE, MOVE_ICE_FANG, MOVE_NONE},
         .nature = TRAINER_PARTY_NATURE(NATURE_LONELY)
     },
     {
@@ -7116,15 +7116,62 @@ static const struct TrainerMonCustomized sParty_BrendanRoute119Treecko[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute103Torchic[] = {
+static const struct TrainerMonCustomized sParty_MirorBRoute119[] = { //first Miror B
     {
-    .iv = 255,
-    .lvl = 5,
-    .species = SPECIES_MUDKIP,
+        .species = SPECIES_JUMPLUFF,
+        .ball = ITEM_POKE_BALL,
+        .ability = ABILITY_CHLOROPHYLL,
+        .friendship = 255,
+        .gender = TRAINER_MON_MALE,
+        .heldItem = ITEM_BIG_ROOT,
+        .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
+        .ev = TRAINER_PARTY_EVS(244, 0, 0, 244, 0, 0),
+        .lvl = 34,
+        .moves = {MOVE_LEECH_SEED, MOVE_SUBSTITUTE, MOVE_SLEEP_POWDER, MOVE_GIGA_DRAIN},
+        .nature = TRAINER_PARTY_NATURE(NATURE_TIMID)
+    },
+    {
+        .species = SPECIES_GARDEVOIR,
+        .ball = ITEM_POKE_BALL,
+        .ability = ABILITY_SYNCHRONIZE,
+        .friendship = 255,
+        .gender = TRAINER_MON_FEMALE,
+        .heldItem = ITEM_EXPERT_BELT,
+        .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
+        .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 244, 244),
+        .lvl = 34,
+        .moves = {MOVE_EXTRASENSORY, MOVE_CHARGE_BEAM, MOVE_SHADOW_BALL, MOVE_WILL_O_WISP},
+        .nature = TRAINER_PARTY_NATURE(NATURE_MODEST)
+    },
+    {
+        .species = SPECIES_ARMALDO,
+        .ball = ITEM_POKE_BALL,
+        .ability = ABILITY_BATTLE_ARMOR,
+        .friendship = 255,
+        .gender = TRAINER_MON_MALE,
+        .heldItem = ITEM_LEFTOVERS,
+        .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
+        .ev = TRAINER_PARTY_EVS(112, 232, 0, 0, 0, 0),
+        .lvl = 34,
+        .moves = {MOVE_X_SCISSOR, MOVE_ROCK_TOMB, MOVE_AERIAL_ACE, MOVE_BRICK_BREAK},
+        .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT)
+    },
+    {
+        .species = SPECIES_LUDICOLO,
+        .ball = ITEM_POKE_BALL,
+        .ability = ABILITY_SWIFT_SWIM,
+        .friendship = 255,
+        .gender = TRAINER_MON_MALE,
+        .heldItem = ITEM_PETAYA_BERRY,
+        .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
+        .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 196, 0),
+        .lvl = 35,
+        .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_ENERGY_BALL, MOVE_FAKE_OUT},
+        .nature = TRAINER_PARTY_NATURE(NATURE_MODEST)
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Torchic[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Torchic[] = { //second Miror B
     {
     .iv = 255,
     .lvl = 18,

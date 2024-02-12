@@ -386,13 +386,7 @@ MossdeepCity_Text_SurfExhilarating:
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
 	.string "This rock has a special meaning to\n"
-	.string "the people at the SPACE CENTER.\p"
-	.string "They put it here as their wish for\n"
-	.string "their rockets to fly safely.\p"
-	.string "When you make a wish, what do you use?\n"
-	.string "Do you wish upon a star?\p"
-	.string "I use a wish tag to make it happen.\n"
-	.string "That's what I do.$"
+	.string "the people in MBT's community.$"
 
 MossdeepCity_Text_ItsAWhiteRock:
 	.string "{DOWN_ARROW}WHITE{DOWN_ARROW}$"

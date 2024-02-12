@@ -486,11 +486,11 @@ MauvilleCity_Text_WallyWeCanBeatAnyone:
 	.string "we can beat anyone!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-	.string "WALLY: Oh! Hi, {PLAYER}!\p"
+	.string "Trish: Oh! Hi, {PLAYER}!\p"
 	.string "I've gotten a lot stronger since\n"
 	.string "we met.\p"
-	.string "{PLAYER}, I want you and my UNCLE to\n"
-	.string "understand that.\p"
+	.string "I was thinking of challenging this\n"
+	.string "Gym before heading off.\p"
 	.string "{PLAYER}, please, will you have\n"
 	.string "a battle with me?$"
 
@@ -575,7 +575,7 @@ MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "MAUVILLE CITY has an underground\n"
 	.string "sector called NEW MAUVILLE.\p"
 	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
-	.string "switch off the GENERATOR.\p"
+	.string "switch off my Embussylator.\p"
 	.string "The GENERATOR has been running a bit\n"
 	.string "haywire. It's getting unsafe.\p"
 	.string "Here, this is the KEY to get into\n"

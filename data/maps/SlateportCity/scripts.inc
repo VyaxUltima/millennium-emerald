@@ -1252,7 +1252,7 @@ SlateportCity_Text_OceanicMuseumSign:
 
 SlateportCity_Text_CitySign:
 	.string "Slateport City\n"
-	.string "“Holy shit those bells sound good”$"
+	.string "“We've got fish to catch”$"
 
 SlateportCity_Text_MarketSign:
 	.string "SLATEPORT MARKET\n"

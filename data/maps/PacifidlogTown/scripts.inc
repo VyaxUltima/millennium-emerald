@@ -49,5 +49,5 @@ PacifidlogTown_Text_SkyPillarTooScary:
 
 PacifidlogTown_Text_TownSign:
 	.string "Pacifidlog Town\n"
-	.string "“We willed her into existence”$"
+	.string "“Sky Pillar fast travel”$"
 
