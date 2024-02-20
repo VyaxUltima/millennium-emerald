@@ -1060,7 +1060,7 @@ Route104_Text_PrettyPetalFlowShop:
 	.string "Pretty Petal Flower Shop$"
 
 Route104_Text_TrainerTipsDoubleBattles:
-	.string "Dev Team Quotes x\p"
+	.string "Dev Team Quotes\p"
 	.string "Vyax: white people\p"
 	.string "Mutt: straight white people\n"
 	.string "(I am this)$"

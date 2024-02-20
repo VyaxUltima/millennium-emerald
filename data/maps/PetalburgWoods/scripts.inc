@@ -452,7 +452,7 @@ PetalburgWoods_Text_MiracleSeedExplanation:
 	.string "Good luck!$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
-	.string "Dev Team Quotes x\p"
+	.string "Dev Team Quotes\p"
 	.string "Duckie: My inanimate sounds-\n"
 	.string "Inanimate sounds? Wtf\p"
 	.string "Mutt: Inanimate objects\n"
@@ -461,7 +461,7 @@ PetalburgWoods_Text_TrainerTipsExperience:
 	.string "at the wall, I won't make a sound?$"
 
 PetalburgWoods_Text_TrainerTipsPP:
-	.string "Dev Team Quotes x\p"
+	.string "Dev Team Quotes\p"
 	.string "Mutt: When are you home, Vyax\p"
 	.string "Vyax: class ends in 1 hour and\n"
 	.string "my drive is about 35 minutes\p"

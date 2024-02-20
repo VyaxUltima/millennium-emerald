@@ -4420,6 +4420,16 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/PetalburgCity_BlackMarket/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgCity_BlackMarket/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE125_BLACK_MARKET",
+      "name": "Route125_BlackMarket_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/Route125_BlackMarket/border.bin",
+      "blockdata_filepath": "data/layouts/Route125_BlackMarket/map.bin"
     }
   ]
 }

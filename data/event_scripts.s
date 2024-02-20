@@ -1061,3 +1061,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/birch_speech.inc"
 
 	.include "data/maps/PetalburgCity_BlackMarket/scripts.inc"
+
+	.include "data/maps/Route125_BlackMarket/scripts.inc"

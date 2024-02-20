@@ -42,7 +42,7 @@ Route106_EventScript_Ned::
 	end
 
 Route106_Text_TrainerTips:
-	.string "Dev Team Quotes x\p"
+	.string "Dev Team Quotes\p"
 	.string "Duckie (to Bakura): Okay so you found\n"
 	.string "found the pissing instrument-\l"
 	.string "Jesus it's loud$"

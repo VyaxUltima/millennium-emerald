@@ -7574,6 +7574,8 @@ u16 GetBattleBGM(void)
             return MUS_VS_RUGGLES;
         case TRAINER_CLASS_PYRAMID_KING: //TrishulaTTV
             return MUS_VS_TRISHULATTV;
+        case TRAINER_CLASS_COOLTRAINER_2:
+            return MUS_VS_CTSC;
         default:
             return MUS_VS_TRAINER;
         }

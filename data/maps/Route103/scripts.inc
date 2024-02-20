@@ -312,7 +312,7 @@ Route103_Text_MayTimeToHeadBack:
 	.string "I mean, you just got that POKéMON,\n"
 	.string "but it already likes you.\p"
 	.string "You might be able to befriend any\n"
-	.string "kind of POKéMON easily.\p"
+	.string "kind of Pokémon easily.\p"
 	.string "Well, it's time to head back to\n"
 	.string "the LAB.$"
 

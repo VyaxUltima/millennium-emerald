@@ -1,6 +1,7 @@
 .set LOCALID_RIVAL, 16
 .set LOCALID_RIVAL_ON_BIKE, 25
 .set LOCALID_SCOTT, 43
+.set LOCALID_MIRORB, 44
 
 Route119_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, Route119_OnResume
@@ -38,6 +39,16 @@ Route119_EventScript_RivalTrigger2::
 	goto Route119_EventScript_RivalEncounter
 	end
 
+Route119_EventScript_MirorBTrigger1::
+	setvar VAR_TEMP_1, 1
+	goto Route119_EventScript_MirorBEncounter
+	end
+
+Route119_EventScript_MirorBTrigger2::
+	setvar VAR_TEMP_1, 2
+	goto Route119_EventScript_MirorBEncounter
+	end
+
 Route119_EventScript_RivalEncounter::
 	lockall
 	addobject LOCALID_RIVAL_ON_BIKE
@@ -58,6 +69,23 @@ Route119_EventScript_RivalEncounter::
 	checkplayergender
 	goto_if_eq VAR_RESULT, MALE, Route119_EventScript_BattleMay
 	goto_if_eq VAR_RESULT, FEMALE, Route119_EventScript_BattleBrendan
+	releaseall
+	end
+
+Route119_EventScript_MirorBEncounter::
+	lockall
+	addobject LOCALID_MIRORB
+	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_MirorBEnter1
+	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_MirorBEnter2
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
+	waitmovement 0
+	msgbox Route119_Text_MirorBChallenge, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_BRENDAN_ROUTE_103_TORCHIC, Route119_Text_MirorBDefeated
+	msgbox Route119_Text_MirorBExit, MSGBOX_DEFAULT
+	closemessage
+	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_MirorBExit1
+	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_MirorBExit2
+	removeobject LOCALID_MIRORB
 	releaseall
 	end
 
@@ -190,6 +218,16 @@ Route119_EventScript_RivalEnter2::
 	waitmovement 0
 	return
 
+Route119_EventScript_MirorBEnter1::
+	applymovement LOCALID_MIRORB, Route119_Movement_MirorBEnter1
+	waitmovement 0
+	return
+
+Route119_EventScript_MirorBEnter2::
+	applymovement LOCALID_MIRORB, Route119_Movement_MirorBEnter2
+	waitmovement 0
+	return
+
 Route119_EventScript_RivalExit1::
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_Movement_PlayerWatchRivalExit1
 	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalExit1
@@ -199,6 +237,16 @@ Route119_EventScript_RivalExit1::
 Route119_EventScript_RivalExit2::
 	applymovement OBJ_EVENT_ID_PLAYER, Route119_Movement_PlayerWatchRivalExit2
 	applymovement LOCALID_RIVAL_ON_BIKE, Route119_Movement_RivalExit2
+	waitmovement 0
+	return
+
+Route119_EventScript_MirorBExit1::
+	applymovement LOCALID_MIRORB, Route119_Movement_MirorBExit1
+	waitmovement 0
+	return
+
+Route119_EventScript_MirorBExit2::
+	applymovement LOCALID_MIRORB, Route119_Movement_MirorBExit2
 	waitmovement 0
 	return
 
@@ -251,6 +299,27 @@ Route119_Movement_RivalEnter2:
 	walk_up
 	step_end
 
+Route119_Movement_MirorBEnter1:
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
+Route119_Movement_MirorBEnter2:
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	step_end
+
 Route119_Movement_RivalExit1:
 	walk_right
 	walk_up
@@ -270,6 +339,39 @@ Route119_Movement_RivalExit2:
 	walk_up
 	walk_right
 	walk_right
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+Route119_Movement_MirorBExit1:
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+Route119_Movement_MirorBExit2:
+	walk_up
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_up
+	walk_up
 	walk_up
 	walk_up
 	walk_up
@@ -566,6 +668,32 @@ Route119_Text_CanYourMonMakeSecretBase:
 	.string "on a big pile of grass and make a\l"
 	.string "SECRET BASE?$"
 
+Route119_Text_MirorBChallenge:
+	.string "Fuhohoho!\n"
+	.string "What perfect timing!\p"
+	.string "I sense the strength of a\n"
+	.string "travelling Trainer!\p"
+	.string "I hail from the Orre region,\n"
+	.string "here now without my legion.\p"
+	.string "Are Hoenn's trainers as good\n"
+	.string "as they say?\p"
+	.string "I have to see for myself\n"
+	.string "right away!\p"
+	.string "Let the music play!$"
+
+Route119_Text_MirorBDefeated:
+	.string "Oh no no no!\n"
+	.string "My rhythm has gone ragged!$"
+
+Route119_Text_MirorBExit:
+	.string "Miror B: Hm hm!\p"
+	.string "Hoenn is one talented nation.\n"
+	.string "I have to recover my beat\l"
+	.string "without hesitation!\p"
+	.string "Next time we meet,\n"
+	.string "I'll knock you off your feet!\p"
+	.string "Fuhohoho!$"
+
 Route119_Text_RouteSignFortree:
 	.string "ROUTE 119\n"
 	.string "{RIGHT_ARROW} FORTREE CITY$"
@@ -574,7 +702,7 @@ Route119_Text_WeatherInstitute:
 	.string "WEATHER INSTITUTE$"
 
 Route119_Text_TrainerTipsDecoration:
-	.string "Dev Team Quotes x\p"
+	.string "Dev Team Quotes\p"
 	.string "Ref: make rustboro more earthen for the\n"
 	.string "fucking volcano that exists underneath\p"
 	.string "Vyax: fuck logic, we have two gyms\n"

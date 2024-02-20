@@ -743,7 +743,7 @@ PetalburgCity_Text_WallyHouseSign:
 	.string "Surf Guy's House$"
 
 PetalburgCity_Text_BMSign:
-	.string "Petalburg Black Market$"
+	.string "Black Market$"
 
 PetalburgCity_Text_AreYouATrainer:
 	.string "PENDULUM!!!$"

@@ -48,6 +48,13 @@ Route125_EventScript_Ernest::
 	release
 	end
 
+Route125_EventScript_BlackMarketSign::
+	msgbox Route125_Text_BMSign, MSGBOX_SIGN
+	end
+
+Route125_Text_BMSign:
+	.string "Black Market$"
+
 Route125_EventScript_RegisterErnest::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0

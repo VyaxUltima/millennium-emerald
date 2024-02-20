@@ -416,7 +416,7 @@ LilycoveCity_Text_MayShoppingLetsBattle:
 	.string "I'm running an errand for Birch.\n"
 	.string "They've got some new stock here, too.\p"
 	.string "Anyways, it's been a while.\n"
-	.string "Remember what I said back on Route 119?\p"
+	.string "Remember what I said on Route 119?\p"
 	.string "I'm definitely going to win this time.\n"
 	.string "Assuming you're up for it?$"
 
@@ -465,7 +465,7 @@ LilycoveCity_Text_BrendanShoppingLetsBattle:
 	.string "I'm running an errand for Birch.\n"
 	.string "They've got some new stock here, too.\p"
 	.string "Anyways, it's been a while.\n"
-	.string "Remember what I said back on Route 119?\p"
+	.string "Remember what I said on Route 119?\p"
 	.string "I'm definitely going to win this time.\n"
 	.string "Assuming you're up for it?$"
 

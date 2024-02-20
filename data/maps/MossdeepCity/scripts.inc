@@ -398,7 +398,7 @@ MossdeepCity_Text_GymSign:
 
 MossdeepCity_Text_CitySign:
 	.string "Mossdeep City\n"
-	.string "“Pajama sam darkness headass monster”$"
+	.string "“I think I hauve Covid”$"
 
 MossdeepCity_Text_SpaceCenterSign:
 	.string "MOSSDEEP SPACE CENTER\n"

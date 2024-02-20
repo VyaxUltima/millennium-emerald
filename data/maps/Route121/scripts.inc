@@ -177,9 +177,8 @@ Route121_Text_OkayMoveOutToMtPyre:
 	.string "We're to move out to MT. PYRE!$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
-	.string "It is a natural monument to the spirits \n"
-	.string "of departed POKéMON…$"
+	.string "Sorry, but I can't let\n"
+	.string "you in here right now.$"
 
 Route121_Text_MtPyrePierSign:
 	.string "MT. PYRE PIER\p"

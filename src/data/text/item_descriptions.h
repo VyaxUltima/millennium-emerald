@@ -3578,9 +3578,9 @@ static const u8 sRotomCatalogDesc[] = _(
     "Rotom.");
 
 static const u8 sGracideaDesc[] = _(
-    "Bouquets made with\n"
-    "it are offered as a\n"
-    "token of gratitude.");
+    "A beautiful flower\n"
+    "gifted to you by\n"
+    "Cynthia of Sinnoh.");
 
 static const u8 sRevealGlassDesc[] = _(
     "This glass returns\n"

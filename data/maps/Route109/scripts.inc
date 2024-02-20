@@ -557,7 +557,7 @@ Route109_Text_SeashoreHouseSign:
 	.string "The place for hot TRAINERS!”$"
 
 Route109_Text_TrainerTipsSign:
-	.string "Dev Team Quotes x\p"
+	.string "Dev Team Quotes\p"
 	.string "Bakura (to Duckie): I'm going\n"
 	.string "to fucking bludgeon you\p"
 	.string "I need to fix all these\n"
