@@ -7554,10 +7554,10 @@ u16 GetBattleBGM(void)
             return MUS_VS_VYAX;
         case TRAINER_CLASS_RIVAL:
             if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
-                return MUS_NEW_GYM_LEADER;
+                return MUS_VS_TRAINER;
             if (!StringCompare(gTrainers[gTrainerBattleOpponent_A].trainerName, gText_BattleWallyName))
                 return MUS_VS_TRAINER;
-            return MUS_NEW_GYM_LEADER;
+            return MUS_VS_TRAINER;
         case TRAINER_CLASS_ELITE_FOUR:
             return MUS_VS_ELITE_FOUR;
         case TRAINER_CLASS_SALON_MAIDEN: //Miror B

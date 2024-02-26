@@ -331,8 +331,8 @@ LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
 	.string "For that, you deserve this.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
-	.string "{PLAYER} received the HEAT BADGE\n"
-	.string "from FLANNERY.$"
+	.string "{PLAYER} received the Branded Badge\n"
+	.string "from Skarlon.$"
 
 LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis:
 	.string "If you have a HEAT BADGE, all POKéMON\n"
@@ -362,12 +362,14 @@ LavaridgeTown_Gym_1F_Text_FlanneryPostBattle:
 	.string "the GYM LEADER of PETALBURG.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue:
-	.string "LAVARIDGE TOWN POKéMON GYM$"
+	.string "Lavaridge Town Pokémon Gym\p"
+	.string "Skarlon's Certified Trainers:\n"
+	.string "Ruggles$"
 
 LavaridgeTown_Gym_1F_Text_GymStatueCertified:
-	.string "LAVARIDGE TOWN POKéMON GYM\p"
-	.string "FLANNERY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "Lavaridge Town Pokémon Gym\p"
+	.string "Skarlon's Certified Trainers:\n"
+	.string "Ruggles, {PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
 	.string "FLANNERY: Losing a battle isn't going\n"

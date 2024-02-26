@@ -34,6 +34,7 @@ LilycoveCity_DepartmentStore_2F_Pokemart1:
 	.2byte ITEM_SUPER_REPEL
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_ESCAPE_ROPE
+	.2byte ITEM_HEART_SCALE
 	.2byte ITEM_NONE
 	release
 	end

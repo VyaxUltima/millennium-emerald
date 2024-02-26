@@ -351,7 +351,7 @@ RusturfTunnel_EventScript_ItemMaxEther::
 	end
 
 GraniteCave_1F_EventScript_ItemEscapeRope::
-	finditem ITEM_ESCAPE_ROPE
+	finditem ITEM_AMULET_COIN
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
@@ -375,7 +375,7 @@ FieryPath_EventScript_ItemFireStone::
 	end
 
 FieryPath_EventScript_ItemTM06::
-	finditem ITEM_TM06
+	finditem ITEM_TM60
 	end
 
 MeteorFalls_1F_1R_EventScript_ItemTM23::

@@ -288,20 +288,18 @@ LittlerootTown_BrendansHouse_1F_Movement_BrendanGoUpstairs2:
 	step_end
 
 PlayersHouse_1F_Text_IsntItNiceInHere:
-	.string "Mom: See, {PLAYER}?\n"
-	.string "Isn't it nice in here, too?$"
+	.string "Mom: Urban planning at its\n"
+	.string "absolute finest.$"
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
-	.string "The mover's Pokémon do all the work\n"
-	.string "of moving us in and cleaning up after.\l"
-	.string "This is so convenient!\p"
+	.string "The mover's Pokémon do all the work.\n"
+	.string "We don't have to do shit.\p"
 	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Don't forget to set your clock!$"
+	.string "Go set the clock up there.\p"
+	.string "You cannot leave until you do.$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
-	.string "Mom: Well, {PLAYER}?\p"
-	.string "Aren't you interested in seeing your\n"
-	.string "very own room?$"
+	.string "Mom: You think I'm joking?$"
 
 PlayersHouse_1F_Text_GoSetTheClock:
 	.string "Mom: Set that fucking clock or\n"
@@ -313,7 +311,7 @@ PlayersHouse_1F_Text_OhComeQuickly:
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
 	.string "Mom: Look! It's Petalburg Gym!\n"
-	.string "I heard there's a new Gym Leader!$"
+	.string "It's a live banlist reaction!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "Mom: Oh… It's over.\p"
@@ -321,11 +319,9 @@ PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "a G. Or was it an N…?$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-	.string "Oh, yes.\n"
-	.string "One of Dad's friends lives in town.\p"
-	.string "Prof. Birch is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "Anyway, aren't you supposed to go\n"
+	.string "and see Prof. Birch?\p"
+	.string "He lives right next door, so head over.$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
 	.string "Mom: See you, honey!$"
@@ -363,10 +359,10 @@ PlayersHouse_1F_Text_RegisteredMom:
 	.string "in the Pokénav.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
-	.string "Fugiiiiih!$"
+	.string "Alexa play Despacito$"
 
 PlayersHouse_1F_Text_Vigoroth2:
-	.string "Huggoh, uggo uggo…$"
+	.string "I need a chiropractor$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
 	.string "Interviewer: …We brought you this\n"

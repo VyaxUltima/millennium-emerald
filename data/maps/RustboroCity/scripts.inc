@@ -1091,14 +1091,14 @@ RustboroCity_Text_OutOfTheWay:
 
 RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Wait! Pleeeaaase!\p"
-	.string "Give back those parts!$"
+	.string "Don't take my Prime!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, it's you!\p"
 	.string "You're that fantastic Trainer who\n"
 	.string "helped me in Petalburg Woods!\p"
 	.string "Help me! I was robbed by a chatter!\n"
-	.string "I have to get those sub parts back!\p"
+	.string "I have to get that Prime back!\p"
 	.string "If I don't…\n"
 	.string "I'm going to be in serious trouble.$"
 
@@ -1110,7 +1110,7 @@ RustboroCity_Text_YouGotItThankYou:
 	.string "Oh! How did it go?\n"
 	.string "That's…\p"
 	.string "You did! You got them back!\n"
-	.string "I thought those parts were ppPoof!\p"
+	.string "I thought that Prime was ppPoof!\p"
 	.string "You really are a great Trainer!\p"
 	.string "Here, another one on me!$"
 

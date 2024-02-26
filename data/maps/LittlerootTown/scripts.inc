@@ -911,26 +911,28 @@ LittlerootTown_EventScript_GiveRunningShoes::
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "Mom: {PLAYER}, we're here!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
+	.string "36 hours riding in the back of\n"
+	.string "a moving truck probably blows.\p"
 	.string "Should have played RPS better.\p"
-	.string "How do you like it?\n"
+	.string "Anyway, we're here in Littleroot.\n"
 	.string "This is our new home!\p"
-	.string "Let's head inside.$"
+	.string "I'm sure you'll spend a lot\n"
+	.string "of time here and not run off.$"
 
 LittlerootTown_Text_WaitPlayer:
 	.string "Mom: Wait, {PLAYER}!$"
 
 LittlerootTown_Text_WearTheseRunningShoes:
-	.string "Mom: {PLAYER}! {PLAYER}! Did you\n"
-	.string "introduce yourself to Prof. Birch?\p"
-	.string "Oh! What an adorable Pokémon!\n"
-	.string "You got it from Prof. Birch. How nice!\p"
-	.string "You're your father's child, all right.\n"
-	.string "You look good together with Pokémon!\p"
+	.string "Mom: I knew you'd leave the first\n"
+	.string "chance you got. You are a book.\p"
+	.string "Huh, you already got a Pokémon!\n"
+	.string "You got it from Prof. Birch?\p"
+	.string "Well, can't say that's a surprise.\n"
+	.string "In any case, I had something…\p"
 	.string "Oh, yes. I wanted to give you a new\n"
 	.string "pair of Running Crocs.\p"
-	.string "They enable your legs to run!$"
+	.string "You are incapable of running\n"
+	.string "unless you wear them!$"
 
 LittlerootTown_Text_SwitchShoesWithRunningShoes:
 	.string "{PLAYER} switched shoes with the\n"
@@ -945,12 +947,9 @@ LittlerootTown_Text_ExplainRunningShoes:
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "To think that you have your very own\n"
-	.string "Pokémon now…\p"
-	.string "You have quite a journey ahead.\p"
-	.string "…But please be careful.\n"
-	.string "If anything happens, you can come home.\p"
-	.string "Go on, go get them, honey!$"
+	.string "If you need to rest here, then\n"
+	.string "go for it.\p"
+	.string "Go on, go get them!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
 	.string "If you use a PC, you can store items\n"
@@ -976,8 +975,8 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Um, hi!\p"
 	.string "There are scary Pokémon outside!\n"
 	.string "I can hear their cries!\p"
-	.string "I want to go see what's going on,\n"
-	.string "but I don't have any Pokémon…\p"
+	.string "I think Prof. Birch pissed off\n"
+	.string "the local Zigzagoon population…\p"
 	.string "Can you go see what's happening\n"
 	.string "for me?$"
 

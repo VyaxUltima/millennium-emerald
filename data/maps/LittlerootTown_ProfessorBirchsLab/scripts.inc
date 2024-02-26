@@ -730,10 +730,8 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "to fill out all of the pages!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
-	.string "Prof. Birch: Countless Pokémon\n"
-	.string "await you!\p"
-	.string "Argh, I'm getting the itch to get out\n"
-	.string "and do fieldwork again!$"
+	.string "Prof. Birch: Congrats, you now have\n"
+	.string "the baseline of Pokémon gameplay.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "Ruggles: You got a Pokédex, too?\n"
@@ -744,7 +742,8 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "Ruggles: Alright! After I report\n"
 	.string "to Birch, I'm heading into the field.\p"
-	.string "Hey, {PLAYER}, don't go falling behind!$"
+	.string "Oh, and if you're intending to play\n"
+	.string "Nuzlocke rules, those kick in now!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh? Your Bag's full.$"

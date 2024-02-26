@@ -35,7 +35,6 @@ Route125_BlackMarket_Shop1:
 	.2byte ITEM_TM35 @ Flamethrower
 	.2byte ITEM_TM50 @ Overheat
 	.2byte ITEM_TM59 @ Dragon Pulse
-	.2byte ITEM_TM60 @ Drain Punch
 	.2byte ITEM_TM64 @ Knock Off
 	.2byte ITEM_TM75 @ Swords Dance
 	.2byte ITEM_TM80 @ Rock Slide
@@ -58,7 +57,8 @@ Route125_BlackMarket_Shop2:
 	.2byte ITEM_LIFE_ORB
 	.2byte ITEM_SHED_SHELL
 	.2byte ITEM_WHITE_HERB
-	.2byte ITEM_LEFTOVERS
+	.2byte ITEM_MENTAL_HERB
+	.2byte ITEM_POWER_HERB
 	.2byte ITEM_NONE
 	release
 	end

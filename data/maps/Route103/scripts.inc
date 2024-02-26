@@ -327,7 +327,7 @@ Route103_Text_BrendanLetsBattle:
 	.string "Let's see how good you are!$"
 
 Route103_Text_BrendanDefeated:
-	.string "{PLAYER}, you're pretty good.$"
+	.string "You got it. Good work!$"
 
 Route103_Text_BrendanTimeToHeadBack:
 	.string "Ruggles: That was fun!\n"

@@ -199,7 +199,7 @@ const struct Item gItems[] =
     {
         .name = _("Level Ball"),
         .itemId = ITEM_LEVEL_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sLevelBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -211,7 +211,7 @@ const struct Item gItems[] =
     {
         .name = _("Lure Ball"),
         .itemId = ITEM_LURE_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sLureBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -223,7 +223,7 @@ const struct Item gItems[] =
     {
         .name = _("Moon Ball"),
         .itemId = ITEM_MOON_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sMoonBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -235,7 +235,7 @@ const struct Item gItems[] =
     {
         .name = _("Friend Ball"),
         .itemId = ITEM_FRIEND_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sFriendBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -247,7 +247,7 @@ const struct Item gItems[] =
     {
         .name = _("Love Ball"),
         .itemId = ITEM_LOVE_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sLoveBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -259,7 +259,7 @@ const struct Item gItems[] =
     {
         .name = _("Fast Ball"),
         .itemId = ITEM_FAST_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sFastBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -271,7 +271,7 @@ const struct Item gItems[] =
     {
         .name = _("Heavy Ball"),
         .itemId = ITEM_HEAVY_BALL,
-        .price = 0,
+        .price = 1200,
         .description = sHeavyBallDesc,
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
@@ -6924,7 +6924,7 @@ const struct Item gItems[] =
     {
         .name = _("Lum Berry"),
         .itemId = ITEM_LUM_BERRY,
-        .price = 20,
+        .price = 300,
         .holdEffect = HOLD_EFFECT_CURE_STATUS,
         .description = sLumBerryDesc,
         .pocket = POCKET_BERRIES,
@@ -6938,7 +6938,7 @@ const struct Item gItems[] =
     {
         .name = _("Sitrus Berry"),
         .itemId = ITEM_SITRUS_BERRY,
-        .price = 20,
+        .price = 300,
         #if I_SITRUS_BERRY_HEAL >= GEN_4
             .holdEffect = HOLD_EFFECT_RESTORE_PCT_HP,
             .holdEffectParam = 25,
@@ -7530,7 +7530,7 @@ const struct Item gItems[] =
     {
         .name = _("Liechi Berry"),
         .itemId = ITEM_LIECHI_BERRY,
-        .price = 20,
+        .price = 500,
         .holdEffect = HOLD_EFFECT_ATTACK_UP,
         .holdEffectParam = 4,
         .description = sLiechiBerryDesc,
@@ -7558,7 +7558,7 @@ const struct Item gItems[] =
     {
         .name = _("Salac Berry"),
         .itemId = ITEM_SALAC_BERRY,
-        .price = 20,
+        .price = 500,
         .holdEffect = HOLD_EFFECT_SPEED_UP,
         .holdEffectParam = 4,
         .description = sSalacBerryDesc,
@@ -7572,7 +7572,7 @@ const struct Item gItems[] =
     {
         .name = _("Petaya Berry"),
         .itemId = ITEM_PETAYA_BERRY,
-        .price = 20,
+        .price = 500,
         .holdEffect = HOLD_EFFECT_SP_ATTACK_UP,
         .holdEffectParam = 4,
         .description = sPetayaBerryDesc,

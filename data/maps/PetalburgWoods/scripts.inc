@@ -324,8 +324,9 @@ PetalburgWoods_Text_NotAOneToBeFound:
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
 	.string "Hello, have you seen any Pokémon\n"
-	.string "called Shroomish around here?\p"
-	.string "I really love that Pokémon.$"
+	.string "called Beedrill around here?\p"
+	.string "I wanted to trade it for a\n"
+	.string "Psyduck back in Rustboro.$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
 	.string "I was going to ambush you, but you\n"
@@ -335,12 +336,13 @@ PetalburgWoods_Text_IWasGoingToAmbushYou:
 
 PetalburgWoods_Text_HandOverThosePapers:
 	.string "You! Devon Researcher!\p"
-	.string "Hand over those papers!$"
+	.string "Hand over your spinning fish!$"
 
 PetalburgWoods_Text_YouHaveToHelpMe:
 	.string "Aiyeeeh!\p"
 	.string "You're a Pokémon Trainer, aren't you?\n"
-	.string "You've got to help me, please!$"
+	.string "You've got to help me, please!\n"
+	.string "My Prime just ran out!$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
 	.string "Hunh? What do you think you're doing?\n"
@@ -354,7 +356,7 @@ PetalburgWoods_Text_YoureKiddingMe:
 
 PetalburgWoods_Text_YouveGotSomeNerve:
 	.string "Grrr… You've got some nerve\n"
-	.string "meddling with our cause!\l"
+	.string "rigging that prediction!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but\n"
 	.string "I'm out of bits…\p"
@@ -366,7 +368,8 @@ PetalburgWoods_Text_ThatWasAwfullyClose:
 	.string "Whew…\n"
 	.string "That was awfully close!\p"
 	.string "Thanks to you, he didn't rob me of\n"
-	.string "these important papers.\p"
+	.string "these important fish.\p"
+	.string "Now I can safely use my Prime sub!\p"
 	.string "I know, I'll give you a Great Ball as\n"
 	.string "my thanks!$"
 

@@ -1141,15 +1141,16 @@ PetalburgCity_Gym_EventScript_GymStatue::
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "Nyhmnim: Hey, how's it going?\p"
 	.string "Your name is… {PLAYER}, right?\n"
-	.string "Nice to meet you!\p"
+	.string "You finally got here!\p"
 	.string "I heard there was someone new\n"
 	.string "moving to Littleroot.\p"
 	.string "Well, hey, I'd love to battle you,\n"
 	.string "but you've got no Badges yet.\p"
-	.string "That wouldn't really be fair,\n"
-	.string "so I'll wait until you collect a few.\p"
+	.string "I'd totally crush you if we battled,\n"
+	.string "so you'll have to get some, bozo.\p"
 	.string "Hm… Alright!\n"
-	.string "I'll battle you after you've got 4.$"
+	.string "I'll battle you after you've got 4.\p"
+	.string "Get them quick so I can end your run.$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "Um… I…\n"
@@ -1229,10 +1230,10 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "stronger.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "Nyhmnim: You're looking to\n"
-	.string "get your first Badge?\p"
-	.string "Rustboro is probably your best bet.\n"
-	.string "I think you can handle the new\p"
+	.string "Nyhmnim: You're banned until\n"
+	.string "you get some badges, bro.\p"
+	.string "Rustboro is probably your best bet.\p"
+	.string "I think you can handle the new\n"
 	.string "Gym Leader they put in there.$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
@@ -1271,8 +1272,8 @@ PetalburgCity_Gym_Text_NormanDefeat:
 	.string "Here, take this.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!$"
+	.string "{PLAYER} received the OPTML Badge\n"
+	.string "from Nyhmnim.$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "DAD: With that BADGE, the DEFENSE\n"
@@ -1541,11 +1542,11 @@ PetalburgCity_Gym_Text_EnterGymLeadersRoom:
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "PETALBURG CITY POKéMON GYM$"
+	.string "Petalburg City Pokémon Gym$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "PETALBURG CITY POKéMON GYM\p"
-	.string "NORMAN'S CERTIFIED TRAINERS:\n"
+	.string "Petalburg City Pokémon Gym\p"
+	.string "Nyhmnim's Certified Trainers:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:

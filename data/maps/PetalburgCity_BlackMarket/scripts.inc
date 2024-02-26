@@ -58,6 +58,7 @@ PetalburgCity_BlackMarket_Shop2:
 	.2byte ITEM_HEAT_ROCK
 	.2byte ITEM_SMOOTH_ROCK
 	.2byte ITEM_ICY_ROCK
+	.2byte ITEM_LEFTOVERS
 	.2byte ITEM_NONE
 	release
 	end

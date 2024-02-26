@@ -399,8 +399,8 @@ DewfordTown_Gym_Text_BrawlyDefeat:
 	.string "Take this GYM BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+	.string "{PLAYER} received the Virus Badge\n"
+	.string "from Crush Cards.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "The KNUCKLE BADGE makes all POKéMON\n"
@@ -427,12 +427,14 @@ DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string "Dewford Town Pokémon Gym\p"
+	.string "Crush Cards' Certified Trainers:\n"
+	.string "Ruggles$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD TOWN POKéMON GYM\p"
-	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string "Dewford Town Pokémon Gym\p"
+	.string "Crush Cards' Certified Trainers:\n"
+	.string "Ruggles, {PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
 	.string "BRAWLY: A wave may draw back, but it\n"

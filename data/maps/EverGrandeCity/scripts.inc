@@ -27,7 +27,7 @@ EverGrandeCity_Text_EnteringVictoryRoad:
 	.string "A true banger incoming$"
 
 EverGrandeCity_Text_EnteringPokemonLeague:
-	.string "Eentering Pokémon League\n"
+	.string "Entering Pokémon League\n"
 	.string "Don't fuck it up now.$"
 
 EverGrandeCity_Text_CitySign:
