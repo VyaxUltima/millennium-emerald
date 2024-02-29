@@ -47,7 +47,7 @@ Route109_EventScript_ItemPotion::
 	end
 
 Route110_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 Route110_EventScript_ItemDireHit::
@@ -91,7 +91,7 @@ Route113_EventScript_ItemHyperPotion::
 	end
 
 Route114_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 Route114_EventScript_ItemProtein::
@@ -175,7 +175,7 @@ Route119_EventScript_ItemLeafStone::
 	end
 
 Route119_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 Route119_EventScript_ItemHyperPotion::
@@ -271,11 +271,11 @@ Route127_EventScript_ItemCarbos::
 	end
 
 Route127_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 Route132_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 Route132_EventScript_ItemProtein::
@@ -363,7 +363,7 @@ GraniteCave_B2F_EventScript_ItemRepel::
 	end
 
 GraniteCave_B2F_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 JaggedPass_EventScript_ItemBurnHeal::
@@ -547,7 +547,7 @@ ShoalCave_LowTideEntranceRoom_EventScript_ItemBigPearl::
 	end
 
 ShoalCave_LowTideInnerRoom_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_UP
 	end
 
 ShoalCave_LowTideStairsRoom_EventScript_ItemIceHeal::
@@ -607,7 +607,7 @@ VictoryRoad_1F_EventScript_ItemMaxElixir::
 	end
 
 VictoryRoad_1F_EventScript_ItemPPUp::
-	finditem ITEM_PP_UP
+	finditem ITEM_PP_MAX
 	end
 
 VictoryRoad_B1F_EventScript_ItemTM29::
@@ -631,7 +631,7 @@ ArtisanCave_1F_EventScript_ItemCarbos::
 	end
 
 MagmaHideout_1F_EventScript_ItemRareCandy::
-	finditem ITEM_RARE_CANDY
+	finditem ITEM_PP_MAX
 	end
 
 MagmaHideout_2F_2R_EventScript_ItemMaxElixir::
@@ -647,7 +647,7 @@ MagmaHideout_3F_1R_EventScript_ItemNugget::
 	end
 
 MagmaHideout_3F_2R_EventScript_ItemPPMax::
-	finditem ITEM_PP_MAX
+	finditem ITEM_PP_UP
 	end
 
 MagmaHideout_4F_EventScript_ItemMaxRevive::

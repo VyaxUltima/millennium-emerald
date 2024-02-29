@@ -224,18 +224,24 @@ EverGrandeCity_ChampionsRoom_Movement_BirchArrives:
 	step_end
 
 EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
-	.string "Vyax: Yo. How's it going?\p"
+	.string "Yo. How's it going?\p"
 	.string "Were you wondering who stood\n"
 	.string "waiting for you in this room?\l"
-	.string "Probably not too hard to deduce.\p"
+	.string "Wasn't too hard to deduce, I bet.\p"
 	.string "As for me, I was wondering\n"
 	.string "when you’d eventually make it here.\p"
+	.string "…Half a year, it took for this\n"
+	.string "to all finally come together.\p"
+	.string "Strange to think about having to\n"
+	.string "close the books on this project.\l"
+	.string "However, it must be done.\p"
 	.string "After all, we can’t end this\n"
 	.string "without a grand finale, right?\p"
 	.string "Alright then.\n"
 	.string "For all the people watching us…\p"
 	.string "Let’s give them nothing short of\n"
-	.string "a magnificent performance!$"
+	.string "a magnificent performance.\p"
+	.string "Get set!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "………\n"

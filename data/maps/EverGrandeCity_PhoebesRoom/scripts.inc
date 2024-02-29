@@ -59,26 +59,28 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-	.string "Ahahaha!\p"
-	.string "I'm PHOEBE of the ELITE FOUR.\n"
-	.string "I did my training on MT. PYRE.\p"
-	.string "While I trained, I gained the ability\n"
-	.string "to commune with GHOST-type POKéMON.\p"
-	.string "Yes, the bond I developed with POKéMON\n"
-	.string "is extremely tight.\p"
-	.string "So, come on, just try and see if you can\n"
-	.string "even inflict damage on my POKéMON!$"
+	.string "Good evening, {PLAYER}!\n"
+	.string "Took you long enough to reach us.\p"
+	.string "You must've had a grand old time\n"
+	.string "hanging out with your friends,\l"
+	.string "and I'm glad to see it.\p"
+	.string "After all, took me forever to\n"
+	.string "round them all up for ya.\p"
+	.string "Anyways, you're here for a fight.\p"
+	.string "Enough talk!\n"
+	.string "Caerás al suelo!$"
 
 EverGrandeCity_PhoebesRoom_Text_Defeat:
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "ME CAGO EN LA MIERDA,\n"
+	.string "HIJO DE PUTA MADRE$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
-	.string "There's a definite bond between you\n"
-	.string "and your POKéMON, too.\p"
-	.string "I didn't recognize it, so it's only\n"
-	.string "natural that I lost.\p"
-	.string "Yup, I'd like to see how far your bond\n"
-	.string "will carry you.\p"
-	.string "Go ahead, move on to the next room.$"
+	.string "What did that mean just now?\p"
+	.string "It meant I'm proud of you.\n"
+	.string "You're my shining star. Trust me.\p"
+	.string "(Chat, you tell him and I'm\n"
+	.string "deleting your ankles.)\p"
+	.string "Anyways, go on, tiger.\p"
+	.string "Go ahead and kick some more ass,\n"
+	.string "for me. You earned it.$"
 

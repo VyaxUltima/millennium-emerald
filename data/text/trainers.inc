@@ -416,16 +416,14 @@ Route104_Text_CindyPostRematch:
 	.string "I hope we meet again.$"
 
 Route104_Text_DarianIntro:
-	.string "I fished up a tough-looking POKéMON!\p"
-	.string "It has this magical quality to it!\n"
-	.string "It surely looks tough, yes it does!$"
+	.string "You're choosing to battle me?\n"
+	.string "Well, time to cause another incident.$"
 
 Route104_Text_DarianDefeat:
 	.string "What the…$"
 
 Route104_Text_DarianPostBattle:
-	.string "Hey, MAGIKARP, you sure don't live up\n"
-	.string "to your name, do you?$"
+	.string "Consider me impressed.$"
 
 Route105_Text_FosterIntro:
 	.string "There's supposed to be a mystical\n"
