@@ -1,0 +1,152 @@
+{
+  "id": "MAP_EVER_GRANDE_CITY_LEAGUE_CHAMBER",
+  "name": "EverGrandeCity_LeagueChamber",
+  "layout": "LAYOUT_EVER_GRANDE_CITY_LEAGUE_CHAMBER",
+  "music": "MUS_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_EVER_GRANDE_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 14,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_POKEMON_LEAGUE_1F",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_PHOEBES_ROOM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_GLACIAS_ROOM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_DRAKES_ROOM",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_HALL4",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_HALL4",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_HALL4",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_LEAGUE_CHAMBER",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_DUCKIE_ROOM",
+      "var_value": "0",
+      "script": "EverGrandeCity_LeagueChamber_EnterDuckieRoom"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_BAKURA_ROOM",
+      "var_value": "0",
+      "script": "EverGrandeCity_LeagueChamber_EnterBakuraRoom"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_MUTT_ROOM",
+      "var_value": "0",
+      "script": "EverGrandeCity_LeagueChamber_EnterMuttRoom"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_REFISIO_ROOM",
+      "var_value": "0",
+      "script": "EverGrandeCity_LeagueChamber_EnterRefisioRoom"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_ROOMS_CLEARED",
+      "var_value": "4",
+      "script": "EverGrandeCity_LeagueChamber_OpenChampionDoor"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_ROOMS_CLEARED",
+      "var_value": "4",
+      "script": "EverGrandeCity_LeagueChamber_OpenChampionDoor"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_ELITE_4_ROOMS_CLEARED",
+      "var_value": "4",
+      "script": "EverGrandeCity_LeagueChamber_OpenChampionDoor"
+    }
+  ],
+  "bg_events": [
+
+  ]
+}

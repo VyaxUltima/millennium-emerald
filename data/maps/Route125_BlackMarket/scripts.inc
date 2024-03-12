@@ -30,7 +30,7 @@ Route125_BlackMarket_Vendor3::
 
 	.align 2
 Route125_BlackMarket_Shop1:
-	.2byte ITEM_TM21 @ Seed Bomb
+	.2byte ITEM_TM24 @ Thunderbolt
 	.2byte ITEM_TM29 @ Psychic
 	.2byte ITEM_TM35 @ Flamethrower
 	.2byte ITEM_TM50 @ Overheat

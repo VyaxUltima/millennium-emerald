@@ -163,7 +163,7 @@ Route119_EventScript_ItemSuperRepel::
 	end
 
 Route119_EventScript_ItemZinc::
-	finditem ITEM_TM22
+	finditem ITEM_TM21
 	end
 
 Route119_EventScript_ItemElixir::

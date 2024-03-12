@@ -1,6 +1,6 @@
-## What is Unchained Emerald?
+## What is Millennium Emerald?
 
-Unchained Emerald is a romhack of Pokémon Emerald, primarily centered around the Twitch content creator DistantCoder.
+Millennium Emerald is a romhack of Pokémon Emerald, primarily centered around the Yu-Gi-Oh! community.
 
 ## What features are included in this hack?
 

@@ -468,11 +468,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_1,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_PSYCHIC_F,
-        .trainerName = _("Souls"),
+        .trainerName = _("Felix"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Souls),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Felix),
     },
 
     [TRAINER_VIOLET] =
@@ -960,11 +960,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_BIRD_KEEPER,
-        .trainerName = _("TheNMan75"),
+        .trainerName = _("Edgar"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_NMan),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Edgar),
     },
 
     [TRAINER_ALBERT] =
@@ -972,11 +972,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SALON_MAIDEN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_SALON_MAIDEN_ANABEL,
-        .trainerName = _("Miror B"),
+        .trainerName = _("Albert"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_MirorBVR),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Albert),
     },
 
     [TRAINER_SAMUEL] =
@@ -984,11 +984,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        .trainerName = _("Renvil"),
+        .trainerName = _("Samuel"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Renvil),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Samuel),
     },
 
     [TRAINER_VITO] =
@@ -996,11 +996,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        .trainerName = _("Zebatman"),
+        .trainerName = _("Vito"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Zebatman),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Vito),
     },
 
     [TRAINER_OWEN] =
@@ -1164,11 +1164,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_COOLTRAINER_M,
-        .trainerName = _("Sasori"),
+        .trainerName = _("Hope"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Sasori),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Hope),
     },
 
     [TRAINER_SHANNON] =
@@ -1176,11 +1176,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
-        .trainerName = _("cinimod"),
+        .trainerName = _("Shannon"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Cinimod),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Shannon),
     },
 
     [TRAINER_MICHELLE] =
@@ -1188,11 +1188,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_SAILOR,
-        .trainerName = _("Uglysailor"),
+        .trainerName = _("Michelle"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Uglysailor),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Michelle),
     },
 
     [TRAINER_CAROLINE] =
@@ -1200,11 +1200,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        .trainerName = _("Gentleben"),
+        .trainerName = _("Caroline"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Gentleben),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Caroline),
     },
 
     [TRAINER_JULIE] =
@@ -1212,11 +1212,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_DOME_ACE_TUCKER,
-        .trainerName = _("Fyre"),
+        .trainerName = _("Julie"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Fyre),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Julie),
     },
 
     [TRAINER_BROOKE_2] =
@@ -3849,10 +3849,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JOSH] =
     {
-        .trainerClass = TRAINER_CLASS_YOUNGSTER,
+        .trainerClass = TRAINER_CLASS_COOLTRAINER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_YOUNGSTER,
-        .trainerName = _("Josh"),
+        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
+        .trainerName = _("korean"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
@@ -3861,10 +3861,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TOMMY] =
     {
-        .trainerClass = TRAINER_CLASS_YOUNGSTER,
+        .trainerClass = TRAINER_CLASS_KINDLER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_YOUNGSTER,
-        .trainerName = _("Tommy"),
+        .trainerPic = TRAINER_PIC_KINDLER,
+        .trainerName = _("Samuel"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
@@ -3900,11 +3900,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_PSYCHIC_M,
-        .trainerName = _("Strobat"),
+        .trainerName = _("Quincy"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Strobat),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Quincy),
     },
 
     [TRAINER_KATELYNN] =
@@ -3912,11 +3912,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMON_BREEDER_M,
-        .trainerName = _("Kanaryu"),
+        .trainerName = _("Katelynn"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Kanaryu),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Katelynn),
     },
 
     [TRAINER_JAYLEN] =
@@ -5016,11 +5016,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_1,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_PYRAMID_KING_BRANDON,
-        .trainerName = _("AntiAnt"),
+        .trainerName = _("Dianne"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .party = EVERYTHING_CUSTOMIZED(sParty_AntiAnt),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Dianne),
     },
 
     [TRAINER_JANI] =
@@ -6492,11 +6492,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_RUIN_MANIAC,
-        .trainerName = _("Gredora"),
+        .trainerName = _("Mitchell"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Gredora),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Mitchell),
     },
 
     [TRAINER_ISAAC_2] =
@@ -6564,11 +6564,11 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PKMN_TRAINER_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_COOL,
         .trainerPic = TRAINER_PIC_POKEMANIAC,
-        .trainerName = _("Maxwmaier"),
+        .trainerName = _("Halle"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
-        .party = EVERYTHING_CUSTOMIZED(sParty_Maxwmaier),
+        .party = EVERYTHING_CUSTOMIZED(sParty_Halle),
     },
 
     [TRAINER_GARRISON] =
@@ -6861,10 +6861,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_MARC] =
     {
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_HIKER,
-        .trainerName = _("Marc"),
+        .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        .trainerName = _("Mavericxx"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,

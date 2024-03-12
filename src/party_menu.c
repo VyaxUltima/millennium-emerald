@@ -4661,6 +4661,19 @@ void Task_AbilityPatch(u8 taskId)
     {
     case 0:
         // Can't use.
+        // In (insert hack name here) only fully-evo'd starters can use this.
+        if (tSpecies != SPECIES_BLASTOISE && 
+            tSpecies != SPECIES_MEGANIUM && 
+            tSpecies != SPECIES_INFERNAPE
+            )
+        {
+            gPartyMenuUseExitCallback = FALSE;
+            PlaySE(SE_SELECT);
+            DisplayPartyMenuMessage(gText_WontHaveEffect, 1);
+            ScheduleBgCopyTilemapToVram(2);
+            gTasks[taskId].func = Task_ClosePartyMenuAfterText;
+            return;
+        }
         if (gSpeciesInfo[tSpecies].abilities[tAbilityNum] == 0
             || !tSpecies
             )

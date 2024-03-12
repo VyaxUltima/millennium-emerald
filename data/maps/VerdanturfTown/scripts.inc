@@ -120,12 +120,6 @@ VerdanturfTown_Text_BattleTentSign:
 
 VerdanturfTown_Text_RusturfTunnelSign:
 	.string "Dev Team Quotes\p"
-	.string "(Context: this is from\n"
-	.string "Feb 1 2024)\p"
-	.string "Vyax: so coder announced subathon\n"
-	.string "has he told mods when it is yet\p"
-	.string "Bakura: No, but I can\n"
-	.string "ask him in a sec\p"
-	.string "Vyax: god bless\n"
-	.string "most put-together content creator$"
+	.string "Bakura: something about storming\n"
+	.string "the gay beaches of normandy$"
 

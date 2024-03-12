@@ -1053,8 +1053,8 @@ static const u8 sHeatWaveDescription[] = _(
     "foe. May inflict a burn.");
 
 static const u8 sHailDescription[] = _(
-    "Summons a hailstorm that\n"
-    "strikes every turn.");
+    "Calls snow that ups the\n"
+    "Defense of Ice-types.");
 
 static const u8 sTormentDescription[] = _(
     "Torments the foe and stops\n"

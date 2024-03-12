@@ -187,9 +187,7 @@ Route117_Text_DayCarePokemonHadNewMove:
 	.string "I was really, really surprised.$"
 
 Route117_Text_ArentTheseFlowersPretty:
-	.string "What do you think?\n"
-	.string "Aren't these flowers pretty?\p"
-	.string "I planted them all!$"
+	.string "Smash or pass?$"
 
 Route117_Text_AirIsTastyHere:
 	.string "The air is tasty here!$"

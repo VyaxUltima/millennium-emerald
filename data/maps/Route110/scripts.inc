@@ -939,11 +939,8 @@ Route110_Text_TrainerTipsRegisterItems:
 
 Route110_Text_TrickHouseSign:
 	.string "Dev Team Quotes\p"
-	.string "(Context: The colors on Coder's\n"
-	.string "old avatar used for this game)\p"
-	.string "Ref: I HATE THE COLOR SCHEME\p"
-	.string "Bakura: Well, sorry amigo.\n"
-	.string "I can fix sprites, can't fix shit taste.$"
+	.string "Ref: STOP IT STOP IT STOP IT\p"
+	.string "Duckie: 2.95 CHICKEN SANDWICH$"
 
 Route110_Text_BestRecord:
 	.string "THE BEST RECORD TO DATE…\p"

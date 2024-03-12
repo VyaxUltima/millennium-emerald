@@ -629,6 +629,11 @@ EverGrandeCity_HallOfFame_EventScript_ResetEliteFour::
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA
 	clearflag FLAG_DEFEATED_ELITE_4_DRAKE
 	setvar VAR_ELITE_4_STATE, 0
+	setvar VAR_ELITE_4_ROOMS_CLEARED, 0
+	setvar VAR_ELITE_4_DUCKIE_ROOM, 0
+	setvar VAR_ELITE_4_BAKURA_ROOM, 0
+	setvar VAR_ELITE_4_MUTT_ROOM, 0
+	setvar VAR_ELITE_4_REFISIO_ROOM, 0
 	return
 
 Common_EventScript_UpdateBrineyLocation::
@@ -1063,3 +1068,19 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/PetalburgCity_BlackMarket/scripts.inc"
 
 	.include "data/maps/Route125_BlackMarket/scripts.inc"
+
+	.include "data/maps/MossdeepCity_NewGym/scripts.inc"
+
+	.include "data/maps/DewfordTown_NewGym/scripts.inc"
+
+	.include "data/maps/DewfordTown_NewGym_House/scripts.inc"
+
+	.include "data/maps/RustboroCity_NewGym/scripts.inc"
+
+	.include "data/maps/MauvilleCity_NewGym/scripts.inc"
+
+	.include "data/maps/SootopolisCity_NewGym_1F/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_LeagueChamber/scripts.inc"
+
+	.include "data/maps/Route121_AmenoTorifuneEntrance/scripts.inc"

@@ -4430,6 +4430,86 @@
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/Route125_BlackMarket/border.bin",
       "blockdata_filepath": "data/layouts/Route125_BlackMarket/map.bin"
+    },
+    {
+      "id": "LAYOUT_MOSSDEEP_CITY_NEW_GYM",
+      "name": "MossdeepCity_NewGym_Layout",
+      "width": 50,
+      "height": 40,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/MossdeepCity_NewGym/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepCity_NewGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_TOWN_NEW_GYM",
+      "name": "DewfordTown_NewGym_Layout",
+      "width": 25,
+      "height": 15,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/DewfordTown_NewGym/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordTown_NewGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_TOWN_NEW_GYM_HOUSE",
+      "name": "DewfordTown_NewGym_House_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_DewfordGym",
+      "border_filepath": "data/layouts/DewfordTown_NewGym_House/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordTown_NewGym_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_RUSTBORO_CITY_NEW_GYM",
+      "name": "RustboroCity_NewGym_Layout",
+      "width": 13,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/RustboroCity_NewGym/border.bin",
+      "blockdata_filepath": "data/layouts/RustboroCity_NewGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAUVILLE_CITY_NEW_GYM",
+      "name": "MauvilleCity_NewGym_Layout",
+      "width": 19,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/MauvilleCity_NewGym/border.bin",
+      "blockdata_filepath": "data/layouts/MauvilleCity_NewGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_NEW_GYM_1F",
+      "name": "SootopolisCity_NewGym_1F_Layout",
+      "width": 17,
+      "height": 17,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SootopolisCity_NewGym_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SootopolisCity_NewGym_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_EVER_GRANDE_CITY_LEAGUE_CHAMBER",
+      "name": "EverGrandeCity_LeagueChamber_Layout",
+      "width": 29,
+      "height": 18,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_EliteFour",
+      "border_filepath": "data/layouts/EverGrandeCity_LeagueChamber/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeCity_LeagueChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE121_AMENO_TORIFUNE_ENTRANCE",
+      "name": "Route121_AmenoTorifuneEntrance_Layout",
+      "width": 14,
+      "height": 11,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/Route121_AmenoTorifuneEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/Route121_AmenoTorifuneEntrance/map.bin"
     }
   ]
 }

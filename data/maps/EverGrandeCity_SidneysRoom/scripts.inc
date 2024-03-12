@@ -59,6 +59,7 @@ EverGrandeCity_SidneysRoom_EventScript_PostBattleSpeech::
 
 EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_SIDNEY
+	addvar VAR_ELITE_4_ROOMS_CLEARED, 1
 	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
 	msgbox EverGrandeCity_SidneysRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release

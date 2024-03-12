@@ -464,7 +464,6 @@ Route116_Text_TrainerTipsBToStopEvolution:
 
 Route116_Text_TrainerTipsBagHasPockets:
 	.string "Dev Team Quotes\p"
-	.string "Vyax: Asmongold bedside wall\p"
-	.string "Coder: SHUTUPSHUTUPSHUTUPSHUTUPSHUTUP\n"
-	.string "SHUTUPSHUTUPSHUTUPSHUTUPSHUTUPSHUTUP$"
+	.string "Vyax: What does Chairman Mao\n"
+	.string "have to do with the Game Awards?$"
 

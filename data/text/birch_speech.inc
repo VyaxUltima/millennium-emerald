@@ -1,23 +1,23 @@
 gText_Birch_Welcome::
 	.string "Hi! Sorry to keep you waiting!\n"
-	.string "Welcome to Pokémon Unchained Emerald!\p"
-	.string "This is a hack made by members\n"
-	.string "of DistantCoder's community.\l"
-	.string "And a little outsourcing.\p"
-	.string "A huge thank you goes out to:\p"
-	.string "DeckDevil, Mutthunter, Duckie, Ant,\n"
-	.string "Refisio, Souls and Fyre.\l"
-	.string "Oh, and I guess the team lead.\p"
+	.string "Welcome to Pokémon Millennium Emerald!\p"
+	.string "This is a hack to mix up the\n"
+	.string "Hoenn region a little bit.\p"
+	.string "This has been quite the project,\n"
+	.string "so some shoutouts are in order.\p"
+	.string "A huge thank you goes out to:\n"
+	.string "DeckDevil, Mutthunter, Duckie, Ant,\l"
+	.string "Refisio, Souls and Fyre.\p"
 	.string "$"
 
-gText_Birch_Pokemon::
-	.string "Aipom jumpscare.\p"
+gText_Birch_Pokemon:: @this is unused, refer to gText_ThisIsAPokemon
+	.string "Applaud them or die.\p"
 	.string "\n"
 	.string "$"
 
 gText_Birch_MainSpeech::
-	.string "This hack's official release was made\n"
-	.string "specially for Coder's 5th Subathon.\p"
+	.string "This hack was designed specifically\n"
+	.string "with the Yu-Gi-Oh community in mind.\p"
 	.string "There's brand-new Pokémon that\n"
 	.string "Emerald normally wouldn't have.\p"
 	.string "A collection of familiar faces,\n"
@@ -30,8 +30,8 @@ gText_Birch_AndYouAre::
 	.string "Oh, yes, almost forgot.$"
 
 gText_Birch_BoyOrGirl::
-	.string "M Coder?\n"
-	.string "Or F Coder?$"
+	.string "You playing as a boy?\n"
+	.string "Or as a girl?$"
 
 gText_Birch_WhatsYourName::
 	.string "I see.\n"
