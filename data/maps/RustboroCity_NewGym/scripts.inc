@@ -138,13 +138,15 @@ RustboroCity_NewGym_Text_NewGymGuidePostVictory:
 	.string "That's got to feel awesome!$"
 
 RustboroCity_NewGym_Text_JoshIntro:
-	.string "Where were you from again?$"
+	.string "Y'know, it's about 100 degrees\n"
+	.string "in here.\p"
+	.string "Celsius.$"
 
 RustboroCity_NewGym_Text_JoshDefeat:
-	.string "Skill issue.$"
+	.string "Who turns off their BIOS fans?$"
 
 RustboroCity_NewGym_Text_JoshPostBattle:
-	.string "cheems$"
+	.string "I still can't believe this.$"
 
 RustboroCity_NewGym_Text_TommyIntro:
 	.string "I promise I will become worse.$"
@@ -167,7 +169,6 @@ RustboroCity_NewGym_Text_MarcPostBattle:
 RustboroCity_NewGym_Text_RoxanneIntro:
 	.string "Farfa: Normal Tour Guide effect.\n"
 	.string "Wait, what? This is Pokémon.\p"
-	.string "DISTAAAAAAAAAAANT. HOW DO I COMBO?\p"
 	.string "Ah, whatever. I've got this.\p"
 	.string "Hope you aren't relying on any Water.\n"
 	.string "You know Fire beats Water.\p"
@@ -195,7 +196,7 @@ RustboroCity_NewGym_Text_ExplainRockTomb:
 	.string "as you want.$"
 
 RustboroCity_NewGym_Text_RoxannePostBattle:
-	.string "DISTAAAAAAAAAAAAAAAAAANT$"
+	.string "Banning you if I don't laugh.$"
 
 RustboroCity_NewGym_Text_NewGymStatue:
 	.string "Rustboro City Pokémon Gym\p"

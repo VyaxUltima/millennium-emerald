@@ -174,5 +174,6 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string "wallpaper patterns.$"
 
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll:
-	.string "It's a POKéMON plush DOLL!$"
+	.string "It's a Pokémon plush doll!\n"
+	.string "…Unfortunately, it's blocking the way.$"
 

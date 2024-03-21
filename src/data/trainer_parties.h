@@ -2925,8 +2925,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tony5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Takao[] = {
     {
     .iv = 255,
-    .lvl = 13,
-    .species = SPECIES_MACHOP,
+    .lvl = 18,
+    .species = SPECIES_WARTORTLE,
+    },
+    {
+    .iv = 255,
+    .lvl = 19,
+    .species = SPECIES_TENTACOOL,
     }
 };
 
@@ -5443,12 +5448,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Tommy[] = {
     {
     .iv = 255,
-    .lvl = 13,
+    .lvl = 14,
     .species = SPECIES_VULPIX,
     },
     {
     .iv = 255,
-    .lvl = 14,
+    .lvl = 15,
     .species = SPECIES_CHARMANDER,
     }
 };
@@ -6991,8 +6996,13 @@ static const struct TrainerMonItemCustomMoves sParty_Lao5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Jocelyn[] = {
     {
     .iv = 255,
-    .lvl = 13,
-    .species = SPECIES_MEDITITE,
+    .lvl = 18,
+    .species = SPECIES_CHINCHOU,
+    },
+    {
+    .iv = 255,
+    .lvl = 19,
+    .species = SPECIES_BIBAREL,
     }
 };
 
@@ -8120,7 +8130,7 @@ static const struct TrainerMonCustomized sParty_TabithaMossdeep[] = {
         .heldItem = ITEM_WISE_GLASSES,
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 0, 0, 128, 144, 0),
-        .lvl = 46,
+        .lvl = 46, //Easy: 45, Hard: 46
         .moves = {MOVE_EARTH_POWER, MOVE_SLUDGE_BOMB, MOVE_THUNDERBOLT, MOVE_HELPING_HAND},
         .nature = TRAINER_PARTY_NATURE(NATURE_MODEST)
     },
@@ -8133,7 +8143,7 @@ static const struct TrainerMonCustomized sParty_TabithaMossdeep[] = {
         .heldItem = ITEM_PASSHO_BERRY,
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(176, 0, 0, 0, 196, 0),
-        .lvl = 48,
+        .lvl = 47, //Easy: 46, Hard: 47
         .moves = {MOVE_EARTH_POWER, MOVE_HEAT_WAVE, MOVE_SOLAR_BEAM, MOVE_ANCIENT_POWER},
         .nature = TRAINER_PARTY_NATURE(NATURE_QUIET)
     }
@@ -9422,12 +9432,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntJaggedPass[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Marc[] = {
     {
     .iv = 255,
-    .lvl = 13,
+    .lvl = 14,
     .species = SPECIES_PONYTA,
     },
     {
     .iv = 255,
-    .lvl = 14,
+    .lvl = 15,
     .species = SPECIES_GROWLITHE,
     }
 };
@@ -9443,16 +9453,26 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brenden[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Lilith[] = {
     {
     .iv = 255,
-    .lvl = 13,
-    .species = SPECIES_MEDITITE,
+    .lvl = 18,
+    .species = SPECIES_LOMBRE,
+    },
+    {
+    .iv = 255,
+    .lvl = 19,
+    .species = SPECIES_STARYU,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Cristian[] = {
     {
     .iv = 255,
-    .lvl = 13,
-    .species = SPECIES_MAKUHITA,
+    .lvl = 18,
+    .species = SPECIES_MARSHTOMP,
+    },
+    {
+    .iv = 255,
+    .lvl = 19,
+    .species = SPECIES_CARVANHA,
     }
 };
 
@@ -12005,7 +12025,7 @@ static const struct TrainerMonCustomized sParty_MaxieMossdeep[] = {
         .heldItem = ITEM_FOCUS_SASH,
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 196, 0, 92, 0, 0),
-        .lvl = 46,
+        .lvl = 46, //Easy: 45, Hard: 46
         .moves = {MOVE_LEAF_BLADE, MOVE_SWORDS_DANCE, MOVE_CROSS_POISON, MOVE_KNOCK_OFF},
         .nature = TRAINER_PARTY_NATURE(NATURE_NAIVE)
     },
@@ -12018,7 +12038,7 @@ static const struct TrainerMonCustomized sParty_MaxieMossdeep[] = {
         .heldItem = ITEM_SALAC_BERRY,
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 176, 0, 140, 0, 0),
-        .lvl = 47,
+        .lvl = 47, //Easy: 46, Hard: 47
         .moves = {MOVE_ENDURE, MOVE_THUNDER_PUNCH, MOVE_BLAZE_KICK, MOVE_REVERSAL},
         .nature = TRAINER_PARTY_NATURE(NATURE_ADAMANT)
     },
@@ -12031,7 +12051,7 @@ static const struct TrainerMonCustomized sParty_MaxieMossdeep[] = {
         .heldItem = ITEM_SITRUS_BERRY,
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 180, 0, 172, 0, 0),
-        .lvl = 50,
+        .lvl = 49, //Easy: 48, Hard: 49
         .moves = {MOVE_BLAZE_KICK, MOVE_MEGAHORN, MOVE_DRILL_PECK, MOVE_HIGH_JUMP_KICK},
         .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY)
     }

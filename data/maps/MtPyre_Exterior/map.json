@@ -39,6 +39,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtPyre_Exterior_EventScript_ItemTM48",
       "flag": "FLAG_ITEM_MT_PYRE_EXTERIOR_TM48"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_WALLACE",
+      "x": 14,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtPyre_Exterior_EventScript_Vyax",
+      "flag": "FLAG_HIDE_MT_PYRE_VYAX"
     }
   ],
   "warp_events": [

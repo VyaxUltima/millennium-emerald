@@ -205,8 +205,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "not just once, but twice!\p"
 	.string "I have a favor to ask of an amazing\n"
 	.string "person like you.\p"
-	.string "I understand that you're delivering\n"
-	.string "that Prime to Slateport's Shipyard.\p"
+	.string "\p"
 	.string "Well, on the way, could you stop off in\n"
 	.string "Dewford Town?\p"
 	.string "I was hoping that you'd deliver a\n"
@@ -253,25 +252,21 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "I don't much keep up with it.$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
-	.string "This is the DEVON CORPORATION's\n"
-	.string "third floor.\p"
-	.string "Our PRESIDENT's OFFICE is on\n"
-	.string "this floor.\p"
-	.string "Anyway, I can't tell you how much I'm\n"
+	.string "I can't tell you how much I'm\n"
 	.string "grateful for what you've done.\p"
-	.string "Um… By the way, that parcel\n"
-	.string "you got back for us…\p"
-	.string "Could I get you to deliver that to\n"
-	.string "the SHIPYARD in SLATEPORT?\p"
-	.string "It would be awful if those robbers\n"
-	.string "tried to take it again.\p"
-	.string "Uh… Hehehe, so, uh, could I count\n"
-	.string "on you to do that for me?\p"
+	.string "Um… By the way, since you got\n"
+	.string "that parcel back for us…\p"
+	.string "I hate to ask this of you, but\n"
+	.string "could I get you to help us again?\p"
+	.string "There's a Shipyard in Slateport,\n"
+	.string "and they're waiting on parts from us.\p"
+	.string "Uh… so, uh, could I request that\n"
+	.string "you deliver them for us?\p"
 	.string "Oh, that's right.\n"
 	.string "Could you wait here a second?$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
-	.string "Our PRESIDENT would like to have\n"
+	.string "Our President would like to have\n"
 	.string "a word with you.\p"
 	.string "Please come with me.$"
 
@@ -279,15 +274,15 @@ RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
 	.string "Please, go ahead.$"
 
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
-	.string "If you visit the SHIPYARD in SLATEPORT,\n"
-	.string "you should go see CAPT. STERN.$"
+	.string "Once you arrive at the Shipyard in\n"
+	.string "Slateport, go see Capt. Stern.$"
 
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
-	.string "DEVON's new products, the REPEAT BALL\n"
-	.string "and TIMER BALL, have become hugely\l"
-	.string "popular among TRAINERS.$"
+	.string "Devon's new products, the Repeat Ball\n"
+	.string "and Timer Ball, have become hugely\l"
+	.string "popular among gamers.$"
 
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
-	.string "It's a collection of rare rocks and\n"
-	.string "stones assembled by the PRESIDENT.$"
+	.string "His ass is NOT resolving\n"
+	.string "Block Dragon.$"
 

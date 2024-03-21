@@ -4662,6 +4662,8 @@ void Task_AbilityPatch(u8 taskId)
     case 0:
         // Can't use.
         // In (insert hack name here) only fully-evo'd starters can use this.
+        // If this works I'm the greatest programmer alive,
+        // if it doesn't work I kill everyone in a ten-kilometre radius
         if (tSpecies != SPECIES_BLASTOISE && 
             tSpecies != SPECIES_MEGANIUM && 
             tSpecies != SPECIES_INFERNAPE
@@ -4669,7 +4671,7 @@ void Task_AbilityPatch(u8 taskId)
         {
             gPartyMenuUseExitCallback = FALSE;
             PlaySE(SE_SELECT);
-            DisplayPartyMenuMessage(gText_WontHaveEffect, 1);
+            DisplayPartyMenuMessage(gText_CantBeUsedOnPkmn, 1);
             ScheduleBgCopyTilemapToVram(2);
             gTasks[taskId].func = Task_ClosePartyMenuAfterText;
             return;

@@ -933,9 +933,8 @@ Route110_Text_TrainerTipsPrlzSleep:
 
 Route110_Text_TrainerTipsRegisterItems:
 	.string "Dev Team Quotes\p"
-	.string "Mutt: What the fuck is the point\n"
-	.string "of having a sub chat if we're\l"
-	.string "not allowed to fucking chat$"
+	.string "Duckie: YUA YUA WAKE UP\n"
+	.string "ANOTHER BAYBLADE HIT THE PENTAGON$"
 
 Route110_Text_TrickHouseSign:
 	.string "Dev Team Quotes\p"

@@ -178,7 +178,6 @@ RustboroCity_Gym_Text_MarcPostBattle:
 RustboroCity_Gym_Text_RoxanneIntro:
 	.string "Farfa: Normal Tour Guide effect.\n"
 	.string "Wait, what? This is Pokémon.\p"
-	.string "DISTAAAAAAAAAAANT. HOW DO I COMBO?\p"
 	.string "Ah, whatever. I've got this.\p"
 	.string "Hope you aren't relying on any Water.\n"
 	.string "You know Fire beats Water.\p"
@@ -206,7 +205,7 @@ RustboroCity_Gym_Text_ExplainRockTomb:
 	.string "as you want.$"
 
 RustboroCity_Gym_Text_RoxannePostBattle:
-	.string "DISTAAAAAAAAAAAAAAAAAANT$"
+	.string "Banning you if I don't laugh.$"
 
 RustboroCity_Gym_Text_GymStatue:
 	.string "Rustboro City Pokémon Gym\p"

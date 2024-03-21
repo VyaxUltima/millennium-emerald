@@ -47,6 +47,7 @@
 #include "constants/item_effects.h"
 #include "constants/items.h"
 #include "constants/layouts.h"
+#include "constants/map_types.h"
 #include "constants/moves.h"
 #include "constants/songs.h"
 #include "constants/trainers.h"
@@ -7573,6 +7574,9 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PIKE_QUEEN:   //Ruggles
             return MUS_VS_RUGGLES;
         case TRAINER_CLASS_PYRAMID_KING: //TrishulaTTV
+            if (GetCurrentMapType() == MAP_TYPE_UNDERGROUND){
+                return MUS_VS_TRISHULATTV_2;
+            }
             return MUS_VS_TRISHULATTV;
         case TRAINER_CLASS_COOLTRAINER_2:
             return MUS_VS_CTSC;

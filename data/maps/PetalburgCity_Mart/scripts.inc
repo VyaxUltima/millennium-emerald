@@ -69,5 +69,6 @@ PetalburgCity_Mart_Text_RepelIsUseful:
 	.string "Remember your Repel manips!$"
 
 PetalburgCity_Mart_Text_TakeSomeAntidotesWithYou:
-	.string "Buy some Antidotes, yeah?$"
+	.string "Buy some Antidotes, yeah?\n"
+	.string "Sucks ass losing to Poison.$"
 

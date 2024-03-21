@@ -856,7 +856,7 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_DRAKE;  //Refisio
 
     //is this safe to remove? probably
-    //am I going to remove it? lmao no
+    //am I going to remove it? lmao fuck no
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ELITE_FOUR)
     {
         if (gTrainerBattleOpponent_A == TRAINER_SIDNEY)

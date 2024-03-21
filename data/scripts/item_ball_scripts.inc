@@ -127,7 +127,7 @@ Route115_EventScript_ItemPPUp::
 	end
 
 Route116_EventScript_ItemXSpecial::
-	finditem ITEM_X_SP_ATK
+	finditem ITEM_WIDE_LENS
 	end
 
 Route116_EventScript_ItemEther::
@@ -311,11 +311,11 @@ PetalburgCity_EventScript_ItemEther::
 	end
 
 MauvilleCity_EventScript_ItemXSpeed::
-	finditem ITEM_X_SPEED
+	finditem ITEM_PROTEIN
 	end
 
 RustboroCity_EventScript_ItemXDefend::
-	finditem ITEM_X_DEFENSE
+	finditem ITEM_CALCIUM
 	end
 
 LilycoveCity_EventScript_ItemMaxRepel::

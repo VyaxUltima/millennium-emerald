@@ -1048,7 +1048,7 @@ RustboroCity_Text_YoureNewAroundHere:
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
 	.string "The Gym Leader…\n"
-	.string "Some of his Pokémon are able to\n"
+	.string "his Pokémon are able to\n"
 	.string "handle Fire attacks quite well.$"
 
 RustboroCity_Text_MrBrineyWalksInTheTunnel:
@@ -1091,14 +1091,14 @@ RustboroCity_Text_OutOfTheWay:
 
 RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Wait! Pleeeaaase!\p"
-	.string "Don't take my Prime!$"
+	.string "Don't take my sleeves!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, it's you!\p"
 	.string "You're that fantastic Trainer who\n"
 	.string "helped me in Petalburg Woods!\p"
 	.string "Help me! I was robbed by a chatter!\n"
-	.string "I have to get that Prime back!\p"
+	.string "I have to get those sleeves back!\p"
 	.string "If I don't…\n"
 	.string "I'm going to be in serious trouble.$"
 
@@ -1110,7 +1110,7 @@ RustboroCity_Text_YouGotItThankYou:
 	.string "Oh! How did it go?\n"
 	.string "That's…\p"
 	.string "You did! You got them back!\n"
-	.string "I thought that Prime was ppPoof!\p"
+	.string "I thought those sleeves was ppPoof!\p"
 	.string "You really are a great Trainer!\p"
 	.string "Here, another one on me!$"
 
@@ -1216,7 +1216,7 @@ RustboroCity_Text_TunnelNearingCompletion:
 
 RustboroCity_Text_DevonCorpSign:
 	.string "Devon Corporation\n"
-	.string "“Don't you have a phone?”$"
+	.string "“Don't you guys have phones?”$"
 
 RustboroCity_Text_GymSign:
 	.string "Rustboro City Pokémon Gym\n"

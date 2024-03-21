@@ -362,22 +362,21 @@ OldaleTown_Text_PotionExplanation:
 OldaleTown_Text_WaitDontComeInHere:
 	.string "Aaaaah! Wait!\n"
 	.string "Please don't come in here.\p"
-	.string "I just discovered the footprints of\n"
-	.string "a rare Pepe!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "I just started netdecking the\n"
+	.string "latest YCS-winning deck!\p"
+	.string "Wait until I finish practicing\n"
+	.string "the unrealistic combos, okay?$"
 
 OldaleTown_Text_DiscoveredFootprints:
-	.string "I just discovered the footprints of\n"
-	.string "a rare Pepe!\p"
-	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "I just started netdecking the\n"
+	.string "latest YCS-winning deck!\p"
+	.string "Wait until I finish practicing\n"
+	.string "the unrealistic combos, okay?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
-	.string "I finished sketching the footprints of\n"
-	.string "a rare Pepe.\p"
-	.string "But it turns out they were only my\n"
-	.string "own footprints…$"
+	.string "I finished netdecking this deck.\p"
+	.string "But it turns out they were on\n"
+	.string "41 cards…$"
 
 OldaleTown_Text_MayLetsGoBack:
 	.string "Ruggles: Let's go!\n"

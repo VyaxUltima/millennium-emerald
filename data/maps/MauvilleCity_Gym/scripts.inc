@@ -352,8 +352,8 @@ MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Take this BADGE!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
-	.string "{PLAYER} received the Bussy Badge\n"
-	.string "from Wattson.$"
+	.string "{PLAYER} received the Attorney Badge\n"
+	.string "from MBT.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 	.string "With the DYNAMO BADGE, POKéMON can\n"

@@ -120,6 +120,6 @@ VerdanturfTown_Text_BattleTentSign:
 
 VerdanturfTown_Text_RusturfTunnelSign:
 	.string "Dev Team Quotes\p"
-	.string "Bakura: something about storming\n"
+	.string "Ref: something about storming\n"
 	.string "the gay beaches of normandy$"
 

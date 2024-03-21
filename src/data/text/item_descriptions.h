@@ -424,9 +424,9 @@ static const u8 sAbilityCapsuleDesc[] = _(
     "mon's ability.");
 
 static const u8 sAbilityPatchDesc[] = _(
-    "Turns the ability\n"
-    "of a Pokémon into\n"
-    "a rare ability.");
+    "Alters the ability\n"
+    "of your first\n"
+    "Pokémon partner.");
 
 // Mints
 static const u8 sLonelyMintDesc[] = _(
@@ -3824,9 +3824,9 @@ static const u8 sMeteoriteDesc[] = _(
     "in FTK decks.");
 
 static const u8 sMagmaEmblemDesc[] = _(
-    "A medal-like item in\n"
-    "the same shape as\n"
-    "Bishbaalkin's mark.");
+    "A badge that seems to\n"
+    "be used by YouTube\n"
+    "Viewers somehow.");
 
 static const u8 sContestPassDesc[] = _(
     "The pass required\n"

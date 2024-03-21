@@ -238,9 +238,6 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech:
 	.string "After all, we can’t end this\n"
 	.string "without a grand finale, right?\p"
 	.string "Alright then.\n"
-	.string "For all the people watching us…\p"
-	.string "Let’s give them nothing short of\n"
-	.string "a magnificent performance.\p"
 	.string "Get set!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat:
@@ -250,8 +247,8 @@ EverGrandeCity_ChampionsRoom_Text_Defeat:
 	.string "having lost to you just now.\p"
 	.string "But I'm not about to take the\n"
 	.string "glory of such a victory away.\p"
-	.string "Now, celebrate with those who\n"
-	.string "have given you their support.\p"
+	.string "Now, celebrate to your\n"
+	.string "heart's content.\p"
 	.string "You've certainly earned it!$"
 
 EverGrandeCity_ChampionsRoom_Text_PostBattleSpeech:
