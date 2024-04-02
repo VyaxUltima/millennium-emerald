@@ -299,6 +299,11 @@
 // gMapGroup_IndoorRoute121
 #define MAP_ROUTE121_SAFARI_ZONE_ENTRANCE    (0 | (23 << 8))
 #define MAP_ROUTE121_AMENO_TORIFUNE_ENTRANCE (1 | (23 << 8))
+#define MAP_AMENO_TORIFUNE_B1F               (2 | (23 << 8))
+#define MAP_AMENO_TORIFUNE_B2F               (3 | (23 << 8))
+#define MAP_AMENO_TORIFUNE_B3F               (4 | (23 << 8))
+#define MAP_AMENO_TORIFUNE_B4F               (5 | (23 << 8))
+#define MAP_AMENO_TORIFUNE_B5F               (6 | (23 << 8))
 
 // gMapGroup_Dungeons
 #define MAP_METEOR_FALLS_1F_1R                       (0 | (24 << 8))

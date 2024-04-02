@@ -697,7 +697,8 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "Prof. Birch: Oh, right. Ruggles\n"
 	.string "said he was interested in having\l"
 	.string "a proper introduction.\p"
-	.string "Of course, that probably means a battle…\p"
+	.string "Of course, that probably means\n"
+	.string "a battle…\p"
 	.string "Anyway, why not go meet him?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:

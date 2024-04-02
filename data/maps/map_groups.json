@@ -328,7 +328,12 @@
   ],
   "gMapGroup_IndoorRoute121": [
     "Route121_SafariZoneEntrance",
-    "Route121_AmenoTorifuneEntrance"
+    "Route121_AmenoTorifuneEntrance",
+    "AmenoTorifune_B1F",
+    "AmenoTorifune_B2F",
+    "AmenoTorifune_B3F",
+    "AmenoTorifune_B4F",
+    "AmenoTorifune_B5F"
   ],
   "gMapGroup_Dungeons": [
     "MeteorFalls_1F_1R",

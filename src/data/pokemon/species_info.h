@@ -6422,7 +6422,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpAttack  = 115,
         .baseSpDefense = 100,
         .types = { TYPE_ELECTRIC, TYPE_ELECTRIC },
-        .catchRate = 3,
+        .catchRate = 15,
         .expYield = 261,
         .evYield_Speed     = 2,
         .evYield_SpAttack  = 1,
@@ -6432,7 +6432,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
         #if P_UPDATED_ABILITIES >= GEN_7
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_INNER_FOCUS},
+            .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INNER_FOCUS},
         #else
             .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_VOLT_ABSORB},
         #endif
@@ -6450,7 +6450,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpAttack  = 90,
         .baseSpDefense = 75,
         .types = { TYPE_FIRE, TYPE_FIRE },
-        .catchRate = 3,
+        .catchRate = 15,
         .expYield = 261,
         .evYield_HP        = 1,
         .evYield_Attack    = 2,
@@ -6460,7 +6460,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
         #if P_UPDATED_ABILITIES >= GEN_7
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_INNER_FOCUS},
+            .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INNER_FOCUS},
         #else
             .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_FLASH_FIRE},
         #endif
@@ -6478,7 +6478,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .baseSpAttack  = 90,
         .baseSpDefense = 115,
         .types = { TYPE_WATER, TYPE_WATER },
-        .catchRate = 3,
+        .catchRate = 15,
         .expYield = 261,
         .evYield_Defense   = 1,
         .evYield_SpDefense = 2,
@@ -6488,7 +6488,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .growthRate = GROWTH_SLOW,
         .eggGroups = { EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED},
         #if P_UPDATED_ABILITIES >= GEN_7
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_INNER_FOCUS},
+            .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_INNER_FOCUS},
         #else
             .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_WATER_ABSORB},
         #endif
@@ -6838,9 +6838,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_POOCHYENA] =
     {
         .baseHP        = 35,
-        .baseAttack    = 55,
+        .baseAttack    = 65,
         .baseDefense   = 35,
-        .baseSpeed     = 35,
+        .baseSpeed     = 45,
         .baseSpAttack  = 30,
         .baseSpDefense = 30,
         .types = { TYPE_DARK, TYPE_DARK },
@@ -6882,7 +6882,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_ZIGZAGOON] =
     {
         .baseHP        = 38,
-        .baseAttack    = 30,
+        .baseAttack    = 40,
         .baseDefense   = 41,
         .baseSpeed     = 60,
         .baseSpAttack  = 30,

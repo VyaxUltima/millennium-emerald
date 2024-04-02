@@ -55,6 +55,20 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE121",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_AMENO_TORIFUNE_B1F",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_AMENO_TORIFUNE_B1F",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

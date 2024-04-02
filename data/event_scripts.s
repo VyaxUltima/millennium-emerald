@@ -957,7 +957,8 @@ gText_Sudowoodo_Attacked::
 	.string "The weird tree attacked!$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string "{STR_VAR_1} was fused off by\n"
+	.string "Super Polymerization!$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"
@@ -1084,3 +1085,13 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/EverGrandeCity_LeagueChamber/scripts.inc"
 
 	.include "data/maps/Route121_AmenoTorifuneEntrance/scripts.inc"
+
+	.include "data/maps/AmenoTorifune_B1F/scripts.inc"
+
+	.include "data/maps/AmenoTorifune_B2F/scripts.inc"
+
+	.include "data/maps/AmenoTorifune_B3F/scripts.inc"
+
+	.include "data/maps/AmenoTorifune_B4F/scripts.inc"
+
+	.include "data/maps/AmenoTorifune_B5F/scripts.inc"

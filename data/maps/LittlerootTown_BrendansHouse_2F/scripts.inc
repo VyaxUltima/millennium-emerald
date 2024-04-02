@@ -273,7 +273,7 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The flow of time is entirely\p"
+	.string "The flow of time is entirely\n"
 	.string "dependent on setting this clock.$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:

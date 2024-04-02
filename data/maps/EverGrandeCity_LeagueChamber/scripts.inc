@@ -113,8 +113,8 @@ EverGrandeCity_LeagueChamber_BakuraRoomText:
 	.string "then step inside.$"
 
 EverGrandeCity_LeagueChamber_MuttRoomText:
-	.string "Muttma\n"
-	.string "balls lmao\p"
+	.string "A soft melody sounds through the door.\n"
+	.string "It should comfort you, but it's eerie.\p"
 	.string "If you're ready for what awaits you,\n"
 	.string "then step inside.$"
 

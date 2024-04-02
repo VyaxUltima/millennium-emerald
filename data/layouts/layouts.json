@@ -4475,7 +4475,7 @@
       "id": "LAYOUT_MAUVILLE_CITY_NEW_GYM",
       "name": "MauvilleCity_NewGym_Layout",
       "width": 19,
-      "height": 11,
+      "height": 12,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/MauvilleCity_NewGym/border.bin",
@@ -4510,6 +4510,56 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/Route121_AmenoTorifuneEntrance/border.bin",
       "blockdata_filepath": "data/layouts/Route121_AmenoTorifuneEntrance/map.bin"
+    },
+    {
+      "id": "LAYOUT_AMENO_TORIFUNE_B1F",
+      "name": "AmenoTorifune_B1F_Layout",
+      "width": 26,
+      "height": 36,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/AmenoTorifune_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/AmenoTorifune_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_AMENO_TORIFUNE_B2F",
+      "name": "AmenoTorifune_B2F_Layout",
+      "width": 28,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/AmenoTorifune_B2F/border.bin",
+      "blockdata_filepath": "data/layouts/AmenoTorifune_B2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP1",
+      "name": "AmenoTorifune_B3F_Layout",
+      "width": 36,
+      "height": 24,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/AmenoTorifune_B3F/border.bin",
+      "blockdata_filepath": "data/layouts/AmenoTorifune_B3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_AMENO_TORIFUNE_B4F",
+      "name": "AmenoTorifune_B4F_Layout",
+      "width": 29,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/AmenoTorifune_B4F/border.bin",
+      "blockdata_filepath": "data/layouts/AmenoTorifune_B4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_AMENO_TORIFUNE_B5F",
+      "name": "AmenoTorifune_B5F_Layout",
+      "width": 15,
+      "height": 19,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/AmenoTorifune_B5F/border.bin",
+      "blockdata_filepath": "data/layouts/AmenoTorifune_B5F/map.bin"
     }
   ]
 }

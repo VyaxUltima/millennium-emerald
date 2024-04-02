@@ -459,8 +459,8 @@
     {
       "map_section": "MAPSEC_SAFARI_ZONE",
       "name": "Safari Zone",
-      "x": 16,
-      "y": 2,
+      "x": 0,
+      "y": 0,
       "width": 1,
       "height": 1
     },
@@ -1304,9 +1304,9 @@
     },
     {
       "map_section": "MAPSEC_MEMORIAL_PILLAR",
-      "name": "MEMORIAL PILLAR",
-      "x": 0,
-      "y": 0,
+      "name": "Ameno Torifune",
+      "x": 16,
+      "y": 2,
       "width": 1,
       "height": 1
     },

@@ -634,6 +634,7 @@ gSongTable::
 	song mus_nyhmnim_gym, 0, 0
 	song mus_vs_ctsc, 0, 0
 	song mus_vs_trishulattv_2, 0, 0
+	song mus_ameno_torifune, 0, 0
 
 	.align 2
 dummy_song_header:

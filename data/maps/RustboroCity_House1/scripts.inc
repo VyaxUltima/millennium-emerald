@@ -50,8 +50,8 @@ RustboroCity_House1_EventScript_Hiker::
 	end
 
 RustboroCity_House1_Text_IllTradeIfYouWant:
-	.string "I desire a honey generator."
-	.string "I'll trade you my {STR_VAR_2} for\n"
+	.string "I desire a honey generator.\n"
+	.string "I'll trade you my {STR_VAR_2} for\p"
 	.string "a {STR_VAR_1} if you want.$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
@@ -61,7 +61,7 @@ RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 	.string "Their ass is NOT a {STR_VAR_1}.$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
-	.string "Unlucky."
+	.string "Unlucky.$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
 	.string "Any Pokémon can be cute if you raise\n"

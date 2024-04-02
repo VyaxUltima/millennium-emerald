@@ -328,7 +328,7 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "neighbor! Hi!\p"
 	.string "We have a family friend staying\n"
 	.string "with us at the moment.\p"
-	.string "They were excited about making\n"
+	.string "They were excited about meeting\n"
 	.string "our new neighbor.\p"
 	.string "They're upstairs, I think.$"
 

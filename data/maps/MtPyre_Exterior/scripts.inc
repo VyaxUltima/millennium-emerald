@@ -77,9 +77,7 @@ MtPyre_Exterior_Text_Remembrance:
 	.string "………\p"
 	.string "Ha. Sorry. You're playing this to\n"
 	.string "have fun, and I go say all this.\p"
-	.string "Thanks, though. I don't share my\n"
-	.string "personals like this very often.\p"
-	.string "Now, get going. You've still got a\n"
+	.string "Get going. You've still got a\n"
 	.string "lot of hack left to play!$"
 
 MtPyre_Exterior_Text_MissYou:

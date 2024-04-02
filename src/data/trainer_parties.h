@@ -2465,7 +2465,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Winston1[] = {
     {
     .iv = 255,
     .lvl = 10,
-    .species = SPECIES_TEDDIURSA,
+    .species = SPECIES_AIPOM,
     .heldItem = ITEM_NUGGET
     }
 };
@@ -3075,15 +3075,15 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Atsushi[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Kirk[] = {
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_ELECTRIKE,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_THUNDER_WAVE, MOVE_SPARK, MOVE_LEER}
+    .lvl = 24,
+    .species = SPECIES_SLOWPOKE,
+    .moves = {MOVE_WATER_PULSE, MOVE_CONFUSION, MOVE_SLACK_OFF, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_VOLTORB,
-    .moves = {MOVE_CHARGE, MOVE_SHOCK_WAVE, MOVE_SCREECH, MOVE_NONE}
+    .lvl = 25,
+    .species = SPECIES_KIRLIA,
+    .moves = {MOVE_PSYBEAM, MOVE_CHARGE_BEAM, MOVE_LUCKY_CHANT, MOVE_NONE}
     }
 };
 
@@ -3116,13 +3116,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout8[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Shawn[] = {
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_VOLTORB,
+    .lvl = 24,
+    .species = SPECIES_LUNATONE,
     },
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_MAGNEMITE,
+    .lvl = 25,
+    .species = SPECIES_BALTOY,
     }
 };
 
@@ -5474,15 +5474,15 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Joey[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Ben[] = {
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_ZIGZAGOON,
-    .moves = {MOVE_HEADBUTT, MOVE_SAND_ATTACK, MOVE_GROWL, MOVE_THUNDERBOLT}
+    .lvl = 24,
+    .species = SPECIES_KADABRA,
+    .moves = {MOVE_PSYBEAM, MOVE_MAGICAL_LEAF, MOVE_SHOCK_WAVE, MOVE_NONE}
     },
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_GULPIN,
-    .moves = {MOVE_AMNESIA, MOVE_SLUDGE, MOVE_YAWN, MOVE_POUND}
+    .lvl = 25,
+    .species = SPECIES_METANG,
+    .moves = {MOVE_METAL_CLAW, MOVE_CONFUSION, MOVE_ROCK_TOMB, MOVE_NONE}
     }
 };
 
@@ -5674,6 +5674,11 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Eddie[] = {
     .iv = 255,
     .lvl = 20,
     .species = SPECIES_DRIFLOON,
+    },
+    {
+    .iv = 255,
+    .lvl = 20,
+    .species = SPECIES_TEDDIURSA,
     }
 };
 
@@ -5681,7 +5686,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Allen[] = {
     {
     .iv = 255,
     .lvl = 5,
-    .species = SPECIES_TEDDIURSA,
+    .species = SPECIES_BUNEARY,
     },
     {
     .iv = 255,
@@ -5733,7 +5738,6 @@ static const struct TrainerMonCustomized sParty_Wallace[] = {
         .moves = {MOVE_CRUNCH, MOVE_AQUA_TAIL, MOVE_EARTHQUAKE, MOVE_SWORDS_DANCE},
         .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
         .nickname = COMPOUND_STRING("Hades")
-        //.nickname = COMPOUND_STRING("Bubbles")
     },
     {
         .species = SPECIES_STARMIE,
@@ -5790,7 +5794,7 @@ static const struct TrainerMonCustomized sParty_Wallace[] = {
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(8, 248, 0, 252, 0, 0),
         .lvl = 63,
-        .moves = {MOVE_CLOSE_COMBAT, MOVE_ZEN_HEADBUTT, MOVE_KNOCK_OFF, MOVE_DRAGON_DANCE},
+        .moves = {MOVE_CLOSE_COMBAT, MOVE_ZEN_HEADBUTT, MOVE_KNOCK_OFF, MOVE_SWORDS_DANCE},
         .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
         .nickname = COMPOUND_STRING("Chronos")
     }
@@ -10622,15 +10626,15 @@ static const struct TrainerMonNoItemCustomMoves sParty_Gerald[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Vivian[] = {
     {
     .iv = 255,
-    .lvl = 17,
+    .lvl = 24,
     .species = SPECIES_MEDITITE,
-    .moves = {MOVE_BIDE, MOVE_DETECT, MOVE_CONFUSION, MOVE_THUNDER_PUNCH}
+    .moves = {MOVE_BRICK_BREAK, MOVE_DETECT, MOVE_CONFUSION, MOVE_FIRE_PUNCH}
     },
     {
     .iv = 255,
-    .lvl = 17,
-    .species = SPECIES_MEDITITE,
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_DETECT, MOVE_CONFUSION, MOVE_MEDITATE}
+    .lvl = 24,
+    .species = SPECIES_ESPEON,
+    .moves = {MOVE_PSYBEAM, MOVE_SWIFT, MOVE_SAND_ATTACK, MOVE_NONE}
     }
 };
 

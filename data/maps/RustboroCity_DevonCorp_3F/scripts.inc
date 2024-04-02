@@ -205,7 +205,6 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "not just once, but twice!\p"
 	.string "I have a favor to ask of an amazing\n"
 	.string "person like you.\p"
-	.string "\p"
 	.string "Well, on the way, could you stop off in\n"
 	.string "Dewford Town?\p"
 	.string "I was hoping that you'd deliver a\n"
