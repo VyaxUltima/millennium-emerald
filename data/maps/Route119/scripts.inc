@@ -86,6 +86,7 @@ Route119_EventScript_MirorBEncounter::
 	call_if_eq VAR_TEMP_1, 1, Route119_EventScript_MirorBExit1
 	call_if_eq VAR_TEMP_1, 2, Route119_EventScript_MirorBExit2
 	removeobject LOCALID_MIRORB
+	setvar VAR_MIROR_B_ROUTE119, 1
 	releaseall
 	end
 

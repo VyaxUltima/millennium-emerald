@@ -555,6 +555,9 @@ $(MID_SUBDIR)/mus_rg_victory_gym_leader.s: %.s: %.mid
 $(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V085
 
+$(MID_SUBDIR)/mus_vs_johto_beasts.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V080
+
 $(MID_SUBDIR)/mus_ameno_torifune.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V095
 
