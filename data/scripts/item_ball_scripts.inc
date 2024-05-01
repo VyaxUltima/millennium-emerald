@@ -355,7 +355,7 @@ GraniteCave_1F_EventScript_ItemEscapeRope::
 	end
 
 GraniteCave_B1F_EventScript_ItemPokeBall::
-	finditem ITEM_WIDE_LENS
+	finditem ITEM_HARD_STONE
 	end
 
 GraniteCave_B2F_EventScript_ItemRepel::
@@ -415,7 +415,7 @@ NewMauville_Inside_EventScript_ItemFullHeal::
 	end
 
 NewMauville_Inside_EventScript_ItemParalyzeHeal::
-	finditem ITEM_PARALYZE_HEAL
+	finditem ITEM_MENTAL_HERB
 	end
 
 AbandonedShip_Rooms_1F_EventScript_ItemHarborMail::
@@ -495,7 +495,7 @@ MtPyre_4F_EventScript_ItemSeaIncense::
 	end
 
 MtPyre_5F_EventScript_ItemLaxIncense::
-	finditem ITEM_LAX_INCENSE
+	finditem ITEM_POWER_HERB
 	end
 
 MtPyre_6F_EventScript_ItemTM30::

@@ -3,6 +3,38 @@
 AmenoTorifune_B4F_MapScripts::
 	.byte 0
 
+AmenoTorifune_B4F_EventScript_Bingo::
+	trainerbattle_single TRAINER_RICKY_2, AmenoTorifune_B4F_Text_BingoIntro, AmenoTorifune_B4F_Text_BingoDefeated
+	msgbox AmenoTorifune_B4F_Text_BingoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AmenoTorifune_B4F_EventScript_Plaguey::
+	trainerbattle_single TRAINER_RICKY_3, AmenoTorifune_B4F_Text_PlagueyIntro, AmenoTorifune_B4F_Text_PlagueyDefeated
+	msgbox AmenoTorifune_B4F_Text_PlagueyPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AmenoTorifune_B4F_EventScript_Noelle::
+	trainerbattle_single TRAINER_RICKY_4, AmenoTorifune_B4F_Text_NoelleIntro, AmenoTorifune_B4F_Text_NoelleDefeated
+	msgbox AmenoTorifune_B4F_Text_NoellePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AmenoTorifune_B4F_EventScript_Alex::
+	trainerbattle_single TRAINER_RICKY_5, AmenoTorifune_B4F_Text_AlexIntro, AmenoTorifune_B4F_Text_AlexDefeated
+	msgbox AmenoTorifune_B4F_Text_AlexPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AmenoTorifune_B4F_EventScript_FindPowerHerb::
+	finditem ITEM_POWER_HERB
+	end
+
+AmenoTorifune_B4F_EventScript_FindPPMax::
+	finditem ITEM_PP_MAX
+	end
+
+AmenoTorifune_B4F_EventScript_FindShellBell::
+	finditem ITEM_SHELL_BELL
+	end
+
 AmenoTorifune_B4F_EventScript_MirorBEncounter::
 	lockall
 	addobject LOCALID_MIRORB
@@ -38,6 +70,51 @@ AmenoTorifune_B4F_Movement_MirorBExit:
 	walk_down
 	walk_down
 	step_end
+
+AmenoTorifune_B4F_Text_BingoIntro:
+	.string "Hello there.$"
+
+AmenoTorifune_B4F_Text_BingoDefeated:
+	.string "Well, I guess you got me.$"
+
+AmenoTorifune_B4F_Text_BingoPostBattle:
+	.string "According to all known laws of aviation,\n"
+	.string "a Ribombee shouldn't be able to fly.$"
+
+AmenoTorifune_B4F_Text_PlagueyIntro:
+	.string "Can you help me test out\n"
+	.string "this new fish I caught?$"
+
+AmenoTorifune_B4F_Text_PlagueyDefeated:
+	.string "Aww fuck, that didn't go\n"
+	.string "as planned…$"
+
+AmenoTorifune_B4F_Text_PlagueyPostBattle:
+	.string "Well, that was fun! If you see\n"
+	.string "my husband, tell him I stole-\p"
+	.string "I mean, bought a new Hawaiian for him!$"
+
+AmenoTorifune_B4F_Text_NoelleIntro:
+	.string "Frittata, strike them down!$"
+
+AmenoTorifune_B4F_Text_NoelleDefeated:
+	.string "Aww fuck, that didn't go\n"
+	.string "as planned…$"
+
+AmenoTorifune_B4F_Text_NoellePostBattle:
+	.string "Well, that was fun! If you see\n"
+	.string "my husband, tell him I stole-\p"
+	.string "I mean, bought a new Hawaiian for him!$"
+
+AmenoTorifune_B4F_Text_AlexIntro:
+	.string "It might be time for ol' reliable.$"
+
+AmenoTorifune_B4F_Text_AlexDefeated:
+	.string "Sorry for interrupting.$"
+
+AmenoTorifune_B4F_Text_AlexPostBattle:
+	.string "Your honor, I'd like to activate\n"
+	.string "Crossout in response to this result.$"
 
 AmenoTorifune_B4F_Text_Fuhohoho:
 	.string "Fuhohoho!$"

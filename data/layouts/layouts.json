@@ -4544,8 +4544,8 @@
     {
       "id": "LAYOUT_AMENO_TORIFUNE_B4F",
       "name": "AmenoTorifune_B4F_Layout",
-      "width": 29,
-      "height": 21,
+      "width": 43,
+      "height": 29,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
       "border_filepath": "data/layouts/AmenoTorifune_B4F/border.bin",

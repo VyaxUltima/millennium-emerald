@@ -56,9 +56,6 @@ Route125_BlackMarket_Shop2:
 	.2byte ITEM_EXPERT_BELT
 	.2byte ITEM_LIFE_ORB
 	.2byte ITEM_SHED_SHELL
-	.2byte ITEM_WHITE_HERB
-	.2byte ITEM_MENTAL_HERB
-	.2byte ITEM_POWER_HERB
 	.2byte ITEM_NONE
 	release
 	end

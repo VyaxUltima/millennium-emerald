@@ -51,7 +51,6 @@ MtPyre_Exterior_EventScript_VyaxMiss::
 MtPyre_Exterior_Text_YouSawIt:
 	.string "………\p"
 	.string "Hey.\p"
-	.string "………\p"
 	.string "I guess you saw that thing\n"
 	.string "in my house, right?\l"
 	.string "That's a memory of my cat, Lily.\p"
@@ -59,18 +58,7 @@ MtPyre_Exterior_Text_YouSawIt:
 	.string "before this project was completed.$"
 
 MtPyre_Exterior_Text_Remembrance:
-	.string "Lily was around for half my life.\p"
-	.string "I knew losing her would hurt,\n"
-	.string "but the end came so suddenly.\p"
-	.string "………\p"
-	.string "There are two things that bring me\n"
-	.string "a little peace of mind.\p"
-	.string "The first is that she didn't have to\n"
-	.string "suffer in the time she had left.\l"
-	.string "I made sure that didn't happen.\p"
-	.string "The second is that I made this hack.\n"
-	.string "With help, of course.\l"
-	.string "But making a hack like this…\p"
+	.string "Making a hack like this…\p"
 	.string "It means I can put a reminder here.\p"
 	.string "The memories that I had of her\n"
 	.string "can now include this project, too.\p"

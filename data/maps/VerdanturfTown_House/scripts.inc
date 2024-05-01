@@ -36,9 +36,7 @@ VerdanturfTown_House_Text_Lily:
 	.string "It appears to be a photo of a cat.\n"
 	.string "There's something written under it.\p"
 	.string "“Lily”\n"
-	.string "September 22, 2012 - March 17, 2024\p"
-	.string "…You suspect the owner loved their\n"
-	.string "cat very much.$"
+	.string "September 22, 2012 - March 17, 2024$"
 
 VerdanturfTown_House_Text_Development:
 	.string "There's a ton of files.\n"
