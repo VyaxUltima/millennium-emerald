@@ -696,7 +696,7 @@ Route119_Text_MirorBExit:
 	.string "Fuhohoho!$"
 
 Route119_Text_RouteSignFortree:
-	.string "ROUTE 119\n"
+	.string "Route 119\n"
 	.string "{RIGHT_ARROW} FORTREE CITY$"
 
 Route119_Text_WeatherInstitute:

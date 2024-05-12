@@ -3772,7 +3772,7 @@ static const u8 sLetterDesc[] = _(
 static const u8 sDevonPartsDesc[] = _(
     "A package that\n"
     "contains Devon's\n"
-    "machine parts.");
+    "prototype sleeves.");
 
 static const u8 sGoGogglesDesc[] = _(
     "Nifty goggles that\n"

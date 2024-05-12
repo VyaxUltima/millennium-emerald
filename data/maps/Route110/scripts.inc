@@ -904,7 +904,7 @@ Route110_Text_AcroBikesDoNotQualify:
 	.string "They are easy to turn, so it's not fair.$"
 
 Route110_Text_SlateportCitySign:
-	.string "ROUTE 110\n"
+	.string "Route 110\n"
 	.string "{DOWN_ARROW} SLATEPORT CITY$"
 
 Route110_Text_CyclingRoadSign:
@@ -916,14 +916,14 @@ Route110_Text_AquaWasHere:
 	.string "a uniquely bad tucker carlson interview$"
 
 Route110_Text_Route103Sign:
-	.string "ROUTE 110\n"
+	.string "Route 110\n"
 	.string "{LEFT_ARROW} ROUTE 103$"
 
 Route110_Text_SeasideParkingSign:
 	.string "SEASIDE PARKING$"
 
 Route110_Text_MauvilleCitySign:
-	.string "ROUTE 110\n"
+	.string "Route 110\n"
 	.string "{UP_ARROW} MAUVILLE CITY$"
 
 Route110_Text_TrainerTipsPrlzSleep:

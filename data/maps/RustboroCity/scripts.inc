@@ -1110,7 +1110,7 @@ RustboroCity_Text_YouGotItThankYou:
 	.string "Oh! How did it go?\n"
 	.string "That's…\p"
 	.string "You did! You got them back!\n"
-	.string "I thought those sleeves was ppPoof!\p"
+	.string "I thought those sleeves were trashed!\p"
 	.string "You really are a great Trainer!\p"
 	.string "Here, another one on me!$"
 

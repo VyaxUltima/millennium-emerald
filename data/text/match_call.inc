@@ -2804,7 +2804,7 @@ MatchCall_Text_UnusedProfBirch:
 	.string "POKéMON becomes more fun, eh?$"
 
 MatchCall_Text_MrStone1::
-	.string "MR. STONE: Oh? {PLAYER}{KUN}!\p"
+	.string "Mr, Stone: Oh? {PLAYER}{KUN}!\p"
 	.string "Since you called me, the Pokénav\n"
 	.string "must be working properly!\p"
 	.string "Other people will be registered,\n"

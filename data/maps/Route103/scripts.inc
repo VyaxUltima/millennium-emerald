@@ -339,7 +339,7 @@ Route103_Text_BrendanTimeToHeadBack:
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "My Pokémon is staggeringly tired…\n"
-	.string "I should have brought a Potion…$"
+	.string "I should have bought Red Bull…$"
 
 Route103_Text_ShortcutToOldale:
 	.string "If you cross the sea from here,\n"

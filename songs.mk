@@ -580,7 +580,7 @@ $(MID_SUBDIR)/mus_vs_mutthunter.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
 
 $(MID_SUBDIR)/mus_new_hideout.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V085
+	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V080
 
 $(MID_SUBDIR)/mus_vs_ruggles.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V085

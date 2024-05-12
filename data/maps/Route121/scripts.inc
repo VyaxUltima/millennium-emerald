@@ -181,11 +181,12 @@ Route121_Text_AheadLoomsMtPyre:
 	.string "you in here right now.$"
 
 Route121_Text_MtPyrePierSign:
-	.string "MT. PYRE PIER\p"
-	.string "…The sign is old and worn out.\n"
-	.string "The words are barely legible…$"
+	.string "Dev Team Quotes\p"
+	.string "Mutt: I forgot we were\n"
+	.string "a dev team, to be honest$"
 
 Route121_Text_SafariZoneSign:
-	.string "“Filled with rare POKéMON!”\n"
-	.string "SAFARI ZONE$"
+	.string "Worse than alone - exiled.\n"
+	.string "Worse than exiled - dead.\l"
+	.string "Worse than dead - forgotten.$"
 

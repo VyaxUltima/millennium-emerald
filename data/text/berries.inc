@@ -170,20 +170,18 @@ Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
 
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
 	.string "Hello!\p"
-	.string "The more attention you give to flowers,\n"
-	.string "the more beautifully they bloom.\p"
-	.string "You'll like tending flowers. I'm sure\n"
+	.string "The more you tribute Lonefire,\n"
+	.string "the more Amaryllis fuel you have.\p"
+	.string "You'll like banishing flowers. I'm sure\n"
 	.string "of it. You can have this.$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
 	.string "While Berry plants are growing,\n"
-	.string "water them with the WAILMER PAIL.\p"
+	.string "water them with the water.\p"
 	.string "Oh, another thing.\p"
 	.string "If you don't pick Berries for a while,\n"
 	.string "they'll drop off onto the ground.\l"
-	.string "But they'll sprout again.\p"
-	.string "Isn't that awesome?\n"
-	.string "It's like they have the will to live.$"
+	.string "L$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
 	.string "I'm trying to be like my big sisters.\n"
@@ -202,15 +200,15 @@ Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
 SootopolisCity_Text_NameIsKiriHaveOneOfThese:
 	.string "Hi, what's your name?\p"
 	.string "… … …  … … …  … … …\n"
-	.string "Okay. That's nice!\p"
-	.string "My name is Kiri.\p"
+	.string "{PLAYER}. That's nice!\p"
+	.string "My name is Tytannial.\p"
 	.string "My mommy and daddy named me that so\n"
-	.string "I would grow healthy and warmhearted.\l"
-	.string "That's what they wished.\p"
+	.string "I would negate targeting effects.\p"
+	.string "That's what they wished.\n"
 	.string "You can have one of these.$"
 
 SootopolisCity_Text_GiveYouThisBerryToo:
-	.string "Kiri will give you this Berry, too!\n"
+	.string "I will give you this Berry, too!\n"
 	.string "I really like it lots!$"
 
 SootopolisCity_Text_WhatKindOfWishInYourName:
@@ -218,17 +216,17 @@ SootopolisCity_Text_WhatKindOfWishInYourName:
 	.string "in your name.$"
 
 SootopolisCity_Text_LikeSeasonBornIn:
-	.string "Spring, summer, autumn, and winter.\p"
-	.string "If you're born in springtime, do you like\n"
-	.string "the spring, and if you're born in the\l"
-	.string "summer, do you like the summer?$"
+	.string "Spring, summer, autumn, and winter.\n"
+	.string "Though if you're born in Canada…\p"
+	.string "Best to think of it as winter, more\n"
+	.string "winter, still winter and road repair.$"
 
 SootopolisCity_Text_ThenILoveAutumn:
-	.string "Then Kiri was born in the autumn,\n"
-	.string "so I love the autumn!\p"
-	.string "Which season do you like?$"
+	.string "If you couldn't guess,\n"
+	.string "I grew up in Canada.$"
 
 SootopolisCity_Text_OhDoesntMatter:
 	.string "Oh…\n"
 	.string "It doesn't matter…\p"
 	.string "There's so much that I want to know…$"
+

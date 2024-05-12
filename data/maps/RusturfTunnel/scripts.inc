@@ -468,7 +468,7 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "you're always welcome to come by.\p"
 	.string "Come, Peeko, we should make our way\n"
 	.string "home.\p"
-	.string "Peeko: Pihyoh!$"
+	.string "Peeko: GHOTI MENTIONED$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "… …\p"
