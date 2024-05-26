@@ -150,7 +150,6 @@ JaggedPass_EventScript_Autumn::
 	end
 
 JaggedPass_Text_EricIntro:
-	.string "MT. CHIMNEY's JAGGED PASS…\p"
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
@@ -160,7 +159,7 @@ JaggedPass_Text_EricDefeat:
 	.string "Losing left me bitter!$"
 
 JaggedPass_Text_EricPostBattle:
-	.string "Yes, I did lose at POKéMON…\p"
+	.string "Yes, I did lose at Pokémon…\p"
 	.string "But, when it comes to the love of\n"
 	.string "the mountains, I have you beat!$"
 
@@ -175,7 +174,7 @@ JaggedPass_Text_DianaDefeat:
 JaggedPass_Text_DianaPostBattle:
 	.string "Did you know?\p"
 	.string "Some people cleverly ride their\n"
-	.string "bicycles up this horribly bumpy pass.$"
+	.string "Acro Bikes up this ragged place.$"
 
 JaggedPass_Text_DianaRegister:
 	.string "Will you ever be back in this area?\n"
@@ -194,7 +193,7 @@ JaggedPass_Text_DianaPostRematch:
 	.string "enjoy this bumpy hike.$"
 
 JaggedPass_Text_EthanIntro:
-	.string "JAGGED PASS is hard to walk on.\n"
+	.string "Jagged Pass is hard to walk on.\n"
 	.string "It's a good place for training.$"
 
 JaggedPass_Text_EthanDefeat:
@@ -202,7 +201,7 @@ JaggedPass_Text_EthanDefeat:
 	.string "trying to find a good footing…$"
 
 JaggedPass_Text_EthanPostBattle:
-	.string "If I had an ACRO BIKE, I'd be able to\n"
+	.string "If I had an Acro Bike, I'd be able to\n"
 	.string "jump ledges.$"
 
 JaggedPass_Text_EthanRegister:
@@ -230,7 +229,7 @@ JaggedPass_Text_GruntIntro:
 
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
-	.string "I should've ducked into our HIDEOUT\n"
+	.string "I should've ducked into our Hideout\n"
 	.string "right away…$"
 
 JaggedPass_Text_GoWhereverYouWant:
@@ -241,7 +240,7 @@ JaggedPass_Text_GoWhereverYouWant:
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 	.string "Oh! This boulder is shaking in response\n"
-	.string "to the MAGMA EMBLEM!$"
+	.string "to the Combo Badge!$"
 
 JaggedPass_Text_JulioIntro:
 	.string "Aiyeeh! It's awfully scary to shoot\n"

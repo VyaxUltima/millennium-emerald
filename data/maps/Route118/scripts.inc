@@ -250,48 +250,44 @@ Route118_Text_StevenQuestions:
 	.string "You seem to be traveling well.\n"
 	.string "5 Gym Badges is no small feat!\p"
 	.string "Oh, if you don't mind me asking…\p"
-	.string "Have you met any suspicious people\n"
-	.string "with an odd hairstyle?\l"
-	.string "I thought it resembled a Poké Ball.\p"
+	.string "Have you met anyone with hair that\n"
+	.string "resembles a Poké Ball?\p"
+	.string "Some locals in Fortree mentioned a\n"
+	.string "strange person hanging around lately.\p"
 	.string "Well, as long as there's no trouble,\n"
 	.string "then I don't really mind.\l"
 	.string "Just thought I'd ask in case.\p"
 	.string "Well, be seeing you!$"
 
 Route118_Text_YouAgreeGoodRodIsGood:
-	.string "Hmm!\n"
-	.string "A GOOD ROD is really good!\p"
+	.string "I'm quite good at fishing!\n"
 	.string "Wouldn't you agree?$"
 
 Route118_Text_IdenticalMindsTakeThis:
+	.string "Why thank you!\p"
 	.string "Hmm!\n"
-	.string "We're of identical minds!\p"
-	.string "Hmm!\n"
-	.string "Take this GOOD ROD!$"
+	.string "Take this TM!$"
 
 Route118_Text_TryYourLuckFishing:
-	.string "Wherever there's water, try your luck\n"
-	.string "at fishing.$"
+	.string "You're quite good at battling!\n"
+	.string "So you can have this!$"
 
 Route118_Text_DontYouLikeToFish:
-	.string "Don't you like to fish?$"
+	.string "Well, your opinion sucks.$"
 
 Route118_Text_TryCatchingMonWithGoodRod:
-	.string "Try catching all sorts of POKéMON\n"
-	.string "with your GOOD ROD.$"
+	.string "Swag.$"
 
 Route118_Text_CanCrossRiversWithSurf:
 	.string "Even if there isn't a boat, you can\n"
-	.string "cross rivers and the sea if you have\l"
-	.string "a POKéMON that knows SURF.\p"
-	.string "POKéMON can be counted on to do so\n"
-	.string "much!$"
+	.string "cross rivers and the sea with Surf.\p"
+	.string "Get a deck of cards to do that.$"
 
 Route118_Text_RouteSignMauville:
 	.string "Route 118\n"
-	.string "{LEFT_ARROW} MAUVILLE CITY$"
+	.string "{LEFT_ARROW} Mauville City$"
 
 Route118_Text_RouteSign119:
 	.string "Route 118\n"
-	.string "{UP_ARROW} ROUTE 119$"
+	.string "{UP_ARROW} Route 119$"
 

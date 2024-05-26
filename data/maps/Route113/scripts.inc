@@ -147,11 +147,11 @@ Route113_Text_FunWalkingThroughAsh:
 
 Route113_Text_RouteSign111:
 	.string "Route 113\n"
-	.string "{RIGHT_ARROW} ROUTE 111$"
+	.string "{RIGHT_ARROW} Route 111$"
 
 Route113_Text_RouteSignFallarbor:
 	.string "Route 113\n"
-	.string "{LEFT_ARROW} FALLARBOR TOWN$"
+	.string "{LEFT_ARROW} Fallarbor Town$"
 
 Route113_Text_TrainerTipsRegisterKeyItems:
 	.string "Dev Team Quotes\p"
@@ -163,6 +163,6 @@ Route113_Text_TrainerTipsRegisterKeyItems:
 	.string "“too hard” because of Farfa$"
 
 Route113_Text_GlassWorkshopSign:
-	.string "GLASS WORKSHOP\n"
-	.string "“Turning Volcanic Ash into Glass Items”$"
+	.string "Glass Workshop\n"
+	.string "“Ass to Glass”$"
 

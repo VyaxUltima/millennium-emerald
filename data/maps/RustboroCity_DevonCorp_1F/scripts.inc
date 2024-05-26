@@ -105,7 +105,7 @@ RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string "It sounds like they've recovered\n"
-	.string "the ripped-off sleeves.$"
+	.string "the sleeves being used as evidence.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
 	.string "I'm sorry, only authorized people\n"

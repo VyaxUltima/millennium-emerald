@@ -89,31 +89,33 @@ FortreeCity_Movement_KecleonFlee:
 
 FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "No one believes me, but I saw this\n"
-	.string "gigantic POKéMON in the sky.\p"
+	.string "gigantic Pokémon in the sky.\p"
 	.string "It seemed to squirm as it flew toward\n"
 	.string "Route 131.\p"
 	.string "By the way… Sniff…\n"
-	.string "Um… You, uh…smell singed.\p"
+	.string "Um… You, uh… smell singed.\p"
 	.string "Were you at a volcano or something?$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the POKéMON GYM,\n"
+	.string "I want to go to the Pokémon Gym,\n"
 	.string "but something's blocking the way.\p"
-	.string "After all the bother I went through\n"
-	.string "training on ROUTE 120…$"
+	.string "You'd think they would solve that\n"
+	.string "problem by now.$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy POKéMON\n"
-	.string "with me. This time, I'll beat WINONA.$"
+	.string "Wow, only took that long to unblock\n"
+	.string "the goddamn Gym.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-	.string "The ground absorbs rainwater, and\n"
-	.string "trees grow by drinking that water…\p"
-	.string "Our FORTREE CITY exists because\n"
-	.string "there's both water and soil.$"
+	.string "Have you been picking Berries on\n"
+	.string "your travels?\p"
+	.string "There are some that restore HP,\n"
+	.string "but cause confusion.\p"
+	.string "That depends on your Pokémon's nature.\n"
+	.string "Use those Berries wisely.$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
-	.string "The CITY consists of homes built on\n"
+	.string "Fortree consists of homes built on\n"
 	.string "trees.\p"
 	.string "Perhaps because of that lifestyle,\n"
 	.string "everyone is healthy and lively.\p"
@@ -122,26 +124,25 @@ FortreeCity_Text_EveryoneHealthyAndLively:
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
 	.string "Living on top of trees is okay.\p"
-	.string "But sometimes BUG POKéMON come in\n"
-	.string "through windows.\l"
+	.string "But sometimes Bug Pokémon come in\n"
+	.string "through windows.\p"
 	.string "It can be really startling.$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "There are POKéMON that evolve when\n"
-	.string "you trade them! That's what I heard.$"
+	.string "Woo! New Blue-Eyes support!$"
 
 FortreeCity_Text_SomethingUnseeable:
 	.string "Something unseeable is in the way.$"
 
 FortreeCity_Text_UnseeableUseDevonScope:
 	.string "Something unseeable is in the way.\p"
-	.string "Want to use the DEVON SCOPE?$"
+	.string "Want to use the Devon Scope?$"
 
 FortreeCity_Text_UsedDevonScopePokemonFled:
-	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
+	.string "{PLAYER} used the Devon Scope.\p"
+	.string "An invisible Kecleon became completely\n"
 	.string "visible!\p"
-	.string "The startled POKéMON fled!$"
+	.string "The startled Kecleon fled!$"
 
 FortreeCity_Text_CitySign:
 	.string "Fortree City\n"

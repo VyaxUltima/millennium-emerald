@@ -174,11 +174,13 @@ Route121_EventScript_RematchCristin::
 
 Route121_Text_OkayMoveOutToMtPyre:
 	.string "Okay!\n"
-	.string "We're to move out to MT. PYRE!$"
+	.string "We're to move out to Mt. Pyre!$"
 
 Route121_Text_AheadLoomsMtPyre:
 	.string "Sorry, but I can't let\n"
-	.string "you in here right now.$"
+	.string "you in here right now.\p"
+	.string "If you can get a full set of\n"
+	.string "Badges, it's a different story.$"
 
 Route121_Text_MtPyrePierSign:
 	.string "Dev Team Quotes\p"

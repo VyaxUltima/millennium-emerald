@@ -463,99 +463,71 @@ MauvilleCity_EventScript_RegisterWallyCall::
 	end
 
 MauvilleCity_Text_UncleHesTooPeppy:
-	.string "UNCLE: It's because of POKéMON that\n"
-	.string "this boy's got more pep, I suppose…\l"
-	.string "But he's become a bit too peppy…$"
+	.string "This guy isn't cooking shit.$"
 
 MauvilleCity_Text_WallyWantToChallengeGym:
-	.string "WALLY: Aww, UNCLE, please?\p"
-	.string "I want to challenge this GYM and see\n"
-	.string "how much better I've become.\p"
-	.string "Please? May I, please?$"
+	.string "Trish: Bro, I'm telling you.\n"
+	.string "I've got this. I AM him.$"
 
 MauvilleCity_Text_UncleYourePushingIt:
-	.string "UNCLE: Now hold on, WALLY.\p"
-	.string "Since you started living with POKéMON,\n"
-	.string "you have grown quite a lot stronger.\p"
-	.string "But don't you think you're pushing it\n"
-	.string "to suddenly challenge a GYM?$"
+	.string "Tracer: You're going to get cooked.$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone:
-	.string "WALLY: I'm not pushing it.\p"
-	.string "If I combine forces with RALTS,\n"
-	.string "we can beat anyone!$"
+	.string "Trish: If I'm getting cooked,\n"
+	.string "this Gym Leader's getting grilled.$"
 
 MauvilleCity_Text_WallyWillYouBattleMe:
-	.string "Trish: Oh! Hi, {PLAYER}!\p"
-	.string "I've gotten a lot stronger since\n"
-	.string "we met.\p"
-	.string "I was thinking of challenging this\n"
-	.string "Gym before heading off.\p"
-	.string "{PLAYER}, please, will you have\n"
-	.string "a battle with me?$"
+	.string "Trish: Yo!\p"
+	.string "You're looking to challenge this\n"
+	.string "Gym too?\p"
+	.string "That works out nicely. If I can beat\n"
+	.string "another challenger, I'll be all set!\p"
+	.string "Bring it!$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong:
-	.string "WALLY: Oh… If you won't battle me,\n"
-	.string "{PLAYER}, my UNCLE won't know that I've\l"
-	.string "become really strong.$"
+	.string "Trish: Alright then.\n"
+	.string "I'll wait here until you're ready.$"
 
 MauvilleCity_Text_UncleCanYouBattleWally:
-	.string "UNCLE: {PLAYER}{KUN}, was it?\n"
-	.string "On WALLY's behalf, can I ask you to\l"
-	.string "battle with him just this once?\p"
-	.string "I don't think he's going to listen to\n"
-	.string "any reason the way he is now.$"
+	.string "Tracer: This guy really\n"
+	.string "isn't going to move, huh.$"
 
 MauvilleCity_Text_WallyPleaseBattleMe:
-	.string "WALLY: {PLAYER}, please!\n"
-	.string "Battle with me, please.$"
+	.string "Trish: Ready now?$"
 
 MauvilleCity_Text_WallyHereICome:
-	.string "WALLY: {PLAYER}, thank you.\p"
-	.string "Okay… Here I come!$"
+	.string "Trish: Hell yeah.\p"
+	.string "I'll crush you, then the Gym!$"
 
 MauvilleCity_Text_WallyDefeat:
-	.string "WALLY: … … … … … … …\p"
+	.string "Trish: … … … … … … …\p"
 	.string "… … … … … … … …\p"
-	.string "I lost…$"
+	.string "Wow. I did get cooked.$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf:
-	.string "WALLY: UNCLE…\n"
-	.string "I'll go back to VERDANTURF…$"
+	.string "Trish: Well, shit.\n"
+	.string "Alright, this'll have to wait.$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle:
-	.string "{PLAYER}, thank you.\n"
-	.string "Being a TRAINER is tough, isn't it?\p"
-	.string "It's not enough just to have POKéMON\n"
-	.string "and make them battle. That isn't what\l"
-	.string "being a real TRAINER is about.$"
+	.string "That was an eye-opener.\n"
+	.string "Your name is {PLAYER}, yeah?\p"
+	.string "Sounds good. I'll remember that.\p"
+	.string "My dragons are already itching for\n"
+	.string "a Game 2.$"
 
 MauvilleCity_Text_UncleNoNeedToBeDown:
-	.string "UNCLE: WALLY, there's no need to be so\n"
-	.string "down on yourself.\p"
-	.string "Why, what's keeping you from becoming\n"
-	.string "stronger and stronger?\p"
-	.string "Come on, let's go home.\n"
-	.string "Everyone's waiting for you.$"
+	.string "Tracer: Come on, Trish,\n"
+	.string "we need to get back to the lab.$"
 
 MauvilleCity_Text_UncleVisitUsSometime:
-	.string "UNCLE: {PLAYER}{KUN}, it just dawned on me\n"
-	.string "that you must be the TRAINER who kept\l"
-	.string "an eye out for WALLY when he caught\l"
-	.string "his POKéMON.\p"
-	.string "Why don't you visit us in VERDANTURF\n"
-	.string "sometime?\l"
-	.string "I'm sure WALLY would enjoy it.$"
-
+	.string "Tracer: See you around.$"
 
 MauvilleCity_Text_WallyPokenavCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "WALLY: Oh, hello, {PLAYER}!\p"
+	.string "Trish: Oh, hello, {PLAYER}!\p"
 	.string "I just wanted to tell you that\n"
-	.string "my uncle bought me a Pokénav!\p"
-	.string "Now I can get in touch with you\n"
-	.string "anytime, {PLAYER}!\p"
+	.string "Dragon Link is Tier 1!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
@@ -567,45 +539,37 @@ MauvilleCity_Text_ScottYouDidntHoldBack:
 	.string "Trif: L + NO NEGATES$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
-	.string "WATTSON: Oh, {PLAYER}{KUN}!\n"
-	.string "You look like you have a lot of zip!\l"
-	.string "That's a good thing, wahahahaha!\p"
-	.string "Fine! I've decided!\n"
-	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "MAUVILLE CITY has an underground\n"
-	.string "sector called NEW MAUVILLE.\p"
-	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
+	.string "MBT: Oh, {PLAYER}{KUN}!\p"
+	.string "You look like you have absolutely\n"
+	.string "nothing to do.\p"
+	.string "If you don't mind helping me out,\n"
+	.string "I need a favor, {PLAYER}{KUN}.\p"
+	.string "You see, there's an old power plant\n"
+	.string "that's under construction.\l"
+	.string "It's getting unsafe, though.\p"
+	.string "{PLAYER}, I'd like you to go there and\n"
 	.string "switch off my Embussylator.\p"
-	.string "The GENERATOR has been running a bit\n"
-	.string "haywire. It's getting unsafe.\p"
-	.string "Here, this is the KEY to get into\n"
-	.string "NEW MAUVILLE.$"
+	.string "Here, this is the key to get into\n"
+	.string "New Mauville.$"
 
 MauvilleCity_Text_WattsonWontBeChallenge:
-	.string "WATTSON: Don't you worry about it.\n"
-	.string "It won't be a challenge to you.\p"
-	.string "The entrance to NEW MAUVILLE is just\n"
-	.string "a short SURF away from ROUTE 110.\p"
-	.string "That's it, then, you have my trust!\n"
-	.string "Wahahahaha!$"
+	.string "MBT: Don't you worry about it.\n"
+	.string "It won't be a challenge to you.$"
 
 MauvilleCity_Text_WattsonThanksTakeTM:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"
-	.string "the right choice asking you!\p"
+	.string "MBT: Ah, you're back.\n"
+	.string "Seems like it went without a hitch.\p"
 	.string "This is my thanks--a TM containing\n"
-	.string "THUNDERBOLT!\p"
-	.string "Go on, you've earned it!$"
+	.string "Charge Beam.$"
 
 MauvilleCity_Text_WattsonYoungTakeCharge:
-	.string "WATTSON: Wahahahaha!\p"
-	.string "It pleases me to no end to see\n"
-	.string "the young step up and take charge!$"
+	.string "MBT: Now, to start work on\n"
+	.string "the WHITE Machine.$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-	.string "You know, it's cool to have POKéMON\n"
+	.string "You know, it's cool to have Pokémon\n"
 	.string "battles and stuff…\p"
-	.string "But if your POKéMON gets hurt,\n"
+	.string "But if your Pokémon gets hurt,\n"
 	.string "you have to nurse it back to health.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
@@ -613,13 +577,11 @@ MauvilleCity_Text_AllSortsOfPeopleComeThrough:
 	.string "Dave and Buster's!$"
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "Have you been to RYDEL'S CYCLES yet?\p"
-	.string "RYDEL, the owner, is a very generous\n"
-	.string "man.$"
+	.string "Have you been to Rydel's Cycles yet?\n"
+	.string "I bet he'd hook you up.$"
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike:
-	.string "Even if you're riding a BIKE,\n"
-	.string "wild POKéMON could jump you.$"
+	.string "The city's Gym doubles as a court.$"
 
 MauvilleCity_Text_CitySign:
 	.string "Mauville City\n"
@@ -633,22 +595,13 @@ MauvilleCity_Text_GymSign:
 MauvilleCity_Text_BikeShopSign:
 	.string "“Ride in gravel and shake up your\n"
 	.string "soul!”\l"
-	.string "RYDEL'S CYCLES$"
+	.string "Rydel's Cycles$"
 
 MauvilleCity_Text_GameCornerSign:
 	.string "Dave and Buster's$"
 
 MauvilleCity_Text_ExplainTV:
-	.string "Hi, do you check out TV at all?\p"
-	.string "They've added a bunch of cool new\n"
-	.string "shows recently.\p"
-	.string "TV is so cool. I've seen my friends on\n"
-	.string "TV just out of the blue.\p"
-	.string "And, sometimes, they even put you on TV\n"
-	.string "without telling you.\p"
-	.string "I wish I would be on TV sometime.\p"
-	.string "That's why I think you should check\n"
-	.string "out TVs whenever you can.$"
+	.string "Hi, do you check out MBT's streams?$"
 
 MauvilleCity_Text_BeenCheckingOutTV:
-	.string "Hi, have you been checking out TVs?$"
+	.string "So many channel points.$"

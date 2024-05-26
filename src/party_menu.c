@@ -4661,7 +4661,7 @@ void Task_AbilityPatch(u8 taskId)
     {
     case 0:
         // Can't use.
-        // In (insert hack name here) only fully-evo'd starters can use this.
+        // In Millennium Emerald only fully-evo'd starters can use this.
         // If this works I'm the greatest programmer alive,
         // if it doesn't work I kill everyone in a ten-kilometre radius
         if (tSpecies != SPECIES_BLASTOISE && 

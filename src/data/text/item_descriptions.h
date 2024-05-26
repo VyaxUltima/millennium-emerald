@@ -193,8 +193,8 @@ static const u8 sFreshWaterDesc[] = _(
 #endif
 
 static const u8 sSodaPopDesc[] = _(
-    "A fizzy soda drink\n"
-    "that restores HP\n"
+    "SODA!!!\n"
+    "Restores HP\n"
 #if I_HEALTH_RECOVERY >= GEN_7
     "by 50 points.");
 #else
@@ -424,9 +424,9 @@ static const u8 sAbilityCapsuleDesc[] = _(
     "mon's ability.");
 
 static const u8 sAbilityPatchDesc[] = _(
-    "Alters the ability\n"
-    "of your first\n"
-    "Pokémon partner.");
+    "An item that alters\n"
+    "the ability of your\n"
+    "starter Pokémon.");
 
 // Mints
 static const u8 sLonelyMintDesc[] = _(
@@ -3771,8 +3771,8 @@ static const u8 sLetterDesc[] = _(
 
 static const u8 sDevonPartsDesc[] = _(
     "A package that\n"
-    "contains Devon's\n"
-    "prototype sleeves.");
+    "contains sleeves\n"
+    "as evidence.");
 
 static const u8 sGoGogglesDesc[] = _(
     "Nifty goggles that\n"

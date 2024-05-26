@@ -1091,7 +1091,7 @@ RustboroCity_Text_OutOfTheWay:
 
 RustboroCity_Text_WaitDontTakeMyGoods:
 	.string "Wait! Pleeeaaase!\p"
-	.string "Don't take my sleeves!$"
+	.string "Don't take those sleeves!$"
 
 RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Oh, it's you!\p"
@@ -1100,7 +1100,7 @@ RustboroCity_Text_HelpMeIWasRobbed:
 	.string "Help me! I was robbed by a chatter!\n"
 	.string "I have to get those sleeves back!\p"
 	.string "If I don't…\n"
-	.string "I'm going to be in serious trouble.$"
+	.string "Our case might end up falling through.$"
 
 RustboroCity_Text_ShadyCharacterTookOffTowardsTunnel:
 	.string "That shady character, I think he took\n"

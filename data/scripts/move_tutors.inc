@@ -255,6 +255,9 @@ MoveTutor_EventScript_ExplosionDeclined::
 
 MoveTutor_EventScript_ExplosionTaught::
 	msgbox MoveTutor_Text_ExplosionTaught, MSGBOX_DEFAULT
+	removeobject VAR_LAST_TALKED
+	playse SE_M_EXPLOSION
+	waitse
 	release
 	end
 

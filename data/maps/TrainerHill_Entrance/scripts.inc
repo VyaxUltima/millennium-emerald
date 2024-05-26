@@ -294,17 +294,15 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	end
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS.\p"
+	.string "This is the Trainer Hill where\n"
+	.string "you may enjoy tag battles.\p"
 	.string "Unfortunately, we're still getting\n"
 	.string "things ready. Please come back later!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
 	.string "Welcome!\p"
-	.string "This is the TRAINER HILL where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "TRAINERS!$"
+	.string "This is the Trainer Hill where\n"
+	.string "you may enjoy tag battles.$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
 	.string "Is this your first visit here?\p"
@@ -313,18 +311,18 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter:
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
 	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
+	.string "The Trainers here now are…\p"
 	.string "Up to floor no. {STR_VAR_1}.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
 	.string "Let's see…\n"
-	.string "The TRAINERS here now are…\p"
-	.string "There appear to be TRAINERS gathered\n"
+	.string "The Trainers here now are…\p"
+	.string "There appear to be Trainers gathered\n"
 	.string "in every room.$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
 	.string "Would you like to challenge the\n"
-	.string "waiting TRAINERS?$"
+	.string "waiting Trainers?$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
 	.string "I will time your progress.\n"
@@ -346,7 +344,7 @@ TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
 	.string "I hope you give it your best.$"
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
-	.string "When the TRAINERS switch places,\n"
+	.string "When the Trainers switch places,\n"
 	.string "the movement can be hectic.\p"
 	.string "To avoid the stampede, we moved\n"
 	.string "the reception counter here.\p"
@@ -356,7 +354,7 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
 	.string "Thank you for playing!$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-	.string "Here at the TRAINER HILL, we conduct\n"
+	.string "Here at the Trainer Hill, we conduct\n"
 	.string "an event called the Time Attack.\p"
 	.string "It is a race that measures how long\n"
 	.string "you take to reach our owner on\l"
@@ -364,7 +362,7 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 	.string "The fastest times are posted on\n"
 	.string "the Time Board--try competing with\l"
 	.string "your friends.\p"
-	.string "In TRAINER battles along the way,\n"
+	.string "In Trainer battles along the way,\n"
 	.string "neither Exp. Points nor money will\l"
 	.string "be awarded.$"
 

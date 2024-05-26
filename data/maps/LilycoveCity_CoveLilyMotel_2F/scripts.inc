@@ -67,7 +67,7 @@ LilycoveCity_CoveLilyMotel_2F_EventScript_MetScott::
 	end
 
 LilycoveCity_CoveLilyMotel_2F_Text_ShowMeCompletedDex:
-	.string "I'm the GAME DESIGNER.\p"
+	.string "I'm the Game Designer.\p"
 	.string "Oh, is that right?\n"
 	.string "You're working on a Pokédex?\p"
 	.string "It's tough trying to complete it,\n"
@@ -79,28 +79,24 @@ LilycoveCity_CoveLilyMotel_2F_Text_FilledPokedexGiveYouThis:
 	.string "Wow! That's awesome!\n"
 	.string "Yep, it's totally awesome!\p"
 	.string "This Pokédex is completely filled!\n"
-	.string "You really must love POKéMON!\p"
+	.string "You really must love Pokémon!\p"
 	.string "I'm so impressed!\p"
 	.string "Let me give you something in\n"
 	.string "recognition of your feat!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheProgrammer:
 	.string "Me? You're talking to me?\n"
-	.string "I'm the PROGRAMMER.\p"
-	.string "I wonder what the SLOTS are\n"
-	.string "like here.$"
+	.string "I'm the Programmer.\p"
+	.string "I wonder what code has changed.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_ImTheGraphicArtist:
-	.string "I'm the GRAPHIC ARTIST! Aren't the\n"
-	.string "POKéMON of HOENN interesting?$"
+	.string "I'm the Graphic Artist! These\n"
+	.string "Pokémon look great!$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_GirlsAreCute:
-	.string "The girl TUBERS, they're cute, hey?\n"
-	.string "To battle against a cute TUBER…\p"
-	.string "Whoop, it's so awesome!\p"
-	.string "And the TWINS! Aren't they cute?\n"
-	.string "A 2-on-2 battle with TWINS…\p"
-	.string "Whoop, it's unbearably fun!$"
+	.string "Normal Buzzsaw Shark effect\n"
+	.string "Special Lantern Shark overlay\l"
+	.string "Kragen set Gozen pass.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SeaBreezeTicklesHeart:
 	.string "The sea breeze tickles my heart.\n"
@@ -110,7 +106,7 @@ LilycoveCity_CoveLilyMotel_2F_Text_NeverLeaveWithoutGameBoy:
 	.string "You never know when and where\n"
 	.string "people will challenge you.\p"
 	.string "That's why I never leave home without\n"
-	.string "my GAME BOY ADVANCE.$"
+	.string "my Gameshark.$"
 
 LilycoveCity_CoveLilyMotel_2F_Text_SnoozingPreferBattles:
 	.string "Trif: RECORDING A DECK PROFILE\n"

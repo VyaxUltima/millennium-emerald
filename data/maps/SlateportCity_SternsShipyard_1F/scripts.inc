@@ -71,10 +71,10 @@ SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails:
 SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
 	.string "Hm?\n"
 	.string "Hi, I'm Dock.\p"
-	.string "Capt. Stern commissioned me to\n"
-	.string "design a deckbox.\p"
+	.string "Capt. Stern hired me to handle this\n"
+	.string "shipyard during his legal business.\p"
 	.string "Oh! That there…\n"
-	.string "Are they Devon sleeves?\p"
+	.string "Are they Devon's sleeves?\p"
 	.string "But, hmm…\n"
 	.string "This won't do…\p"
 	.string "Capt. Stern went off somewhere.\n"

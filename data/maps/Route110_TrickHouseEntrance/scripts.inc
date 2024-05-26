@@ -742,14 +742,14 @@ Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "Behold!\p"
 	.string "For I am the greatest living mystery\n"
-	.string "of a man in all of HOENN!\l"
+	.string "of a man in all of Hoenn!\l"
 	.string "They call me…\p"
-	.string "The TRICK MASTER!\n"
+	.string "The Tricky!\n"
 	.string "Wahahaha! Glad to meet you!$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 	.string "You, you've come to challenge\n"
-	.string "my TRICK HOUSE, haven't you?\p"
+	.string "my Trick House, haven't you?\p"
 	.string "That's why you're here, isn't it?\n"
 	.string "Yes, it is!\p"
 	.string "Consider your challenge accepted!\p"
@@ -767,7 +767,7 @@ Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
 	.string "There is a note affixed to the scroll…\p"
 	.string "“I am leaving on a journey.\n"
-	.string "Don't look for me. TRICK MASTER”$"
+	.string "Don't look for me. Tricky Spell 4”$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
 	.string "For the next time, I'll use this trick,\n"
@@ -781,8 +781,8 @@ Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "I'm in the midst of devising new tricky\n"
 	.string "challenges!\p"
 	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
-	.string "You wouldn't begrudge me that?\l"
+	.string "time for me to think, is it now?\p"
+	.string "You wouldn't begrudge me that?\n"
 	.string "Come back in a little while!$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:

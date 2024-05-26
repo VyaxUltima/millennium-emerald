@@ -629,7 +629,7 @@ Route119_Text_BrendanExplainFly:
 	.string "I'll definitely win next time!$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "Trif: YO I KNOW THAT GUY$"
+	.string "Trif: YO I KNOW WHO THAT GUY IS$"
 
 Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … …\n"
@@ -640,34 +640,31 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … Click!$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-	.string "We're standing lookout here.\p"
-	.string "Hey, you! Stay away from the WEATHER\n"
-	.string "INSTITUTE. It's not safe.$"
+	.string "Oh, man…\n"
+	.string "That groovy guy beat us bad.\p"
+	.string "Now we're stuck on watch here.$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-	.string "Lookout duty is surprisingly boring.\p"
-	.string "Hey, you! Please don't go near the\n"
-	.string "WEATHER INSTITUTE.$"
+	.string "Jeez…\n"
+	.string "Since when was disco back in?$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-	.string "I thought you FLY by catching a whole\n"
-	.string "flock of BIRD POKéMON, and then\l"
-	.string "hanging on to them somehow.\p"
-	.string "But it turns out there's an HM move\n"
-	.string "called FLY!\p"
-	.string "I wish I'd known about that a long\n"
-	.string "time ago…$"
+	.string "I recently made a deck around\n"
+	.string "Winged Beast cards.\p"
+	.string "I know! I'll call it Bird Up!\n"
+	.string "I'm so smart.$"
 
 Route119_Text_TallGrassSnaresBikeTires:
 	.string "Tch…\n"
 	.string "It's a no-go…\p"
-	.string "The tall grass snares BIKE tires.\n"
+	.string "The tall grass snares bike tires.\n"
 	.string "There's no way you can cycle here.$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-	.string "Can your POKéMON use its SECRET POWER\n"
-	.string "on a big pile of grass and make a\l"
-	.string "SECRET BASE?$"
+	.string "I hear Fortree's a pretty major\n"
+	.string "hub for online collabs.\p"
+	.string "Though I'm not sure what sort of\n"
+	.string "personalities collide there.$"
 
 Route119_Text_MirorBChallenge:
 	.string "Fuhohoho!\n"
@@ -697,10 +694,10 @@ Route119_Text_MirorBExit:
 
 Route119_Text_RouteSignFortree:
 	.string "Route 119\n"
-	.string "{RIGHT_ARROW} FORTREE CITY$"
+	.string "{RIGHT_ARROW} Fortree City$"
 
 Route119_Text_WeatherInstitute:
-	.string "WEATHER INSTITUTE$"
+	.string "Weather Institute$"
 
 Route119_Text_TrainerTipsDecoration:
 	.string "Dev Team Quotes\p"

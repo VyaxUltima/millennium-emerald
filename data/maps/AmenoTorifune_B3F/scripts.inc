@@ -21,6 +21,11 @@ AmenoTorifune_B3F_EventScript_Zed::
 	msgbox AmenoTorifune_B3F_Text_ZedPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+AmenoTorifune_B3F_EventScript_Zeke::
+	trainerbattle_single TRAINER_FERNANDO_2, AmenoTorifune_B3F_Text_ZekeIntro, AmenoTorifune_B3F_Text_ZekeDefeated
+	msgbox AmenoTorifune_B3F_Text_ZekePostBattle, MSGBOX_AUTOCLOSE
+	end
+
 AmenoTorifune_B3F_EventScript_FindMentalHerb::
 	finditem ITEM_MENTAL_HERB
 	end
@@ -76,3 +81,15 @@ AmenoTorifune_B3F_Text_ZedDefeated:
 AmenoTorifune_B3F_Text_ZedPostBattle:
 	.string "Stop asking about the next\n"
 	.string "Yugioh Funny Moments.$"
+
+AmenoTorifune_B3F_Text_ZekeIntro:
+	.string "Time for inspection day.\n"
+	.string "You know what for.$"
+
+AmenoTorifune_B3F_Text_ZekeDefeated:
+	.string "Venezuela moment.$"
+
+AmenoTorifune_B3F_Text_ZekePostBattle:
+	.string "Still better to play against than\n"
+	.string "Lead Yoke pass.$"
+

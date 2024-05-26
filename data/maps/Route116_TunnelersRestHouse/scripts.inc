@@ -28,35 +28,29 @@ Route116_TunnelersRestHouse_EventScript_TunnelOpened::
 	end
 
 Route116_TunnelersRestHouse_Text_WeHadToStopBoring:
-	.string "That RUSTURF TUNNEL there…\p"
+	.string "That Rusturf Tunnel there…\p"
 	.string "At first, we had a huge work crew boring\n"
 	.string "through rock with the latest machinery.\l"
 	.string "But, we had to stop.\p"
-	.string "It turns out that we would have had\n"
-	.string "a negative effect on wild POKéMON in\l"
-	.string "the area.\p"
-	.string "So, we've got nothing to do but loll\n"
-	.string "around here doing nothing.$"
+	.string "It turns out that we were using\n"
+	.string "Block Dragon in the area.\p"
+	.string "So, we've got nothing to do but\n"
+	.string "lol, lmao even.$"
 
 Route116_TunnelersRestHouse_Text_ManDiggingHisWayToVerdanturf:
 	.string "There's a man digging his way to\n"
-	.string "VERDANTURF all by his lonesome.\l"
-	.string "He's desperate to get through.\p"
-	.string "He says that if he digs little by little\n"
-	.string "without using machines, he won't\l"
-	.string "disturb POKéMON, and he'll avoid\l"
-	.string "harming the natural environment.\p"
-	.string "I wonder if he made it through yet.$"
+	.string "Verdanturf all by his lonesome.\l"
+	.string "Man has hands like a pottery accident.$"
 
 Route116_TunnelersRestHouse_Text_GetToVerdanturfWithoutTunnel:
-	.string "To get to VERDANTURF without using\n"
-	.string "this TUNNEL, you'd have to cross the\l"
-	.string "sea to DEWFORD, sail on to SLATEPORT,\l"
-	.string "then travel through MAUVILLE.$"
+	.string "To get to Verdanturf without using\n"
+	.string "this tunnel, you'd have to cross the\l"
+	.string "sea to Dewford, sail on to Slateport,\l"
+	.string "then travel through Mauville.$"
 
 Route116_TunnelersRestHouse_Text_TunnelHasGoneThrough:
-	.string "Did you hear? The TUNNEL to VERDANTURF\n"
+	.string "Did you hear? The tunnel to Verdanturf\n"
 	.string "has gone through!\p"
-	.string "Sometimes, if you hope strongly enough,\n"
-	.string "dreams do come true.$"
+	.string "Sometimes, if you dig like an\n"
+	.string "oil company, you can do crazy things.$"
 
