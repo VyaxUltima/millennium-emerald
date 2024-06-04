@@ -98,13 +98,10 @@ AmenoTorifune_B4F_Text_NoelleIntro:
 	.string "Frittata, strike them down!$"
 
 AmenoTorifune_B4F_Text_NoelleDefeated:
-	.string "Aww fuck, that didn't go\n"
-	.string "as planned…$"
+	.string "Not fair! I misclicked!$"
 
 AmenoTorifune_B4F_Text_NoellePostBattle:
-	.string "Well, that was fun! If you see\n"
-	.string "my husband, tell him I stole-\p"
-	.string "I mean, bought a new Hawaiian for him!$"
+	.string "Best two out of three?$"
 
 AmenoTorifune_B4F_Text_AlexIntro:
 	.string "It might be time for ol' reliable.$"

@@ -62,7 +62,7 @@ const u8 gTrainerClassNames[][16] = {
     [TRAINER_CLASS_PALACE_MAVEN] = _("Deck Devil"), //used for Bakura
     [TRAINER_CLASS_ARENA_TYCOON] = _("Phantasm Spiral"), //used for Mutt
     [TRAINER_CLASS_FACTORY_HEAD] = _("Cartographer"), //used for Refisio
-    [TRAINER_CLASS_PIKE_QUEEN] = _("Jigachad"), //used for Ruggles
+    [TRAINER_CLASS_PIKE_QUEEN] = _("Gigachad"), //used for Ruggles
     [TRAINER_CLASS_PYRAMID_KING] = _("Dragon Master"), //used for TrishulaTTV
     [TRAINER_CLASS_RS_PROTAG] = _("Drunk Gambler"), //used for Fyre
 };

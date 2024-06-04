@@ -90,33 +90,26 @@ AquaHideout_B2F_EventScript_Grunt8::
 	end
 
 AquaHideout_B2F_Text_MattIntro:
-	.string "Hehehe…\p"
-	.string "Got here already, did you?\n"
-	.string "We underestimated you!\p"
-	.string "But this is it!\p"
-	.string "I'm a cut above the GRUNTS you've seen\n"
-	.string "so far.\p"
+	.string "Ah, hello.\p"
+	.string "You got here already, did you?\n"
+	.string "A bit quicker than expected.\p"
+	.string "But this is fine.\n"
+	.string "I have new filter and sort functions\n"
+	.string "for optimized trolling.\p"
 	.string "I'm not stalling for time.\n"
-	.string "I'm going to pulverize you!$"
+	.string "I'll send you to Xbox Live.$"
 
 AquaHideout_B2F_Text_MattDefeat:
-	.string "Hehehe…\n"
-	.string "So, I lost, too…$"
+	.string "Hm…\n"
+	.string "So, I lost.$"
 
 AquaHideout_B2F_Text_OurBossGotThroughHisPreparations:
-	.string "Hehehe!\p"
-	.string "While I was toying with you, our BOSS\n"
-	.string "got through his preparations!$"
+	.string "This is perfectly fine.\p"
+	.string "I resolved Wattkinetic Puppeteer.\n"
+	.string "The submarine can escape now.$"
 
 AquaHideout_B2F_Text_MattPostBattle:
-	.string "Hehehe!\p"
-	.string "Our BOSS has already gone on his way to\n"
-	.string "some cave under the sea!\p"
-	.string "If you're going to give chase, you'd\n"
-	.string "better search the big, wide sea beyond\l"
-	.string "LILYCOVE.\p"
-	.string "But will you find it then?\n"
-	.string "Hehehe!$"
+	.string "Flip a coin to see how this ends.$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
 	.string "Wahahah, I grew weary of waiting!\n"
@@ -127,35 +120,34 @@ AquaHideout_B2F_Text_Grunt4Defeat:
 	.string "Lost and dazed…$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
-	.string "BOSS…\n"
+	.string "Archie…\n"
 	.string "Is this good enough?$"
 
 AquaHideout_B2F_Text_Grunt6Intro:
-	.string "Warp panels, the HIDEOUT's pride\n"
-	.string "and joy!\p"
+	.string "Warp panels, the Twitch Den's\n"
+	.string "pride and joy!\p"
 	.string "You're clueless about where you are,\n"
 	.string "aren't you?\p"
 	.string "Fluster and tire out the enemy, then\n"
 	.string "lower the boom! That's our plan!$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-	.string "What's wrong with you?\n"
-	.string "You're not tired at all!$"
+	.string "My team went boom!$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
 	.string "That reminds me… I can't remember\n"
-	.string "where I put the MASTER BALL.\p"
-	.string "If I fail to guard it, our BOSS will\n"
+	.string "where I put the Master Ball.\p"
+	.string "If I fail to guard it, the mods will\n"
 	.string "chew me out…$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
-	.string "When I joined TEAM AQUA, the first\n"
-	.string "thing I had to learn was how these\l"
-	.string "warp panels connected.$"
+	.string "When I joined Archie, the first\n"
+	.string "thing I had to learn was how the\l"
+	.string "stream is rigged.$"
 
 AquaHideout_B2F_Text_Grunt8Defeat:
 	.string "I was too occupied thinking about\n"
-	.string "the warp panels…$"
+	.string "the midroll ads…$"
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
 	.string "I'll have to learn about how I can\n"

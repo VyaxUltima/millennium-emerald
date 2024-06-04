@@ -274,7 +274,7 @@ Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "No more wasting time here, then.\n"
 	.string "Let's see if we can beat them\p"
-	.string "to Mt. Pyre.\n"
+	.string "to Mt. Pyre.\p"
 	.string "Gives me a chance to refactor these\n"
 	.string "new algorithms.$"
 

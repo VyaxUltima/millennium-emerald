@@ -543,7 +543,7 @@
 #define PH_NURSE_BLEND              607
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
-#define MUS_VS_VYAX                 610
+#define MUS_VS_ARMSTRONG            610 //unused
 #define MUS_NEW_TRAINER_VICT        611
 #define MUS_VS_RUGGLES              612
 #define MUS_NEW_POKE_CENTER         613
@@ -568,6 +568,7 @@
 #define MUS_VS_TRISHULATTV_2        632
 #define MUS_AMENO_TORIFUNE          633
 #define MUS_VS_JOHTO_BEASTS         634
+#define MUS_VS_VYAX                 635
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

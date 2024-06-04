@@ -171,6 +171,6 @@ Route109_SeashoreHouse_Text_SimonDefeated:
 	.string "…I lost, but I won't cry…$"
 
 Route109_SeashoreHouse_Text_SimonPostBattle:
-	.string "If one of my POKéMON knew Surf,\n"
+	.string "If one of my Pokémon knew Surf,\n"
 	.string "I could attend YCS Petalburg.$"
 

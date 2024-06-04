@@ -74,11 +74,13 @@ LilycoveCity_DepartmentStore_2F_Pokemart2:
 
 LilycoveCity_DepartmentStore_2F_Text_LearnToUseItemsProperly:
 	.string "Learn to use items properly.\n"
-	.string "That's basic, really.$"
+	.string "That's basic, really.\p"
+	.string "Fucking dumbass.$"
 
 LilycoveCity_DepartmentStore_2F_Text_GoodGiftForHusband:
 	.string "My husband is waiting at home.\n"
-	.string "What would make a good gift for him?$"
+	.string "What would make a good gift for him?\l"
+	.string "A pipe bomb?$"
 
 LilycoveCity_DepartmentStore_2F_Text_StockUpOnItems:
 	.string "I'm leaving on a long journey soon.\n"

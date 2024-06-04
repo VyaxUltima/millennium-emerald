@@ -391,7 +391,7 @@ Route120_Text_StevenUsedDevonScope:
 	.string "The startled Pokémon attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "Steven: Well done.p"
+	.string "Steven: Well done.\p"
 	.string "Your Pokémon have obviously grown\n"
 	.string "since I first met you in Dewford.\p"
 	.string "I'd like you to have this\n"

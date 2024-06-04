@@ -51,7 +51,7 @@ RustboroCity_House1_EventScript_Hiker::
 
 RustboroCity_House1_Text_IllTradeIfYouWant:
 	.string "I desire a honey generator.\n"
-	.string "I'll trade you my {STR_VAR_2} for\p"
+	.string "I'll trade you my {STR_VAR_2} for\l"
 	.string "a {STR_VAR_1} if you want.$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:

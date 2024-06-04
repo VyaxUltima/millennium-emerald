@@ -153,7 +153,7 @@ JaggedPass_Text_EricIntro:
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!$"
+	.string "Perfect for Megarock Dragon!$"
 
 JaggedPass_Text_EricDefeat:
 	.string "Losing left me bitter!$"
@@ -161,15 +161,15 @@ JaggedPass_Text_EricDefeat:
 JaggedPass_Text_EricPostBattle:
 	.string "Yes, I did lose at Pokémon…\p"
 	.string "But, when it comes to the love of\n"
-	.string "the mountains, I have you beat!$"
+	.string "Megarock, I have you beat!$"
 
 JaggedPass_Text_DianaIntro:
 	.string "This place isn't your casual hike.\n"
-	.string "It's not suited for a picnic.$"
+	.string "It's not suited for casuals.$"
 
 JaggedPass_Text_DianaDefeat:
 	.string "Ohhh, no!\n"
-	.string "The ground is too bumpy…$"
+	.string "You're not a casual…$"
 
 JaggedPass_Text_DianaPostBattle:
 	.string "Did you know?\p"
@@ -194,7 +194,7 @@ JaggedPass_Text_DianaPostRematch:
 
 JaggedPass_Text_EthanIntro:
 	.string "Jagged Pass is hard to walk on.\n"
-	.string "It's a good place for training.$"
+	.string "Good place for destroying shoes.$"
 
 JaggedPass_Text_EthanDefeat:
 	.string "It was all over while we were still\n"
@@ -225,18 +225,18 @@ JaggedPass_Text_GruntIntro:
 	.string "Wah!\n"
 	.string "What are you doing here?\p"
 	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?$"
+	.string "I'm netdecking!\n"
+	.string "Why do you care?$"
 
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
-	.string "I should've ducked into our Hideout\n"
+	.string "I should've ducked into our Den\n"
 	.string "right away…$"
 
 JaggedPass_Text_GoWhereverYouWant:
-	.string "Okay, oh-kay!\n"
-	.string "I admit it--you're strong!\p"
-	.string "Don't worry about me.\n"
-	.string "Go wherever you want!$"
+	.string "Okay, cool!\n"
+	.string "You're strong!\p"
+	.string "I'm still deckbuilding!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 	.string "Oh! This boulder is shaking in response\n"

@@ -66,13 +66,8 @@ VerdanturfTown_EventScript_RusturfTunnelSign::
 VerdanturfTown_Text_ManTryingToDigTunnel:
 	.string "My papa told me.\p"
 	.string "He says this tunnel is full of\n"
-	.string "timid POKéMON.\p"
-	.string "They get all scared of loud noise and\n"
-	.string "make a big uproar.\p"
-	.string "So they had to stop the big tunnel\n"
-	.string "project.\p"
-	.string "But there's one man. He's trying to dig\n"
-	.string "the tunnel by himself!$"
+	.string "timid Pokémon.\p"
+	.string "So I go and spook them sometimes.$"
 
 VerdanturfTown_Text_ManDugTunnelForLove:
 	.string "There was a man who dug a tunnel for\n"
@@ -87,25 +82,16 @@ VerdanturfTown_Text_AirCleanHere:
 	.string "frail and sickly people.$"
 
 VerdanturfTown_Text_MakeBattleTentDebut:
-	.string "My POKéMON and I, we've been riding\n"
-	.string "a hot winning streak.\p"
-	.string "So I decided to make my BATTLE TENT\n"
-	.string "debut in this town.$"
+	.string "My Shaddoll and I, we've been\n"
+	.string "riding a hot winning streak.\p"
+	.string "So I decided to make my entire\n"
+	.string "deck high-rarity.$"
 
 VerdanturfTown_Text_GuyTryingToBustThroughCave:
-	.string "Did you see the cave next to the\n"
-	.string "POKéMON MART?\p"
-	.string "There's a guy in there who's trying to\n"
-	.string "bust up boulders so he can bust out\l"
-	.string "through to the other side.\p"
-	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit RUSTBORO.$"
+	.string "JUUUUUUDGE!$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
-	.string "That cave next to the POKéMON MART\n"
-	.string "is now a tunnel to the other side.\p"
-	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in RUSTBORO now.$"
+	.string "JUUUUUUDGE!$"
 
 VerdanturfTown_Text_TownSign:
 	.string "Verdanturf Town\n"
@@ -115,8 +101,8 @@ VerdanturfTown_Text_WandasHouse:
 	.string "Trish's House$"
 
 VerdanturfTown_Text_BattleTentSign:
-	.string "BATTLE TENT VERDANTURF SITE\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "Battle Tent Verdanturf\n"
+	.string "“again, nobody does these”$"
 
 VerdanturfTown_Text_RusturfTunnelSign:
 	.string "Dev Team Quotes\p"

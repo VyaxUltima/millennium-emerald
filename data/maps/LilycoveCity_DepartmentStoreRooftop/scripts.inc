@@ -197,10 +197,10 @@ LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
 	.string "here. I'm going to load up, that I am!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
-	.string "Ohh… I'm bone-dry thirsty!$"
+	.string "Ohh… I'm bone-dry!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
-	.string "It's a VENDING MACHINE.\n"
+	.string "It's a Vending Machine.\n"
 	.string "Which drink would you like?$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_CanOfDrinkDroppedDown:

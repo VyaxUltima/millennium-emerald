@@ -79,8 +79,8 @@ FallarborTown_Text_HaveYouChallengedFlannery:
 	.string "what happens.$"
 
 FallarborTown_Text_BattleTentSign:
-	.string "Battle Tent Fallarbor Site\n"
-	.string "“May the Greatest Teams Gather!”$"
+	.string "Battle Tent Fallarbor\n"
+	.string "“stop reading the battle tent signs”$"
 
 FallarborTown_Text_TownSign:
 	.string "Fallarbor Town\n"

@@ -611,7 +611,7 @@ gSongTable::
 	song ph_nurse_blend, 2, 2
 	song ph_nurse_held, 2, 2
 	song ph_nurse_solo, 2, 2
-	song mus_vs_vyax, 0, 0
+	song mus_vs_armstrong, 0, 0
 	song mus_new_trainer_vict, 0, 0
 	song mus_vs_ruggles, 0, 0
 	song mus_new_poke_center, 0, 0
@@ -636,6 +636,7 @@ gSongTable::
 	song mus_vs_trishulattv_2, 0, 0
 	song mus_ameno_torifune, 0, 0
 	song mus_vs_johto_beasts, 0, 0
+	song mus_vs_vyax, 0, 0
 
 	.align 2
 dummy_song_header:

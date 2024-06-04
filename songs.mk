@@ -552,8 +552,11 @@ $(MID_SUBDIR)/mus_rg_vs_wild.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_victory_gym_leader.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G171 -V090
 
-$(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
+$(MID_SUBDIR)/mus_vs_armstrong.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V085
+
+$(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
 
 $(MID_SUBDIR)/mus_vs_johto_beasts.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V080
@@ -625,7 +628,7 @@ $(MID_SUBDIR)/mus_new_trainer_vict.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V090
 
 $(MID_SUBDIR)/mus_new_poke_center.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G193 -V085
 
 $(MID_SUBDIR)/mus_rg_victory_trainer.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G169 -V089

@@ -13,7 +13,7 @@ Route104_Text_PlantBerriesInSoilTakeThis:
 Route104_Text_TrainersOftenMakeMonHoldBerries:
 	.string "The way you look, you must be a\n"
 	.string "Trainer, no?\p"
-	.string "TrainerS often make Pokémon hold\n"
+	.string "Trainers often make Pokémon hold\n"
 	.string "Berries.\p"
 	.string "It's up to you whether to grow Berries\n"
 	.string "or use them.$"

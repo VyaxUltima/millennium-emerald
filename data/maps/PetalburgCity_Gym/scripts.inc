@@ -1256,7 +1256,7 @@ PetalburgCity_Gym_Text_NormanIntro:
 	.string "Four Badges already?\n"
 	.string "Looking pretty clean, I gotta say.\p"
 	.string "Well, hey, I promised, right?\p"
-	.string "Four of those bad boys and we'll\p"
+	.string "Four of those bad boys and we'll\n"
 	.string "have ourselves a damn good battle!\p"
 	.string "In my honest opinion?\n"
 	.string "This team's broken as hell.\p"
