@@ -91,7 +91,7 @@ AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "What? What? What do you want with\n"
 	.string "our Twitch community?\p"
-	.string "Our BOSS isn't here!\n"
+	.string "Our GOAT isn't here!\n"
 	.string "He's on his way to Slateport!\p"
 	.string "… …\n"
 	.string "Why did he go?\p"

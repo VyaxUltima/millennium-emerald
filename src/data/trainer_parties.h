@@ -6686,7 +6686,7 @@ static const struct TrainerMonCustomized sParty_Wallace[] = {
     {
         .species = SPECIES_GALLADE,
         .ball = ITEM_LUXURY_BALL,
-        .ability = ABILITY_FILTER,
+        .ability = ABILITY_CREATORS_WARD,
         .friendship = 255,
         .gender = TRAINER_MON_MALE,
         .heldItem = ITEM_LUM_BERRY,
@@ -6694,7 +6694,7 @@ static const struct TrainerMonCustomized sParty_Wallace[] = {
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(8, 248, 0, 252, 0, 0),
         .lvl = 63,
-        .moves = {MOVE_CLOSE_COMBAT, MOVE_ZEN_HEADBUTT, MOVE_KNOCK_OFF, MOVE_SWORDS_DANCE},
+        .moves = {MOVE_CLOSE_COMBAT, MOVE_ZEN_HEADBUTT, MOVE_NIGHT_SLASH, MOVE_SWORDS_DANCE},
         .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY),
         .nickname = COMPOUND_STRING("Chronos")
     }

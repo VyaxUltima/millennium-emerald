@@ -114,6 +114,7 @@ static const u16 sSkillSwapBannedAbilities[] =
     ABILITY_ICE_FACE,
     ABILITY_HUNGER_SWITCH,
     ABILITY_GULP_MISSILE,
+    ABILITY_CREATORS_WARD,
 };
 
 static const u16 sRolePlayBannedAbilities[] =
@@ -139,6 +140,7 @@ static const u16 sRolePlayBannedAbilities[] =
     ABILITY_ICE_FACE,
     ABILITY_HUNGER_SWITCH,
     ABILITY_GULP_MISSILE,
+    ABILITY_CREATORS_WARD,
 };
 
 static const u16 sRolePlayBannedAttackerAbilities[] =
@@ -155,6 +157,7 @@ static const u16 sRolePlayBannedAttackerAbilities[] =
     ABILITY_POWER_CONSTRUCT,
     ABILITY_ICE_FACE,
     ABILITY_GULP_MISSILE,
+    ABILITY_CREATORS_WARD,
 };
 
 static const u16 sWorrySeedBannedAbilities[] =
@@ -171,6 +174,7 @@ static const u16 sWorrySeedBannedAbilities[] =
     ABILITY_TRUANT,
     ABILITY_ICE_FACE,
     ABILITY_GULP_MISSILE,
+    ABILITY_CREATORS_WARD,
 };
 
 static const u16 sGastroAcidBannedAbilities[] =
@@ -189,6 +193,7 @@ static const u16 sGastroAcidBannedAbilities[] =
     ABILITY_SHIELDS_DOWN,
     ABILITY_STANCE_CHANGE,
     ABILITY_ZEN_MODE,
+    ABILITY_CREATORS_WARD,
 };
 
 static const u16 sEntrainmentBannedAttackerAbilities[] =
@@ -207,6 +212,7 @@ static const u16 sEntrainmentBannedAttackerAbilities[] =
     ABILITY_ICE_FACE,
     ABILITY_HUNGER_SWITCH,
     ABILITY_GULP_MISSILE,
+    ABILITY_CREATORS_WARD,
 };
 
 static const u16 sEntrainmentTargetSimpleBeamBannedAbilities[] =
@@ -222,6 +228,7 @@ static const u16 sEntrainmentTargetSimpleBeamBannedAbilities[] =
     ABILITY_BATTLE_BOND,
     ABILITY_ICE_FACE,
     ABILITY_GULP_MISSILE,
+    ABILITY_CREATORS_WARD,
 };
 
 static u8 CalcBeatUpPower(void)
@@ -1029,6 +1036,7 @@ static const u8 sAbilitiesNotTraced[ABILITIES_COUNT] =
     [ABILITY_STANCE_CHANGE] = 1,
     [ABILITY_TRACE] = 1,
     [ABILITY_ZEN_MODE] = 1,
+    [ABILITY_CREATORS_WARD] = 1,
 };
 
 static const u8 sHoldEffectToType[][2] =
@@ -4342,6 +4350,15 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 effect++;
             }
             break;
+        case ABILITY_CREATORS_WARD:
+            if (!gSpecialStatuses[battler].switchInAbilityDone)
+            {
+                gBattleCommunication[MULTISTRING_CHOOSER] = B_MSG_SWITCHIN_CREATORS_WARD;
+                gSpecialStatuses[battler].switchInAbilityDone = TRUE;
+                BattleScriptPushCursorAndCallback(BattleScript_SwitchInAbilityMsg);
+                effect++;
+            }
+            break;
         case ABILITY_SLOW_START:
             if (!gSpecialStatuses[battler].switchInAbilityDone)
             {
@@ -5313,6 +5330,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 case ABILITY_DISGUISE:
                 case ABILITY_FLOWER_GIFT:
                 case ABILITY_GULP_MISSILE:
+                case ABILITY_CREATORS_WARD:
                 case ABILITY_HUNGER_SWITCH:
                 case ABILITY_ICE_FACE:
                 case ABILITY_ILLUSION:
@@ -6138,6 +6156,7 @@ bool32 IsNeutralizingGasBannedAbility(u32 ability)
     case ABILITY_ICE_FACE:
     case ABILITY_AS_ONE_ICE_RIDER:
     case ABILITY_AS_ONE_SHADOW_RIDER:
+    case ABILITY_CREATORS_WARD:
         return TRUE;
     default:
         return FALSE;
@@ -9630,6 +9649,9 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
     case ABILITY_PRISM_ARMOR:
         if (typeEffectivenessModifier >= UQ_4_12(2.0))
             MulModifier(&finalModifier, UQ_4_12(0.75));
+        break;
+    case ABILITY_CREATORS_WARD:
+        MulModifier(&finalModifier, UQ_4_12(0.8));
         break;
     }
 

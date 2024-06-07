@@ -125,6 +125,8 @@ static const u8 sRecklessDescription[] = _("Recoil moves receive a\n20% damage b
 static const u8 sMultitypeDescription[] = _("Changes type to its Plate.");
 static const u8 sFlowerGiftDescription[] = _("Cherrim ups Atk and Sp. Def\nof itself and allies.");
 static const u8 sBadDreamsDescription[] = _("Damages sleeping Pokémon.");
+
+//Gen 5+ abilities start here
 static const u8 sPickpocketDescription[] = _("Steals the foe's held item.");
 static const u8 sSheerForceDescription[] = _("Trades effects for power.");
 static const u8 sContraryDescription[] = _("Inverts stat changes.");
@@ -289,6 +291,7 @@ static const u8 sToxicDebrisDescription[] = _("Throws poison spikes if hit.");
 static const u8 sArmorTailDescription[] = _("Protects from priority.");
 static const u8 sEarthEaterDescription[] = _("Eats ground to heal HP.");
 static const u8 sMyceliumMightDescription[] = _("Status moves never fail.");
+static const u8 sCreatorsWardDescription[] = _("This Pokémon takes 20%\nless damage from attacks.");
 
 #if B_EXPANDED_ABILITY_NAMES == TRUE
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -592,6 +595,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_ARMOR_TAIL] = _("Armor Tail"),
     [ABILITY_EARTH_EATER] = _("Earth Eater"),
     [ABILITY_MYCELIUM_MIGHT] = _("Mycelium Might"),
+    [ABILITY_CREATORS_WARD] = _("Creator's Ward"),
 };
 #else   // 12 characters
 const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
@@ -895,6 +899,7 @@ const u8 gAbilityNames[ABILITIES_COUNT][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_ARMOR_TAIL] = _("Armor Tail"),
     [ABILITY_EARTH_EATER] = _("Earth Eater"),
     [ABILITY_MYCELIUM_MIGHT] = _("MceliumMight"),
+    [ABILITY_CREATORS_WARD] = _("Creator Ward"),
 };
 #endif
 
@@ -1199,4 +1204,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT] =
     [ABILITY_ARMOR_TAIL] = sArmorTailDescription,
     [ABILITY_EARTH_EATER] = sEarthEaterDescription,
     [ABILITY_MYCELIUM_MIGHT] = sMyceliumMightDescription,
+    [ABILITY_CREATORS_WARD] = sCreatorsWardDescription,
 };

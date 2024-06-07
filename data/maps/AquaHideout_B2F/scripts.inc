@@ -129,10 +129,10 @@ AquaHideout_B2F_Text_Grunt6Intro:
 	.string "You're clueless about where you are,\n"
 	.string "aren't you?\p"
 	.string "Fluster and tire out the enemy, then\n"
-	.string "lower the boom! That's our plan!$"
+	.string "lower the KEKWs! That's our plan!$"
 
 AquaHideout_B2F_Text_Grunt6Defeat:
-	.string "My team went boom!$"
+	.string "My team went ppPoof!$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
 	.string "That reminds me… I can't remember\n"

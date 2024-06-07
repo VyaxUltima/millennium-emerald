@@ -454,8 +454,8 @@ SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "Archie: Oh?\n"
 	.string "Not you again…\p"
-	.string "You are tenacious to track us here,\n"
-	.string "that much I will give you.\p"
+	.string "You skipped touching grass for this,\n"
+	.string "didn't you?\p"
 	.string "But now…\n"
 	.string "No one can stop us! No one!\p"
 	.string "Or, will you follow us back\n"

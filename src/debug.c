@@ -2965,8 +2965,8 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
         if (JOY_NEW(DPAD_UP))
         {
             gTasks[taskId].data[3] += sPowersOfTen[gTasks[taskId].data[4]];
-            if (gTasks[taskId].data[3] > END_MUS)
-                gTasks[taskId].data[3] = END_MUS;
+            if (gTasks[taskId].data[3] > END_MUS_EXT)
+                gTasks[taskId].data[3] = END_MUS_EXT;
         }
         if (JOY_NEW(DPAD_DOWN))
         {
@@ -3267,6 +3267,32 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(PH_NURSE_BLEND) \
     X(PH_NURSE_HELD) \
     X(PH_NURSE_SOLO) \
+    X(MUS_VS_ARMSTRONG) \
+    X(MUS_NEW_TRAINER_VICT) \
+    X(MUS_VS_RUGGLES) \
+    X(MUS_NEW_POKE_CENTER) \
+    X(MUS_NEW_HIDEOUT) \
+    X(MUS_MBT_GYM) \
+    X(MUS_VS_MIROR_B) \
+    X(MUS_VS_MUTTHUNTER) \
+    X(MUS_VS_DECKDEVIL) \
+    X(MUS_NEW_SKY_PILLAR) \
+    X(MUS_NEW_VICTORY_ROAD) \
+    X(MUS_VS_TRISHULATTV ) \
+    X(MUS_IMMINENT_DEATH) \
+    X(MUS_NEW_DIVE) \
+    X(MUS_BLACK_MARKET) \
+    X(MUS_VS_DUCKIE) \
+    X(MUS_NEW_LAVARIDGE) \
+    X(MUS_NEW_GYM_LEADER) \
+    X(MUS_VS_WILD_ALT) \
+    X(MUS_VS_REFISIO) \
+    X(MUS_NYHMNIM_GYM) \
+    X(MUS_VS_CTSC) \
+    X(MUS_VS_TRISHULATTV_2) \
+    X(MUS_AMENO_TORIFUNE) \
+    X(MUS_VS_JOHTO_BEASTS) \
+    X(MUS_VS_VYAX) \
 
 #define SOUND_LIST_SE \
     X(SE_USE_ITEM) \

@@ -192,7 +192,7 @@ Route123_Text_RouteSign:
 
 Route123_Text_RouteSignMtPyre:
 	.string "{UP_ARROW} Mt. Pyre\n"
-	.string "“Mementototlan enjoyers welcome.”$"
+	.string "“Balerdroch enjoyers welcome.”$"
 
 Route123_Text_BerryMastersHouse:
 	.string "Berry Master's House$"

@@ -20,14 +20,14 @@ MagmaHideout_3F_1R_Text_Grunt9Defeat:
 	.string "I'm getting heat exhaustion…$"
 
 MagmaHideout_3F_1R_Text_Grunt9PostBattle:
-	.string "Do you think it's odd that we're wearing\n"
-	.string "hoods in this magma-filled volcano?$"
+	.string "This outfit is not conducive to\n"
+	.string "avoiding heatstroke.$"
 
 MagmaHideout_3F_1R_Text_Grunt16Intro:
 	.string "We joined so we can help our leader\n"
 	.string "achieve his fantastic vision.\p"
-	.string "I don't care if you're with TEAM AQUA\n"
-	.string "or if you're just some kid passing by.\p"
+	.string "I don't care if we have to pause to\n"
+	.string "read the decklist!\p"
 	.string "No one interferes with us and gets\n"
 	.string "away with it!$"
 
@@ -37,7 +37,7 @@ MagmaHideout_3F_1R_Text_Grunt16Defeat:
 
 MagmaHideout_3F_1R_Text_Grunt16PostBattle:
 	.string "Listen to me.\n"
-	.string "TEAM MAGMA is right!\p"
-	.string "Don't listen to TEAM AQUA.\n"
+	.string "YouTube is right!\p"
+	.string "Don't listen to Twitch.\n"
 	.string "Don't believe their lies!$"
 

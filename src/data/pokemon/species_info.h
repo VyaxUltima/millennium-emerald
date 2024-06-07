@@ -11726,7 +11726,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         #else
             .eggGroups = { EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS},
         #endif
-        .abilities = {ABILITY_STEADFAST, ABILITY_NONE, ABILITY_FILTER},
+        .abilities = {ABILITY_STEADFAST, ABILITY_NONE, ABILITY_CREATORS_WARD},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
