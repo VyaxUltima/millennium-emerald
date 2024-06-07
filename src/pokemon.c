@@ -7244,6 +7244,37 @@ u8 CheckPartyPokerus(struct Pokemon *party, u8 selection)
     return retVal;
 }
 
+//for IV checker NPC
+u16 GetHpIV(void)
+{
+	return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_HP_IV, NULL);
+}
+
+u16 GetAtkIV(void)
+{
+	return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_ATK_IV, NULL);
+}
+
+u16 GetDefIV(void)
+{
+	return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_DEF_IV, NULL);
+}
+
+u16 GetSpAtkIV(void)
+{
+	return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SPATK_IV, NULL);
+}
+
+u16 GetSpDefIV(void)
+{
+	return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SPDEF_IV, NULL);
+}
+
+u16 GetSpeedIV(void)
+{
+	return GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SPEED_IV, NULL);
+}
+
 u8 CheckPartyHasHadPokerus(struct Pokemon *party, u8 selection)
 {
     u8 retVal;

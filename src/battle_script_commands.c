@@ -1906,7 +1906,7 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move, u32 atkAbility, u
         break;
     case ABILITY_HUSTLE:
         if (IS_MOVE_PHYSICAL(move))
-            calc = (calc * 90) / 100; // 1.1 hustle loss in UCE
+            calc = (calc * 90) / 100; // 1.1 hustle loss in ME
         break;
     }
 

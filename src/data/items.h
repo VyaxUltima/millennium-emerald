@@ -1037,10 +1037,10 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_AbilityCapsule,
     },
 
-    [ITEM_ABILITY_PATCH] =
+    [ITEM_SKILL_MANUAL] =
     {
         .name = _("Skill Manual"),
-        .itemId = ITEM_ABILITY_PATCH,
+        .itemId = ITEM_SKILL_MANUAL,
         .price = 0,
         .holdEffectParam = 0,
         .description = sAbilityPatchDesc,

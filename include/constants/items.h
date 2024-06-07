@@ -99,7 +99,7 @@
 
 // Ability Modifiers
 #define ITEM_ABILITY_CAPSULE 79
-#define ITEM_ABILITY_PATCH 80
+#define ITEM_SKILL_MANUAL 80
 
 // Mints
 #define ITEM_LONELY_MINT 81

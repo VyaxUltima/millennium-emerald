@@ -438,9 +438,12 @@ static u8 ChooseMoveOrAction_Singles(void)
         && !(gBattleTypeFlags & (BATTLE_TYPE_ARENA | BATTLE_TYPE_PALACE))
         && AI_THINKING_STRUCT->aiFlags & (AI_FLAG_CHECK_VIABILITY | AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_PREFER_BATON_PASS))
     {
-        // Consider switching if all moves are worthless to use.
-        if (GetTotalBaseStat(gBattleMons[sBattler_AI].species) >= 310 // Mon is not weak.
-            && gBattleMons[sBattler_AI].hp >= gBattleMons[sBattler_AI].maxHP / 2)
+        //Consider switching if all the following conditions are met:
+        //•The AI's active mon has a BST of 310 or more
+        //•The AI's active mon has 33% or more HP
+        //•The AI calculates all moves of the active mon to have a preference score of 95 or less
+        if (GetTotalBaseStat(gBattleMons[sBattler_AI].species) >= 310
+            && gBattleMons[sBattler_AI].hp >= gBattleMons[sBattler_AI].maxHP / 3)
         {
             s32 cap = AI_THINKING_STRUCT->aiFlags & (AI_FLAG_CHECK_VIABILITY) ? 95 : 93;
             for (i = 0; i < MAX_MON_MOVES; i++)
@@ -725,6 +728,9 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         case AI_EFFECTIVENESS_x0_125:
         case AI_EFFECTIVENESS_x0_25:
             RETURN_SCORE_MINUS(10);
+            break;
+        case AI_EFFECTIVENESS_x0_5:
+            RETURN_SCORE_MINUS(5);
             break;
         }
 
