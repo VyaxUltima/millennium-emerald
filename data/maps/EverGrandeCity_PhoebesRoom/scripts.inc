@@ -18,7 +18,7 @@ EverGrandeCity_PhoebesRoom_OnFrame:
 
 EverGrandeCity_PhoebesRoom_EventScript_WalkInCloseDoor::
 	lockall
-	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	call PokemonLeague_EliteFourPhoebe_EventScript_WalkInCloseDoor
 	setvar VAR_ELITE_4_STATE, 1
 	releaseall
 	end
@@ -33,7 +33,7 @@ EverGrandeCity_PhoebesRoom_EventScript_ResetAdvanceToNextRoom::
 	return
 
 EverGrandeCity_PhoebesRoom_EventScript_CloseDoor::
-	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	call PokemonLeague_EliteFourPhoebe_EventScript_CloseDoor
 	return
 
 EverGrandeCity_PhoebesRoom_EventScript_Phoebe::
@@ -54,7 +54,7 @@ EverGrandeCity_PhoebesRoom_EventScript_PostBattleSpeech::
 EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_PHOEBE
 	addvar VAR_ELITE_4_ROOMS_CLEARED, 1
-	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	call PokemonLeague_EliteFourPhoebe_SetAdvanceToNextRoomMetatiles
 	msgbox EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release
 	end

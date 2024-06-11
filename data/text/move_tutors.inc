@@ -83,8 +83,6 @@ MoveTutor_Text_MimicTaught:
 	.string "as well as me…?$"
 
 MoveTutor_Text_MetronomeTeach:
-	.string "I want all sorts of things!\n"
-	.string "But I used up my allowance…\p"
 	.string "Wouldn't it be nice if you could\n"
 	.string "call RNG by waggling a finger?\p"
 	.string "If you want, I can teach your Pokémon\n"

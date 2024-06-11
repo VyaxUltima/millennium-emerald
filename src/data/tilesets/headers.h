@@ -825,3 +825,58 @@ const struct Tileset gTileset_UnionRoom =
     .metatileAttributes = gMetatileAttributes_UnionRoom,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_elite_four_duckies_room =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_elite_four_duckies_room,
+    .palettes = gTilesetPalettes_elite_four_duckies_room,
+    .metatiles = gMetatiles_elite_four_duckies_room,
+    .metatileAttributes = gMetatileAttributes_elite_four_duckies_room,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_elite_four_mutts_room_real =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_elite_four_mutts_room_real,
+    .palettes = gTilesetPalettes_elite_four_mutts_room_real,
+    .metatiles = gMetatiles_elite_four_mutts_room_real,
+    .metatileAttributes = gMetatileAttributes_elite_four_mutts_room_real,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_elite_four_refs_room =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_elite_four_refs_room,
+    .palettes = gTilesetPalettes_elite_four_refs_room,
+    .metatiles = gMetatiles_elite_four_refs_room,
+    .metatileAttributes = gMetatileAttributes_elite_four_refs_room,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_champions_room =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_champions_room,
+    .palettes = gTilesetPalettes_champions_room,
+    .metatiles = gMetatiles_champions_room,
+    .metatileAttributes = gMetatileAttributes_champions_room,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_EliteFourNew =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_EliteFourNew,
+    .palettes = gTilesetPalettes_EliteFourNew,
+    .metatiles = gMetatiles_EliteFourNew,
+    .metatileAttributes = gMetatileAttributes_EliteFourNew,
+    .callback = NULL,
+};

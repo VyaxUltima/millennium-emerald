@@ -19,7 +19,7 @@ EverGrandeCity_DrakesRoom_OnFrame:
 
 EverGrandeCity_DrakesRoom_EventScript_WalkInCloseDoor::
 	lockall
-	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	call PokemonLeague_EliteFourDrake_EventScript_WalkInCloseDoor
 	setvar VAR_ELITE_4_STATE, 1
 	releaseall
 	end
@@ -34,7 +34,7 @@ EverGrandeCity_DrakesRoom_EventScript_ResetAdvanceToNextRoom::
 	return
 
 EverGrandeCity_DrakesRoom_EventScript_CloseDoor::
-	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	call PokemonLeague_EliteFourDrake_EventScript_CloseDoor
 	return
 
 EverGrandeCity_DrakesRoom_EventScript_Drake::
@@ -57,7 +57,7 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 	special Script_TryGainNewFanFromCounter
 	setflag FLAG_DEFEATED_ELITE_4_DRAKE
 	addvar VAR_ELITE_4_ROOMS_CLEARED, 1
-	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	call PokemonLeague_EliteFourDrake_SetAdvanceToNextRoomMetatiles
 	msgbox EverGrandeCity_DrakesRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release
 	end

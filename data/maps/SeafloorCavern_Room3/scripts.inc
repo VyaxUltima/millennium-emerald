@@ -12,35 +12,34 @@ SeafloorCavern_Room3_EventScript_Grunt5::
 	end
 
 SeafloorCavern_Room3_Text_ShellyIntro:
-	.string "Ahahahaha!\p" @asked for spreadsheet channel
+	.string "Ah, hello again.\p"
 	.string "How did you manage to get here without\n"
-	.string "a submarine?\l"
-	.string "What an impressive child!\p"
-	.string "But… It won't do to have you\n"
-	.string "meddling about here.\p"
+	.string "a submarine?\p"
+	.string "…Mm, right. We forgot about HMs.\p"
+	.string "No big deal. This time, I have\n"
+	.string "the ultimate spreadsheet.\p"
 	.string "And, I do want payback for what\n"
-	.string "happened at the WEATHER INSTITUTE…\p"
-	.string "I'm going to give you a little taste\n"
-	.string "of pain! Resign yourself to it!$"
+	.string "happened at the Weather Institute.\p"
+	.string "Though, even if I lose, it would\n"
+	.string "work out just fine.\p"
+	.string "Now, let me demonstrate why I am\n"
+	.string "the one true Twitch mod.$"
 
 SeafloorCavern_Room3_Text_ShellyDefeat:
-	.string "Ahahahaha!\p"
-	.string "Ouch!$"
+	.string "Failed to resolve Danger Mathman.$"
 
 SeafloorCavern_Room3_Text_ShellyPostBattle:
-	.string "Ahahahaha!\n"
-	.string "You're so darn strong.\p"
-	.string "It's terribly disappointing that you're\n"
-	.string "not a TEAM AQUA member.\p"
-	.string "You could have enjoyed the fabulous\n"
-	.string "world our BOSS has promised as\l"
-	.string "one of us…$"
+	.string "Like I said before, it's fine\n"
+	.string "if I lose to you.\p"
+	.string "After all, everything that Archie\n"
+	.string "needed is already in place.\p"
+	.string "It's time for the funny Joel.$"
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
 	.string "For our dream to become real, we need\n"
-	.string "the power of POKéMON.\p"
+	.string "the power of big Joel….\p"
 	.string "But meddlers like you use the power of\n"
-	.string "POKéMON to mess with us even at\l"
+	.string "Pokémon to mess with us even at\l"
 	.string "a place like this!\p"
 	.string "Life just doesn't work the way we\n"
 	.string "need it to!$"
@@ -50,9 +49,9 @@ SeafloorCavern_Room3_Text_Grunt5Defeat:
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle:
 	.string "You know, we don't dare question\n"
-	.string "the motives of our leader.\p"
+	.string "the motives of the Joel Fanclub.\p"
 	.string "But here you are, just some punk,\n"
-	.string "going up against our BOSS.\p"
+	.string "going up against our streamer.\p"
 	.string "Maybe…\n"
 	.string "You must be something…$"
 

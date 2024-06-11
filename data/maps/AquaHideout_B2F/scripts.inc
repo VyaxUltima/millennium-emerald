@@ -94,7 +94,7 @@ AquaHideout_B2F_Text_MattIntro:
 	.string "You got here already, did you?\n"
 	.string "A bit quicker than expected.\p"
 	.string "But this is fine.\n"
-	.string "I have new filter and sort functions\n"
+	.string "I have new filter and sort functions\l"
 	.string "for optimized trolling.\p"
 	.string "I'm not stalling for time.\n"
 	.string "I'll send you to Xbox Live.$"

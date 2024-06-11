@@ -1097,3 +1097,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/AmenoTorifune_B5F/scripts.inc"
 
 	.include "data/maps/VerdanturfTown_NewHouse/scripts.inc"
+
+	.include "data/maps/TestMap1/scripts.inc"
+
+	.include "data/maps/SootopolisCity_NewGym_B1F/scripts.inc"

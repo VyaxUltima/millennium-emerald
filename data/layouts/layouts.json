@@ -1084,10 +1084,10 @@
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_GYM_1F",
       "name": "SootopolisCity_Gym_1F_Layout",
-      "width": 17,
-      "height": 26,
+      "width": 39,
+      "height": 9,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_SootopolisGym",
+      "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/SootopolisCity_Gym_1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_Gym_1F/map.bin"
     },
@@ -1107,7 +1107,7 @@
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_elite_four_duckies_room",
       "border_filepath": "data/layouts/EverGrandeCity_SidneysRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_SidneysRoom/map.bin"
     },
@@ -1116,8 +1116,8 @@
       "name": "EverGrandeCity_PhoebesRoom_Layout",
       "width": 13,
       "height": 14,
-      "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_EliteFour",
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/map.bin"
     },
@@ -1127,17 +1127,17 @@
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_elite_four_mutts_room_real",
       "border_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
       "name": "EverGrandeCity_DrakesRoom_Layout",
-      "width": 13,
-      "height": 14,
+      "width": 9,
+      "height": 11,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_elite_four_refs_room",
       "border_filepath": "data/layouts/EverGrandeCity_DrakesRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_DrakesRoom/map.bin"
     },
@@ -1147,7 +1147,7 @@
       "width": 13,
       "height": 13,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_champions_room",
       "border_filepath": "data/layouts/EverGrandeCity_ChampionsRoom/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_ChampionsRoom/map.bin"
     },
@@ -4484,10 +4484,10 @@
     {
       "id": "LAYOUT_SOOTOPOLIS_CITY_NEW_GYM_1F",
       "name": "SootopolisCity_NewGym_1F_Layout",
-      "width": 17,
-      "height": 17,
+      "width": 39,
+      "height": 9,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/SootopolisCity_NewGym_1F/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_NewGym_1F/map.bin"
     },
@@ -4497,7 +4497,7 @@
       "width": 29,
       "height": 18,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_EliteFour",
+      "secondary_tileset": "gTileset_EliteFourNew",
       "border_filepath": "data/layouts/EverGrandeCity_LeagueChamber/border.bin",
       "blockdata_filepath": "data/layouts/EverGrandeCity_LeagueChamber/map.bin"
     },
@@ -4570,6 +4570,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/VerdanturfTown_NewHouse/border.bin",
       "blockdata_filepath": "data/layouts/VerdanturfTown_NewHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_TEST_MAP1",
+      "name": "TestMap1_Layout",
+      "width": 39,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/TestMap1/border.bin",
+      "blockdata_filepath": "data/layouts/TestMap1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SOOTOPOLIS_CITY_NEW_GYM_B1F",
+      "name": "SootopolisCity_NewGym_B1F_Layout",
+      "width": 52,
+      "height": 52,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/SootopolisCity_NewGym_B1F/border.bin",
+      "blockdata_filepath": "data/layouts/SootopolisCity_NewGym_B1F/map.bin"
     }
   ]
 }

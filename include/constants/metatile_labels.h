@@ -1,6 +1,10 @@
 #ifndef GUARD_METATILE_LABELS_H
 #define GUARD_METATILE_LABELS_H
 
+// gTileset_Bakura
+#define METATILE_Bakura_Door   0x239
+#define METATILE_Bakura_Frame  0x231
+
 // gTileset_BattleArena
 #define METATILE_BattleArena_Door  0x21B
 
@@ -143,12 +147,20 @@
 #define METATILE_Dewford_Door              0x225
 #define METATILE_Dewford_Door_BattleTower  0x25D
 
+// gTileset_Duckie
+#define METATILE_Duckie_Door                    0x238
+#define METATILE_Duckie_EntryDoor_ClosedBottom  0x252
+#define METATILE_Duckie_EntryDoor_ClosedTop     0x251
+#define METATILE_Duckie_Frame                   0x230
+#define METATILE_Duckie_OpenDoor_Frame          0x204
+#define METATILE_Duckie_OpenDoor_Opening        0x20C
+
 // gTileset_EliteFour
 #define METATILE_EliteFour_EntryDoor_ClosedBottom    0x20E
 #define METATILE_EliteFour_EntryDoor_ClosedTop       0x206
 #define METATILE_EliteFour_LeftSpotlightOff          0x2DD
-#define METATILE_EliteFour_OpenDoorChampion_Frame    0x346
-#define METATILE_EliteFour_OpenDoorChampion_Opening  0x347
+#define METATILE_EliteFour_OpenDoorChampion_Frame    0x270
+#define METATILE_EliteFour_OpenDoorChampion_Opening  0x271
 #define METATILE_EliteFour_OpenDoor_Frame            0x344
 #define METATILE_EliteFour_OpenDoor_Opening          0x345
 #define METATILE_EliteFour_RightSpotlightOff         0x2DE
@@ -370,6 +382,14 @@
 #define METATILE_Mossdeep_Door              0x2A1
 #define METATILE_Mossdeep_Door_SpaceCenter  0x2ED
 
+// gTileset_Mutt
+#define METATILE_Mutt_Door                    0x23A
+#define METATILE_Mutt_EntryDoor_ClosedBottom  0x290
+#define METATILE_Mutt_EntryDoor_ClosedTop     0x263
+#define METATILE_Mutt_Frame                   0x232
+#define METATILE_Mutt_OpenDoor_Frame          0x292
+#define METATILE_Mutt_OpenDoor_Opening        0x291
+
 // gTileset_Pacifidlog
 #define METATILE_Pacifidlog_Door                               0x21A
 #define METATILE_Pacifidlog_FloatingLogs_HorizontalLeft        0x250
@@ -438,6 +458,14 @@
 #define METATILE_RSMossdeepGym_RedArrow_Up     0x20D
 #define METATILE_RSMossdeepGym_Switch_Down     0x239
 #define METATILE_RSMossdeepGym_Switch_Up       0x238
+
+// gTileset_Ref
+#define METATILE_Ref_OpenDoor_Frame    0x231
+#define METATILE_Ref_OpenDoor_Opening  0x239
+
+// gTileset_Refisio
+#define METATILE_Refisio_Door   0x23B
+#define METATILE_Refisio_Frame  0x233
 
 // gTileset_Rustboro
 #define METATILE_Rustboro_Door_Gray  0x21F
@@ -732,11 +760,12 @@
 #define METATILE_SootopolisGym_Stairs       0x207
 
 // gTileset_Sootopolis
-#define METATILE_Sootopolis_Door             0x21E
-#define METATILE_Sootopolis_Door_Closed      0x248
-#define METATILE_Sootopolis_Door_PeakedRoof  0x21C
-#define METATILE_Sootopolis_GymDoor_Closed   0x250
-#define METATILE_Sootopolis_RoughWater       0x290
+#define METATILE_Sootopolis_Door               0x21E
+#define METATILE_Sootopolis_Door_Closed        0x248
+#define METATILE_Sootopolis_Door_PeakedRoof    0x21C
+#define METATILE_Sootopolis_GymDoor_Closed     0x250
+#define METATILE_Sootopolis_Gym_Door_Interior  0x257
+#define METATILE_Sootopolis_RoughWater         0x290
 
 // gTileset_TrainerHill
 #define METATILE_TrainerHill_CounterDoor          0x334

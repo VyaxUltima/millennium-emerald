@@ -52,10 +52,10 @@ PacifidlogTown_House3_EventScript_Girl::
 
 PacifidlogTown_House3_Text_WillingToTradeIt:
 	.string "Check out this {STR_VAR_2}!\p"
-	.string "It's the {STR_VAR_2} that I caught\n"
-	.string "yesterday to celebrate my birthday!\p"
+	.string "My friend wanted it to travel\n"
+	.string "across the world.\p"
 	.string "Oh, I can see that you want it!\n"
-	.string "After all, it's priceless!\p"
+	.string "Hey, that's great!\p"
 	.string "I'll tell you what. I might be willing\n"
 	.string "to trade it for a {STR_VAR_1}.$"
 
@@ -72,18 +72,19 @@ PacifidlogTown_House3_Text_WontAcceptAnyLessThanRealMon:
 PacifidlogTown_House3_Text_NotDesperateOrAnything:
 	.string "Oh, so you're not going to go through\n"
 	.string "with this?\p"
-	.string "That's cool. I'm not desperate to make\n"
-	.string "a trade or anything.$"
+	.string "That's cool. I can always travel\n"
+	.string "with it myself.$"
 
 PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
 	.string "I know I could go looking for one\n"
-	.string "on my own, but…\p"
-	.string "But I really wanted to get a BAGON\n"
-	.string "that another TRAINER caught…$"
+	.string "on my own, but…$"
 
 PacifidlogTown_House3_Text_IsThatAPokedex:
-	.string "Is that a Pokédex?\p"
-	.string "Did you get to meet a lot of different\n"
-	.string "POKéMON?\p"
-	.string "I wish I was like you.$"
+	.string "Is that a Pokédex?\n"
+	.string "Interesting…\l"
+	.string "Is that like a COMP?\p"
+	.string "…I see, so you received a\n"
+	.string "Pokédex from a man called Birch.\p"
+	.string "Sorry about that. I was just curious\n"
+	.string "if you knew Stephen.$"
 

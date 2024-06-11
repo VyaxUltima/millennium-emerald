@@ -1189,7 +1189,7 @@ SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 	.string "control of your submarine!\p"
 	.string "Your objections are meaningless!\n"
 	.string "We expect your total cooperation!\p"
-	.string "Just watch and learn what our\l"
+	.string "Just watch and learn what our\n"
 	.string "donation incentive has gone to!$"
 
 SlateportCity_Text_SternWhatWasAllThat:

@@ -12,7 +12,7 @@ SeafloorCavern_Room1_EventScript_Grunt2::
 	end
 
 SeafloorCavern_Room1_Text_Grunt1Intro:
-	.string "We don't need a kid around!\n"
+	.string "We don't need a normie around!\n"
 	.string "Go on home already!$"
 
 SeafloorCavern_Room1_Text_Grunt1Defeat:
@@ -20,7 +20,7 @@ SeafloorCavern_Room1_Text_Grunt1Defeat:
 
 SeafloorCavern_Room1_Text_Grunt1PostBattle:
 	.string "I want to get a promotion so I can\n"
-	.string "boss around the GRUNTS…$"
+	.string "get first crack at Joel…$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
 	.string "That submarine… It's tiny inside.\n"

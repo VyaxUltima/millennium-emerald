@@ -1637,8 +1637,8 @@ static const u8 sAirSlashDescription[] = _(
     "air. May cause flinching.");
 
 static const u8 sXScissorDescription[] = _(
-    "Slashes the foe in a cross\n"
-    "shape. High critical-hit ratio.");
+    "Crossed blades slash the foe.\n"
+    "High critical-hit ratio.");
 
 static const u8 sBugBuzzDescription[] = _(
     "A damaging sound wave that\n"

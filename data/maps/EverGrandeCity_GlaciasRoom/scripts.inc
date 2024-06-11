@@ -18,7 +18,7 @@ EverGrandeCity_GlaciasRoom_OnFrame:
 
 EverGrandeCity_GlaciasRoom_EventScript_WalkInCloseDoor::
 	lockall
-	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	call PokemonLeague_EliteFourGlacia_EventScript_WalkInCloseDoor
 	setvar VAR_ELITE_4_STATE, 1
 	releaseall
 	end
@@ -33,7 +33,7 @@ EverGrandeCity_GlaciasRoom_EventScript_ResetAdvanceToNextRoom::
 	return
 
 EverGrandeCity_GlaciasRoom_EventScript_CloseDoor::
-	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	call PokemonLeague_EliteFourGlacia_EventScript_CloseDoor
 	return
 
 EverGrandeCity_GlaciasRoom_EventScript_Glacia::
@@ -54,7 +54,7 @@ EverGrandeCity_GlaciasRoom_EventScript_PostBattleSpeech::
 EverGrandeCity_GlaciasRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_GLACIA
 	addvar VAR_ELITE_4_ROOMS_CLEARED, 1
-	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	call PokemonLeague_EliteFourGlacia_SetAdvanceToNextRoomMetatiles
 	msgbox EverGrandeCity_GlaciasRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release
 	end

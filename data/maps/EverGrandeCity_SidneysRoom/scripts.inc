@@ -20,7 +20,7 @@ EverGrandeCity_SidneysRoom_EventScript_ResetAdvanceToNextRoom::
 	return
 
 EverGrandeCity_SidneysRoom_EventScript_CloseDoor::
-	call PokemonLeague_EliteFour_EventScript_CloseDoor
+	call PokemonLeague_EliteFourSidney_EventScript_CloseDoor
 	return
 
 EverGrandeCity_SidneysRoom_OnWarp:
@@ -37,7 +37,7 @@ EverGrandeCity_SidneysRoom_OnFrame:
 
 EverGrandeCity_SidneysRoom_EventScript_WalkInCloseDoor::
 	lockall
-	call PokemonLeague_EliteFour_EventScript_WalkInCloseDoor
+	call PokemonLeague_EliteFourSidney_EventScript_WalkInCloseDoor
 	setvar VAR_ELITE_4_STATE, 1
 	releaseall
 	end
@@ -60,7 +60,7 @@ EverGrandeCity_SidneysRoom_EventScript_PostBattleSpeech::
 EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	setflag FLAG_DEFEATED_ELITE_4_SIDNEY
 	addvar VAR_ELITE_4_ROOMS_CLEARED, 1
-	call PokemonLeague_EliteFour_SetAdvanceToNextRoomMetatiles
+	call PokemonLeague_EliteFourSidney_SetAdvanceToNextRoomMetatiles
 	msgbox EverGrandeCity_SidneysRoom_Text_PostBattleSpeech, MSGBOX_DEFAULT
 	release
 	end
@@ -83,5 +83,5 @@ EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
 	.string "Side note, when you get to the\n"
 	.string "boss himself…\p"
 	.string "Tell him to fuck off for only\n"
-	.string "two fish in the region.$"
+	.string "having two fish in the region.$"
 

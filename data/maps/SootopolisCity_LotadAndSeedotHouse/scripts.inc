@@ -90,17 +90,11 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir2::
 	end
 
 SootopolisCity_LotadAndSeedotHouse_EventScript_SeedotSizeRecord::
-	special GetSeedotSizeRecordInfo
-	lockall
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory, MSGBOX_DEFAULT
-	releaseall
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory, MSGBOX_SIGN
 	end
 
 SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord::
-	special GetLotadSizeRecordInfo
-	lockall
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory, MSGBOX_DEFAULT
-	releaseall
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory, MSGBOX_SIGN
 	end
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSeedot:
@@ -147,10 +141,7 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSeedot:
 	.string "come show me.$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSeedotInHistory:
-	.string "The biggest SEEDOT in history!\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3}-inch giant!\p"
-	.string "A SEEDOT bigger than a LOTAD\n"
-	.string "always wanted!$"
+	.string "It's some old memorabilia.$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad:
 	.string "Do you know the POKéMON LOTAD?\n"
@@ -195,8 +186,5 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad:
 	.string "come show me!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory:
-	.string "The biggest LOTAD in history!\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3}-inch colossus!\p"
-	.string "A LOTAD bigger than a SEEDOT\n"
-	.string "always wanted!$"
+	.string "It's a frame of some old cards.$"
 

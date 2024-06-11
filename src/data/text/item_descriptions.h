@@ -3824,8 +3824,8 @@ static const u8 sMeteoriteDesc[] = _(
     "in FTK decks.");
 
 static const u8 sMagmaEmblemDesc[] = _(
-    "A badge that seems to\n"
-    "be used by YouTube\n"
+    "A badge that is\n"
+    "used by YouTube\n"
     "Viewers somehow.");
 
 static const u8 sContestPassDesc[] = _(

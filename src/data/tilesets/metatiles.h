@@ -207,3 +207,18 @@ const u16 gMetatileAttributes_MysteryEventsHouse[] = INCBIN_U16("data/tilesets/s
 
 const u16 gMetatiles_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatiles.bin");
 const u16 gMetatileAttributes_UnionRoom[] = INCBIN_U16("data/tilesets/secondary/union_room/metatile_attributes.bin");
+
+const u16 gMetatiles_elite_four_duckies_room[] = INCBIN_U16("data/tilesets/secondary/elite_four_duckies_room/metatiles.bin");
+const u16 gMetatileAttributes_elite_four_duckies_room[] = INCBIN_U16("data/tilesets/secondary/elite_four_duckies_room/metatile_attributes.bin");
+
+const u16 gMetatiles_elite_four_mutts_room_real[] = INCBIN_U16("data/tilesets/secondary/elite_four_mutts_room_real/metatiles.bin");
+const u16 gMetatileAttributes_elite_four_mutts_room_real[] = INCBIN_U16("data/tilesets/secondary/elite_four_mutts_room_real/metatile_attributes.bin");
+
+const u16 gMetatiles_elite_four_refs_room[] = INCBIN_U16("data/tilesets/secondary/elite_four_refs_room/metatiles.bin");
+const u16 gMetatileAttributes_elite_four_refs_room[] = INCBIN_U16("data/tilesets/secondary/elite_four_refs_room/metatile_attributes.bin");
+
+const u16 gMetatiles_champions_room[] = INCBIN_U16("data/tilesets/secondary/champions_room/metatiles.bin");
+const u16 gMetatileAttributes_champions_room[] = INCBIN_U16("data/tilesets/secondary/champions_room/metatile_attributes.bin");
+
+const u16 gMetatiles_EliteFourNew[] = INCBIN_U16("data/tilesets/secondary/elite_four_new/metatiles.bin");
+const u16 gMetatileAttributes_EliteFourNew[] = INCBIN_U16("data/tilesets/secondary/elite_four_new/metatile_attributes.bin");

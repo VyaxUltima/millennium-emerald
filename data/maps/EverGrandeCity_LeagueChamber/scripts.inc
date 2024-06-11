@@ -24,26 +24,26 @@ EverGrandeCity_LeagueChamber_OnLoad:
 	end
 
 EverGrandeCity_LeagueChamber_CloseDuckieDoor:
-	setmetatile 3, 3, 0x202, TRUE
-	setmetatile 3, 4, 0x20A, TRUE
+	setmetatile 3, 3, METATILE_Duckie_Frame, TRUE
+	setmetatile 3, 4, METATILE_Duckie_Door, TRUE
 	special DrawWholeMapView
 	return
 
 EverGrandeCity_LeagueChamber_CloseBakuraDoor:
-	setmetatile 10, 2, 0x202, TRUE
-	setmetatile 10, 3, 0x20A, TRUE
+	setmetatile 10, 2, METATILE_Bakura_Frame, TRUE
+	setmetatile 10, 3, METATILE_Bakura_Door, TRUE
 	special DrawWholeMapView
 	return
 	
 EverGrandeCity_LeagueChamber_CloseMuttDoor:
-	setmetatile 18, 2, 0x202, TRUE
-	setmetatile 18, 3, 0x20A, TRUE
+	setmetatile 18, 2, METATILE_Mutt_Frame, TRUE
+	setmetatile 18, 3, METATILE_Mutt_Door, TRUE
 	special DrawWholeMapView
 	return
 	
 EverGrandeCity_LeagueChamber_CloseRefisioDoor:
-	setmetatile 25, 3, 0x202, TRUE
-	setmetatile 25, 4, 0x20A, TRUE
+	setmetatile 25, 3, METATILE_Refisio_Frame, TRUE
+	setmetatile 25, 4, METATILE_Refisio_Door, TRUE
 	special DrawWholeMapView
 	return
 
@@ -108,7 +108,7 @@ EverGrandeCity_LeagueChamber_DuckieRoomText:
 
 EverGrandeCity_LeagueChamber_BakuraRoomText:
 	.string "You see sand. It's coarse. It's rough.\n"
-	.string "And it's fucking everywhere.\p"
+	.string "Looks like Miami, Florida in there.\p"
 	.string "If you're ready for what awaits you,\n"
 	.string "then step inside.$"
 

@@ -43,8 +43,8 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub::
 Underwater_SeafloorCavern_Text_SubExplorer1:
 	.string "“Submersible Carrier Aero 1” is\n"
 	.string "painted on the hull.\p"
-	.string "This is the submarine TEAM AQUA\n"
-	.string "stole in SLATEPORT!\p"
-	.string "TEAM AQUA must have gone\n"
+	.string "This is the submarine the Twitch\n"
+	.string "goons stole in Slateport!\p"
+	.string "Archie must have gone\n"
 	.string "ashore here.$"
 

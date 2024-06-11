@@ -775,7 +775,7 @@ struct
     {
         .species = SPECIES_REGIROCK,
         .fixedIV = MAX_PER_STAT_IVS,
-        .level = 46,
+        .level = 47,
         .nature = NATURE_CAREFUL,
         .evs = {56, 200, 0, 0, 0, 252},
         .moves = {MOVE_ROCK_SLIDE, MOVE_SUPERPOWER, MOVE_FIRE_PUNCH, MOVE_RECOVER}
