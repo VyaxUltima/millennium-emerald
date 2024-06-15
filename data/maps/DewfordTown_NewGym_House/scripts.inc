@@ -81,7 +81,7 @@ DewfordTown_NewGym_House_Text_ReceivedKnuckleBadge:
 
 DewfordTown_NewGym_House_Text_KnuckleBadgeInfoTakeThis:
 	.string "Logan: Our Virus Badge means Pokémon\n"
-	.string "up to Level 30, even those you get in\l"
+	.string "up to Level 35, even those you get in\l"
 	.string "trades, obey without question.\p"
 	.string "Bryan: A Badge alone's not all we\n"
 	.string "have for you, either. Here!$"

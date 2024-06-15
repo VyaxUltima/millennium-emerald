@@ -2421,10 +2421,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_COLE] =
     {
-        .trainerClass = TRAINER_CLASS_KINDLER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_KINDLER,
-        .trainerName = _("Cole"),
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_HIKER,
+        .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        .trainerName = _("Cartesia"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
@@ -2445,10 +2445,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_AXLE] =
     {
-        .trainerClass = TRAINER_CLASS_KINDLER,
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_KINDLER,
-        .trainerName = _("Axle"),
+        .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        .trainerName = _("Aluber"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
@@ -2457,10 +2457,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_JACE] =
     {
-        .trainerClass = TRAINER_CLASS_KINDLER,
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_KINDLER,
-        .trainerName = _("Jace"),
+        .trainerPic = TRAINER_PIC_POKEMON_RANGER_M,
+        .trainerName = _("Albaz"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
@@ -7809,10 +7809,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_DANIELLE] =
     {
-        .trainerClass = TRAINER_CLASS_BATTLE_GIRL,
+        .trainerClass = TRAINER_CLASS_PKMN_RANGER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BATTLE_GIRL,
-        .trainerName = _("Danielle"),
+        .trainerPic = TRAINER_PIC_POKEMON_RANGER_F,
+        .trainerName = _("Quem"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,

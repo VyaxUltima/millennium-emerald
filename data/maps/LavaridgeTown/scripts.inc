@@ -44,6 +44,7 @@ LavaridgeTown_OnFrame:
 
 LavaridgeTown_EventScript_RivalGiveGoGoggles::
 	lockall
+	clearflag FLAG_HIDE_SKARLON_LAVARIDGE_GYM
 	getplayerxy VAR_0x8008, VAR_0x8009
 	call_if_eq VAR_0x8008, 9, LavaridgeTown_EventScript_RivalNoticePlayer
 	call_if_ne VAR_0x8008, 9, LavaridgeTown_EventScript_RivalExitHerbShop

@@ -139,6 +139,10 @@ Route112_Text_MtChimneySign:
 	.string "“For Lavaridge, ascend.”$"
 
 Route112_Text_RouteSignLavaridge:
-	.string "Route 112\n"
-	.string "{LEFT_ARROW} Lavaridge Town$"
+	.string "Dev Team Quotes\p"
+	.string "Ref: (working on extra tools)\n"
+	.string "We have a damage calculator!\p"
+	.string "Vyax: Is the calculator accurate?\p"
+	.string "Ref: I WILL STRANGLE YOU WITH\n"
+	.string "YOUR OWN INTESTINES$"
 

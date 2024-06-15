@@ -4130,8 +4130,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dalton5[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Cole[] = {
     {
     .iv = 255,
-    .lvl = 23,
-    .species = SPECIES_NUMEL,
+    .lvl = 30,
+    .species = SPECIES_PURUGLY,
+    },
+    {
+    .iv = 255,
+    .lvl = 31,
+    .species = SPECIES_KECLEON,
     }
 };
 
@@ -4151,16 +4156,31 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeff[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Axle[] = {
     {
     .iv = 255,
-    .lvl = 23,
-    .species = SPECIES_NUMEL,
+    .lvl = 30,
+    .species = SPECIES_URSARING,
+    },
+    {
+    .iv = 255,
+    .lvl = 30,
+    .species = SPECIES_STARAVIA,
+    },
+    {
+    .iv = 255,
+    .lvl = 31,
+    .species = SPECIES_BIBAREL,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_Jace[] = {
     {
     .iv = 255,
-    .lvl = 23,
-    .species = SPECIES_SLUGMA,
+    .lvl = 30,
+    .species = SPECIES_ZANGOOSE,
+    },
+    {
+    .iv = 255,
+    .lvl = 31,
+    .species = SPECIES_FURRET,
     }
 };
 
@@ -6415,7 +6435,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ben[] = {
     },
     {
     .iv = 255,
-    .lvl = 25,
+    .lvl = 24,
     .species = SPECIES_METANG,
     .moves = {MOVE_METAL_CLAW, MOVE_CONFUSION, MOVE_ROCK_TOMB, MOVE_NONE}
     }
@@ -11593,9 +11613,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_Vivian[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Danielle[] = {
     {
     .iv = 255,
-    .lvl = 23,
-    .species = SPECIES_MEDITITE,
-    .moves = {MOVE_BIDE, MOVE_DETECT, MOVE_CONFUSION, MOVE_FIRE_PUNCH}
+    .lvl = 30,
+    .species = SPECIES_PERSIAN,
+    .moves = {MOVE_SWIFT, MOVE_WATER_PULSE, MOVE_SHOCK_WAVE, MOVE_FAKE_OUT}
+    },
+    {
+    .iv = 255,
+    .lvl = 30,
+    .species = SPECIES_DODRIO,
+    .moves = {MOVE_PLUCK, MOVE_PURSUIT, MOVE_QUICK_ATTACK, MOVE_DOUBLE_HIT}
+    },
+    {
+    .iv = 255,
+    .lvl = 31,
+    .species = SPECIES_PORYGON,
+    .moves = {MOVE_SWIFT, MOVE_THUNDER_WAVE, MOVE_RECOVER, MOVE_PSYBEAM}
     }
 };
 

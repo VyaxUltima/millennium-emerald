@@ -8058,7 +8058,7 @@ u8 IsMonDisobedient(void)
         if (FlagGet(FLAG_BADGE04_GET))
             obedienceLevel = 45;
         if (FlagGet(FLAG_BADGE06_GET))
-            obedienceLevel = 70;
+            obedienceLevel = 60;
     }
 
 #if B_OBEDIENCE_MECHANICS >= GEN_8
