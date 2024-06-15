@@ -734,11 +734,19 @@ PetalburgCity_Gym_EventScript_NoAmountOfTrainingIsEnough::
 PetalburgCity_Gym_EventScript_SpeedRoomDoor::
 	lockall
 	goto_if_lt VAR_PETALBURG_GYM_STATE, 6, PetalburgCity_Gym_EventScript_DoorLocked
-	setvar VAR_0x8008, 7
-	setvar VAR_0x8009, 85
+	setvar VAR_0x8008, 4
+	setvar VAR_0x8009, 55
 	msgbox PetalburgCity_Gym_Text_EnterSpeedRoom, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterRoom
+	goto_if_eq VAR_RESULT, YES, PetalburgCity_Gym_EventScript_EnterNewGym
 	goto_if_eq VAR_RESULT, NO, PetalburgCity_Gym_EventScript_DontEnterRoom
+	end
+
+PetalburgCity_Gym_EventScript_EnterNewGym::
+	closemessage
+	delay 30
+	warpdoor MAP_PETALBURG_CITY_NEW_GYM, VAR_0x8008, VAR_0x8009
+	waitstate
+	releaseall
 	end
 
 PetalburgCity_Gym_EventScript_EnterRoom::
@@ -1322,28 +1330,16 @@ PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "training would ever be enough.$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "The doors in this GYM open when you\n"
-	.string "beat the awaiting TRAINERS.\p"
-	.string "Whoops! The doors in this room are\n"
-	.string "already open, so don't attack me!\p"
-	.string "The TRAINERS of PETALBURG GYM\n"
-	.string "use all kinds of items.\p"
-	.string "The door at the left leads to\n"
-	.string "the SPEED ROOM.\p"
-	.string "The door at the right leads to\n"
-	.string "the ACCURACY ROOM.\p"
-	.string "The room's name will be on\n"
-	.string "the door, so choose carefully.\p"
-	.string "Once you've chosen the door…\n"
-	.string "Well, hey, go for it!$"
+	.string "Hey, how's it going?\p"
+	.string "The doors in this Gym open when you\n"
+	.string "beat the awaiting Trainers.\p"
+	.string "Try not to get scared when you\n"
+	.string "battle any of them.\p"
+	.string "Alright, go for it!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
 	.string "{PLAYER}! Whoa! You've overcome even\n"
-	.string "your own father!\p"
-	.string "Like, whoa!\n"
-	.string "What a stunning turn of events!$"
+	.string "the champ of sealed-only!$"
 
 PetalburgCity_Gym_Text_RandallIntro:
 	.string "The ability to attack before the\n"
@@ -1503,7 +1499,8 @@ PetalburgCity_Gym_Text_DoorAppearsLocked:
 	.string "right now…$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
-	.string "“SPEED ROOM,” the sign says.\p"
+	.string "You can hear an absolute\n"
+	.string "banger through the door.\p"
 	.string "Do you want to go through?$"
 
 @ Unused

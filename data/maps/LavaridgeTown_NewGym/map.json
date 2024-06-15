@@ -1,0 +1,109 @@
+{
+  "id": "MAP_LAVARIDGE_TOWN_NEW_GYM",
+  "name": "LavaridgeTown_NewGym",
+  "layout": "LAYOUT_LAVARIDGE_TOWN_NEW_GYM",
+  "music": "MUS_GYM",
+  "region_map_section": "MAPSEC_LAVARIDGE_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": false,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_GYM",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_FLANNERY",
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HIDE_SKARLON_LAVARIDGE_GYM"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MAN_2",
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LavaridgeTown_NewGym_EventScript_Man",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "VAR_OBJ_GFX_ID_0",
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HIDE_LAVARIDGE_GYM_TRAINER"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_LAVARIDGE_TOWN",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_LAVARIDGE_TOWN",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_LAVARIDGE_TOWN",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_LAVARIDGE_GYM_ARENA_TRIGGER",
+      "var_value": "0",
+      "script": "LavaridgeTown_NewGym_EventScript_EnterArena"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "LavaridgeTown_NewGym_EventScript_LeftGymStatue"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "LavaridgeTown_NewGym_EventScript_RightGymStatue"
+    }
+  ]
+}

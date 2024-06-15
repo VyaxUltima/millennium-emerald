@@ -1959,40 +1959,75 @@ static const struct TrainerMonCustomized sParty_Ricky5[] = {
 static const struct TrainerMonItemCustomMoves sParty_Randall[] = {
     {
     .iv = 255,
-    .lvl = 26,
-    .species = SPECIES_SWELLOW,
+    .lvl = 32,
+    .species = SPECIES_MISDREAVUS,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_QUICK_ATTACK, MOVE_AGILITY, MOVE_WING_ATTACK, MOVE_NONE}
+    .moves = {MOVE_SHADOW_BALL, MOVE_ICY_WIND, MOVE_THUNDER_WAVE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 33,
+    .species = SPECIES_DUSCLOPS,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_CURSE, MOVE_SHADOW_PUNCH, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
     {
     .iv = 255,
-    .lvl = 26,
-    .species = SPECIES_SPINDA,
+    .lvl = 32,
+    .species = SPECIES_HAUNTER,
+    .heldItem = ITEM_CUSTAP_BERRY,
+    .moves = {MOVE_OMINOUS_WIND, MOVE_SLUDGE, MOVE_ENDURE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 33,
+    .species = SPECIES_ROTOM,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_TEETER_DANCE, MOVE_DIZZY_PUNCH, MOVE_FOCUS_PUNCH, MOVE_NONE}
+    .moves = {MOVE_DISCHARGE, MOVE_OMINOUS_WIND, MOVE_SUBSTITUTE, MOVE_PAIN_SPLIT}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_George[] = {
     {
     .iv = 255,
-    .lvl = 26,
-    .species = SPECIES_SLAKOTH,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_SLACK_OFF, MOVE_COUNTER, MOVE_SHADOW_BALL, MOVE_NONE}
+    .lvl = 32,
+    .species = SPECIES_DRIFBLIM,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_OMINOUS_WIND, MOVE_AIR_CUTTER, MOVE_MEMENTO, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 32,
+    .species = SPECIES_SPIRITOMB,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FEINT_ATTACK, MOVE_SHADOW_SNEAK, MOVE_SUBSTITUTE, MOVE_PAIN_SPLIT}
+    },
+    {
+    .iv = 255,
+    .lvl = 32,
+    .species = SPECIES_BANETTE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_SHADOW_CLAW, MOVE_DRAIN_PUNCH, MOVE_BULK_UP, MOVE_SHADOW_SNEAK}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Berke[] = {
     {
     .iv = 255,
-    .lvl = 26,
-    .species = SPECIES_VIGOROTH,
+    .lvl = 33,
+    .species = SPECIES_SABLEYE,
+    .heldItem = ITEM_IRON_BALL,
+    .moves = {MOVE_TRICK, MOVE_SHADOW_CLAW, MOVE_MEMENTO, MOVE_PUNISHMENT}
+    },
+    {
+    .iv = 255,
+    .lvl = 33,
+    .species = SPECIES_FROSLASS,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_FOCUS_ENERGY, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_SHADOW_CLAW, MOVE_AURORA_BEAM, MOVE_DESTINY_BOND, MOVE_SUCKER_PUNCH}
     }
 };
 

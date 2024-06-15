@@ -2,7 +2,7 @@
   "id": "MAP_PETALBURG_CITY_GYM",
   "name": "PetalburgCity_Gym",
   "layout": "LAYOUT_PETALBURG_CITY_GYM",
-  "music": "MUS_NYHMNIM_GYM",
+  "music": "MUS_GYM",
   "region_map_section": "MAPSEC_PETALBURG_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -174,11 +174,11 @@
       "dest_warp_id": "2"
     },
     {
-      "x": 1,
+      "x": 4,
       "y": 105,
       "elevation": 3,
-      "dest_map": "MAP_PETALBURG_CITY_GYM",
-      "dest_warp_id": "3"
+      "dest_map": "MAP_PETALBURG_CITY_NEW_GYM",
+      "dest_warp_id": "1"
     },
     {
       "x": 7,
@@ -196,7 +196,7 @@
     },
     {
       "x": 7,
-      "y": 105,
+      "y": 103,
       "elevation": 3,
       "dest_map": "MAP_PETALBURG_CITY_GYM",
       "dest_warp_id": "6"
@@ -432,7 +432,7 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 1,
+      "x": 4,
       "y": 105,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -441,7 +441,7 @@
     {
       "type": "sign",
       "x": 7,
-      "y": 105,
+      "y": 103,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PetalburgCity_Gym_EventScript_AccuracyRoomDoor"

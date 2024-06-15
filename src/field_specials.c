@@ -828,52 +828,40 @@ static void PetalburgGymSetDoorMetatiles(u8 roomNumber, u16 metatileId)
     switch (roomNumber)
     {
     case 1:
-        nDoors = 2;
-        doorCoordsX[0] = 1;
-        doorCoordsX[1] = 7;
+        /* gym entrance*/
+        nDoors = 1;
+        doorCoordsX[0] = 4;
         doorCoordsY[0] = 104;
-        doorCoordsY[1] = 104;
         break;
     case 2:
-        nDoors = 2;
-        doorCoordsX[0] = 1;
-        doorCoordsX[1] = 7;
-        doorCoordsY[0] = 78;
-        doorCoordsY[1] = 78;
+        /* jp room */
+        nDoors = 1;
+        doorCoordsX[0] = 4;
+        doorCoordsY[0] = 60;
         break;
     case 3:
-        nDoors = 2;
-        doorCoordsX[0] = 1;
-        doorCoordsX[1] = 7;
-        doorCoordsY[0] = 91;
-        doorCoordsY[1] = 91;
+        /* burn */
+        nDoors = 1;
+        doorCoordsX[0] = 4;
+        doorCoordsY[0] = 48;
         break;
     case 4:
+        /* blast */
         nDoors = 1;
-        doorCoordsX[0] = 7;
-        doorCoordsY[0] = 39;
+        doorCoordsX[0] = 4;
+        doorCoordsY[0] = 36;
         break;
     case 5:
-        nDoors = 2;
-        doorCoordsX[0] = 1;
-        doorCoordsX[1] = 7;
-        doorCoordsY[0] = 52;
-        doorCoordsY[1] = 52;
+        /* cross */
+        nDoors = 1;
+        doorCoordsX[0] = 4;
+        doorCoordsY[0] = 24;
         break;
     case 6:
+        /* wave */
         nDoors = 1;
-        doorCoordsX[0] = 1;
-        doorCoordsY[0] = 65;
-        break;
-    case 7:
-        nDoors = 1;
-        doorCoordsX[0] = 7;
-        doorCoordsY[0] = 13;
-        break;
-    case 8:
-        nDoors = 1;
-        doorCoordsX[0] = 1;
-        doorCoordsY[0] = 26;
+        doorCoordsX[0] = 4;
+        doorCoordsY[0] = 12;
         break;
     }
     for (i = 0; i < nDoors; i++)

@@ -880,3 +880,25 @@ const struct Tileset gTileset_EliteFourNew =
     .metatileAttributes = gMetatileAttributes_EliteFourNew,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_LavaridgeGymNew =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_LavaridgeGymNew,
+    .palettes = gTilesetPalettes_LavaridgeGymNew,
+    .metatiles = gMetatiles_LavaridgeGymNew,
+    .metatileAttributes = gMetatileAttributes_LavaridgeGymNew,
+    .callback = NULL,
+};
+
+const struct Tileset gTileset_PetalburgGymNew =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_PetalburgGymNew,
+    .palettes = gTilesetPalettes_PetalburgGymNew,
+    .metatiles = gMetatiles_PetalburgGymNew,
+    .metatileAttributes = gMetatileAttributes_PetalburgGymNew,
+    .callback = NULL,
+};

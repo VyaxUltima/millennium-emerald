@@ -97,6 +97,7 @@
 #define MAP_LAVARIDGE_TOWN_MART              (4 | (4 << 8))
 #define MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F (5 | (4 << 8))
 #define MAP_LAVARIDGE_TOWN_POKEMON_CENTER_2F (6 | (4 << 8))
+#define MAP_LAVARIDGE_TOWN_NEW_GYM           (7 | (4 << 8))
 
 // gMapGroup_IndoorFallarbor
 #define MAP_FALLARBOR_TOWN_MART                    (0 | (5 << 8))
@@ -138,6 +139,7 @@
 #define MAP_PETALBURG_CITY_POKEMON_CENTER_2F (5 | (8 << 8))
 #define MAP_PETALBURG_CITY_MART              (6 | (8 << 8))
 #define MAP_PETALBURG_CITY_BLACK_MARKET      (7 | (8 << 8))
+#define MAP_PETALBURG_CITY_NEW_GYM           (8 | (8 << 8))
 
 // gMapGroup_IndoorSlateport
 #define MAP_SLATEPORT_CITY_STERNS_SHIPYARD_1F      (0 | (9 << 8))

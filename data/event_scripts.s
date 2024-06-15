@@ -1101,3 +1101,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/TestMap1/scripts.inc"
 
 	.include "data/maps/SootopolisCity_NewGym_B1F/scripts.inc"
+
+	.include "data/maps/LavaridgeTown_NewGym/scripts.inc"
+
+	.include "data/maps/PetalburgCity_NewGym/scripts.inc"

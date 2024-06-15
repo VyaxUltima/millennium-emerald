@@ -39,11 +39,14 @@ EverGrandeCity_PokemonLeague_1F_EventScript_Clerk::
 	.align 2
 EverGrandeCity_PokemonLeague_1F_Pokemart:
 	.2byte ITEM_ULTRA_BALL
+	.2byte ITEM_DUSK_BALL
+	.2byte ITEM_QUICK_BALL
+	.2byte ITEM_DIVE_BALL
 	.2byte ITEM_MAX_POTION
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_FULL_HEAL
-	.2byte ITEM_ELIXIR
 	.2byte ITEM_MAX_REPEL
+	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_NONE
 	release
 	end
@@ -125,18 +128,14 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	step_end
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
-	.string "Beyond this point, only those TRAINERS\n"
-	.string "who have collected all the GYM BADGES\l"
-	.string "are permitted to enter.\p"
-	.string "TRAINER, let us confirm that you have\n"
-	.string "all the GYM BADGES.$"
+	.string "Only Trainers that have collected all 8\n"
+	.string "Gym Badges may enter here.\p"
+	.string "Trainer, let us confirm that you have\n"
+	.string "all the Gym Badges.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_HaventObtainedAllBadges:
-	.string "You haven't obtained all the BADGES.\p"
-	.string "If you're bound for the POKéMON\n"
-	.string "LEAGUE, you must return with them.$"
+	.string "You haven't obtained all the Badges.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_GoForth:
-	.string "TRAINER! Believe in yourself and your\n"
-	.string "POKéMON, and go forth!$"
+	.string "Your final challenge awaits!$"
 

@@ -724,7 +724,7 @@ PetalburgCity_Text_WaterReflection:
 	.string "What do you see reflected in your face?$"
 
 PetalburgCity_Text_FullPartyExplanation:
-	.string "Let's say you do a Subathon.\p"
+	.string "Let's say you do a 24 hour stream.\p"
 	.string "Now, let's also say that you\n"
 	.string "have a moderation team.\p"
 	.string "Now, let's also say those moderators\n"
@@ -740,7 +740,7 @@ PetalburgCity_Text_CitySign:
 	.string "“Try smoking crack between rounds!”$"
 
 PetalburgCity_Text_WallyHouseSign:
-	.string "Surf Guy's House$"
+	.string "Surfing Dude's House$"
 
 PetalburgCity_Text_BMSign:
 	.string "Black Market$"
