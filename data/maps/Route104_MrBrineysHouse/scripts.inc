@@ -157,5 +157,5 @@ Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
 	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_Peeko:
-	.string "Peeko: Pii piihyoro!$"
+	.string "Peeko: GHOTI GAMING$"
 

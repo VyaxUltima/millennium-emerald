@@ -428,7 +428,7 @@ RusturfTunnel_Text_ComeAndGetSome:
 	.string "Cum, then!$"
 
 RusturfTunnel_Text_Peeko:
-	.string "Peeko: Pii pihyoh!$"
+	.string "Peeko: GHOTI GAMING$"
 
 RusturfTunnel_Text_GruntIntro:
 	.string "Grah, keelhaul it all!\p"

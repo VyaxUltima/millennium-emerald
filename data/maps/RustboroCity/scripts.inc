@@ -1047,7 +1047,7 @@ RustboroCity_Text_YoureNewAroundHere:
 	.string "to be working lately.$"
 
 RustboroCity_Text_GymLeaderIsntEasyWithFire:
-	.string "The Gym Leader…\n"
+	.string "The Gym Leader…\p"
 	.string "his Pokémon are able to\n"
 	.string "handle Fire attacks quite well.$"
 
