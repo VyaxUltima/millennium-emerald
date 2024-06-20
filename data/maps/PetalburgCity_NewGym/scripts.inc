@@ -170,7 +170,6 @@ PetalburgCity_NewGym_EventScript_SlideWaveDoor::
 
 PetalburgCity_NewGym_EventScript_OpenJPDoor::
 	setvar VAR_0x8004, 2
-	playse SE_UNLOCK
 	call_if_eq VAR_0x8005, 0, PetalburgCity_NewGym_SlideOpenDoor
 	call_if_eq VAR_0x8005, 1, PetalburgCity_NewGym_UnlockDoor
 	special DrawWholeMapView
@@ -178,7 +177,6 @@ PetalburgCity_NewGym_EventScript_OpenJPDoor::
 
 PetalburgCity_NewGym_EventScript_OpenBurnDoor::
 	setvar VAR_0x8004, 3
-	playse SE_UNLOCK
 	call_if_eq VAR_0x8005, 0, PetalburgCity_NewGym_SlideOpenDoor
 	call_if_eq VAR_0x8005, 1, PetalburgCity_NewGym_UnlockDoor
 	special DrawWholeMapView
@@ -186,7 +184,6 @@ PetalburgCity_NewGym_EventScript_OpenBurnDoor::
 
 PetalburgCity_NewGym_EventScript_OpenBlastDoor::
 	setvar VAR_0x8004, 4
-	playse SE_UNLOCK
 	call_if_eq VAR_0x8005, 0, PetalburgCity_NewGym_SlideOpenDoor
 	call_if_eq VAR_0x8005, 1, PetalburgCity_NewGym_UnlockDoor
 	special DrawWholeMapView
@@ -194,7 +191,6 @@ PetalburgCity_NewGym_EventScript_OpenBlastDoor::
 
 PetalburgCity_NewGym_EventScript_OpenCrossDoor::
 	setvar VAR_0x8004, 5
-	playse SE_UNLOCK
 	call_if_eq VAR_0x8005, 0, PetalburgCity_NewGym_SlideOpenDoor
 	call_if_eq VAR_0x8005, 1, PetalburgCity_NewGym_UnlockDoor
 	special DrawWholeMapView
@@ -202,7 +198,6 @@ PetalburgCity_NewGym_EventScript_OpenCrossDoor::
 
 PetalburgCity_NewGym_EventScript_OpenWaveDoor::
 	setvar VAR_0x8004, 6
-	playse SE_UNLOCK
 	call_if_eq VAR_0x8005, 0, PetalburgCity_NewGym_SlideOpenDoor
 	call_if_eq VAR_0x8005, 1, PetalburgCity_NewGym_UnlockDoor
 	special DrawWholeMapView

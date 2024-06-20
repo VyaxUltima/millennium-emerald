@@ -902,3 +902,14 @@ const struct Tileset gTileset_PetalburgGymNew =
     .metatileAttributes = gMetatileAttributes_PetalburgGymNew,
     .callback = NULL,
 };
+
+const struct Tileset gTileset_FortreeGymNew =
+{
+    .isCompressed = TRUE,
+    .isSecondary = TRUE,
+    .tiles = gTilesetTiles_FortreeGymNew,
+    .palettes = gTilesetPalettes_FortreeGymNew,
+    .metatiles = gMetatiles_FortreeGymNew,
+    .metatileAttributes = gMetatileAttributes_FortreeGymNew,
+    .callback = InitTilesetAnim_FortreeGym,
+};

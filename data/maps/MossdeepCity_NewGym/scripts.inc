@@ -1,11 +1,26 @@
 MossdeepCity_NewGym_MapScripts::
 	.byte 0
 
+MossdeepCity_NewGym_EventScript_Greeter::
+	lock
+	faceplayer
+	goto_if_set FLAG_BADGE07_GET, MossdeepCity_NewGym_EventScript_GotYourBadge
+	goto MossdeepCity_NewGym_EventScript_GymTheme
+	end
+
+MossdeepCity_NewGym_EventScript_GymTheme::
+	msgbox MossdeepCity_NewGym_Text_Fishing, MSGBOX_DEFAULT
+	release
+	end
+
+MossdeepCity_NewGym_EventScript_GotYourBadge::
+	msgbox MossdeepCity_NewGym_Text_AcquiredBadge, MSGBOX_DEFAULT
+	release
+	end
+
 MossdeepCity_NewGym_EventScript_LvK::
 	goto_if_lt VAR_MOSSDEEP_NEW_GYM_STATE, 4, MossdeepCity_NewGym_EventScript_LvKNotEnough
 	trainerbattle_single TRAINER_TATE_AND_LIZA_1, MossdeepCity_NewGym_Text_LvKIntro, MossdeepCity_NewGym_Text_LvKDefeat, MossdeepCity_NewGym_EventScript_LvKDefeated, NO_MUSIC
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, MossdeepCity_NewGym_EventScript_LvKRematch
 	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_NewGym_EventScript_GiveCalmMind2
 	msgbox MossdeepCity_NewGym_Text_LvKPostBattle, MSGBOX_DEFAULT
 	release
@@ -67,7 +82,7 @@ MossdeepCity_NewGym_EventScript_GatherMen::
 	return
 
 MossdeepCity_NewGym_EventScript_LvKNotEnough::
-	msgbox MossdeepCity_NewGym_Text_LvKLackMen, MSGBOX_DEFAULT
+	msgbox MossdeepCity_NewGym_Text_LvKLackMen, MSGBOX_NPC
 	release
 	end
 
@@ -259,7 +274,7 @@ MossdeepCity_NewGym_Text_HannahPostBattle:
 	.string "I'll be back.$"
 
 MossdeepCity_NewGym_Text_LvKIntro:
-	.string "Oh, now this is original.\p"
+	.string "LvK: Oh, now this is original.\p"
 	.string "Walk in the gym, battle, win,\n"
 	.string "and continue onwards.\p"
 	.string "Well, this time's going to be\n"
@@ -303,6 +318,19 @@ MossdeepCity_NewGym_Text_GymStatueCertified:
 	.string "Mossdeep City Pokémon Gym\p"
 	.string "LukeVonKarma's Certified Trainers:\n"
 	.string "{PLAYER}$"
+
+MossdeepCity_NewGym_Text_Fishing:
+	.string "Yo, what's up, Trainer?\p"
+	.string "This here's a Pokémon Gym,\n"
+	.string "and a fitness gym!\p"
+	.string "There's four Trainers you have to\n"
+	.string "beat to challenge LukeVonKarma.\p"
+	.string "However, there's also a lot of\n"
+	.string "regular visitors, so you'll have\l"
+	.string "to find them.$"
+
+MossdeepCity_NewGym_Text_AcquiredBadge:
+	.string "Now that's a nice badge!$"
 
 MossdeepCity_NewGym_Text_LvKPreRematch:
 	.string "TATE: POKéMON…\n"

@@ -228,3 +228,6 @@ const u16 gMetatileAttributes_LavaridgeGymNew[] = INCBIN_U16("data/tilesets/seco
 
 const u16 gMetatiles_PetalburgGymNew[] = INCBIN_U16("data/tilesets/secondary/petalburg_gym_new/metatiles.bin");
 const u16 gMetatileAttributes_PetalburgGymNew[] = INCBIN_U16("data/tilesets/secondary/petalburg_gym_new/metatile_attributes.bin");
+
+const u16 gMetatiles_FortreeGymNew[] = INCBIN_U16("data/tilesets/secondary/fortree_gym_new/metatiles.bin");
+const u16 gMetatileAttributes_FortreeGymNew[] = INCBIN_U16("data/tilesets/secondary/fortree_gym_new/metatile_attributes.bin");

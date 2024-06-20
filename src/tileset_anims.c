@@ -43,6 +43,7 @@ static void TilesetAnim_MauvilleGym(u16);
 static void TilesetAnim_BikeShop(u16);
 static void TilesetAnim_BattlePyramid(u16);
 static void TilesetAnim_BattleDome(u16);
+static void TilesetAnim_FortreeGym(u16);
 static void QueueAnimTiles_General_Flower(u16);
 static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
@@ -661,6 +662,18 @@ static void QueueAnimTiles_General_Water(u16 timer)
     AppendTilesetAnimToBuffer(gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(432)), 30 * TILE_SIZE_4BPP);
 }
 
+static void QueueAnimTiles_FortreeGym_Water(u16 timer)
+{
+    u8 i = timer % ARRAY_COUNT(gTilesetAnims_General_Water);
+    AppendTilesetAnimToBuffer(gTilesetAnims_General_Water[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(596)), 30 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_FortreeGym_Lava(u16 timer)
+{
+    u8 i = timer % ARRAY_COUNT(gTilesetAnims_Lavaridge_Cave_Lava);
+    AppendTilesetAnimToBuffer(gTilesetAnims_Lavaridge_Cave_Lava[i], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(581)), 4 * TILE_SIZE_4BPP);
+}
+
 static void QueueAnimTiles_General_SandWaterEdge(u16 timer)
 {
     u16 i = timer % ARRAY_COUNT(gTilesetAnims_General_SandWaterEdge);
@@ -813,6 +826,13 @@ void InitTilesetAnim_MauvilleGym(void)
     sSecondaryTilesetAnimCallback = TilesetAnim_MauvilleGym;
 }
 
+void InitTilesetAnim_FortreeGym(void)
+{
+    sSecondaryTilesetAnimCounter = 0;
+    sSecondaryTilesetAnimCounterMax = sPrimaryTilesetAnimCounterMax;
+    sSecondaryTilesetAnimCallback = TilesetAnim_FortreeGym;
+}
+
 void InitTilesetAnim_BikeShop(void)
 {
     sSecondaryTilesetAnimCounter = 0;
@@ -895,6 +915,14 @@ static void TilesetAnim_Lavaridge(u16 timer)
         QueueAnimTiles_Lavaridge_Steam(timer / 16);
     if (timer % 16 == 1)
         QueueAnimTiles_Lavaridge_Lava(timer / 16);
+}
+
+static void TilesetAnim_FortreeGym(u16 timer)
+{
+    if (timer % 16 == 0)
+        QueueAnimTiles_FortreeGym_Water(timer / 16);
+    if (timer % 16 == 1)
+        QueueAnimTiles_FortreeGym_Lava(timer / 16);
 }
 
 static void TilesetAnim_EverGrande(u16 timer)

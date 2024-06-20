@@ -1350,9 +1350,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
     [SPECIES_EKANS] =
     {
         .baseHP        = 35,
-        .baseAttack    = 60,
+        .baseAttack    = 70,
         .baseDefense   = 44,
-        .baseSpeed     = 55,
+        .baseSpeed     = 65,
         .baseSpAttack  = 40,
         .baseSpDefense = 54,
         .types = { TYPE_POISON, TYPE_POISON },
@@ -1371,9 +1371,9 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_ARBOK] =
     {
-        .baseHP        = 60,
+        .baseHP        = 70,
         .baseDefense   = 69,
-        .baseSpeed     = 80,
+        .baseSpeed     = 92,
         .baseSpAttack  = 65,
         .baseSpDefense = 79,
         #if P_UPDATED_STATS >= GEN_7
@@ -6922,7 +6922,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .friendship = STANDARD_FRIENDSHIP,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_FIELD},
-        .abilities = {ABILITY_PICKUP, ABILITY_GLUTTONY, ABILITY_QUICK_FEET},
+        .abilities = {ABILITY_KEEN_EYE, ABILITY_GLUTTONY, ABILITY_QUICK_FEET},
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
@@ -8532,10 +8532,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
     {
         .baseHP        = 70,
         .baseAttack    = 115,
-        .baseDefense   = 60,
-        .baseSpeed     = 55,
+        .baseDefense   = 75,
+        .baseSpeed     = 40,
         .baseSpAttack  = 115,
-        .baseSpDefense = 60,
+        .baseSpDefense = 75,
         .types = { TYPE_GRASS, TYPE_DARK},
         .catchRate = 60,
         .expYield = 166,

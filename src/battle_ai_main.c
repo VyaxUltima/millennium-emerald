@@ -3979,7 +3979,7 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         {
             score++;
             if (AI_DATA->holdEffects[battlerAtk] == HOLD_EFFECT_SMOOTH_ROCK)
-                score++;
+                score += 5; // if I gave them this fuckin item, I want them using the move
             if (HasMoveEffect(battlerDef, EFFECT_MORNING_SUN)
               || HasMoveEffect(battlerDef, EFFECT_SYNTHESIS)
               || HasMoveEffect(battlerDef, EFFECT_MOONLIGHT))
@@ -3995,7 +3995,7 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
 
             score++;
             if (AI_DATA->holdEffects[battlerAtk] == HOLD_EFFECT_ICY_ROCK)
-                score++;
+                score += 5; // if I gave them this fuckin item, I want them using the move
             if (HasMoveEffect(battlerDef, EFFECT_MORNING_SUN)
               || HasMoveEffect(battlerDef, EFFECT_SYNTHESIS)
               || HasMoveEffect(battlerDef, EFFECT_MOONLIGHT))
@@ -4011,7 +4011,7 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
 
             score++;
             if (AI_DATA->holdEffects[battlerAtk] == HOLD_EFFECT_ICY_ROCK)
-                score++;
+                score += 5; // if I gave them this fuckin item, I want them using the move
             if (HasMoveEffect(battlerDef, EFFECT_MORNING_SUN)
               || HasMoveEffect(battlerDef, EFFECT_SYNTHESIS)
               || HasMoveEffect(battlerDef, EFFECT_MOONLIGHT))
@@ -4023,7 +4023,7 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         {
             score++;
             if (AI_DATA->holdEffects[battlerAtk] == HOLD_EFFECT_DAMP_ROCK)
-                score++;
+                score += 5; // if I gave them this fuckin item, I want them using the move
             if (HasMoveEffect(battlerDef, EFFECT_MORNING_SUN)
               || HasMoveEffect(battlerDef, EFFECT_SYNTHESIS)
               || HasMoveEffect(battlerDef, EFFECT_MOONLIGHT))
@@ -4037,7 +4037,7 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         {
             score++;
             if (AI_DATA->holdEffects[battlerAtk] == HOLD_EFFECT_HEAT_ROCK)
-                score++;
+                score += 5; // if I gave them this fuckin item, I want them using the move
             if (HasMoveWithType(battlerDef, TYPE_WATER) || HasMoveWithType(BATTLE_PARTNER(battlerDef), TYPE_WATER))
                 score++;
             if (HasMoveEffect(battlerDef, EFFECT_THUNDER) || HasMoveEffect(BATTLE_PARTNER(battlerDef), EFFECT_THUNDER))

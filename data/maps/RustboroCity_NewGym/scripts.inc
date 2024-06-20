@@ -3,8 +3,6 @@ RustboroCity_NewGym_MapScripts::
 
 RustboroCity_NewGym_EventScript_Roxanne::
 	trainerbattle_single TRAINER_ROXANNE_1, RustboroCity_NewGym_Text_RoxanneIntro, RustboroCity_NewGym_Text_RoxanneDefeat, RustboroCity_NewGym_EventScript_RoxanneDefeated, NO_MUSIC
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, RustboroCity_NewGym_EventScript_RoxanneRematch
 	goto_if_unset FLAG_RECEIVED_TM39, RustboroCity_NewGym_EventScript_GiveRockTomb
 	msgbox RustboroCity_NewGym_Text_RoxannePostBattle, MSGBOX_DEFAULT
 	release

@@ -4696,7 +4696,7 @@ void Task_AbilityPatch(u8 taskId)
         {
             gPartyMenuUseExitCallback = FALSE;
             PlaySE(SE_SELECT);
-            DisplayPartyMenuMessage(gText_CantBeUsedOnPkmn, 1);
+            DisplayPartyMenuMessage(gText_OnlyUseOnStarter, 1);
             ScheduleBgCopyTilemapToVram(2);
             gTasks[taskId].func = Task_ClosePartyMenuAfterText;
             return;

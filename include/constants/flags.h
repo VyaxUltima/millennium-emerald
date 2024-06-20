@@ -516,7 +516,7 @@
 #define FLAG_HIDE_LAVARIDGE_GYM_QUEM         0x1E0 // Hide the fucker to be battled
 #define FLAG_HIDE_LAVARIDGE_GYM_ALUBER       0x1E1 // Hide the fucker to be battled
 #define FLAG_HIDE_LAVARIDGE_GYM_SKARLON_2    0x1E2 // Hide the fucker to be battled
-#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
+#define FLAG_RECEIVED_SKILL_MANUAL           0x1E3
 
 // Mystery Gift Flags (Unknown)
 #define FLAG_MYSTERY_GIFT_DONE               0x1E4

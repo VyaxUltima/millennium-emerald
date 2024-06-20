@@ -191,7 +191,7 @@ MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
 	.string "any of my bikes.$"
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
-	.string "ydel: Hm, hm… … … … …\p"
+	.string "Rydel: Hm, hm… … … … …\p"
 	.string "You came from Littleroot?\n"
 	.string "That's ridiculously far!\p"
 	.string "If you had one of my bikes, you could\n"

@@ -1,6 +1,6 @@
 const u8 gTrainerClassNames[][16] = {
     [TRAINER_CLASS_PKMN_TRAINER_1] = _("Sprite Artist"), //used for artists
-    [TRAINER_CLASS_PKMN_TRAINER_2] = _("ZA WARUDO"), //not used for anything
+    [TRAINER_CLASS_PKMN_TRAINER_2] = _("Instructor"), //used for education faculty
     [TRAINER_CLASS_HIKER] = _("Hiker"),
     [TRAINER_CLASS_TEAM_AQUA] = _("Twitch Chat"),
     [TRAINER_CLASS_PKMN_BREEDER] = _("Pokémon Breeder"),

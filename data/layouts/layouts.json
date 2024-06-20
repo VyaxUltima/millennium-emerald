@@ -4610,6 +4610,16 @@
       "secondary_tileset": "gTileset_PetalburgGymNew",
       "border_filepath": "data/layouts/PetalburgCity_NewGym/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgCity_NewGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_FORTREE_CITY_NEW_GYM",
+      "name": "FortreeCity_NewGym_Layout",
+      "width": 30,
+      "height": 65,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_FortreeGymNew",
+      "border_filepath": "data/layouts/FortreeCity_NewGym/border.bin",
+      "blockdata_filepath": "data/layouts/FortreeCity_NewGym/map.bin"
     }
   ]
 }

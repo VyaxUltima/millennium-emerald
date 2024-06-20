@@ -4,8 +4,6 @@ MauvilleCity_NewGym_MapScripts::
 MauvilleCity_NewGym_EventScript_Wattson::
 	goto_if_lt VAR_MAUVILLE_NEW_GYM_STATE, 4, MauvilleCity_NewGym_EventScript_WattsonNoEvidence
 	trainerbattle_single TRAINER_WATTSON_1, MauvilleCity_NewGym_Text_WattsonIntro, MauvilleCity_NewGym_Text_WattsonDefeat, MauvilleCity_NewGym_EventScript_WattsonDefeated, NO_MUSIC
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, MauvilleCity_NewGym_EventScript_WattsonRematch
 	goto_if_unset FLAG_RECEIVED_TM34, MauvilleCity_NewGym_EventScript_GiveShockWave2
 	goto_if_eq VAR_NEW_MAUVILLE_STATE, 2, MauvilleCity_NewGym_EventScript_CompletedNewMauville
 	msgbox MauvilleCity_NewGym_Text_WattsonPostBattle, MSGBOX_DEFAULT
@@ -62,7 +60,7 @@ MauvilleCity_NewGym_EventScript_GatherEvidence::
 	return
 
 MauvilleCity_NewGym_EventScript_WattsonNoEvidence::
-	msgbox MauvilleCity_NewGym_Text_WattsonLackEvidence, MSGBOX_DEFAULT
+	msgbox MauvilleCity_NewGym_Text_WattsonLackEvidence, MSGBOX_NPC
 	release
 	end
 
@@ -231,7 +229,7 @@ MauvilleCity_NewGym_Text_Unban:
 	.string "to hold up the entire YCS!$"
 
 MauvilleCity_NewGym_Text_WattsonIntro:
-	.string "Well, well, well.\n"
+	.string "MBT: Well, well, well.\n"
 	.string "So it was “BUSSY” all along.\l"
 	.string "Should have known.\p"
 	.string "Well, since you went to the trouble\n"
