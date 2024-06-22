@@ -4620,6 +4620,16 @@
       "secondary_tileset": "gTileset_FortreeGymNew",
       "border_filepath": "data/layouts/FortreeCity_NewGym/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_NewGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_SLATEPORT_CITY_DUCKIE_HOUSE",
+      "name": "SlateportCity_DuckieHouse_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/SlateportCity_DuckieHouse/border.bin",
+      "blockdata_filepath": "data/layouts/SlateportCity_DuckieHouse/map.bin"
     }
   ]
 }

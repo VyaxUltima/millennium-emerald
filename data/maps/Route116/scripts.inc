@@ -1,4 +1,4 @@
-.set LOCALID_BRINEY, 11
+.set LOCALID_BRINEY, 9
 .set LOCALID_WANDAS_BF_OUTSIDE, 21
 
 Route116_MapScripts::

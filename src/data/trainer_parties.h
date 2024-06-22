@@ -5408,7 +5408,6 @@ static const struct TrainerMonCustomized sParty_Wattson1[] = {
         .moves = {MOVE_ZEN_HEADBUTT, MOVE_AIR_CUTTER, MOVE_THUNDER_WAVE, MOVE_WISH}, //Hard: +Wish
         .nature = TRAINER_PARTY_NATURE(NATURE_TIMID)
     }
-
 };
 
 static const struct TrainerMonCustomized sParty_Flannery1[] = {
@@ -12401,7 +12400,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Sarah[] = {
     {
     .iv = 255,
     .lvl = 15,
-    .species = SPECIES_BIBAREL,
+    .species = SPECIES_LUXIO,
     .heldItem = ITEM_NUGGET
     }
 };
