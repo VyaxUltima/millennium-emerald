@@ -5009,6 +5009,7 @@ static void TurnValuesCleanUp(bool8 var0)
             gProtectStructs[gActiveBattler].kingsShielded = FALSE;
             gProtectStructs[gActiveBattler].banefulBunkered = FALSE;
             gProtectStructs[gActiveBattler].quash = FALSE;
+            gProtectStructs[gActiveBattler].usedCustapBerry = FALSE;
         }
         else
         {
@@ -5163,7 +5164,6 @@ static void CheckQuickClaw_CustapBerryActivation(void)
             {
                 if (gProtectStructs[gActiveBattler].usedCustapBerry)
                 {
-                    gProtectStructs[gActiveBattler].usedCustapBerry = FALSE;
                     gLastUsedItem = gBattleMons[gActiveBattler].item;
                     PREPARE_ITEM_BUFFER(gBattleTextBuff1, gLastUsedItem);
                     if (GetBattlerHoldEffect(gActiveBattler, FALSE) == HOLD_EFFECT_CUSTAP_BERRY)
