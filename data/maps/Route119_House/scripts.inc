@@ -16,10 +16,8 @@ Route119_House_EventScript_Wingull::
 	end
 
 Route119_House_Text_RumorAboutCaveOfOrigin:
-	.string "I heard about a cave called the\n"
-	.string "Cave of Origin.\p"
-	.string "People rumor that the spirits of\n"
-	.string "Pendulum are revived there.$"
+	.string "I'M SURROUNDED BY GOVERNMENT DRONES AND\n"
+	.string "THEY ALL PLAY FUCKING GACHA GAMES$"
 
 Route119_House_Text_Wingull:
 	.string "Wingull: Honkai Star Rail$"

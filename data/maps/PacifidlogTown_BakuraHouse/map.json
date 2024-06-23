@@ -1,9 +1,9 @@
 {
-  "id": "MAP_SLATEPORT_CITY_DUCKIE_HOUSE",
-  "name": "SlateportCity_DuckieHouse",
-  "layout": "LAYOUT_SLATEPORT_CITY_DUCKIE_HOUSE",
-  "music": "MUS_SLATEPORT",
-  "region_map_section": "MAPSEC_SLATEPORT_CITY",
+  "id": "MAP_PACIFIDLOG_TOWN_BAKURA_HOUSE",
+  "name": "PacifidlogTown_BakuraHouse",
+  "layout": "LAYOUT_PACIFIDLOG_TOWN_BAKURA_HOUSE",
+  "music": "MUS_LILYCOVE",
+  "region_map_section": "MAPSEC_PACIFIDLOG_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -15,33 +15,33 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_SIDNEY",
-      "x": 7,
-      "y": 5,
+      "graphics_id": "OBJ_EVENT_GFX_FISHERMAN",
+      "x": 6,
+      "y": 4,
       "elevation": 0,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_DuckieHouse_EventScript_Duckie",
+      "script": "PacifidlogTown_BakuraHouse_EventScript_Plaguey",
       "flag": "0"
     }
   ],
   "warp_events": [
     {
       "x": 4,
-      "y": 7,
+      "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_SLATEPORT_CITY",
-      "dest_warp_id": "6"
+      "dest_map": "MAP_PACIFIDLOG_TOWN",
+      "dest_warp_id": "2"
     },
     {
       "x": 5,
-      "y": 7,
+      "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_SLATEPORT_CITY",
-      "dest_warp_id": "6"
+      "dest_map": "MAP_PACIFIDLOG_TOWN",
+      "dest_warp_id": "2"
     }
   ],
   "coord_events": [
@@ -54,7 +54,7 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SlateportCity_DuckieHouse_EventScript_DuckieComputer"
+      "script": "PacifidlogTown_BakuraHouse_EventScript_SMT"
     }
   ]
 }

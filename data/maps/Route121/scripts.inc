@@ -190,5 +190,6 @@ Route121_Text_MtPyrePierSign:
 Route121_Text_SafariZoneSign:
 	.string "Worse than alone - exiled.\n"
 	.string "Worse than exiled - dead.\l"
-	.string "Worse than dead - forgotten.$"
+	.string "Worse than dead - forgotten.\l"
+	.string "-Maya Amano$"
 

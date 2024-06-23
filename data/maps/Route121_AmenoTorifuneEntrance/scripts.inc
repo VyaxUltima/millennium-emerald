@@ -9,6 +9,16 @@ Route121_AmenoTorifuneEntrance_Scientist2::
 	msgbox Route121_AmenoTorifuneEntrance_TextMonitoring, MSGBOX_NPC
 	end
 
+Route121_AmenoTorifuneEntrance_HealerMan::
+	lock
+	faceplayer
+	msgbox Route121_AmenoTorifuneEntrance_Text_RestUpHere, MSGBOX_DEFAULT
+	closemessage
+	call Common_EventScript_OutOfCenterPartyHeal
+	msgbox Route121_AmenoTorifuneEntrance_Text_GoodToGo, MSGBOX_DEFAULT
+	release
+	end
+
 Route121_AmenoTorifuneEntrance_TextReadings:
 	.string "There's a cavern underneath here.\p"
 	.string "We've been keeping an eye on\n"
@@ -26,4 +36,11 @@ Route121_AmenoTorifuneEntrance_TextMonitoring:
 	.string "However, talks of a legendary\n"
 	.string "Pokémon being here has roused\l"
 	.string "some interest once again.$"
+
+Route121_AmenoTorifuneEntrance_Text_RestUpHere:
+	.string "I can recover your party's strength.\n"
+	.string "Here, let me handle it.$"
+
+Route121_AmenoTorifuneEntrance_Text_GoodToGo:
+	.string "You're good to go!$"
 

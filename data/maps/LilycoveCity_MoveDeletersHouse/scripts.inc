@@ -69,8 +69,8 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh… I forgor.\n"
-	.string "Oh, yes, I'm the Move Deleter.\p"
+	.string "Hello there, Trainer.\n"
+	.string "I'm the Move Deleter.\p"
 	.string "I can make Pokémon forget their moves.\p"
 	.string "Would you like me to do that?$"
 

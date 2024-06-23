@@ -6391,8 +6391,8 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ben[] = {
     {
     .iv = 255,
     .lvl = 24,
-    .species = SPECIES_METANG,
-    .moves = {MOVE_METAL_CLAW, MOVE_CONFUSION, MOVE_ROCK_TOMB, MOVE_NONE}
+    .species = SPECIES_EXEGGCUTE,
+    .moves = {MOVE_SEED_BOMB, MOVE_PSYBEAM, MOVE_ANCIENT_POWER, MOVE_NONE}
     }
 };
 

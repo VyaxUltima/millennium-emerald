@@ -129,6 +129,7 @@
 #define MAP_PACIFIDLOG_TOWN_HOUSE3            (4 | (7 << 8))
 #define MAP_PACIFIDLOG_TOWN_HOUSE4            (5 | (7 << 8))
 #define MAP_PACIFIDLOG_TOWN_HOUSE5            (6 | (7 << 8))
+#define MAP_PACIFIDLOG_TOWN_BAKURA_HOUSE      (7 | (7 << 8))
 
 // gMapGroup_IndoorPetalburg
 #define MAP_PETALBURG_CITY_WALLYS_HOUSE      (0 | (8 << 8))
@@ -226,6 +227,7 @@
 #define MAP_LILYCOVE_CITY_DEPARTMENT_STORE_5F       (20 | (13 << 8))
 #define MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP  (21 | (13 << 8))
 #define MAP_LILYCOVE_CITY_DEPARTMENT_STORE_ELEVATOR (22 | (13 << 8))
+#define MAP_LILYCOVE_CITY_MUTT_HOUSE                (23 | (13 << 8))
 
 // gMapGroup_IndoorMossdeep
 #define MAP_MOSSDEEP_CITY_GYM               (0 | (14 << 8))

@@ -245,7 +245,7 @@ SeafloorCavern_Room9_Text_ArchieYouMustDisappear:
 	.string "Archie: It surprises me, how you've\n"
 	.string "managed to chase me here.\p"
 	.string "But that's all over now.\p"
-	.string "For the realization of all Joel,\n"
+	.string "For the realization of all Joel\n"
 	.string "fans everywhere, you disappear now!$"
 
 SeafloorCavern_Room9_Text_ArchieDefeat:

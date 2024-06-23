@@ -4630,6 +4630,26 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/SlateportCity_DuckieHouse/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_DuckieHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_LILYCOVE_CITY_MUTT_HOUSE",
+      "name": "LilycoveCity_MuttHouse_Layout",
+      "width": 11,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/LilycoveCity_MuttHouse/border.bin",
+      "blockdata_filepath": "data/layouts/LilycoveCity_MuttHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_PACIFIDLOG_TOWN_BAKURA_HOUSE",
+      "name": "PacifidlogTown_BakuraHouse_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/PacifidlogTown_BakuraHouse/border.bin",
+      "blockdata_filepath": "data/layouts/PacifidlogTown_BakuraHouse/map.bin"
     }
   ]
 }

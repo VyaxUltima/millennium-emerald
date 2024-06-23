@@ -547,13 +547,7 @@ SlateportCity_PokemartDecor:
 	end
 
 SlateportCity_EventScript_PowerTMClerk::
-	lock
-	faceplayer
-	message gText_HowMayIServeYou
-	waitmessage
-	pokemart SlateportCity_Pokemart_PowerTMs
-	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
-	release
+	msgbox SlateportCity_Text_MarketManip, MSGBOX_NPC
 	end
 
 	.align 2
@@ -1315,6 +1309,9 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 	.string "I just saw TEAM AQUA run away from\n"
 	.string "here like they were stung.\p"
 	.string "Let me guess--you drove them away?$"
+
+SlateportCity_Text_MarketManip:
+	.string "Market manipulation.$"
 
 SlateportCity_Text_MaybeThisTrainer:
 	.string "SCOTT: Hmm…\n"

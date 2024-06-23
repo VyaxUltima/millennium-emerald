@@ -6458,14 +6458,14 @@
             "encounter_rate": 10,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 10,
-                "species": "SPECIES_MAGIKARP"
+                "min_level": 48,
+                "max_level": 49,
+                "species": "SPECIES_PORYGON2"
               },
               {
-                "min_level": 5,
-                "max_level": 10,
-                "species": "SPECIES_TENTACOOL"
+                "min_level": 48,
+                "max_level": 49,
+                "species": "SPECIES_RELICANTH"
               },
               {
                 "min_level": 10,

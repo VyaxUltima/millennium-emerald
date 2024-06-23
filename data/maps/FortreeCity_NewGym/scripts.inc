@@ -3,7 +3,7 @@ FortreeCity_NewGym_MapScripts::
 
 FortreeCity_NewGym_EventScript_WarpToEntrance::
 	lockall
-	warpmossdeepgym MAP_FORTREE_CITY_NEW_GYM, 3, 56
+	warpmossdeepgym MAP_FORTREE_CITY_NEW_GYM, 8, 56
 	waitstate
 	releaseall
 	end
