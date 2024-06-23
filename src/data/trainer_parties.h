@@ -4989,7 +4989,7 @@ static const struct TrainerMonCustomized sParty_Sidney[] = {
     {
         .species = SPECIES_MAMOSWINE,
         .ball = ITEM_DIVE_BALL,
-        .ability = ABILITY_SNOW_CLOAK,
+        .ability = ABILITY_OBLIVIOUS,
         .friendship = 255,
         .heldItem = ITEM_RINDO_BERRY,
         .gender = TRAINER_MON_FEMALE,
@@ -5507,7 +5507,7 @@ static const struct TrainerMonCustomized sParty_Norman1[] = {
     {
         .species = SPECIES_DUSKNOIR,
         .ball = ITEM_MOON_BALL,
-        .ability = ABILITY_IRON_FIST,
+        .ability = ABILITY_IRON_FIST, //Normal: Pressure, Hard: Iron Fist
         .friendship = 255,
         .gender = TRAINER_MON_MALE,
         .heldItem = ITEM_MUSCLE_BAND,

@@ -205,7 +205,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
         #else
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
-        .effect = EFFECT_PHOTON_GEYSER,
+        .effect = EFFECT_SHELL_SIDE_ARM,
         .power = 80,
         .type = TYPE_FLYING,
         .accuracy = 100,

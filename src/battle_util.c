@@ -8199,7 +8199,7 @@ bool32 IsMoveMakingContact(u16 move, u8 battlerAtk)
     if (!(gBattleMoves[move].flags & FLAG_MAKES_CONTACT))
     {
         if (gBattleMoves[move].effect == EFFECT_SHELL_SIDE_ARM && gBattleStruct->swapDamageCategory)
-            return TRUE;
+            return FALSE;
         else
             return FALSE;
     }

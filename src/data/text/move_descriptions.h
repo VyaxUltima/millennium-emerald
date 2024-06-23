@@ -61,8 +61,8 @@ static const u8 sGuillotineDescription[] = _(
     "that may cause fainting.");
 
 static const u8 sRazorWindDescription[] = _(
-    "Becomes a physical move if\n"
-    "Atk is higher than Sp. Atk.");
+    "Becomes physical or special,\n"
+    "whichever deals more damage.");
 
 static const u8 sSwordsDanceDescription[] = _(
     "A fighting dance that\n"
