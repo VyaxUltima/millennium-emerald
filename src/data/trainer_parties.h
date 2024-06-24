@@ -2278,15 +2278,15 @@ static const struct TrainerMonCustomized sParty_Vito[] = {
         .nature = TRAINER_PARTY_NATURE(NATURE_CAREFUL)
     },
     {
-        .species = SPECIES_ALTARIA,
-        .ability = ABILITY_NATURAL_CURE,
+        .species = SPECIES_PELIPPER,
+        .ability = ABILITY_KEEN_EYE,
         .friendship = 255,
-        .heldItem = ITEM_WHITE_HERB,
+        .heldItem = ITEM_WIDE_LENS,
         .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
-        .ev = TRAINER_PARTY_EVS(0, 0, 0, 248, 248, 4),
+        .ev = TRAINER_PARTY_EVS(248, 0, 0, 0, 252, 4),
         .lvl = 55,
-        .moves = {MOVE_FEATHER_DANCE, MOVE_DRACO_METEOR, MOVE_AIR_SLASH, MOVE_FLAMETHROWER},
-        .nature = TRAINER_PARTY_NATURE(NATURE_TIMID)
+        .moves = {MOVE_AIR_SLASH, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_ROOST},
+        .nature = TRAINER_PARTY_NATURE(NATURE_MODEST)
     },
     {
         .species = SPECIES_MISMAGIUS,

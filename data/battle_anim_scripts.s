@@ -14346,7 +14346,71 @@ Move_BURNING_JEALOUSY::
 	goto Move_OVERHEAT
 
 Move_LASH_OUT::
-	end @to do:
+	loadspritegfx ANIM_TAG_SHOCK_3 @charge
+	loadspritegfx ANIM_TAG_SPARK_2 @ElectricityEffect
+	loadspritegfx ANIM_TAG_SMALL_RED_EYE @red color
+	loadspritegfx ANIM_TAG_THIN_RING @calm mind
+	loadspritegfx ANIM_TAG_SMALL_EMBER @yellow color
+	loadspritegfx ANIM_TAG_ORBS @recover
+	monbg ANIM_ATTACKER
+	setalpha 12, 8
+	createsprite gPhotonGeyserChargeTemplate, ANIM_ATTACKER, 2, 0x0
+	call PhotonGeyserSparks1
+	createsprite gPowerAbsorptionOrbSpriteTemplate, ANIM_ATTACKER, 2, 0xffd8, 0xffd8, 0x10
+	createsprite gPowerAbsorptionOrbSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0x28, 0x10
+	delay 0xA
+	call PhotonGeyserSparks2
+	delay 0xA
+	call PhotonGeyserSparks1
+	delay 0xA
+	call PhotonGeyserSparks2
+	delay 0xA
+	call PhotonGeyserSparks1
+	createsprite gPowerAbsorptionOrbSpriteTemplate, ANIM_ATTACKER, 2, 0x0, 0xffd8, 0x10
+	createsprite gPowerAbsorptionOrbSpriteTemplate, ANIM_ATTACKER, 2, 0x28, 0x14, 0x10
+	delay 0xA
+	call PhotonGeyserSparks2
+	delay 0xA
+	call PhotonGeyserSparks1
+	delay 0xA
+	call PhotonGeyserSparks2
+	delay 0xA
+	call PhotonGeyserSparks1
+	createsprite gPowerAbsorptionOrbSpriteTemplate, ANIM_ATTACKER, 2, 0xffd8, 0x0, 0x10
+	createsprite gPowerAbsorptionOrbSpriteTemplate, ANIM_ATTACKER, 2, 0x28, 0x0, 0x10
+	delay 0xA
+	call PhotonGeyserSparks2
+	delay 0xA
+	call PhotonGeyserSparks1
+	delay 0xA
+	call PhotonGeyserSparks2
+	waitforvisualfinish
+	clearmonbg ANIM_ATTACKER
+	loadspritegfx ANIM_TAG_CUT @Cut
+	loadspritegfx ANIM_TAG_SWORD @Sword
+	loadspritegfx ANIM_TAG_POISON_BUBBLE @purple color
+	loadspritegfx ANIM_TAG_PUNISHMENT_BLADES @Punishment Blade
+	monbg ANIM_TARGET
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	createsprite gSacredSwordCutTemplate, ANIM_ATTACKER, 2, 0x28, 0xffe0, 0x0
+	delay 0x5
+	createvisualtask AnimTask_ShakeMon, 0x2, 0x1, 0x0, 0x3, 0xa, 0x1
+	delay 0x4
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	createsprite gSacredSwordCutTemplate, ANIM_ATTACKER, 2, 0x28, 0xffe0, 0x0
+	delay 0x5
+	createvisualtask AnimTask_ShakeMon, 0x2, 0x1, 0x0, 0x3, 0xa, 0x1
+	delay 0x4
+	playsewithpan SE_M_RAZOR_WIND, SOUND_PAN_TARGET
+	createsprite gSacredSwordCutTemplate, ANIM_ATTACKER, 2, 0x28, 0xffe0, 0x0
+	delay 0x5
+	createvisualtask AnimTask_ShakeMon, 0x2, 0x1, 0x0, 0x3, 0xa, 0x1
+	delay 0x4
+	waitforvisualfinish
+	clearmonbg ANIM_TARGET
+	blendoff
+	waitforvisualfinish
+	end
 
 Move_POLTERGEIST::
 	loadspritegfx ANIM_TAG_EYE_SPARKLE

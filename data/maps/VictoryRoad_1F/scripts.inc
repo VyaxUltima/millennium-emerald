@@ -157,16 +157,14 @@ VictoryRoad_1F_Text_WallyPostBattle:
 	.string "And challenge the POKéMON LEAGUE!$"
 
 VictoryRoad_1F_Text_EdgarIntro:
-	.string "I've made it this far a couple times,\n"
-	.string "but the last stretch is so long…$"
+	.string "Born to yap, forced to study.$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
-	.string "My dream ends here again…$"
+	.string "Run it back?$"
 
 VictoryRoad_1F_Text_EdgarPostBattle:
-	.string "You've made it this far. Keep the\n"
-	.string "momentum going and become the\l"
-	.string "CHAMPION! If anyone can, it's you!$"
+	.string "FIVE-RAINBOW NO I'M SO SORRY\n"
+	.string "IT WAS AN ACCIDENT$"
 
 VictoryRoad_1F_Text_AlbertIntro:
 	.string "I didn't come all this way to lose now.\n"
@@ -179,41 +177,41 @@ VictoryRoad_1F_Text_AlbertDefeat:
 VictoryRoad_1F_Text_AlbertPostBattle:
 	.string "I lost here…\p"
 	.string "That means I lack the qualifications\n"
-	.string "to become the CHAMPION…$"
+	.string "to become the Kingpin…$"
 
 VictoryRoad_1F_Text_HopeIntro:
-	.string "This seemingly infinite and harsh road\n"
-	.string "lives up to its name of VICTORY.$"
+	.string "The League is just up ahead.\n"
+	.string "Come on, let's see if you're ready!$"
 
 VictoryRoad_1F_Text_HopeDefeat:
-	.string "Your battle style is fantastic…$"
+	.string "How could I lose…?$"
 
 VictoryRoad_1F_Text_HopePostBattle:
-	.string "You seem to have the potential for\n"
-	.string "becoming the CHAMPION.$"
+	.string "The League is rough.\n"
+	.string 'Think you're ready?$"
 
 VictoryRoad_1F_Text_QuincyIntro:
-	.string "What is the VICTORY ROAD?\n"
-	.string "I'll tell you if you win!$"
+	.string "Okay, but with all due respect.\p"
+	.string "How are you not prepared for\n"
+	.string "Specs Water Spout at this point.\p"
+	.string "It's a little ridiculous to not have a\n"
+	.string "well thought out plan when entering\l"
+	.string "Victory Road.$"
 
 VictoryRoad_1F_Text_QuincyDefeat:
-	.string "Okay!\n"
-	.string "Well done!$"
+	.string "Brutal. But riveting.\n"
+	.string "It's all so intense.$"
 
 VictoryRoad_1F_Text_QuincyPostBattle:
-	.string "Getting through here safely--that's\n"
-	.string "the final test for any TRAINER aiming\l"
-	.string "to become the POKéMON CHAMPION.\p"
-	.string "That's why it's called the VICTORY\n"
-	.string "ROAD.$"
+	.string "Okay, but with all due respect.\p"
+	.string "How am I not prepared for\n"
+	.string "{PLAYER} at this point.$"
 
 VictoryRoad_1F_Text_KatelynnIntro:
-	.string "I have nothing to say to anyone\n"
-	.string "that's come this far. Come on!$"
+	.string "Hello, it is I, Wathochantrige.$"
 
 VictoryRoad_1F_Text_KatelynnDefeat:
-	.string "This is a disgrace…$"
+	.string "Had to switch it up.$"
 
 VictoryRoad_1F_Text_KatelynnPostBattle:
-	.string "Humph, go right on ahead.\n"
-	.string "See if I care.$"
+	.string "The X-2 bracket is obnoxious.$"

@@ -631,7 +631,7 @@ const struct SpriteTemplate gSacredSwordBladesTemplate =
 const struct SpriteTemplate gSacredSwordCutTemplate =
 {
     .tileTag = ANIM_TAG_CUT,
-    .paletteTag = ANIM_TAG_HYDRO_PUMP,
+    .paletteTag = ANIM_TAG_POISON_BUBBLE,
     .oam = &gOamData_AffineOff_ObjBlend_32x32,
     .anims = gCuttingSliceAnimTable,
     .images = NULL,
