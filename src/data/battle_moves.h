@@ -7844,14 +7844,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_MAGMA_STORM] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 100,
-            .accuracy = 75,
+            .power = 120,
+            .accuracy = 90,
         #elif B_UPDATED_MOVE_DATA == GEN_5
             .power = 120,
-            .accuracy = 75,
+            .accuracy = 90,
         #else
             .power = 120,
-            .accuracy = 70,
+            .accuracy = 90,
         #endif
         .effect = EFFECT_TRAP,
         .type = TYPE_FIRE,

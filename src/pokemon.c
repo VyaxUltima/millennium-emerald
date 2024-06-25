@@ -7591,7 +7591,7 @@ u16 GetBattleBGM(void)
                 return MUS_VS_TRAINER;
             return MUS_VS_TRAINER;
         case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_ELITE_FOUR;
+            return MUS_VS_CHAMPION;
         case TRAINER_CLASS_SALON_MAIDEN: //Miror B
             return MUS_VS_MIROR_B;
         case TRAINER_CLASS_DOME_ACE:     //Duckie
