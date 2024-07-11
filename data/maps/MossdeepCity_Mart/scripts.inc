@@ -21,7 +21,6 @@ MossdeepCity_Mart_Pokemart:
 	.2byte ITEM_SUPER_REPEL
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_RARE_CANDY
-	.2byte ITEM_HEART_SCALE
 	.2byte ITEM_NONE
 	release
 	end

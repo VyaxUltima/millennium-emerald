@@ -794,7 +794,7 @@ static const u8 sStarPieceDesc[] = _(
 static const u8 sCometShardDesc[] = _(
     "A comet's shard.\n"
     "It would sell for a\n"
-    "high price.");
+    "very high price.");
 
 static const u8 sShoalSaltDesc[] = _(
     "Salt obtained from\n"
@@ -828,8 +828,8 @@ static const u8 sGreenShardDesc[] = _(
 
 static const u8 sHeartScaleDesc[] = _(
     "A lovely scale.\n"
-    "It is coveted by\n"
-    "collectors.");
+    "Can be sold for a\n"
+    "moderate price.");
 
 static const u8 sHoneyDesc[] = _(
     "Sweet honey that\n"

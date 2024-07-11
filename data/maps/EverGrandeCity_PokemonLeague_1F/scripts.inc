@@ -26,6 +26,16 @@ EverGrandeCity_PokemonLeague_1F_EventScript_Nurse::
 	release
 	end
 
+EverGrandeCity_PokemonLeague_1F_EventScript_CometMan::
+	lock
+	faceplayer
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_NeedOfCash, MSGBOX_DEFAULT
+	giveitem ITEM_COMET_SHARD
+	msgbox EverGrandeCity_PokemonLeague_1F_Text_ComeBackAgain, MSGBOX_DEFAULT
+	closemessage
+	release
+	end
+
 EverGrandeCity_PokemonLeague_1F_EventScript_Clerk::
 	lock
 	faceplayer
@@ -126,6 +136,15 @@ EverGrandeCity_PokemonLeague_1F_Movement_RightGuardOutOfWay:
 	walk_right
 	walk_in_place_faster_down
 	step_end
+
+EverGrandeCity_PokemonLeague_1F_Text_NeedOfCash:
+	.string "Ah, {PLAYER}!\n"
+	.string "Are you in need of some cash?\p"
+	.string "In that case, have one of these!$"
+
+EverGrandeCity_PokemonLeague_1F_Text_ComeBackAgain:
+	.string "If you need more money,\n"
+	.string "come see me again.$"
 
 EverGrandeCity_PokemonLeague_1F_Text_MustHaveAllGymBadges:
 	.string "Only Trainers that have collected all 8\n"

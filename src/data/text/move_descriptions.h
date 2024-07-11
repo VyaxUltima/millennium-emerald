@@ -417,8 +417,8 @@ static const u8 sRageDescription[] = _(
     "every time it is hit.");
 
 static const u8 sTeleportDescription[] = _(
-    "A psychic move for fleeing\n"
-    "from battle instantly.");
+    "Switches places with another\n"
+    "party member.");
 
 static const u8 sNightShadeDescription[] = _(
     "Inflicts damage identical\n"
@@ -1637,7 +1637,7 @@ static const u8 sAirSlashDescription[] = _(
     "air. May cause flinching.");
 
 static const u8 sXScissorDescription[] = _(
-    "Crossed blades slash the foe.\n"
+    "Slashes with crossed blades.\n"
     "High critical-hit ratio.");
 
 static const u8 sBugBuzzDescription[] = _(
@@ -2890,8 +2890,8 @@ static const u8 sBurningJealousyDescription[] = _(
     "during the turn get burned.");
 
 static const u8 sLashOutDescription[] = _(
-    "If stats lowered during this\n"
-    "turn, power is doubled.");
+    "Unleashes an onslaught of\n"
+    "powerful slashes.");
 
 static const u8 sPoltergeistDescription[] = _(
     "Control foe's item to attack.\n"

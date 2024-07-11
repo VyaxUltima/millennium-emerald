@@ -1882,7 +1882,7 @@ const struct Item gItems[] =
     {
         .name = _("Comet Shard"),
         .itemId = ITEM_COMET_SHARD,
-        .price = 25000,
+        .price = 60000,
         .description = sCometShardDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -1966,7 +1966,7 @@ const struct Item gItems[] =
     {
         .name = _("Heart Scale"),
         .itemId = ITEM_HEART_SCALE,
-        .price = 100,
+        .price = 5000,
         .description = sHeartScaleDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,

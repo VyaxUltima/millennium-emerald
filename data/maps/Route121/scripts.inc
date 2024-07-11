@@ -179,8 +179,6 @@ Route121_Text_MtPyrePierSign:
 	.string "a dev team, to be honest$"
 
 Route121_Text_SafariZoneSign:
-	.string "Worse than alone - exiled.\n"
-	.string "Worse than exiled - dead.\l"
-	.string "Worse than dead - forgotten.\l"
-	.string "-Maya Amano$"
+	.string "The seven Pleiades set\n"
+	.string "the frozen time free.$"
 
