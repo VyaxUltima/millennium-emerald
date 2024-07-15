@@ -4828,7 +4828,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Walter1[] = {
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_BLASTOISE,
+    .species = SPECIES_CROBAT,
+    },
+    {
+    .iv = 255,
+    .lvl = 40,
+    .species = SPECIES_HOUNDOOM,
+    },
+    {
+    .iv = 255,
+    .lvl = 40,
+    .species = SPECIES_AMPHAROS,
     }
 };
 

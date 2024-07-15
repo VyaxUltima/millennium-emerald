@@ -777,7 +777,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_RICKY_1] =
     {
-        .trainerClass = TRAINER_CLASS_TUBER_M,
+        .trainerClass = TRAINER_CLASS_TUBER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("Ricky"),
@@ -789,7 +789,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_SIMON] =
     {
-        .trainerClass = TRAINER_CLASS_TUBER_M,
+        .trainerClass = TRAINER_CLASS_TUBER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("Simon"),
@@ -801,7 +801,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_CHARLIE] =
     {
-        .trainerClass = TRAINER_CLASS_TUBER_M,
+        .trainerClass = TRAINER_CLASS_TUBER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("Charlie"),
@@ -3057,9 +3057,9 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_WALTER_1] =
     {
-        .trainerClass = TRAINER_CLASS_GENTLEMAN,
+        .trainerClass = TRAINER_CLASS_TUBER_M,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_RICH,
-        .trainerPic = TRAINER_PIC_GENTLEMAN,
+        .trainerPic = TRAINER_PIC_ARENA_TYCOON_GRETA,
         .trainerName = _("Walter"),
         .items = {},
         .doubleBattle = FALSE,
@@ -8385,7 +8385,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_CHANDLER] =
     {
-        .trainerClass = TRAINER_CLASS_TUBER_M,
+        .trainerClass = TRAINER_CLASS_TUBER_F,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_GIRL,
         .trainerPic = TRAINER_PIC_TUBER_M,
         .trainerName = _("Chandler"),
