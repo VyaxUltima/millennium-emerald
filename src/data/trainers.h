@@ -4209,9 +4209,9 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_RONALD] = //Roto
     {
-        .trainerClass = TRAINER_CLASS_SAILOR,
+        .trainerClass = TRAINER_CLASS_POKEMANIAC,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_SAILOR,
+        .trainerPic = TRAINER_PIC_POKEMANIAC,
         .trainerName = _("Rotomington"),
         .items = {},
         .doubleBattle = FALSE,

@@ -7407,7 +7407,19 @@ static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
     .iv = 255,
     .lvl = 44,
     .species = SPECIES_SHELGON,
-    .moves = {MOVE_DRAGON_CLAW, MOVE_HEADBUTT, MOVE_FOCUS_ENERGY, MOVE_CRUNCH}
+    .moves = {MOVE_DRAGON_CLAW, MOVE_FIRE_FANG, MOVE_FOCUS_ENERGY, MOVE_CRUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 44,
+    .species = SPECIES_DRAGONAIR,
+    .moves = {MOVE_DRAGON_PULSE, MOVE_THUNDER_WAVE, MOVE_FIRE_BLAST, MOVE_SAFEGUARD}
+    },
+    {
+    .iv = 255,
+    .lvl = 44,
+    .species = SPECIES_KINGDRA,
+    .moves = {MOVE_DRAGON_PULSE, MOVE_OCTAZOOKA, MOVE_FOCUS_ENERGY, MOVE_AGILITY}
     }
 };
 
