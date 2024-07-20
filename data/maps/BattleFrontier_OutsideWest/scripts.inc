@@ -326,24 +326,24 @@ BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
 	.string "Hello, are you here for the ferry?\n"
-	.string "May I see your TICKET?$"
+	.string "May I see your Ticket?$"
 
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
-	.string "{PLAYER} doesn't have the TICKET…\p"
+	.string "{PLAYER} doesn't have the Ticket…\p"
 	.string "I'm terribly sorry.\p"
-	.string "You must have a TICKET to board\n"
+	.string "You must have a Ticket to board\n"
 	.string "the ferry.$"
 
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
-	.string "{PLAYER} flashed the TICKET.\p"
+	.string "{PLAYER} flashed the Ticket.\p"
 	.string "Perfect! That's all you need!\p"
 	.string "And where would you like to go?$"
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
-	.string "SLATEPORT CITY it is, then!$"
+	.string "Slateport it is, then!$"
 
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
-	.string "LILYCOVE CITY it is, then!$"
+	.string "Lilycove it is, then!$"
 
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
 	.string "Please sail with us another time!$"
