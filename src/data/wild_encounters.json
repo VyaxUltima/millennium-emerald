@@ -5172,28 +5172,28 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 35,
+                "min_level": 43,
+                "max_level": 45,
                 "species": "SPECIES_GOLDUCK"
               },
               {
-                "min_level": 10,
-                "max_level": 30,
+                "min_level": 43,
+                "max_level": 45,
                 "species": "SPECIES_LUNATONE"
               },
               {
-                "min_level": 15,
-                "max_level": 25,
+                "min_level": 43,
+                "max_level": 45,
                 "species": "SPECIES_LUNATONE"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
+                "min_level": 43,
+                "max_level": 45,
                 "species": "SPECIES_LUNATONE"
               },
               {
-                "min_level": 25,
-                "max_level": 30,
+                "min_level": 43,
+                "max_level": 45,
                 "species": "SPECIES_LUNATONE"
               }
             ]
@@ -5362,17 +5362,17 @@
               {
                 "min_level": 44,
                 "max_level": 45,
-                "species": "SPECIES_SLOWBRO"
+                "species": "SPECIES_PIDGEOT"
               },
               {
                 "min_level": 44,
                 "max_level": 45,
-                "species": "SPECIES_SLOWBRO"
+                "species": "SPECIES_PIDGEOT"
               },
               {
                 "min_level": 44,
                 "max_level": 45,
-                "species": "SPECIES_SLOWBRO"
+                "species": "SPECIES_PIDGEOT"
               }
             ]
           },
@@ -5451,17 +5451,17 @@
               {
                 "min_level": 44,
                 "max_level": 45,
-                "species": "SPECIES_SLOWKING"
+                "species": "SPECIES_LAPRAS"
               },
               {
                 "min_level": 44,
                 "max_level": 45,
-                "species": "SPECIES_SLOWKING"
+                "species": "SPECIES_LAPRAS"
               },
               {
                 "min_level": 44,
                 "max_level": 45,
-                "species": "SPECIES_SLOWKING"
+                "species": "SPECIES_LAPRAS"
               }
             ]
           },
@@ -7532,14 +7532,14 @@
             "encounter_rate": 30,
             "mons": [
               {
-                "min_level": 53,
-                "max_level": 55,
+                "min_level": 50,
+                "max_level": 52,
                 "species": "SPECIES_QUAGSIRE"
               },
               {
-                "min_level": 53,
-                "max_level": 55,
-                "species": "SPECIES_AZUMARILL"
+                "min_level": 50,
+                "max_level": 52,
+                "species": "SPECIES_DRAGONAIR"
               },
               {
                 "min_level": 10,
@@ -8956,17 +8956,17 @@
               {
                 "min_level": 50,
                 "max_level": 52,
-                "species": "SPECIES_SHARPEDO"
+                "species": "SPECIES_BRONZONG"
               },
               {
                 "min_level": 50,
                 "max_level": 52,
-                "species": "SPECIES_SHARPEDO"
+                "species": "SPECIES_BRONZONG"
               },
               {
                 "min_level": 50,
                 "max_level": 52,
-                "species": "SPECIES_SHARPEDO"
+                "species": "SPECIES_BRONZONG"
               }
             ]
           },

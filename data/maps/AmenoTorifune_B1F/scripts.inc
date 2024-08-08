@@ -16,11 +16,6 @@ AmenoTorifune_B1F_EventScript_Gredora::
 	msgbox AmenoTorifune_B1F_Text_GredoraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-AmenoTorifune_B1F_EventScript_Zeros::
-	trainerbattle_single TRAINER_ANDRES_2, AmenoTorifune_B1F_Text_ZerosIntro, AmenoTorifune_B1F_Text_ZerosDefeated
-	msgbox AmenoTorifune_B1F_Text_ZerosPostBattle, MSGBOX_AUTOCLOSE
-	end
-
 AmenoTorifune_B1F_EventScript_Leonidas::
 	trainerbattle_single TRAINER_ANDRES_3, AmenoTorifune_B1F_Text_LeonidasIntro, AmenoTorifune_B1F_Text_LeonidasDefeated
 	msgbox AmenoTorifune_B1F_Text_LeonidasPostBattle, MSGBOX_AUTOCLOSE
@@ -70,16 +65,6 @@ AmenoTorifune_B1F_Text_GredoraDefeated:
 
 AmenoTorifune_B1F_Text_GredoraPostBattle:
 	.string "Wiggle.$"
-
-AmenoTorifune_B1F_Text_ZerosIntro:
-	.string "Did you know in terms of…$"
-
-AmenoTorifune_B1F_Text_ZerosDefeated:
-	.string "Damn. You got hella hax luck.$"
-
-AmenoTorifune_B1F_Text_ZerosPostBattle:
-	.string "Whatever, time to play Valorant,\n"
-	.string "the better Riot game.$"
 
 AmenoTorifune_B1F_Text_LeonidasIntro:
 	.string "Please leave me alone,\n"
