@@ -4484,12 +4484,12 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tucker = { //used 
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Greta = {
     .tileTag = TAG_NONE,
-    .paletteTag = OBJ_EVENT_PAL_TAG_NPC_1,
+    .paletteTag = OBJ_EVENT_PAL_TAG_QUINTY_PLUMP,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_1,
+    .paletteSlot = PALSLOT_NPC_SPECIAL,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .disableReflectionPaletteLoad = FALSE,

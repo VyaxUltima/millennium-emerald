@@ -52,11 +52,16 @@ EverGrandeCity_PokemonLeague_1F_Pokemart:
 	.2byte ITEM_DUSK_BALL
 	.2byte ITEM_QUICK_BALL
 	.2byte ITEM_DIVE_BALL
-	.2byte ITEM_MAX_POTION
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_FULL_HEAL
 	.2byte ITEM_MAX_REPEL
 	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_POMEG_BERRY @ at this point in the game, the player can freely mod EVs. only seems fair.
+	.2byte ITEM_KELPSY_BERRY
+	.2byte ITEM_QUALOT_BERRY
+	.2byte ITEM_HONDEW_BERRY
+	.2byte ITEM_GREPA_BERRY
+	.2byte ITEM_TAMATO_BERRY
 	.2byte ITEM_NONE
 	release
 	end

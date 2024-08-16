@@ -84,9 +84,9 @@ FallarborTown_Text_BattleTentSign:
 
 FallarborTown_Text_TownSign:
 	.string "Fallarbor Town\n"
-	.string "“just leave the heart scale here”$"
+	.string "“heart scales used to be cool”$"
 
 FallarborTown_Text_MoveTutorSign:
 	.string "Move Tutor's House\n"
-	.string "“Learn how to remember things.”$"
+	.string "“Currently on vacation!”$"
 

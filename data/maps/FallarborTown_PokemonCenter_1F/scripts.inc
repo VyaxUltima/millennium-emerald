@@ -85,15 +85,14 @@ FallarborTown_PokemonCenter_1F_Movement_LanetteExitWest:
 	step_end
 
 FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
-	.string "Oh, hello.\n"
+	.string "Oh, hey.\n"
 	.string "You are?\p"
 	.string "Okay, your name's {PLAYER}{KUN}.\n"
-	.string "I can see that you're a Trainer.\p"
+	.string "You look like a Trainer to me.\p"
 	.string "So that means you use the Pokémon\n"
-	.string "Storage System I developed.\p"
-	.string "Oh, I'm sorry. I'm Lanette.\p"
-	.string "Honestly, I'm glad to meet you--it's\n"
-	.string "great you're using the PC System.$"
+	.string "Storage System.\p"
+	.string "Oh, whoops, sorry. I'm Kevin.\n"
+	.string "Good to meet you!$"
 
 FallarborTown_PokemonCenter_1F_Text_FossilManiacEdgeOfTown:
 	.string "I wonder what Pokémon looked like\n"
