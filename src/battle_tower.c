@@ -778,7 +778,7 @@ struct
         .level = 47,
         .nature = NATURE_CAREFUL,
         .evs = {56, 200, 0, 0, 0, 252},
-        .moves = {MOVE_ROCK_SLIDE, MOVE_SUPERPOWER, MOVE_FIRE_PUNCH, MOVE_RECOVER}
+        .moves = {MOVE_ROCK_SLIDE, MOVE_SUPERPOWER, MOVE_FIRE_PUNCH, MOVE_BODY_SLAM}
     },
     {
         .species = SPECIES_GLISCOR,
@@ -786,15 +786,15 @@ struct
         .level = 47,
         .nature = NATURE_ADAMANT,
         .evs = {196, 72, 0, 0, 0, 240},
-        .moves = {MOVE_AERIAL_ACE, MOVE_ROCK_SLIDE, MOVE_TAILWIND, MOVE_SWORDS_DANCE}
+        .moves = {MOVE_AERIAL_ACE, MOVE_ROCK_TOMB, MOVE_TAILWIND, MOVE_SWORDS_DANCE}
     },
     {
         .species = SPECIES_EMPOLEON,
         .fixedIV = MAX_PER_STAT_IVS,
         .level = 49,
         .nature = NATURE_QUIET,
-        .evs = {244, 72, 0, 0, 188, 6},
-        .moves = {MOVE_MUDDY_WATER, MOVE_AQUA_JET, MOVE_ICE_BEAM, MOVE_MIST}
+        .evs = {244, 72, 0, 0, 188, 0},
+        .moves = {MOVE_HYDRO_PUMP, MOVE_AQUA_JET, MOVE_ICE_BEAM, MOVE_MIST}
     }
 };
 

@@ -4247,7 +4247,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_ROCK_SMASH] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
-            .power = 40,
+            .power = 50,
         #else
             .power = 20,
         #endif
