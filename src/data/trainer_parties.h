@@ -5461,7 +5461,7 @@ static const struct TrainerMonCustomized sParty_Wattson1[] = {
         .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 0, 0, 116, 124, 0),
         .lvl = 24,
-        .moves = {MOVE_ICY_WIND, MOVE_PSYBEAM, MOVE_REFLECT, MOVE_NONE},
+        .moves = {MOVE_ICY_WIND, MOVE_PSYBEAM, MOVE_REFLECT, MOVE_LOVELY_KISS},
         .nature = TRAINER_PARTY_NATURE(NATURE_TIMID)
     },
     {
@@ -5515,7 +5515,7 @@ static const struct TrainerMonCustomized sParty_Flannery1[] = {
         .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(252, 0, 0, 0, 156, 0),
         .lvl = 31,
-        .moves = {MOVE_HYPER_VOICE, MOVE_ICE_BEAM, MOVE_COUNTER, MOVE_NONE}, //Normal: Aurora Beam, Hard: Ice Beam
+        .moves = {MOVE_HYPER_VOICE, MOVE_AURORA_BEAM, MOVE_COUNTER, MOVE_NONE},
         .nature = TRAINER_PARTY_NATURE(NATURE_MODEST)
     },
     {
@@ -5541,7 +5541,7 @@ static const struct TrainerMonCustomized sParty_Flannery1[] = {
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 96, 0, 192, 0, 0),
         .lvl = 32,
-        .moves = {MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_CRUSH_CLAW, MOVE_NONE}, //Normal: Vise Grip, Hard: Crush Claw
+        .moves = {MOVE_AERIAL_ACE, MOVE_QUICK_ATTACK, MOVE_VISE_GRIP, MOVE_NONE},
         .nature = TRAINER_PARTY_NATURE(NATURE_JOLLY)
     }
 };
