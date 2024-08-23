@@ -3,14 +3,14 @@ LilycoveCity_MoveDeletersHouse_MapScripts::
 	.byte 0
 
 LilycoveCity_MoveDeletersHouse_EventScript_MoveDeleter::
-	lockall
-	faceplayer
+	lock
+	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove, MSGBOX_YESNO
 	switch VAR_RESULT
 	case YES, LilycoveCity_MoveDeletersHouse_EventScript_ChooseMonAndMoveToForget
 	case NO, LilycoveCity_MoveDeletersHouse_EventScript_ComeAgain
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_EventScript_ChooseMonAndMoveToForget::
@@ -32,7 +32,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_ChooseMonAndMoveToForget::
 	switch VAR_RESULT
 	case YES, LilycoveCity_MoveDeletersHouse_EventScript_TryForgetMove
 	case NO, LilycoveCity_MoveDeletersHouse_EventScript_ComeAgain
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_EventScript_TryForgetMove::
@@ -42,29 +42,29 @@ LilycoveCity_MoveDeletersHouse_EventScript_TryForgetMove::
 	playfanfare MUS_MOVE_DELETED
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove, MSGBOX_DEFAULT
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_EventScript_MonOnlyKnowsOneMove::
 	special BufferMoveDeleterNicknameAndMove
 	msgbox LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove, MSGBOX_DEFAULT
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_EventScript_EggCantForgetMoves::
 	msgbox LilycoveCity_MoveDeletersHouse_Text_EggCantForgetMoves, MSGBOX_DEFAULT
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_EventScript_ComeAgain::
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain, MSGBOX_DEFAULT
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	special BufferMoveDeleterNicknameAndMove
 	msgbox LilycoveCity_MoveDeletersHouse_Text_CantForgetSurf, MSGBOX_DEFAULT
-	releaseall
+	release
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:

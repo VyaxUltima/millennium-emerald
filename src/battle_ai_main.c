@@ -1351,6 +1351,10 @@ static s16 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
                 score -= 10;
             else if (AI_DATA->abilities[battlerDef] == ABILITY_SUCTION_CUPS)
                 score -= 10;
+            else if (CountPositiveStatStages(battlerDef) < 2)
+                score -= 3; // the AI should not force a switch unless the player has been setting up
+            else if (CountNegativeStatStages(battlerDef) > 2)
+                score -= 3; // the AI should not force a switch if the player's stats are low
             break;
         case EFFECT_TOXIC_THREAD:
             if (!ShouldLowerStat(battlerDef, AI_DATA->abilities[battlerDef], STAT_SPEED))
@@ -2688,10 +2692,7 @@ static s16 AI_TryToFaint(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
             score += 4;
             break;
         case AI_EFFECTIVENESS_x2:
-            if (AI_RandLessThan(176))
-                score += 2;
-            else
-                score++;
+            score += 2;
             break;
         }
     }
@@ -3495,6 +3496,12 @@ static s16 AI_CheckViability(u8 battlerAtk, u8 battlerDef, u16 move, s16 score)
         // fallthrough
     case EFFECT_ROAR:
     case EFFECT_CLEAR_SMOG:
+        if (EFFECT_ROAR) //incentivize forced switches if the player has hazards on their side
+            if (gSideStatuses[GetBattlerSide(battlerDef)] & SIDE_STATUS_HAZARDS_ANY && CountUsablePartyMons(battlerDef) != 0)
+            {
+                score += 3;
+                break;
+            }
         if (isDoubleBattle)
             score += min(CountPositiveStatStages(battlerDef) + CountPositiveStatStages(BATTLE_PARTNER(battlerDef)), 7);
         else

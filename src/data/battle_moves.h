@@ -47,7 +47,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_DOUBLE_SLAP] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 20,
+        .power = 15,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 10,
@@ -62,7 +62,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_COMET_PUNCH] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 25,
+        .power = 15,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,
@@ -515,7 +515,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_FURY_ATTACK] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 20,
+        .power = 15,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 20,
@@ -701,7 +701,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_PIN_MISSILE] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 20,
+            .power = 15,
             .accuracy = 100,
         #else
             .power = 14,
@@ -2208,7 +2208,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_SPIKE_CANNON] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 20,
+        .power = 15,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,
@@ -2373,7 +2373,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_BARRAGE] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 20,
+        .power = 15,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 20,
@@ -2617,7 +2617,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_FURY_SWIPES] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 20,
+        .power = 15,
         .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,
@@ -3372,12 +3372,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_BONE_RUSH] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
-            .accuracy = 95,
+            .accuracy = 100,
         #else
             .accuracy = 80,
         #endif
         .effect = EFFECT_MULTI_HIT,
-        .power = 25,
+        .power = 15,
         .type = TYPE_GROUND,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -3592,7 +3592,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_FURY_CUTTER] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 40,
+            .power = 20,
         #elif B_UPDATED_MOVE_DATA == GEN_5
             .power = 20,
         #else
@@ -4976,7 +4976,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_ARM_THRUST] =
     {
         .effect = EFFECT_MULTI_HIT,
-        .power = 20,
+        .power = 15,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 20,
@@ -5633,7 +5633,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_BULLET_SEED] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
-            .power = 20,
+            .power = 15,
         #else
             .power = 10,
         #endif
@@ -5667,7 +5667,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_ICICLE_SPEAR] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
-            .power = 20,
+            .power = 15,
         #else
             .power = 10,
         #endif
@@ -5959,7 +5959,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
     [MOVE_ROCK_BLAST] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_7
-            .accuracy = 95,
+            .accuracy = 100,
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED | FLAG_BALLISTIC,
         #elif B_UPDATED_MOVE_DATA == GEN_5 || B_UPDATED_MOVE_DATA == GEN_6
             .accuracy = 90,
@@ -5969,7 +5969,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT_Z] =
             .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
         #endif
         .effect = EFFECT_MULTI_HIT,
-        .power = 25,
+        .power = 15,
         .type = TYPE_ROCK,
         .pp = 10,
         .secondaryEffectChance = 0,
