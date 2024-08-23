@@ -5420,7 +5420,7 @@ static const struct TrainerMonCustomized sParty_Brawly1[] = {
         .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 0, 0, 148, 116, 0),
         .lvl = 20,
-        .moves = {MOVE_WATER_PULSE, MOVE_TWISTER, MOVE_NONE, MOVE_NONE},
+        .moves = {MOVE_WATER_PULSE, MOVE_TWISTER, MOVE_VISE_GRIP, MOVE_NONE},
         .nature = TRAINER_PARTY_NATURE(NATURE_MILD)
     },
     {
@@ -5461,7 +5461,7 @@ static const struct TrainerMonCustomized sParty_Wattson1[] = {
         .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
         .ev = TRAINER_PARTY_EVS(0, 0, 0, 116, 124, 0),
         .lvl = 24,
-        .moves = {MOVE_ICY_WIND, MOVE_PSYBEAM, MOVE_REFLECT, MOVE_LOVELY_KISS},
+        .moves = {MOVE_ICY_WIND, MOVE_PSYBEAM, MOVE_REFLECT, MOVE_LOVELY_KISS}, //Hard: +Lovely Kiss
         .nature = TRAINER_PARTY_NATURE(NATURE_TIMID)
     },
     {
@@ -5588,7 +5588,7 @@ static const struct TrainerMonCustomized sParty_Norman1[] = {
     {
         .species = SPECIES_DUSKNOIR,
         .ball = ITEM_MOON_BALL,
-        .ability = ABILITY_IRON_FIST, //Normal: Pressure, Hard: Iron Fist
+        .ability = ABILITY_IRON_FIST,
         .friendship = 255,
         .gender = TRAINER_MON_MALE,
         .heldItem = ITEM_MUSCLE_BAND,
