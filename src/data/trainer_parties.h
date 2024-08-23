@@ -5430,11 +5430,11 @@ static const struct TrainerMonCustomized sParty_Brawly1[] = {
         .friendship = 255,
         .gender = TRAINER_MON_FEMALE,
         .heldItem = ITEM_LANSAT_BERRY,
-        .iv = TRAINER_PARTY_IVS(31,0,31,31,31,31),
-        .ev = TRAINER_PARTY_EVS(0, 0, 0, 0, 128, 0),
+        .iv = TRAINER_PARTY_IVS(31,31,31,31,31,31),
+        .ev = TRAINER_PARTY_EVS(0, 68, 0, 0, 128, 0),
         .lvl = 20,
         .moves = {MOVE_BUBBLE_BEAM, MOVE_FEATHER_DANCE, MOVE_MIST, MOVE_CUT},
-        .nature = TRAINER_PARTY_NATURE(NATURE_MODEST)
+        .nature = TRAINER_PARTY_NATURE(NATURE_QUIET)
     }
 };
 
