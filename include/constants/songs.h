@@ -569,7 +569,9 @@
 #define MUS_AMENO_TORIFUNE          633
 #define MUS_VS_JOHTO_BEASTS         634
 #define MUS_VS_VYAX                 635
-#define END_MUS_EXT                 MUS_VS_VYAX
+#define MUS_GREAT_REVIVAL           636
+#define MUS_PRESTO_2011             637
+#define END_MUS_EXT                 MUS_PRESTO_2011
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

@@ -637,6 +637,8 @@ gSongTable::
 	song mus_ameno_torifune, 0, 0
 	song mus_vs_johto_beasts, 0, 0
 	song mus_vs_vyax, 0, 0
+	song mus_great_revival, 0, 0
+	song mus_presto_2011, 0, 0
 
 	.align 2
 dummy_song_header:

@@ -3293,6 +3293,8 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_AMENO_TORIFUNE) \
     X(MUS_VS_JOHTO_BEASTS) \
     X(MUS_VS_VYAX) \
+    X(MUS_GREAT_REVIVAL) \
+    X(MUS_PRESTO_2011) \
 
 #define SOUND_LIST_SE \
     X(SE_USE_ITEM) \

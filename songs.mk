@@ -558,6 +558,12 @@ $(MID_SUBDIR)/mus_vs_armstrong.s: %.s: %.mid
 $(MID_SUBDIR)/mus_vs_vyax.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V085
 
+$(MID_SUBDIR)/mus_presto_2011.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+
+$(MID_SUBDIR)/mus_great_revival.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V095
+
 $(MID_SUBDIR)/mus_vs_johto_beasts.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G192 -V080
 
